@@ -2,7 +2,7 @@ use strict;
 use lib '../lib';
 use Test::More;
 use Test::Deep;
-use 5.010;
+#use 5.010;
 use Config::JSON;
 $|=1;
 
