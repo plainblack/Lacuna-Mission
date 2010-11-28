@@ -1,0 +1,27 @@
+NOTES FOR DEPLOYMENT
+~~~~~~~~~~~~~~~~~~~~
+
+INSTRUCTIONS: 
+
+File a note in here any time a change is made to a mission that will require something 
+special to be done on the server before/after deployment. There are currently three
+circumstances in which that can happen:
+
+1) If you rename a mission file.
+
+2) If you delete a mission file.
+
+3) If you change the fleet movement paramters of an objective. 
+
+NOTE: You should attempt to avoid all of these circumstances if you can help it.
+
+Here are some example notes:
+
+2010-11-28: Changed mission parameters for 'send-a-ship-over-here.mission'.
+2010-12-03: Deleted 'some-mission-file.mission'.
+
+
+Put Notes Below This Line:
+--------------------------
+
+
