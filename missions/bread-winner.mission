@@ -1,0 +1,2 @@
+# config-file-type: JSON 1
+{"network_19_completion":"%s is a bread winner in Better Arcology and Gardens recipe contest.","max_university_level":"8","mission_objective":{"resources":{"wheat":500}},"description":"The popular zine Better Arcology and Gardens is looking for the best bread recipe in the Expanse. Empires which donate 500 units of wheat will be given 500 units of bread in return.","mission_reward":{"resources":{"bread":500}},"name":"Bread Winner","network_19_headline":"Better Arcology and Gardens lifts loafs to lofty level."}
