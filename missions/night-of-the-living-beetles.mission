@@ -1,0 +1,2 @@
+# config-file-type: JSON 1
+{"network_19_completion":"%s helped stomp out Zombie Beetle outbreak.","max_university_level":"8","description":"One of our Beeldeban farmhands accidentally fed the Beelde's, ummm, Uraninite and well, ummm, we've got a problem.\n\nOn the bright side they do make a tasty stew...Now we just need some bread to go with that.","mission_objective":{"resources":{"bread":2500}},"name":"Night of the living beetles","mission_reward":{"resources":{"soup":3750}},"network_19_headline":"Zombie Beetles making nuance for local colony."}
