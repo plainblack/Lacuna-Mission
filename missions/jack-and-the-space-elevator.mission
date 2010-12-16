@@ -1,0 +1,2 @@
+# config-file-type: JSON 1
+{"max_university_level":"12","network_19_headline":"Boy Wants to Trade Cow for Magic Beans!","description":"Jack a scientist has figured out how to grow a space elevator out of beans. But he only has his mother's dairy cows to trade for beans. Will you trade your magic beans for dairy cows?","network_19_completion":"%s Fools Boy. Gets Beans For Cows!","name":"Jack and the Space Elevator","mission_objective":{"resources":{"milk":2000}},"mission_reward":{"resources":{"bean":3000}}}

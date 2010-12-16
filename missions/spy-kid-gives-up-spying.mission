@@ -1,0 +1,2 @@
+# config-file-type: JSON 1
+{"max_university_level":"30","network_19_headline":"Do You Need a Spy Pod?","description":"Andre is a spy kid who wants to give up spying to become an artist. He would like to trade his spy pod for goethite so he can make paints.Do you have 6000 goethite for a spy pod?","network_19_completion":"%s Just Got a New Spy Pod. -So Watch Out!","name":"Spy Kid Gives Up Spying","mission_objective":{"resources":{"goethite":6000}},"mission_reward":{"ships":[{"speed":2240,"hold_size":0,"type":"spy_pod","stealth":12000}]}}
