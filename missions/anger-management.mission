@@ -1,0 +1,2 @@
+# config-file-type: JSON 1
+{"network_19_headline":"Some nice weapons are much better than a happy populace.","network_19_completion":"%s knows how to direct it's anger!","name":"Anger Management","mission_objective":{"happiness":100000},"mission_reward":{"ships":[{"speed":2500,"hold_size":0,"type":"snark","stealth":0},{"speed":2500,"hold_size":0,"type":"snark","stealth":0}]},"max_university_level":"30","description":"Screw this happy feeley touchy crapola.  You don't want those neighbors of you rolling over you later.  Show them the power in your spaceports."}
