@@ -1,2 +1,32 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Interstellar Fireworks Star Display for Ekeundian Day Rumored to be Running Late!","network_19_completion":"With a generous subsidy from %s, Interstellar Fireworks was able to put on the show to celebrate Ekeundian Day.","name":"Interstellar Fireworks","mission_objective":{"fleet_movement":[{"ship_type":"scow","target":{"in_zone":1,"color":"magenta","type":"star"}}]},"mission_reward":{"ships":[{"speed":1000,"hold_size":250000,"type":"scow","stealth":500}]},"description":"We need your help!  Due to labor disputes, the our contract for the Ekeundian Day Fireworks Display is in jeopardy.  We were planning on loading up our super-scow with combustible waste and sending it into a magenta star to detonate into a month-long aura in the Ekeundian colors, but the scow won't be finished until the week after the Ekeundian Day festival starts!  If you could be so kind as to send one of your scows, we'd be happy to replace it with the one we're having built -- once it is finally done.","max_university_level":"16"}
+
+{
+   "description" : "We need your help!  Due to labor disputes, the our contract for the Ekeundian Day Fireworks Display is in jeopardy.  We were planning on loading up our super-scow with combustible waste and sending it into a magenta star to detonate into a month-long aura in the Ekeundian colors, but the scow won't be finished until the week after the Ekeundian Day festival starts!  If you could be so kind as to send one of your scows, we'd be happy to replace it with the one we're having built -- once it is finally done.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scow",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 350,
+            "hold_size" : 250000,
+            "speed" : 1000,
+            "stealth" : 500,
+            "type" : "scow"
+         }
+      ]
+   },
+   "name" : "Interstellar Fireworks",
+   "network_19_completion" : "With a generous subsidy from %s, Interstellar Fireworks was able to put on the show to celebrate Ekeundian Day.",
+   "network_19_headline" : "Interstellar Fireworks Star Display for Ekeundian Day Rumored to be Running Late!"
+}

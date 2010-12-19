@@ -1,2 +1,58 @@
 # config-file-type: JSON 1
-{"max_university_level":"10","name":"Extreme Conversions: Dory ","description":"The Scrapium Wastoids are renowned for their ability to convert ships on the fly. Their mechs have offered to rip out the power plants of your spare dories and convert them for use as scows. After the power plants have been removed, their nanobots will disassemble what remains. The process leaves behind functional scows and a good deal of waste.","mission_objective":{"ships":[{"stealth":0,"type":"dory","hold_size":0,"speed":0},{"stealth":0,"type":"dory","hold_size":0,"speed":0},{"stealth":0,"type":"dory","hold_size":0,"speed":0},{"stealth":0,"type":"dory","hold_size":0,"speed":0}]},"mission_reward":{"resources":{"waste":75000},"ships":[{"stealth":1000,"type":"scow","hold_size":150000,"speed":650},{"stealth":1000,"type":"scow","hold_size":150000,"speed":650}]},"network_19_headline":"Extreme Conversions Dory Edition!","network_19_completion":"Scrapium Wastoids ripped the power plants out of 4 dories to create 2 scow for %s!"}
+
+{
+   "description" : "The Scrapium Wastoids are renowned for their ability to convert ships on the fly. Their mechs have offered to rip out the power plants of your spare dories and convert them for use as scows. After the power plants have been removed, their nanobots will disassemble what remains. The process leaves behind functional scows and a good deal of waste.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "waste" : 75000
+      },
+      "ships" : [
+         {
+            "combat" : 350,
+            "hold_size" : 150000,
+            "speed" : 650,
+            "stealth" : 1000,
+            "type" : "scow"
+         },
+         {
+            "combat" : 350,
+            "hold_size" : 150000,
+            "speed" : 650,
+            "stealth" : 1000,
+            "type" : "scow"
+         }
+      ]
+   },
+   "name" : "Extreme Conversions: Dory ",
+   "network_19_completion" : "Scrapium Wastoids ripped the power plants out of 4 dories to create 2 scow for %s!",
+   "network_19_headline" : "Extreme Conversions Dory Edition!"
+}
