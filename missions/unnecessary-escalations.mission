@@ -30,8 +30,7 @@
          }
       ]
    },
-   "mission_type" : "trade",
    "name" : "Unnecessary Escalations",
    "network_19_completion" : "The Kwigul clan recently sold their excess warships to %s.",
-   "network_19_headline" : "Kwigul clan seeks to decomission recently built warships."
+   "network_19_headline" : "Kwigul clan seeks to decommission recently built warships."
 }
