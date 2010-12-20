@@ -1,26 +1,2 @@
 # config-file-type: JSON 1
-
-{
-   "description" : "It's a pleasure to contact you!  I'm Hine-fra Gomul Om-fra, and I want to make you a deal!  Our research department has found a way to produce ultra-fast scanners, more than twice as fast as the kind you can probably build, and we're prepared to sell you one for the low, low price of only 12,000 energy.  I know, your scanners only cost about 6,000 resources, right?  Well, take the time to build one and send it on its way, and it may be too late!  When it comes to intelligence, it can never be too soon.  We virtually guarantee this will be the fastest Scanner-type ship you've ever seen!  Have we got a deal?",
-   "max_university_level" : "15",
-   "mission_objective" : {
-      "resources" : {
-         "energy" : 12000
-      }
-   },
-   "mission_reward" : {
-      "ships" : [
-         {
-            "combat" : 200,
-            "hold_size" : 0,
-            "speed" : 10000,
-            "stealth" : 4500,
-            "type" : "scanner"
-         }
-      ]
-   },
-   "mission_type" : "trade",
-   "name" : "For a quick scan",
-   "network_19_completion" : "%s makes a purchase from Nuvlian starship dealer.",
-   "network_19_headline" : "Nuvlian starship dealer offers ultra-fast Scanners for cheap."
-}
+{"name":"For a quick scan","mission_objective":{"resources":{"energy":12000}},"description":"It's a pleasure to contact you!  I'm Hine-fra Gomul Om-fra, and I want to make you a deal!  Our research department has found a way to produce ultra-fast scanners, more than twice as fast as the kind you can probably build, and we're prepared to sell you one for the low, low price of only 12,000 energy.  I know, your scanners only cost about 6,000 resources, right?  Well, take the time to build one and send it on its way, and it may be too late!  When it comes to intelligence, it can never be too soon.  We virtually guarantee this will be the fastest Scanner-type ship you've ever seen!  Have we got a deal?","mission_reward":{"ships":[{"type":"scanner","combat":200,"hold_size":0,"stealth":4500,"speed":10000}]},"network_19_headline":"Nuvlian starship dealer offers ultra-fast Scanners for cheap.","network_19_completion":"%s makes a purchase from Nuvlian starship dealer.","max_university_level":"15"}

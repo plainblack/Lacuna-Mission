@@ -1,27 +1,2 @@
 # config-file-type: JSON 1
-
-{
-   "description" : "The final lesson and mission to complete the art of Waste Management is to learn about Scow Chunkin. Collect 5000 Uraninite, 35000 Energy, and 35000 Water and as a reward you will get a Scow to hurl into the nearest star, containing up to 100k of your excess waste.",
-   "max_university_level" : "15",
-   "mission_objective" : {
-      "resources" : {
-         "energy" : 35000,
-         "uraninite" : 5000,
-         "water" : 35000
-      }
-   },
-   "mission_reward" : {
-      "ships" : [
-         {
-            "combat" : 350,
-            "hold_size" : 100000,
-            "speed" : 750,
-            "stealth" : 250,
-            "type" : "scow"
-         }
-      ]
-   },
-   "name" : "Waste Management Part 6",
-   "network_19_completion" : "It's not Captain Planet, it's %s learning the new game of Scow Chunkin.",
-   "network_19_headline" : "Is that Captain Planet throwing waste into the Sun?"
-}
+{"mission_objective":{"resources":{"energy":35000,"uraninite":5000,"water":35000}},"name":"Waste Management Part 6","mission_reward":{"ships":[{"combat":350,"hold_size":100000,"stealth":250,"type":"scow","speed":750}]},"network_19_headline":"Is that Captain Planet throwing waste into the Sun?","network_19_completion":"It's not Captain Planet, it's %s learning the new game of Scow Chunkin.","max_university_level":"15","description":"The final lesson and mission to complete the art of Waste Management is to learn about Scow Chunkin. Collect 5000 Uraninite, 35000 Energy, and 35000 Water and as a reward you will get a Scow to hurl into the nearest star, containing up to 100k of your excess waste."}
