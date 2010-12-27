@@ -1,0 +1,78 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello. I am sure you have heard of Pawn Lacuna, the most customer service oriented pawn broker in the entire expanse! We have grown so large we incorporated and the board of directors are interested in another expansion. We want to create a child corporation. Can you assist us by providing system map data of at least one star of each color? This will show us where the concentration of such clients exists. We will pay with a couple mining platforms that haven't sold due to their slow engines.Thanks for your assistance.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         }
+      ]
+   },
+   "name" : "Servicing High End Customers",
+   "network_19_completion" : "Board of directors vote to expand pawn business with the help of %s.",
+   "network_19_headline" : "Pawn Lacuna business plan expands to service high end customers."
+}

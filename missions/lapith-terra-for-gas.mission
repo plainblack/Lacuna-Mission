@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Our client has sent several gas giant platforms to a prime gas Giant without having the terraforming platforms needed.  Our client needs to build a terraforming platform as soon as possible, before another species colonizes the Gas Giant.   Please provide the glyphs needed for a terraforming platform, and in exchange our client will give the glyphs needed for a gas giant platform.  Of course there will be a commission charged by us.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "beryl",
+         "magnetite",
+         "zircon",
+         "methane"
+      ],
+      "resources" : {
+         "gold" : 10000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "sulfur",
+         "galena",
+         "anthracite",
+         "methane"
+      ]
+   },
+   "name" : "Terra Glyphs for Gas Glyphs",
+   "network_19_completion" : "Empire finally colonizes a nearby Gas Giant.",
+   "network_19_headline" : "Poor planning causes an Empire to not colonize a Gas Giant."
+}
