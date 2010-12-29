@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"energy":50000},"fleet_movement":[{"target":{"inhabited":1,"type":"habitable","size":[32,46],"isolationist":1,"in_zone":1},"ship_type":"cargo_ship"}]},"name":"Trade with Iso","mission_reward":{"glyphs":["goethite"]},"network_19_headline":"Isolationist planet desires trade.","network_19_completion":"%s established trading links with target isolationist planet.","max_university_level":"30","description":"Isolationist planet, who wishes to remain anonymous, seeks new energy trading partner for discrete mission. They are offering a goethite glyph to the first new trade partner to make delivery."}
+{
+   "description" : "Cautious planet, who wish to remain anonymous, seeks new energy trading partner for discrete mission. They are offering a goethite glyph to the first new trade partner to make delivery.\nTo complete, have 50k energy on hand, contact planet, and send a diplomatic courier (a spy) to target planet via cargo ship. After arrival of spy, complete will be possible.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "cargo_ship",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  30,
+                  60
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "energy" : 50000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "goethite"
+      ]
+   },
+   "name" : "Setup a trade mission",
+   "network_19_completion" : "%s established trading links with anonymous planet.",
+   "network_19_headline" : "Cautious planet desires trade."
+}
