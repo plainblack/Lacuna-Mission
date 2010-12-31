@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Well met. Our people propose that you take our natural gas in trade for your fluorine. Our empire yields a overstock of natural gas. We need more fluorine to manufacture perfluorocarbons. For which our people rightly hanker. Will you swap kerogen for fluorite? Always remember... -No, never forget... -The follies which a being regrets most in their life are those which they didn't commit when they had the opportunity!",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "kerogen" : 150000
+      }
+   },
+   "name" : "kerogen for fluorite",
+   "network_19_completion" : "%s exchanges fluorine for natural gas.",
+   "network_19_headline" : "Qotwaa advocate of Indivisible Commonwealth promises natural gas for fluorine."
+}

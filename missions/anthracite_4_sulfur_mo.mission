@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "A pessimist is one who makes difficulties of his opportunities and an optimist is one who makes opportunities of his difficulties. We have a difficulty that may be a great opportunity. I, Tuybag Lipruv, diplomat of Feudal Syndicate of Suns wish to swap our black coal for your brimstone. \n\nOur planets have more black coal than our people can put to use. However our empire thoroughly desires a source of brimstone to generate sulphuric acid. -Which is in great demand in our chemical production operations. We simply can't get enough of it.\n\nOur people entreat that you take this offer of black coal for brimstone. Seize the opportunity by the beard, for it is bald behind!",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "sulfur" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "anthracite" : 150000
+      }
+   },
+   "name" : "anthracite for sulfur",
+   "network_19_completion" : "%s exchanges brimstone for black coal.",
+   "network_19_headline" : "Tuybag Lipruv diplomat of Feudal Syndicate of Suns seeks to trades black coal for brimstone."
+}

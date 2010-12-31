@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "And so it begins. Our empire will welcome the opportunity to have access your fluorite. And we will gladly give you an abundance of carbonic acid produced from trona in return. \n\nOur empire has more carbonic acid than our people and our needs can expend. However, we do not have nearly enough fluorite. -Fluorite is absolutely essential to create high quality camera lenses. Photography is the highest form of art don't you think? A picture is worth a thousand <words expressed through scent emission>. \n\nSo you can understand why flourite is in such demand with our people. Will you swap carbonic acid for fluorspar? Every day is an opportunity to make a new happy ending!",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "trona" : 150000
+      }
+   },
+   "name" : "trona for fluorite",
+   "network_19_completion" : "%s takes fluorite for carbonic acid.",
+   "network_19_headline" : "Ehkinqotwaa Hel Qotwaa agent of Constellations' Commonwealth guarantees carbonic acid for fluorite."
+}

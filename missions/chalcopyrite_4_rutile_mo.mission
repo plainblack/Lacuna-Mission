@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "This meeting is fortunate. Our empire will convert chalcopyrite for rutile. Our people have more copper ore than we can put to use. Titanium ore from rutile is required to yield titanium. -Which our empire emphatically needs. Will you swap copper ore for titanium ore? Opportunities are never lost; someone will take the one you miss!",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "rutile" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chalcopyrite" : 150000
+      }
+   },
+   "name" : "chalcopyrite for rutile",
+   "network_19_completion" : "%s takes titanium ore for copper ore.",
+   "network_19_headline" : "Rotxaaa agent of Confederacy of Stars guarantees copper ore for titanium ore."
+}

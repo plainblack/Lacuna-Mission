@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "How glorious a greeting the sun gives the mountains! Such is my greeting to you and your peoples! Our empire implores that you take our iron ore in exchange for lead ore. \n\nOur planet furnishes a surplus of iron ore. But we don't have enough lead ore to meet the demand for the lead used to create ceramic glazes. Which our empire very much so craves. I, Nortubc representative of Anarchic Constellations ask you: will you swap iron ore for lead ore?",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "goethite" : 150000
+      }
+   },
+   "name" : "goethite for galena",
+   "network_19_completion" : "%s exchanges lead ore for iron ore.",
+   "network_19_headline" : "Nortubc representative of Anarchic Constellations proffers iron ore for lead ore."
+}

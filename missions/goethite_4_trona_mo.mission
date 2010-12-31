@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Gek minister of Directorate of Suns offers to take brown iron ore for carbonic acid. Our people generates a superabundance of brown iron ore. Despite our leaders misgivings our people demand a supply of carbonic acid from trona. We use it to manufacture soda lime glass. A wise man will make more opportunities than he finds. Will you make our problem your opportunity?",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "trona" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "goethite" : 150000
+      }
+   },
+   "name" : "goethite for trona",
+   "network_19_completion" : "%s exchanges carbonic acid for brown iron ore.",
+   "network_19_headline" : "Gek minister of Directorate of Suns promises brown iron ore for carbonic acid."
+}

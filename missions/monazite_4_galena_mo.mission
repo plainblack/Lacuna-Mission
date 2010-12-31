@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "If problems are only opportunities with thorns on them, then have we got a rose for you!  -Will you exchange lanthanum ore for lead ore? Our planet has more lanthanum ore than our people can go through. Lead ore as you may know is required in many batteries. Our empire is in severe need of someone willing to swap monazite for galena. Remember, even if you choose not to decide, you still have made a choice!",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "monazite" : 150000
+      }
+   },
+   "name" : "monazite for galena",
+   "network_19_completion" : "%s sells lead ore for lanthanum.",
+   "network_19_headline" : "Qotxaaa spokesperson of Directorate of Suns sells lanthanum ore in exchange for lead ore."
+}

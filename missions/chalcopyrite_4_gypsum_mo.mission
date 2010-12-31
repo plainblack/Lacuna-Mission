@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "May the light of the stars fall ever upon you. Our people will gladly take gypsum in exchange for chalcopyrite. Our planet manufactures a oversupply of copper ore. You may know know that gypsum can be used to yield tofu coagulant. This is something our planet greatly lacks. \n\nWe call upon you to please exchange copper ore for gypsum. As you seek new opportunity, keep in mind that the sun does not usually reappear on the horizon where last seen.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "gypsum" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chalcopyrite" : 150000
+      }
+   },
+   "name" : "chalcopyrite for gypsum",
+   "network_19_completion" : "%s swaps gypsum for copper ore.",
+   "network_19_headline" : "Rotxaaa steward of Soverign Imperium of Constellations offers copper ore for gypsum."
+}

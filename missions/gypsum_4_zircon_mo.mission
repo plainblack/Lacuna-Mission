@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings and salutations. Our people hope to trade gypsum for zircon. We have more gypsum plaster than our planet can exhaust. Perhaps you need plaster or drywall? Hyacinth zircon is essential to fabricate heat resistant materials. Our empire, the Dynastic Worlds guarantees a fair trade of gypsum for zircon. As you seek new opportunity, keep in mind that the sun does not usually reappear on the horizon where last seen.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "zircon" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gypsum" : 150000
+      }
+   },
+   "name" : "gypsum for zircon",
+   "network_19_completion" : "%s converts hyacinth for plaster.",
+   "network_19_headline" : "Tuybag Lipruva proctor of Dynastic Worlds trades plaster for hyacinth."
+}

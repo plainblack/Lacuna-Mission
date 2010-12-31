@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "My womb <untranslatable gender> always said, \"However far the stream flows, it never forgets its source.\" We will not forget the part you play in our current crisis.\n\nOur empire requests humbly that you exchange our cerium ore for your red emeralds. Our planet has more cerium ore than our empire can consume. Nevertheless our people tremendously covet a producer of red emeralds. We use red emeralds to generate the hardening agent in many of our alloys. \n\nOur people will gladly give monazite for beryl.  Remember, the secret of success in life is for a grub brother to be ready for his opportunity when it comes1",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "beryl" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "monazite" : 150000
+      }
+   },
+   "name" : "monazite for beryl",
+   "network_19_completion" : "%s exchanges red emerald for cerium ore.",
+   "network_19_headline" : "Gek senator of Alliance of Worlds offers to exchange cerium ore for red emeralds."
+}

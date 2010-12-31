@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "May you have warm words on a cold evening, a full moon on a dark night, and the road downhill all the way to your door. Agkimposwya Hel Poswya proctor of Mercantile Technocracy of Stars wish to convert your fluorspar for our lead ore.\n\nOur empire's mining operations furnishes too much lead ore. However, we depend on fluorspar to manufacture some of the highest quality lenses for our telescopes. Flourspar from fluorite is a commodity in short supply on our planet. Our people urge you to consider swapping your lead ore for our fluorspar.\n\nSeize every opportunity along the way, for how sad it would be if the road you chose became the road not taken!",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "galena" : 150000
+      }
+   },
+   "name" : "galena for fluorite",
+   "network_19_completion" : "%s takes fluorspar for lead ore.",
+   "network_19_headline" : "Agkimposwya Hel Poswya proctor of Mercantile Technocracy of Stars proffers lead ore for fluorspar."
+}
