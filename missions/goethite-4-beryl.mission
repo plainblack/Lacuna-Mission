@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Luck is a matter of preparation meeting opportunity. Our empire is willing to provide you the opportunity to swap goethite for beryl. Our asteroid mines generate a excess of brown iron ore. On the other hand, our empire greatly hurts for a source of emeralds from which to manufacture radiation filters. \n\nI, Ch-cha minister of the Technocracy of Planets, am empowered to make the offer of our brown iron ore for your beryl emeralds. Don't wait for extraordinary opportunities. Seize common occasions and make them great!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "beryl" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "goethite" : 1500000
+      }
+   },
+   "name" : "goethite for beryl",
+   "network_19_completion" : "%s exchanges emerald for brown iron ore.",
+   "network_19_headline" : "Ch-cha minister of Technocracy of Planets trades brown iron ore for emerald."
+}

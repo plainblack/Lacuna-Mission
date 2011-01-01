@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Each friend represents a world in us, a world possibly not born until they arrive, and it is only by this meeting that a new world is born. Our planet would like to swap gypsum for sulfur. You may already know that our empire produces a surplus of alabaster (gypsum)?\n\nAnyhow our people emphatically demand that we increase our supplies of sulfur to enable us to increase fabrication of fungicides. The messenger of the Independent Worlds proffers to exchange alabaster for sulfur. Will you leap at this opportunity? -Even when opportunity knocks a man still has to get up off his seat and open the door!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "sulfur" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gypsum" : 1500000
+      }
+   },
+   "name" : "gypsum for sulfur",
+   "network_19_completion" : "%s gives sulfur for alabaster.",
+   "network_19_headline" : "Agatlhulo messenger of Independent Worlds willing to trade alabaster for sulfur."
+}

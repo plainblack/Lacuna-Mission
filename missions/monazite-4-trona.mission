@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "The sauce to meat is ceremony; Meeting were bare without it. Shall we have something to eat before we discuss business? The menu? Yes. I'll take it. -Oh what, I'm supposed to pick? Okay then, I'll take what is on the left side of the menu.\n\nI, Othonitha senator of the Galaxy's Principality, am here personally to ask that you accept our cerium ore (monazite) for your carbonic acid (trona). Our empire yields far too much cerium ore, but not enough trona. Carbonic acid yielded from trona is essential to fabricate water softener. -Yes, my skin is very soft isn't it?\n\nAnywho... -This soft water and skin is something for which our people emphatically long. Our planet beseech that you convert cerium ore for carbonic acid. Always remember, he who refuses to embrace a unique opportunity loses the prize as surely as if he had failed!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "trona" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "monazite" : 1500000
+      }
+   },
+   "name" : "monazite for trona",
+   "network_19_completion" : "%s exchanges carbonic acid for cerium ore.",
+   "network_19_headline" : "Othonitha senator of the Galaxy's Principality offers cerium ore for carbonic acid."
+}

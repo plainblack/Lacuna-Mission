@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "There are two ways of meeting difficulties: You alter the difficulties or you alter yourself to meet them! Our empire would like to swap trona for fluorite. We have too much carbonic acid and not enough fluorspar.\n\nWe need fluorite to produce fluorspar in order to produce aluminum. Our people would like to make you an offer which you cannot refuse. Carbonic acid for fluorspar. It is better to be prepared for an opportunity and not have one than to have an opportunity and not be prepared!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "trona" : 1500000
+      }
+   },
+   "name" : "trona for fluorite",
+   "network_19_completion" : "%s exchanges fluorspar for carbonic acid.",
+   "network_19_headline" : "Dacathul delegate of the Socialist Stars guarantees trade of carbonic acid for fluorspar."
+}

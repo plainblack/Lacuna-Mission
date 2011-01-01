@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "The meeting of two personalities is like the contact of two chemical substances; if there is any reaction, both are transformed. Our empire will happily give gypsum for rutile. Our planet has more gypsum chalk than our people can use up. However, Titanium ore is required to furnish sunscreens from rutile. This is a substance which the beings in our empire substantially yearn. \n\nI, Haclhaekeph diplomat of Unity of Worlds can exchange our gypsum chalk for titanium ore. Are you interested? Opportunity only knocks once!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "rutile" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gypsum" : 1500000
+      }
+   },
+   "name" : "gypsum for rutile",
+   "network_19_completion" : "%s converts titanium ore for chalk.",
+   "network_19_headline" : "Haclhaekeph diplomat of Unity of Worlds wishes to trade chalk for titanium ore."
+}

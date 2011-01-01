@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "A discovery is said to be an accident meeting a prepared mind. Are you prepared? Our empire is willing to swap methane for sulfur. We have more natural gas than our people can consume. Brimstone is you probably know is a prerequisite to when creating fertilizer from sulfur. \n\nThis is a commodity which our people crave. As steward of the Mercantile Kingdom, I have been sent to trade our methane natural gas for brimstone (sulfur). -The Gods cannot help those who do not seize opportunities!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "sulfur" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "methane" : 1500000
+      }
+   },
+   "name" : "methane for sulfur",
+   "network_19_completion" : "%s converts brimstone for natural gas.",
+   "network_19_headline" : "Iag-enephugal steward of the Mercantile Kingdom offers natural gas for brimstone."
+}

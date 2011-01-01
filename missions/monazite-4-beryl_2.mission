@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "The joy of meeting is not unmixed with pain. Our hardship may be your gain?\n\nBosabot council member of Military Union of Planets offers to exchange thorium ore for red emeralds. Our mines furnish a surplus of thorium ore. Be that as it may, our planet tremendously crave a supply of red emerald in order to yield raditian filters. Our planet will with great pleasure give monazite for beryl. \n\nDon't pass this opportunity up! -Opportunities always look bigger going than coming!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "beryl" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "monazite" : 1500000
+      }
+   },
+   "name" : "monazite for beryl",
+   "network_19_completion" : "%s swaps red emerald for thorium ore.",
+   "network_19_headline" : "Bosabot council member of the Military Union of Planets guarantees trade of thorium ore for red emeralds."
+}

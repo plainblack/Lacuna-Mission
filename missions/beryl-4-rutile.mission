@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "The most important trip you may take in life is meeting people halfway. Zaithogom agent of Solidarity of Suns wishes to exchange morganite for titanium ore. Our planet has more morganite than our empire can go through. Titanium ore is depended upon to generate pigment from rutile. This is a substance for which our planet thoroughly hurts. \n\nOur empire will convert beryl for rutile. Will you accept this offer? Remember, the freedom to move forward to new opportunities and to produce results comes from living in the present not the past.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "rutile" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "beryl" : 1500000
+      }
+   },
+   "name" : "beryl for rutile",
+   "network_19_completion" : "%s takes titanium ore for morganite.",
+   "network_19_headline" : "Zaithogom agent of Solidarity of Suns promises morganite for titanium ore."
+}

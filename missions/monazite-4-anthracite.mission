@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "A star shone at the hour of our meeting! Our great empire request that you take our thorium ore in exchange for coal. We have more thorium ore than our planet can exhaust. However we do not have enough coal. We use coal to generate filter systems from anthracite. This is a commodity which our people very much so need. \n\nWill you exchange monazite for anthracite. Luck is what happens when preparation meets opportunity!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "monazite" : 1500000
+      }
+   },
+   "name" : "monazite for anthracite",
+   "network_19_completion" : "%s gives coal for thorium ore.",
+   "network_19_headline" : "Ekenachaat envoy of Elective Principality of Spheres proffers trade of thorium ore for coal."
+}

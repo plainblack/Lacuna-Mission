@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "In life there are meetings which seem Like a fate. Such is ours. We propose that you take our offer of carbonic acid for lead ore. Our planet has more carbonic acid than our people can expend. Still our empire rightly covet a supply of lead ore to produce radiation shielding. Our empire will swap trona for galena. Will you? \n\nI would like to think that you are a successful man. If you take this deal, I assure you that you will soon be one. -Most successful men have not achieved their distinction by having some new talent or opportunity presented to them. They have developed the opportunity that was at hand!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "trona" : 1500000
+      }
+   },
+   "name" : "trona for galena",
+   "network_19_completion" : "%s exchanges lead ore for carbonic acid.",
+   "network_19_headline" : "Nyihusc factotum of the Corporate Syndicate of Planets promises deal: carbonic acid for lead ore."
+}
