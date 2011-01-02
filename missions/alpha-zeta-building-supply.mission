@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s has wisely taken on Alpha-Zeta to oversee construction on their new colony.","max_university_level":"20","description":"Do you have a new colony that needs a good overseeing presence?  Can't wait until your ministry gets built to a decent level?  We have a quick build Level 10 Oversight Ministry staffed with consultants to help get your colony on the right track.","mission_objective":{"resources":{"energy":200000,"algae":50000,"fungus":50000,"water":200000}},"name":"Alpha-Zeta Building Supply","mission_reward":{"plans":[{"extra_build_level":9,"level":1,"classname":"Lacuna::DB::Result::Building::Oversight"}]},"network_19_headline":"Oversight Consultants available for hire!"}
+{
+   "description" : "Do you have a new colony that needs a good overseeing presence?  Can't wait until your ministry gets built to a decent level?  We have a quick build Level 10 Oversight Ministry staffed with consultants to help get your colony on the right track.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 50000,
+         "energy" : 200000,
+         "fungus" : 50000,
+         "water" : 200000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Oversight",
+            "extra_build_level" : 9,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Building Supply",
+   "network_19_completion" : "%s has wisely taken on Alpha-Zeta to oversee construction on their new colony.",
+   "network_19_headline" : "Oversight Consultants available for hire!"
+}
