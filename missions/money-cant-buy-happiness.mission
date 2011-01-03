@@ -1,0 +1,19 @@
+# config-file-type: JSON 1
+{
+   "description" : "Well, that's what they say. But truth be, give any man a little money, and he is happy as can be. So we run an organization that will distribute some currency to the pubic, at aims of raising their approval. We do have a service fee through.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 15000,
+         "gold" : 15000,
+         "kerogen" : 15000,
+         "sulfur" : 15000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 10000
+   },
+   "name" : "Money cant buy happiness",
+   "network_19_completion" : "%s just gave a bribe to residents!",
+   "network_19_headline" : "Bribe offered to citizens."
+}

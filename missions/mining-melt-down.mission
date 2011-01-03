@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "Help us! We are a mining colony and we have had a recent spill of one of our coolant tanks. We now have very little water left for our drills and when we run out, they will explode. If you give us some water, we would be glad to give you some ore.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "water" : 15000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "galena" : 5000,
+         "gold" : 5000,
+         "gypsum" : 2000,
+         "sulfur" : 10000,
+         "trona" : 1000
+      }
+   },
+   "name" : "Mining Melt down",
+   "network_19_completion" : "%s has saved the day!",
+   "network_19_headline" : "Melt down a possibly  for longtime colony."
+}

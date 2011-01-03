@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Have you ever wanted to turn energy into food? Well now you can, with our latest energy drink converter.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 8000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cider" : 10000
+      }
+   },
+   "name" : "Energy Drinks",
+   "network_19_completion" : "%s has revitalized their sport drink market!",
+   "network_19_headline" : "A new technology is out!"
+}

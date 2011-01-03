@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "We are offering you a once in a life time opportunity. We have recently developed a machine that accelerates energy and creates more. This is still a prototype through, but we are willing to let you test it. we just require starting energy and some snacks for our technicians. We also have included a free gift!",
+   "max_university_level" : "6",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 400,
+         "energy" : 1500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 4000,
+         "gold" : 300
+      }
+   },
+   "name" : "Energy Multiplier",
+   "network_19_completion" : "%s, good job, thank you for helping enhance our prototype!",
+   "network_19_headline" : "New technology is being tested!"
+}

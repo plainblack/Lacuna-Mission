@@ -1,0 +1,19 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings. We bring great news. A new and radical procedure to quickly clone food as been developed. Although this process still requires  a lot of energy, and has lets say, a few negative effects, we will clone your apples. Since we require the apples and energy to perfect our techniques, we will offer you all results.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 1000,
+         "energy" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 5000
+      }
+   },
+   "name" : "Apples to Apples",
+   "network_19_completion" : "%s has received his share of surplus apples.",
+   "network_19_headline" : "New cloning project leads to surplus of food!"
+}

@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello. We are celebrating the earth holiday of Christmas. Many of us feel that we should have snow, but our planet is warm all year round.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 5000,
+         "water" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 8000,
+         "bean" : 8000
+      }
+   },
+   "name" : "Winter in summer",
+   "network_19_completion" : "Let it Snow, Let it Snow, Let it Snow.",
+   "network_19_headline" : "Colony wish to have a proper enviroment for holiday."
+}

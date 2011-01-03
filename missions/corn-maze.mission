@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greeting! We are building a massive corn maze for this years holiday season. The problem is, we lack the amount of corn needed. Give us some corn and we will reward you in both gold and festive treats!",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 8000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cheese" : 500,
+         "gold" : 8000,
+         "pie" : 700,
+         "syrup" : 1000
+      }
+   },
+   "name" : "Corn maze",
+   "network_19_completion" : "Thank you for helping!",
+   "network_19_headline" : "A new mission is available."
+}

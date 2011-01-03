@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "Well, i am going to put it simply like this. I got into trouble with the wrong people an now i owe them some gold. Help me out and ill make it worth it.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 1000,
+         "gold" : 1500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "algae" : 3000,
+         "anthracite" : 1000,
+         "milk" : 900
+      }
+   },
+   "name" : "I am in some trouble",
+   "network_19_completion" : "%s, thank you so much for helping.",
+   "network_19_headline" : "A man is requesting help!"
+}

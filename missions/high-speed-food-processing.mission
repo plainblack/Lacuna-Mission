@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "Food Tech has recently developed an incredible way to create burgers, quickly and effectively, by converting your surplus food. We need to perfect our technique so we are giving you an opportunity to help us.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 500,
+         "energy" : 800,
+         "fungus" : 500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 3000
+      }
+   },
+   "name" : "High-Speed food processing",
+   "network_19_completion" : "%s helped test our newest technology!",
+   "network_19_headline" : "New food tech of the future!"
+}

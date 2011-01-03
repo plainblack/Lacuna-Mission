@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "We are from a colony of vegetarians and we have no plants! All we ask is for a variety of foods and in turn we offer some of the foods, outlawed on our planet.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 1000,
+         "bean" : 1000,
+         "bread" : 1000,
+         "potato" : 1000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "beetle" : 1500,
+         "burger" : 1500,
+         "cheese" : 1500,
+         "milk" : 1500
+      }
+   },
+   "name" : "Vegetarian",
+   "network_19_completion" : "%s supplies vegetarians with the proper food products!",
+   "network_19_headline" : "A colony of vegetarians needs Veggies!"
+}
