@@ -1,0 +1,35 @@
+# config-file-type: JSON 1
+{
+   "description" : "Tired of making sure all your shipyards and various other plots line up to give you a ship you want?  Well, try the shipyards of Alpha-Zeta!  We give nice round numbers and no pesky waiting on builds.  You just have to have the right timing, a down payment and something for the trade in.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 100000,
+         "energy" : 250000,
+         "gold" : 100000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 1000000,
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "hulk"
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Shipyard Hulk",
+   "network_19_completion" : "%s purchased a Hulk class ship for hauling stuff in.",
+   "network_19_headline" : "Not so Sleek or Shiny Hulk available via Alpha-Zeta!"
+}

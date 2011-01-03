@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "Tired of making sure all your shipyards and various other plots line up to give you a ship you want?  Well, try the shipyards of Alpha-Zeta!  We give nice round numbers and no pesky waiting on builds.  You just have to have the right timing, a down payment and something for the trade in.",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 5000,
+         "gold" : 5000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 15000,
+            "speed" : 1500,
+            "stealth" : 2000,
+            "type" : "barge"
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Shipyard Barge",
+   "network_19_completion" : "%s purchased a nice barge for cruising in.",
+   "network_19_headline" : "Sleek Shiny Barge available via Alpha-Zeta!"
+}

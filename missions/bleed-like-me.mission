@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Have we got the factory for you!  This ship automatically deploys on your chosen planet and begins spewing out lots of atmosphere.  Perfect for gothic style scenes.  Or give it to friend!  You can send it anywhere!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 50000,
+         "goethite" : 50000,
+         "kerogen" : 100000,
+         "methane" : 100000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 4000,
+            "hold_size" : 0,
+            "speed" : 1200,
+            "stealth" : 5000,
+            "type" : "bleeder"
+         }
+      ]
+   },
+   "name" : "Bleed Like Me",
+   "network_19_completion" : "%s can now really output garbage.",
+   "network_19_headline" : "New way to make trash unveiled!"
+}

@@ -1,0 +1,64 @@
+# config-file-type: JSON 1
+{
+   "description" : "I've finally ready to publish and prove some theories about the Great Race.  Now I'm ready to tour the galaxy since I'm sure I'll be asked to attend many conferences.  You can have my last excavators for a good ship for running around in and some supplies.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "bean" : 50000,
+         "chip" : 10000,
+         "gold" : 25000,
+         "water" : 15000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "excavator"
+         }
+      ]
+   },
+   "name" : "The Next Best Thing",
+   "network_19_completion" : "%s got some cheap excavators for a good price.",
+   "network_19_headline" : "Archaeologist has published and is ready to give up his tools."
+}

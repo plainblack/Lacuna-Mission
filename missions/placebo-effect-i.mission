@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Sometimes you'd like to make it look like you're aiming at one planet while actually shooting elsewhere.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 7000,
+         "energy" : 7000,
+         "fungus" : 3000,
+         "water" : 3000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 1150,
+            "stealth" : 5000,
+            "type" : "placebo"
+         }
+      ]
+   },
+   "name" : "Placebo Effect I",
+   "network_19_completion" : "%s is being a bit sneaky.",
+   "network_19_headline" : "Nothing to see here."
+}

@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "Tired of making sure all your shipyards and various other plots line up to give you a ship you want?  Well, try the shipyards of Alpha-Zeta!  We give nice round numbers and no pesky waiting on builds.  You just have to have the right timing, a down payment and something for the trade in.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 50000,
+         "gold" : 50000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 200000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Shipyard Galleon",
+   "network_19_completion" : "%s purchased a nice galleon for cruising in.",
+   "network_19_headline" : "Sleek Shiny Galleon available via Alpha-Zeta!"
+}

@@ -1,0 +1,41 @@
+# config-file-type: JSON 1
+{
+   "description" : "One thing sure to bring someone to their knees is to ruin their ability to build anything.  For that, you want some Thuds.  Guaranteed to leave craters on your target planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 20000,
+         "bauxite" : 100000,
+         "energy" : 50000,
+         "water" : 30000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 2500,
+            "hold_size" : 0,
+            "speed" : 900,
+            "stealth" : 1500,
+            "type" : "thud"
+         },
+         {
+            "combat" : 2500,
+            "hold_size" : 0,
+            "speed" : 900,
+            "stealth" : 1500,
+            "type" : "thud"
+         },
+         {
+            "combat" : 2500,
+            "hold_size" : 0,
+            "speed" : 900,
+            "stealth" : 1500,
+            "type" : "thud"
+         }
+      ]
+   },
+   "name" : "Thud the Barbarian",
+   "network_19_completion" : "%s is prepared to make some craters.",
+   "network_19_headline" : "Crush your enemies and drive them to ruin!"
+}

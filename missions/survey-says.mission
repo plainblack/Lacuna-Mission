@@ -1,0 +1,35 @@
+# config-file-type: JSON 1
+{
+   "description" : "Supply a scanner and some material, and we will upgrade your scanner to be a surveyor, capable of getting detailed information of a target planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 25000,
+         "energy" : 50000,
+         "zircon" : 25000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 1000,
+            "hold_size" : 0,
+            "speed" : 6000,
+            "stealth" : 5000,
+            "type" : "surveyor"
+         }
+      ]
+   },
+   "name" : "Survey says!",
+   "network_19_completion" : "%s is ready to survey a planet.",
+   "network_19_headline" : "Alpha-Zeta offering to upgrade scanners."
+}

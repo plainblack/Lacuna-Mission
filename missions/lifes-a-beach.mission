@@ -1,0 +1,45 @@
+# config-file-type: JSON 1
+{
+   "description" : "Alpha-Zeta is here to help you with designing a new place for your populace to relax at.\nA bit of supplies and a some items of interest, and our consultants will supply all you need for your new vacation spot.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 100000,
+         "gypsum" : 100000,
+         "water" : 100000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 25000,
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach3",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach4",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Life's a Beach",
+   "network_19_completion" : "%s is ready to open a new Beach Resort!",
+   "network_19_headline" : "New Beachfront property available!"
+}

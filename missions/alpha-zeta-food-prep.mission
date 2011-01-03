@@ -1,0 +1,89 @@
+# config-file-type: JSON 1
+{
+   "description" : "Sick of having to travel all over to get your food cravings?  We here at Alpha-Zeta have come up with a solution to your needs.  All you need to do is supply the proper food templates for ingredients and product.  And a shipping fee. Just put these where you want, and you'll have your specialized food where you can get it!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 2000,
+         "apple" : 2000,
+         "bean" : 2000,
+         "beetle" : 2000,
+         "bread" : 1000,
+         "burger" : 1000,
+         "cheese" : 1000,
+         "chip" : 1000,
+         "cider" : 1000,
+         "corn" : 2000,
+         "fungus" : 2000,
+         "gold" : 20000,
+         "lapis" : 2000,
+         "meal" : 1000,
+         "milk" : 2000,
+         "pancake" : 1000,
+         "pie" : 1000,
+         "potato" : 2000,
+         "root" : 2000,
+         "shake" : 1000,
+         "soup" : 1000,
+         "syrup" : 1000,
+         "wheat" : 2000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Syrup",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Cider",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Bread",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Cheese",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Chip",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Pie",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Burger",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Pancake",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Shake",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Food Prep",
+   "network_19_completion" : "%s has gotten the plans for a new Food Court!",
+   "network_19_headline" : "New Food Court Plans available!"
+}
