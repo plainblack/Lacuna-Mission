@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey! You! Yeah, you! Can I have your attention for one moment? I have one teeny weeny problem for which I need your help. You see, I recently performed an experimental procedure on our Beloved Leader. It was a resounding success, but He, for reasons we can only  guess, in His infinite wisdom, did not see fit to survive. Anyway, for nooooo reason whatsoever, I now feel the urge to travel a bit. Could you help me find a quiet place to go on vacation? I can pay you handsomely, thanks to this gold denture I just happened to find...",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 7500
+      }
+   },
+   "name" : "But the Patient Died",
+   "network_19_completion" : "%s Help Recluse Scientist Avoid Own Race's Justice.",
+   "network_19_headline" : "Recluse Scientist Discovers Appetite for Travel."
+}

@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "This might be the last message we can send: Huge, gray things are trampling our cities and sucking out our feeding ponds in seconds! No amount of conversation or friendly gestures can stop them. Not even free tickets to visit the Queen's egglaying room! Would you kindly send a couple of ships to us, so that we can send the lumbering mountains into orbit around some out of the way planet? We thought about cargo ships first, but scows will do after all.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "kerogen"
+      ]
+   },
+   "name" : "Where Huge Things Thread",
+   "network_19_completion" : "%s Save Miniature Einsteins, Receive Strange Gift in Exchange.",
+   "network_19_headline" : "Surprise Pachyderm Migration Strikes Fear in Ant Sized Geniuses."
+}

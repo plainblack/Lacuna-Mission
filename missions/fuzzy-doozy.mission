@@ -1,0 +1,19 @@
+# config-file-type: JSON 1
+{
+   "description" : "All Hail! We have made three discoveries of the highest order in the history of maths: Very Fuzzy Logic and Approximate Algebra. Since then, we have quadrupled our ore output, from 65k to 138k per day And have established a mighty fleet of warships to conquer you! Yes you! Unless you agree to pay us a respectful ransom: We need power for those ships, so send us the energy we want and we'll reward you handsomely: not worth as much as you send us, but that will buy you protection for 30 days, so you won't hear from us until next Tuesday.",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 1000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bauxite" : 1000,
+         "goethite" : 1000
+      }
+   },
+   "name" : "Fuzzy Doozy",
+   "network_19_completion" : "%s Disarms Very Fuzzy Math Menace, Ends Up the Better for It.",
+   "network_19_headline" : "Race Discovers Very Fuzzy Math, Sets to conquer Universe."
+}

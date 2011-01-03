@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "Where's the beef? We've traveled hundreds of parsecs to this venue and only now did we realize that we'd left the food and drinks on the kitchen counter. Please save our day! We need burgers and all that's needed to garnish them. Plus something to wash it all down. And trust us on this one; we will provide plenty of trash in return. Thanks, and Go WormHoles!",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 500,
+         "beetle" : 500,
+         "burger" : 500,
+         "fungus" : 500,
+         "water" : 500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "waste" : 25000
+      }
+   },
+   "name" : "The Mother of All Tailgates",
+   "network_19_completion" : "%s Delivers Cornucopia of Food to Thousands of  WormHoles Fans.",
+   "network_19_headline" : "Colony Ship Lands, Drops Tailgate, Prepares for Biggest Sporting Event of Next 15 Minutes."
+}

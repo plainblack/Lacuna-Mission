@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "*Yawn* Hello there. Please help us: *Wooah, what was that?* We thought it was a great idea: Genetically engineer ourselves out of the need for sleep. Problem is, *Aaargh, get it off me, get it off me!* we have ever more difficulty telling facts from *The slippers are back The slippers are back!*, ahem, hallucination. What we need, is hot milk to get us to sleep, it's our last hope. Please?",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "milk" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "trona" : 5000
+      }
+   },
+   "name" : "Need For Sleep",
+   "network_19_completion" : "% Puts Entire Race to Sleep, Literally: Named Sandmen of the Year.",
+   "network_19_headline" : "Race Cannot Get Sleep, Looking for Help While Dodging Iridescent Flying Slippers."
+}

@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "May the Left Hand of Grull Smack You Lovingly! We need your help in our race to the center of our planet. The Right  Hand Sect, schismatic spawns every last one of them, through treacherous tactics and dastardly deeds, currently leads the race and without your help, they of the Wrong Side will reach the core first. Impacts of such an event are too obvious to describe, as you can surely see. Please help us, with your superior technological knowledge, and we'll send you brightly colored pictures. And metals.",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Ore::Mine",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chromite" : 2000,
+         "gold" : 2000
+      }
+   },
+   "name" : "Excavation Escalation ",
+   "network_19_completion" : "% Give The Edge to Bottom Feeders.",
+   "network_19_headline" : "As Stakes Go Up, Race to the Bottom Accelerates."
+}

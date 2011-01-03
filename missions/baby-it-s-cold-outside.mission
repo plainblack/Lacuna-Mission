@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "Our sun, already sickly in its best years, has cooled to such a point that anything anyone ever thinks about here is keeping warm. This has made some activities, particularly those related to, you know, working on the next generations of tax payers, hardly imaginable, even to the most... fertile... imaginations. Please help us \"revive\" our star. Hydrogen is what we need and we'll thank you with all you need for a good hearty meal. Thanks!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "methane" : 60000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bread" : 20000,
+         "cheese" : 20000,
+         "cider" : 20000,
+         "pie" : 20000,
+         "soup" : 20000
+      }
+   },
+   "name" : "Baby It's Cold Outside",
+   "network_19_completion" : "% Saves Race! Gracefully Look the Other Way While Celebrations Ensue.",
+   "network_19_headline" : "Nearing Extinction, Race Turns to Outsiders to Ensure Survival."
+}

@@ -1,0 +1,30 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings! We'd like to invite you to join us in our new venture. You see, we have plans to build the largest, most luxurious Spa on this side of the galactic center. Here's where you come in: We lack a couple of core resources for this project: Our planet is devoid of water,  salts or even remotely interesting art scene or nightlife. But we're energetic worms with a real zeal for burrowing and can reward you nicely in cold hard metal. So, if you're interested, give us a call!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "gypsum" : 20000,
+         "rutile" : 20000,
+         "water" : 20000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "anthracite" : 30000,
+         "chromite" : 30000,
+         "gold" : 30000,
+         "uraninite" : 30000
+      }
+   },
+   "name" : "Pass the Salt, Please",
+   "network_19_completion" : "% Selected as Prime Partner in Spa Venture.",
+   "network_19_headline" : "Race Designs Largest Spa Yet, Needs Materials."
+}

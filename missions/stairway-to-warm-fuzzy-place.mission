@@ -1,0 +1,30 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings! We have decided to move our entire race. To the best possible star system. Unfortunately, from the point of view of anything more complex than a sugar packed rodent, we suffer. From terminal attention deficit disorder. We cannot build anything bigger than a small house and have difficulty finishing long... Anyway! We need a ship.  Please help us! We will reward you.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 30000,
+         "fluorite" : 20000,
+         "galena" : 20000,
+         "halite" : 20000,
+         "sulfur" : 20000,
+         "trona" : 10000,
+         "water" : 30000
+      }
+   },
+   "name" : "Stairway to Warm Fuzzy Place",
+   "network_19_completion" : "%s, Management Masters,  Help Race Achieve Great Goal.",
+   "network_19_headline" : "Race Plans Final Flight, Looks for Project Manager."
+}
