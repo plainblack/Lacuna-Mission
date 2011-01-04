@@ -1,2 +1,101 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0}]},"name":"Ratcliff Rangers Search","mission_reward":{"glyphs":["beryl"]},"network_19_headline":"Ratcliff Rangers are looking for the Saben Homeworld.","network_19_completion":"Ratcliff Rangers launch probes.","max_university_level":"18","description":"The Ratcliff Rangers are looking for the Saben Homeworld. They continue to need more probes as they search. They are willing to buy 10 probes for a little prize they found on one of the outer worlds, a Beryl Glyph."}
+{
+   "description" : "The Ratcliff Rangers are looking for the Saben Homeworld. They continue to need more probes as they search. They are willing to buy 10 probes for a little prize they found on one of the outer worlds, a Beryl Glyph.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "beryl"
+      ]
+   },
+   "name" : "Ratcliff Rangers Search",
+   "network_19_completion" : "Ratcliff Rangers launch probes.",
+   "network_19_headline" : "Ratcliff Rangers are looking for the Saben Homeworld."
+}
