@@ -1,2 +1,35 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"smuggler_ship","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"smuggler_ship","speed":0}]},"name":"Nandor Slave Trade","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::GeneticsLab","level":1,"extra_build_level":1}]},"network_19_headline":"Slave Trade Breaks out at Nandor! Philonius Prime rounds up a posse.","network_19_completion":"Bopb Fjord of %s defeats the Malthusian Raiders.","max_university_level":"25","description":"Reports are in. Malthusian Raiders have opened a slave trade market in the vicinity of Nandor. Philonius Mnunk, the infamous playboy and freedom fighter is looking for species to donate 2 smuggler ships to infiltrate and help eradicate the Malthusians once and for all. In return for the ships, Philonius has promised to personally finance a level 3 Genetics Lab."}
+{
+   "description" : "Reports are in. Malthusian Raiders have opened a slave trade market in the vicinity of Nandor. Philonius Mnunk, the infamous playboy and freedom fighter is looking for species to donate 2 smuggler ships to infiltrate and help eradicate the Malthusians once and for all. In return for the ships, Philonius has promised to personally finance a Genetics Lab.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "smuggler_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::GeneticsLab",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Nandor Slave Trade",
+   "network_19_completion" : "Bopb Fjord of %s defeats the Malthusian Raiders.",
+   "network_19_headline" : "Slave Trade Breaks out at Nandor! Philonius Prime rounds up a posse."
+}

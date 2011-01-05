@@ -1,2 +1,47 @@
 # config-file-type: JSON 1
-{"network_19_completion":"The McLapisberry pie is back! McRonald's CFO thanks %s for emergency lapis berry injection.","name":"McLapisberry Pie","description":"McRonalds is the largest fast food chain in the expanse, with over 100 trillion served. They carry the popular McLapisberry Pie, which is essentially just a normal lapis pie that's been deep fried in tallow. However, a poor season on McRonald 4, the company's lapis-basket,  will force them to discontinue the popular desert if they can't source a whole lot of lapis pies right away. In exchange, they're willing to provide top secret plans for some of their other advanced food infrastructure.","max_university_level":"19","mission_type":"trade","network_19_headline":"Interstellar fast food giant McRonald's forced to end popular lapis berry pie, blames poor harvest season.","mission_objective":{"resources":{"pie":60000}},"mission_reward":{"plans":[{"level":1,"extra_build_level":0,"classname":"Lacuna::DB::Result::Building::Food::Burger"},{"level":1,"extra_build_level":1,"classname":"Lacuna::DB::Result::Building::Food::Cider"},{"level":1,"extra_build_level":1,"classname":"Lacuna::DB::Result::Building::Food::Cheese"},{"level":1,"extra_build_level":1,"classname":"Lacuna::DB::Result::Building::Food::Chip"},{"level":1,"extra_build_level":1,"classname":"Lacuna::DB::Result::Building::Food::CornMeal"},{"level":1,"extra_build_level":1,"classname":"Lacuna::DB::Result::Building::Food::Bread"}]}}
+{
+   "description" : "McRonalds is the largest fast food chain in the expanse, with over 100 trillion served. They carry the popular McLapisberry Pie, which is essentially just a normal lapis pie that's been deep fried in tallow. However, a poor season on McRonald 4, the company's lapis-basket,  will force them to discontinue the popular desert if they can't source a whole lot of lapis pies right away. In exchange, they're willing to provide top secret plans for some of their other advanced food infrastructure.",
+   "max_university_level" : "19",
+   "mission_objective" : {
+      "resources" : {
+         "pie" : 60000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Burger",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Cider",
+            "extra_build_level" : 1,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Cheese",
+            "extra_build_level" : 1,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Chip",
+            "extra_build_level" : 1,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
+            "extra_build_level" : 1,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Bread",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "McLapisberry Pie",
+   "network_19_completion" : "The McLapisberry pie is back! McRonald's CFO thanks %s for emergency lapis berry injection.",
+   "network_19_headline" : "Interstellar fast food giant McRonald's forced to end popular lapis berry pie, blames poor harvest season."
+}
