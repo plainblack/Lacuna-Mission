@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "You've got waste, and you need food. I'm willing to turn your waste into food for you, using our newly patented process. Our sticky sweet soylent syrup is to die for. What do you say?",
-   "max_university_level" : "5",
+   "max_university_level" : "7",
    "mission_objective" : {
       "resources" : {
          "waste" : 3500
