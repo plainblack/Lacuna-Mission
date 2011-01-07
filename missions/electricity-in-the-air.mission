@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Corruption on Slee Ozatt 4 has run amok. The Hydrocarbon Power Plant lobby has bribed production managers in the Development Ministry to construct nothing but power plants while ignoring the development of other resources. The Minister has been fired for lack of oversight but his replacement now finds that there is not enough food for the people to eat, let alone feed any construction workers.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 30000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 45000
+      }
+   },
+   "name" : "Electricity is in the Air",
+   "network_19_completion" : "The people of Slee Ozatt 4 have stopped shocking each other, have first good meal in weeks.",
+   "network_19_headline" : "Slee Ozatt 4 has a problem with static electricity."
+}

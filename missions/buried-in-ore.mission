@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Corruption on Slee Ozatt 4 has run amok. The mining lobby has bribed production managers in the Development Ministry to construct mine pits everywhere you look while ignoring the development of other resources. The Minister has been fired for lack of oversight but his replacement now finds that there is not enough water for the people to drink, let alone for any further development.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "water" : 30000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "magnetite" : 45000
+      }
+   },
+   "name" : "Buried in Ore",
+   "network_19_completion" : "Slee Ozatt 4 has dug out of the pit, the people celebrate with a water toast.",
+   "network_19_headline" : "Slee Ozatt 4 has piles of ore in every direction."
+}

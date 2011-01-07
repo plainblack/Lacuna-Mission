@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "The colonists of Slee Ozatt 3 were promised a planet with rich plant life and diverse food supplies only to arrive and find no  gypsum, sulfur, or monazite meaning nothing but fungus and Algae will grow in their barren home. Help them with some ore and they will share in the fruits of their labor.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "gypsum" : 5000,
+         "monazite" : 5000,
+         "sulfur" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 10000,
+         "cider" : 10000
+      }
+   },
+   "name" : "Man can't live on Fungus Alone",
+   "network_19_completion" : "The people of Slee Ozatt 4 celebrate with apple pie and cider.",
+   "network_19_headline" : "Slee Ozatt 4 diners are sick of Fungus Soup."
+}

@@ -1,0 +1,19 @@
+# config-file-type: JSON 1
+{
+   "description" : "Corruption on Slee Ozatt 4 has run amok. The Water Reclamation lobby has bribed production managers in the Development Ministry to construct a reclamation facility ignoring the fact that the planet does not have supplies of halite or sulfur. The Minister has been fired but his replacement loathes the idea of scrapping the facility, plus trash is everywhere and they need to do something with it.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "halite" : 15000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "waste" : 15000,
+         "water" : 15000
+      }
+   },
+   "name" : "Trash is Everywhere",
+   "network_19_completion" : "The people of Slee Ozatt 4 have clean water to do the dishes.",
+   "network_19_headline" : "Slee Ozatt 4 has tons of waste, no water."
+}

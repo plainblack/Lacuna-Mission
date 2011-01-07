@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Corruption on Slee Ozatt 4 has run amok. The Waste Treatment Plant lobby has bribed production managers in the Development Ministry to construct a waste treatment plant ignoring the fact that the planet does not have a good supply of halite, sulfur, or trona. The Minister has been fired but his replacement loathes the idea of scrapping the plant, plus trash is everywhere and they need to do something with it.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "halite" : 5000,
+         "sulfur" : 5000,
+         "trona" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "anthracite" : 5000,
+         "energy" : 5000,
+         "magnetite" : 5000,
+         "waste" : 5000,
+         "water" : 5000
+      }
+   },
+   "name" : "Trash is Everywhere 3.0",
+   "network_19_completion" : "The people of Slee Ozatt 4 can see over the piles of junk once again.",
+   "network_19_headline" : "Slee Ozatt 4 has tons of waste, low on resources."
+}

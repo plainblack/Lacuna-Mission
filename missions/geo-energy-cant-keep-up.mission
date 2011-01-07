@@ -1,0 +1,19 @@
+# config-file-type: JSON 1
+{
+   "description" : "The electrical demand on Slee Ozatt 3 is outpacing the efforts of the planet's Geo Energy Plants. Officials would like to build a Fission Reactor but lack the galena or halite needed to run it. If you would be willing to supply these ores they would be willing to share the extra output from the new plant.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 10000,
+         "halite" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 30000
+      }
+   },
+   "name" : "Geo Energy can't Keep Up",
+   "network_19_completion" : "The people of Slee Ozatt 4 turn on all the lights and dance until dawn.",
+   "network_19_headline" : "Slee Ozatt 4 suffers brown outs."
+}

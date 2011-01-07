@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "Corruption on Slee Ozatt 4 has run amok. The Waste Energy Plant lobby has bribed production managers in the Development Ministry to construct a waste energy facility ignoring the fact that the planet does not have a good supply of insulating ores such as zircon, beryl, and gypsum. The Minister has been fired but his replacement loathes the idea of scrapping the facility, plus trash is everywhere and they need to do something with it.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "beryl" : 5000,
+         "gypsum" : 5000,
+         "zircon" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 15000,
+         "waste" : 15000
+      }
+   },
+   "name" : "Trash is Everywhere 2.0",
+   "network_19_completion" : "The people of Slee Ozatt 4 have stopped going to bed at 6:00 thanks to plenty of electricity.",
+   "network_19_headline" : "Slee Ozatt 4 has tons of waste, no lights."
+}

@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Corruption on Slee Ozatt 4 has run amok. The well drilling lobby has bribed production managers in the Development Ministry to construct fields of water purification plants while ignoring the development of other resources. The Minister has been fired for lack of oversight but his replacement now finds that lack of ore has halted any further development.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "magnetite" : 30000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "water" : 45000
+      }
+   },
+   "name" : "Water, Water Everywhere",
+   "network_19_completion" : "Dry land has been spotted on Slee Ozatt 4.",
+   "network_19_headline" : "Slee Ozatt 4 is under water."
+}
