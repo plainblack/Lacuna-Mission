@@ -73,20 +73,6 @@
             "speed" : 0,
             "stealth" : 0,
             "type" : "probe"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "probe"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "probe"
          }
       ]
    },
