@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Zlyer Mining needs magnetite.","network_19_completion":"Zyler Mining completes contract, wins big.","description":"Zyler Mining has had a cargo ship explode, taking with it its entire cargo of Magnetite. This cargo was headed to Barren Wuffett and is their gateway to many more lucrative contracts. They are desperate to replace this cargo. They are willing to trade 100k Uraninite for 60k of Magnetite. This is urgent, please respond as soon as possible.","max_university_level":"20","mission_objective":{"resources":{"magnetite":60000}},"name":"Zyler Mining","mission_reward":{"resources":{"uraninite":100000}}}
+{
+   "description" : "Zyler Mining has had a cargo ship explode, taking with it its entire cargo of Magnetite. This cargo was headed to Barren Wuffett and is their gateway to many more lucrative contracts. They are desperate to replace this cargo. They are willing to trade 100k Uraninite for 60k of Magnetite. This is urgent, please respond as soon as possible.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "magnetite" : 60000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "uraninite" : 100000
+      }
+   },
+   "name" : "Zyler Mining",
+   "network_19_completion" : "Zyler Mining completes contract, wins big.",
+   "network_19_headline" : "Zlyer Mining needs magnetite."
+}
