@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"network_19_headline":"The people of Raisle are so happy it is bringing everybody else down.","network_19_completion":"The Raisle Government promises that settlement will continue as planned.","description":"The people of Raisle have found the key to happiness and are ready to colonize all they see, but the pace of settlements is frustrating the Prime Minister. The spaceport is launching colony ships as fast the ship yard can make them but still can not keep up with demand. In exchange for a colony ship the Raisle government is willing to transfer 40,000 happiness.","max_university_level":"14","mission_objective":{"ships":[{"combat":0,"speed":0,"stealth":0,"hold_size":0,"type":"colony_ship"}]},"name":"Happiness Looking to Take Wing","mission_reward":{"happiness":60000}}
+{
+   "description" : "The people of Raisle have found the key to happiness and are ready to colonize all they see, but the pace of settlements is frustrating the Prime Minister. The spaceport is launching colony ships as fast the ship yard can make them but still can not keep up with demand. In exchange for a colony ship the Raisle government is willing to transfer 100,000 happiness.",
+   "max_university_level" : "14",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : 100000
+   },
+   "name" : "Happiness Looking to Take Wing",
+   "network_19_completion" : "The Raisle Government promises that settlement will continue as planned.",
+   "network_19_headline" : "The people of Raisle are so happy it is bringing everybody else down."
+}
