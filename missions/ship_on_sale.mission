@@ -1,2 +1,27 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","mission_reward":{"ships":[{"combat":5000,"type":"fighter","stealth":0,"hold_size":0,"speed":2500}]},"network_19_headline":"Fighter from questionable source available for trade.","description":"We are in link with a ship buildings business. Just don't tell anyone else... -Heh heh. Well we'll sell you a ship for a small fee. We will sell it for just enough to keep our wallets flowing. Now we have a WONDERFUL ship. In absolute mint condition here. Cheap enough? Eh?","network_19_completion":"%s as secured a new fighter.","name":"Ship On Sale ","mission_objective":{"resources":{"energy":10000,"pancake":5000,"cider":5000,"gold":5000}}}
+{
+   "description" : "We are in link with a ship buildings business. Just don't tell anyone else... -Heh heh. Well we'll sell you a ship for a small fee. We will sell it for just enough to keep our wallets flowing. Now we have a WONDERFUL ship. In absolute mint condition here. Cheap enough? Eh?",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "cider" : 5000,
+         "energy" : 10000,
+         "gold" : 5000,
+         "pancake" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 7500,
+            "hold_size" : 0,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Ship On Sale ",
+   "network_19_completion" : "%s as secured a new fighter.",
+   "network_19_headline" : "Fighter from questionable source available for trade."
+}
