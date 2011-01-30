@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"name":"A Fair Trade","mission_objective":{"resources":{"cider":5000,"gold":10000,"energy":10000}},"description":"Uhm, hi.  This is a little embarrassing, it's personal, and I'm not sure how to explain... You see, my husband and I are pregnant with our first children, but ever since I transferred the embryos to his abdominal sac, he's been very emotional.  I spent some of our resources on this cool new fighter craft, and I haven't even been able to fly it!  Anyway, in the interests of marital harmony, if you'd like to take this off my hands in exchange for some gold, cider, and energy, I think I'll be able to use it to make it up to him before the babies are born.  Don't ask how, I think I've given enough details already... you have no idea how grumpy a man with several dozen spawn growing inside him can be!","mission_reward":{"ships":[{"type":"fighter","combat":4000,"hold_size":0,"stealth":0,"speed":2000}]},"network_19_headline":"For Sale: New fighter craft, never used, great price!","network_19_completion":"Sold: fighter craft to %s, details confidential.","max_university_level":"20"}
+{
+   "description" : "Uhm, hi.  This is a little embarrassing, it's personal, and I'm not sure how to explain... You see, my husband and I are pregnant with our first children, but ever since I transferred the embryos to his abdominal sac, he's been very emotional.  I spent some of our resources on this cool new fighter craft, and I haven't even been able to fly it!  Anyway, in the interests of marital harmony, if you'd like to take this off my hands in exchange for some gold, cider, and energy, I think I'll be able to use it to make it up to him before the babies are born.  Don't ask how, I think I've given enough details already... you have no idea how grumpy a man with several dozen spawn growing inside him can be!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "cider" : 5000,
+         "energy" : 10000,
+         "gold" : 10000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 8000,
+            "hold_size" : 0,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "A Fair Trade",
+   "network_19_completion" : "Sold: fighter craft to %s, details confidential.",
+   "network_19_headline" : "For Sale: New fighter craft, never used, great price!"
+}

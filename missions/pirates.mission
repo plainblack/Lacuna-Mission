@@ -1,2 +1,30 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Pirates Have Been Supplied!","max_university_level":"25","network_19_headline":"Pirates Ask For Sponsoring!","description":"Hello. We would normally shoot at you and demand that you give us resources however I am in a good mood today. As a result we will ask for them. And as a result of that result we will both be making profit in the process. You see we recently pillaged a unsuspecting undefended colony containing these two glyphs.We will give them to you if you provide us with food,water,and a new shiny ship. Better make the right choice...or else.","mission_objective":{"resources":{"water":50000,"algae":25000,"wheat":25000},"ships":[{"stealth":0,"speed":2500,"combat":5400,"hold_size":0,"type":"fighter"}]},"mission_reward":{"glyphs":["halite","fluorite"]},"name":"Pirates "}
+{
+   "description" : "Hello. We would normally shoot at you and demand that you give us resources however I am in a good mood today. As a result we will ask for them. And as a result of that result we will both be making profit in the process. You see we recently pillaged a unsuspecting undefended colony containing these two glyphs.We will give them to you if you provide us with food,water,and a new shiny ship. Better make the right choice...or else.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 25000,
+         "water" : 50000,
+         "wheat" : 25000
+      },
+      "ships" : [
+         {
+            "combat" : 5000,
+            "hold_size" : 0,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite",
+         "fluorite"
+      ]
+   },
+   "name" : "Pirates ",
+   "network_19_completion" : "Pirates Have Been Supplied!",
+   "network_19_headline" : "Pirates Ask For Sponsoring!"
+}

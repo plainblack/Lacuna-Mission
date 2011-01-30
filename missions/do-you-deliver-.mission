@@ -1,2 +1,38 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"name":"Do you Deliver?","mission_reward":{"resources":{"pie":50000}},"network_19_headline":"JP needs a way to get the pie to the people.","network_19_completion":"Content people of Lyou Grioddo 8 sleep off Lapis Berry Pie, miss work again.","max_university_level":"15","description":"JP's Pies would like to cater to the lazy population of Lyou Grioddo 8 with a pie delivery service but lacks the transportation to make it happen. JP has taken ad ad out in the local shopper saying he would trade 60000 of his Lapis Berry Pies to anyone who can deliver him a fleet of small ships by the grand opening this Friday."}
+{
+   "description" : "JP's Pies would like to cater to the lazy population of Lyou Grioddo 8 with a pie delivery service but lacks the transportation to make it happen. JP has taken ad ad out in the local shopper saying he would trade 50000 of his Lapis Berry Pies to anyone who can deliver him a fleet of small ships by the grand opening this Friday.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "pie" : 50000
+      }
+   },
+   "name" : "Do you Deliver?",
+   "network_19_completion" : "Content people of Lyou Grioddo 8 sleep off Lapis Berry Pie, miss work again.",
+   "network_19_headline" : "JP needs a way to get the pie to the people."
+}

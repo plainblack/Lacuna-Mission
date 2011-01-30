@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"chromite":15000,"anthracite":15000,"kerogen":15000}},"name":"Weapons Test","mission_reward":{"ships":[{"combat":4000,"hold_size":0,"stealth":0,"type":"fighter","speed":2000},{"combat":4000,"hold_size":0,"stealth":0,"type":"fighter","speed":2000}]},"network_19_headline":"The Ixtishof Republic has announced they are on the verge of breakthrough on an entirely new weapon type!","network_19_completion":"Disaster strikes Ixtishof Rebublic! Ores delivered by %s contained impurities causing the new weapon to explode!","max_university_level":"13","description":"We of the Ixtishof Republic believe we are on the verge of a brand new weapon type. It's power will be immense! But we need your help! We need quantities of certain ores in order to complete the project. Will you deliver them? In return, we offer you a couple of our fighters!"}
+{
+   "description" : "We of the Ixtishof Republic believe we are on the verge of a brand new weapon type. It's power will be immense! But we need your help! We need quantities of certain ores in order to complete the project. Will you deliver them? In return, we offer you a couple of our fighters!",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : 15000,
+         "chromite" : 15000,
+         "kerogen" : 15000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 7500,
+            "hold_size" : 0,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 7500,
+            "hold_size" : 0,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Weapons Test",
+   "network_19_completion" : "Disaster strikes Ixtishof Rebublic! Ores delivered by %s contained impurities causing the new weapon to explode!",
+   "network_19_headline" : "The Ixtishof Republic has announced they are on the verge of breakthrough on an entirely new weapon type!"
+}

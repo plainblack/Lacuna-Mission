@@ -32,17 +32,12 @@
    "mission_reward" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Syrup",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Food::Cider",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
             "classname" : "Lacuna::DB::Result::Building::Food::Bread",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Burger",
             "extra_build_level" : 0,
             "level" : 1
          },
@@ -52,22 +47,22 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
             "classname" : "Lacuna::DB::Result::Building::Food::Chip",
             "extra_build_level" : 0,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Pie",
+            "classname" : "Lacuna::DB::Result::Building::Food::Cider",
             "extra_build_level" : 0,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Burger",
+            "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Pie",
             "extra_build_level" : 0,
             "level" : 1
          },
@@ -78,6 +73,16 @@
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Shake",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Soup",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Syrup",
             "extra_build_level" : 0,
             "level" : 1
          }

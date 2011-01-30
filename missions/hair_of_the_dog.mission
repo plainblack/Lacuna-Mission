@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "As an agent for an important member of the performance community, I've been tasked with hunting down an item of supreme importance.  Seems the artist has a particular way to get better from over indulgences of the night before.  Here is the ingredient list.  Get this and not only will we give you a valuable glyph, but will also schedule a performance to distract your populace.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 15000,
+         "burger" : 5000,
+         "energy" : 500000,
+         "lapis" : 15000,
+         "sulfur" : 10000,
+         "syrup" : 10000,
+         "uraninite" : 5000,
+         "waste" : 250000,
+         "water" : 500000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "rutile"
+      ],
+      "happiness" : 500000
+   },
+   "name" : "Hair of the Dog",
+   "network_19_completion" : "%s has provided the hair of the dog!",
+   "network_19_headline" : "Famous artist needs an elixir to survive mornings."
+}

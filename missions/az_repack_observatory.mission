@@ -1,0 +1,42 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here in the Alpha-Zeta offices, we've learned that often you wind up with plans you have no use for. That's where we come in!  Give us your unused plan and we'll give you a set of probes since you probably already have a nice observatory!\n\nNote: Due to filing limitations, we can't guarantee which Observatory Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Observatory",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Plan stripping - Observatory",
+   "network_19_completion" : "%s has redeemed his Observatory plan into a set of fast probes!",
+   "network_19_headline" : "Turn a Observatory Plan into a set of probes!"
+}

@@ -1,2 +1,47 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","mission_objective":{"ships":[{"combat":0,"hold_size":20000,"stealth":0,"speed":0,"type":"scow"}],"resources":{"waste":20000}},"description":"Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nWe are just about ready to bodily remove General Frankenfurter from the palace and all that is left is to charge our new weapon.  Our first target is the spaceport.\n\nIf you can send us energy quickly we can get this over with and I can return to my rightful place on the throne of Bokka Churra Znerk in the palace.  Oh, and I’ve promised the Royal Guard burgers, fries, and a shake.\n\nI will let you have all ships we capture.\n\nThis is Emperor Calderaan, we most eagerly await your response.  Long live Znerk.\n\n<click>","mission_reward":{"ships":[{"combat":4000,"hold_size":0,"stealth":0,"speed":2000,"type":"fighter"},{"combat":5000,"hold_size":0,"stealth":0,"speed":3000,"type":"fighter"},{"combat":0,"hold_size":0,"stealth":9000,"speed":3000,"type":"spy_pod"},{"combat":1337,"hold_size":24000,"stealth":6900,"speed":2000,"type":"smuggler_ship"}]},"network_19_headline":"Emperor Calderaan seeks assistance in assaulting Frankenfurters armory.","network_19_completion":"%s helps Emperor Calderaan neutralize General Frankenfurter’s ability to wage war.","name":"Second target – The Armory"}
+{
+   "description" : "Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nWe are just about ready to bodily remove General Frankenfurter from the palace and all that is left is to charge our new weapon.  Our first target is the spaceport.\n\nIf you can send us energy quickly we can get this over with and I can return to my rightful place on the throne of Bokka Churra Znerk in the palace.  Oh, and I’ve promised the Royal Guard burgers, fries, and a shake.\n\nI will let you have all ships we capture.\n\nThis is Emperor Calderaan, we most eagerly await your response.  Long live Znerk.\n\n<click>",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 20000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 20000,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 5000,
+            "hold_size" : 0,
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 5000,
+            "hold_size" : 0,
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 3000,
+            "stealth" : 9000,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "name" : "Second target – The Armory",
+   "network_19_completion" : "%s helps Emperor Calderaan neutralize General Frankenfurter’s ability to wage war.",
+   "network_19_headline" : "Emperor Calderaan seeks assistance in assaulting Frankenfurters armory."
+}

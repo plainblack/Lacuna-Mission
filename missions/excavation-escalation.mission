@@ -18,6 +18,6 @@
       }
    },
    "name" : "Excavation Escalation ",
-   "network_19_completion" : "% Give The Edge to Bottom Feeders.",
+   "network_19_completion" : "%s Give The Edge to Bottom Feeders.",
    "network_19_headline" : "As Stakes Go Up, Race to the Bottom Accelerates."
 }

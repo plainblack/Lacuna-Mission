@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here in the Alpha-Zeta offices, we've learned that often you wind up with plans you have no use for. That's where we come in!  Give us your unused plan and we'll give you a little something to relax next to!\n\nNote: Due to filing limitations, we can't guarantee which Luxury Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach4",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Plan stripping - Luxury",
+   "network_19_completion" : "%s has redeemed his Luxury plan for a nice beach front!",
+   "network_19_headline" : "Turn a Luxury plan into a nice beach area."
+}

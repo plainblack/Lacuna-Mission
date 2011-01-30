@@ -1,0 +1,35 @@
+# config-file-type: JSON 1
+{
+   "description" : "We need someone to distract another planet.  Just detonate their star and that should allow us freedom to move before they notice that we're in the same system.  You'll need to pump some energy into the detonator when it arrives at their star via this device.\nIn return, we have a high speed freighter for your troubles.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "detonator",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         }
+      ],
+      "resources" : {
+         "energy" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 1,
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 1000000,
+            "speed" : 2750,
+            "stealth" : 0,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "name" : "Under the Gun",
+   "network_19_completion" : "%s has taken the heat.",
+   "network_19_headline" : "Isolated planet seeks distraction."
+}
