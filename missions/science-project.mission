@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "My kid HAS to win the science fair!  I didn't, and if a parent can't live vicariously, then what's the point of even having kids at all!  Find us something that will show all those other snotty kids up and you can take these geodes that only got me second lousy place.\n\nNote: Due to filing limitations, we can't guarantee which Crashed Ship Site Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::CrashedShipSite",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "bauxite",
+         "gold",
+         "monazite",
+         "trona"
+      ]
+   },
+   "name" : "Science Project",
+   "network_19_completion" : "%s has found what is certain to be the winning science fair project!",
+   "network_19_headline" : "Science fair coming up, parents everywhere try to make it look like their kid made the project."
+}

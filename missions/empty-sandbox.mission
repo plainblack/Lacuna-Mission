@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "I got my kids a new sand box but there's just no sand to be found on this lousy suburban planet.  Find us some sand and you can have this sand bauxite.  Get it?  Bauxite? ... never mind.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Sand",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "bauxite"
+      ]
+   },
+   "name" : "Empty Sandbox",
+   "network_19_completion" : "%s has saved the day, now they just need some buckets and shovels.",
+   "network_19_headline" : "Kids have nowhere to play, getting restless."
+}

@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "We need more people to run our SPAM... er don't worry about that part.  We just need more cubicles and we've run out of space.  If you can figure out a way to increase the number of seats we have, we'll handsomely reward you.\n\nNote: Due to filing limitations, we can't guarantee which Pantheon of Hagness Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::PantheonOfHagness",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite",
+         "beryl",
+         "gypsum",
+         "trona"
+      ]
+   },
+   "name" : "Now Hiring",
+   "network_19_completion" : "%s helps annoy the entire known universe for some lousy personal gains.",
+   "network_19_headline" : "Spammers shorthanded, looking for cheap labor."
+}

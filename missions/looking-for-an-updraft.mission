@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Unpowered Flight club of Yuppilon 5 wants to go even higher!  They're even considering adding small engines to their gliders, because hey a small engine is almost not even an engine at all!  But the club regulations say that's just not allowed, so they're looking for some hot air to propel them to glory.  Find them an updraft and they'll give you a small reward.\n\nNote: Due to filing limitations, we can't guarantee which Geo Thermal Vent Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "sulfur"
+      ]
+   },
+   "name" : "Looking For An Updraft",
+   "network_19_completion" : "%s has pushed the gliders to unprecedented heights!",
+   "network_19_headline" : "Lawyers with recreational aircraft just aren't excited anymore."
+}

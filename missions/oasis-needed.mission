@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "The desert dwellers of Tucsonia have used up the last of the bottled water they brought with them.  Their planet has no sources of water and could really use a miracle!  Find them a source of water and they'll reward you.\n\nNote: Due to filing limitations, we can't guarantee which Natural Spring Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite",
+         "magnetite"
+      ]
+   },
+   "name" : "Oasis Needed",
+   "network_19_completion" : "%s has quenched the thirst of many thankful Tucsonians.",
+   "network_19_headline" : "Desert is dry, film at 11."
+}

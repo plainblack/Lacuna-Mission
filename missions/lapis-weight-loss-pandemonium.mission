@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "Did you hear the news?  Lapis berries are the real thing!  With anti-oxidents and electrolytes and stuff!  This is no fad diet, you'll practically be immortal if you eat these things every day.  Find us some more of this wonder of nature and you can have these vitamin-looking things that didn't help at all.\n\nNote: Due to filing limitations, we can't guarantee which Lapis Forest Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::LapisForest",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite",
+         "halite"
+      ]
+   },
+   "name" : "Lapis Weight Loss Pandemonium",
+   "network_19_completion" : "Thanks to %s, we'll all likely live right up until the Saben destroy the Demense out from under us.",
+   "network_19_headline" : "Weight loss, good health, and vitality, all from one little berry!"
+}

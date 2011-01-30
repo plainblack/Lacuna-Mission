@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "Duuuuude.  We got the bands and the digs, but we forgot the caps!  How are we going to appreciate this terrible music without the proper stimulation!  Everyone's coming and we need a LOT, man!\n\nNote: Due to filing limitations, we can't guarantee which Malcud Field Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "fluorite",
+         "kerogen"
+      ]
+   },
+   "name" : "Shroom Fest 2076",
+   "network_19_completion" : "%s helps stoner music become listenable once again.",
+   "network_19_headline" : "Hippies stop hallucinating, realize they smell bad."
+}

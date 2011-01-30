@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "People just can't get enough of this \"limited time\" sandwich.  Even though it looks like something that was run over by a Freighter, we sell them faster than we can make them.  Find us another source of meat and we'll give you these hardened pieces of mineral from the bottom of the fryer.\n\nNote: Due to filing limitations, we can't guarantee which Beeldeban Nest Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::BeeldebanNest",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "bauxite",
+         "zircon"
+      ]
+   },
+   "name" : "McBeetle Sandwich Shortage",
+   "network_19_completion" : "%s has resupplied McBeetles, plenty for all.",
+   "network_19_headline" : "McBeetle sandwiches are running out, act now!"
+}

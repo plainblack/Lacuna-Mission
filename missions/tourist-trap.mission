@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "This lonely stretch of space gives travelers no reason to stop.  Ever since the new hyper-efficient FTL drives came along, our sad little refueling depot has no business at all!  If only we had some kind of pointless attraction to draw people in so we can take their hard earned Essentia!  You can have these trinkets that we found if you help us.\n\nNote: Due to filing limitations, we can't guarantee which Kalavian Ruins Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::KalavianRuins",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "galena",
+         "gold"
+      ]
+   },
+   "name" : "Tourist Trap",
+   "network_19_completion" : "%s has discovered a great reason to visit that place you never noticed before!",
+   "network_19_headline" : "Refueling station going out of business."
+}

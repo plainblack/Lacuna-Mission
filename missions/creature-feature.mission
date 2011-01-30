@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "We're filming Creature of the Lagoon 23 but the lagoon we were going to use is protected by some local wetlands preservation nonsense.  Who cares about ducks?  We have a movie to make!  Find us a new shooting location and you can have this charcoal-whatsit-called thing that my assistant was babbling about.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lagoon",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite"
+      ]
+   },
+   "name" : "Creature Feature",
+   "network_19_completion" : "%s helps create movie, still no one cares.",
+   "network_19_headline" : "Cheesy horror movie production in doubt, no one cares."
+}

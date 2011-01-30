@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "The island planet of Fijutsi is very superstitious, and believes that Essentia and good fortune will come to them with a sacrifice every 100 years.  Unfortunately for them, the volcano they traditionally use for this sacrifice was paved to make room for an interstellar parking lot several years ago.  Without the volcano, they are certain to have bad luck and bad credit!  Help them find a volcano and they'll give you some leftover debris from the parking lot.\n\nNote: Due to filing limitations, we can't guarantee which Volcano Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "magnetite",
+         "uraninite"
+      ]
+   },
+   "name" : "Virgin, Sans Volcano",
+   "network_19_completion" : "%s has granted the Fijutsans another hundred years of restless paranoia.",
+   "network_19_headline" : "Fijutsi needs a firey pit!"
+}

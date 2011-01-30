@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "Sushi has really gotten trendy in this sector, and while we have a good supply of, um, \"fish\", we're running out of seaweed!  Find us a good supply and you can have these things we found in the, uh, \"oysters\".\n\nNote: Due to filing limitations, we can't guarantee which Algae Pond Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::AlgaePond",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane",
+         "uraninite"
+      ]
+   },
+   "name" : "Sushi Emporium",
+   "network_19_completion" : "%s has returned the full sushi menu, now taking reservations.",
+   "network_19_headline" : "Sashimi only today, maki again tomorrow."
+}

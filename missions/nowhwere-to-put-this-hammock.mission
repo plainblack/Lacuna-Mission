@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "I bought this great hammock on sale, but forgot that I have no trees!  I can't return it, so now my only choice is to find somewhere to hang it.  Find me some trees and I'll give you this piece of hardened methane.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane"
+      ]
+   },
+   "name" : "Nowhere To Put This Hammock",
+   "network_19_completion" : "%s plants trees, thankful citizen can finally rest.",
+   "network_19_headline" : "Looking for an experienced gardener."
+}

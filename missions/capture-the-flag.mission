@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "We got these kick-butt new paintball guns and we're dying to play some capture-the-flag, but we can't find anywhere that's big and twisty enough to make it fun.  I bet some old fort type building would be awesome!  Do you know of anywhere like that?  We found these funny rocks in the box of paintballs that you can have if you help us out.\n\nNote: Due to filing limitations, we can't guarantee which Citadel of Knope Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::CitadelOfKnope",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "beryl",
+         "galena",
+         "monazite",
+         "sulfur"
+      ]
+   },
+   "name" : "Capture The Flag",
+   "network_19_completion" : "%s is mis-using ancient mysterious technology for cheap thrills.  Good for you!",
+   "network_19_headline" : "Kids just wanna have fun and splatter each other with paint."
+}

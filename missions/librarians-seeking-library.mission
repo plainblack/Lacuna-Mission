@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "The librarian convention on Dewey 8 has arrived, and the planning commission forgot to build a library!  If you can help them out, they can give you these shiny rocks they found.\n\nNote: Due to filing limitations, we can't guarantee which Library of Jith Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::LibraryOfJith",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "rutile",
+         "trona"
+      ]
+   },
+   "name" : "Librarians Seeking Library",
+   "network_19_completion" : "%s has quelled the librarians' wrath.",
+   "network_19_headline" : "Angry librarians need books!"
+}

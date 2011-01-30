@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "I'm always losing things, and it usually turns out they're in the last place I look!  Imagine that!  But this time, when I looked there, they were still missing!  Maybe some kind of all-seeing psychic could help me.  I wonder if they'll take these weird rock things I found as payment.\n\nNote: Due to filing limitations, we can't guarantee which Oracle of Anid Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::OracleOfAnid",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite",
+         "uraninite"
+      ]
+   },
+   "name" : "Lost My Keys",
+   "network_19_completion" : "%s helps find keys, turns out they were on coffee table.",
+   "network_19_headline" : "Dunderhead can't find his keys, looking for a clue."
+}

@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "I heard that these kids on this other colony have this WICKED skate park.  I bet if we found a hole big enough we could make a half pipe that would send us halfway to the next orbit!  You know of anything like that?  We got these glyph things from my dad's house if you want them in return.\n\nNote: Due to filing limitations, we can't guarantee which Ravine Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Ravine",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "fluorite",
+         "galena",
+         "methane",
+         "zircon"
+      ]
+   },
+   "name" : "Best Skate Park EVAR",
+   "network_19_completion" : "%s is helping children endanger their lives like never before.",
+   "network_19_headline" : "Thrashers are looking for a new skate park."
+}

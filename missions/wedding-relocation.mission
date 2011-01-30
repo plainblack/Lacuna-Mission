@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "Our wedding is ruined!  An asteroid smashed the church and now we have nowhere to get married!  Please find us a temple and we'll reward you with these family heirlooms.\n\nNote: Due to filing limitations, we can't guarantee which Temple of the Drajilites Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::TempleOfTheDrajilites",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "chromite",
+         "kerogen",
+         "rutile"
+      ]
+   },
+   "name" : "Wedding Relocation",
+   "network_19_completion" : "%s has donated a temple to the happy wedding couple.",
+   "network_19_headline" : "Chapel demolished, wedding postponed."
+}

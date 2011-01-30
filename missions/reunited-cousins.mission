@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "My cousin moved to the other dimension 30 years ago and I'd really like to see her!  She says it's really nice over there, but it's starting to get a little crowded with all the stuff that people keep sending over.  Anyway, if you can help me visit her, I'll let you have these rare gems.\n\nNote: Due to filing limitations, we can't guarantee which Interdimensional Rift Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::InterDimensionalRift",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "fluorite",
+         "methane",
+         "zircon"
+      ]
+   },
+   "name" : "Reunited Cousins",
+   "network_19_completion" : "%s helps facilitate a long overdue family reunion.",
+   "network_19_headline" : "Report says that distant family members should see each other more often."
+}
