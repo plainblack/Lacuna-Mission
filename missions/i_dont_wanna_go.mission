@@ -1,0 +1,60 @@
+# config-file-type: JSON 1
+{
+   "description" : "I just got an assignment that I just don't want to do. Infiltrate the Trel!?\n\n Never mind who I am, look, you do this one favor for me and I'll set you up with some handy plans that I happen to have. Just send a detonator to each of these stars.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "detonator",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "detonator",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "detonator",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Shake",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Soup",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::CloakingLab",
+            "extra_build_level" : 0,
+            "level" : 20
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::MunitionsLab",
+            "extra_build_level" : 0,
+            "level" : 15
+         }
+      ]
+   },
+   "name" : "I Don't Wanna Go!",
+   "network_19_completion" : "<redacted> is missing one of their spies.",
+   "network_19_headline" : "The Moose Barks at Midnight."
+}

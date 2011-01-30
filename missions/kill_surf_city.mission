@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Nice planet you got here, good ship building capabilities.\n\nWe'd like you to send a message to a particular planet.  They refused to see things our way, and you can't let them just walk away.  We're a little short on Snark IIs right now, but we'll make it worth your while.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "snark",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : 1,
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 4000,
+            "stealth" : 0,
+            "type" : "galleon"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 2000000,
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "hulk"
+         }
+      ]
+   },
+   "name" : "Kill Surf City",
+   "network_19_completion" : "%s is suspected to have links to a protection racket!",
+   "network_19_headline" : "Who would want to cause trouble for a vacation resort?"
+}

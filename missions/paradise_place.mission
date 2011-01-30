@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hide your genetics under drastic cosmetics!  Alpha Zeta has managed to work out the secrets of the genetics lab to make sure your people get the best look for their planet.  This will bring out a lot of happiness and make sure your planet is productive.\nAll we need from you is a location to setup our lab, and we can begin processing your people.  Afterward, they'll be happier and we'll reduce our lab into components.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 800000,
+         "energy" : 5000000,
+         "gold" : 500000,
+         "water" : 800000,
+         "wheat" : 100000,
+         "zircon" : 800000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 1000000,
+      "resources" : {
+         "waste" : 25000000
+      }
+   },
+   "name" : "Paradise Place",
+   "network_19_completion" : "%s has boosted his planet's self esteem!",
+   "network_19_headline" : "New breakthroughs in genetic modifications found!"
+}

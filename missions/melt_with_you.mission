@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "I can't believe the incompetents that could of screwed this up!\n\nFELDSPAR IS NOT A CHEESE!\n\nThis is the last time they do this.  If you can supply us with enough cheese, and teach those idiots a lesson, I'll give you their payment.  A bit of trash will make sure they don't do this again.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scow",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "cheese" : 100000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "chromite"
+      ]
+   },
+   "name" : "Melt with You",
+   "network_19_completion" : "%s has supplied the Cheese Festival!",
+   "network_19_headline" : "Cheese Festival off to a rocky start!"
+}

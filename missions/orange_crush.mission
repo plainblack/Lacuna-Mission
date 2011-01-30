@@ -1,0 +1,58 @@
+# config-file-type: JSON 1
+{
+   "description" : "We need hep finding our lost starship, The Star of Zeela.  We can find it if we get appropriate core samples from three asteroids set far apart from each other.  The radiation signature is very unique.  You can keep whatever you find with your excavators plus a substantial bonus.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 0,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  10
+               ],
+               "type" : "asteroid"
+            }
+         },
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 0,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  10
+               ],
+               "type" : "asteroid"
+            }
+         },
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 0,
+               "size" : [
+                  1,
+                  10
+               ],
+               "type" : "asteroid"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Orange Crush",
+   "network_19_completion" : "%s supplied the data that allowed the Star of Zeela to be found.",
+   "network_19_headline" : "Valuable Cargo lost in asteroid belts."
+}

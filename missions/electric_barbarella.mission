@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "Alpha Zeta has produced a new line of companion androids, suitable for many tasks around the housing project. We'll just need a suitable payment of various ores, food, energy, and water to setup a small one time factory.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 1000000,
+         "corn" : 1000000,
+         "energy" : 6000000,
+         "fluorite" : 1000000,
+         "fungus" : 1000000,
+         "gold" : 1000000,
+         "gypsum" : 1000000,
+         "milk" : 1000000,
+         "monazite" : 1000000,
+         "rutile" : 1000000,
+         "water" : 6000000,
+         "wheat" : 1000000,
+         "zircon" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 10000000,
+      "resources" : {
+         "waste" : 25000000
+      }
+   },
+   "name" : "Electric Barbarella",
+   "network_19_completion" : "%s has much more leisure time now.",
+   "network_19_headline" : "New line of androids sparks protests at Alpha Zeta HQ!"
+}
