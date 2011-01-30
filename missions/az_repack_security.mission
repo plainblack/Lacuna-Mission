@@ -1,0 +1,35 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here in the Alpha-Zeta offices, we've learned that often you wind up with plans you have no use for. That's where we come in!  Give us your unused plan and we'll give you a special ship!\n\nNote: Due to filing limitations, we can't guarantee which Security Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Security",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 12000,
+            "hold_size" : 0,
+            "speed" : 6000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 12000,
+            "hold_size" : 0,
+            "speed" : 6000,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Plan stripping - Security",
+   "network_19_completion" : "%s has redeemed his Security Ministry Plan for a larger space defense force!",
+   "network_19_headline" : "Turn a Security Plan into a space defense force!"
+}
