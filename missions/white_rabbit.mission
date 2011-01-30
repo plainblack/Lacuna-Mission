@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "If you've got some kind of mushroom, we can set you up with a special ship.  Designed to get past pesky security ministries that just want to harsh your mellow.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "fungus" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 75000,
+            "speed" : 5000,
+            "stealth" : 18000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "White Rabbit",
+   "network_19_completion" : "%s or possibly the dormouse says, \"Feed your head\".",
+   "network_19_headline" : "Go ask Alice, I think she'll know."
+}

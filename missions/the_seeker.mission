@@ -1,0 +1,94 @@
+# config-file-type: JSON 1
+{
+   "description" : "I'm very desperate, I've been looking high and low and I fear I won't get what I'm after.  I used up the last of my surveyors and need just a few more planets looked at.  Do this, and you can get the last of my budget, the worthless ship my ex left, and these glyphs that could be turned into a algae pond.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "surveyor",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "surveyor",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "gas_giant"
+            }
+         },
+         {
+            "ship_type" : "surveyor",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "surveyor",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "surveyor",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane",
+         "uraninite"
+      ],
+      "resources" : {
+         "gold" : 250000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "speed" : 5000,
+            "stealth" : 15000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "The Seeker",
+   "network_19_completion" : "%s found the key to fifty million fables!",
+   "network_19_headline" : "Desperate archeologist  is worried about focusing on nowhere."
+}

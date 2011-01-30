@@ -1,0 +1,29 @@
+# config-file-type: JSON 1
+{
+   "description" : "Tired of thin little pseudo pods that can barely grip a pencil?  Here at Alpha Zeta Laboratories, we've come up with a unique shake guaranteed to bulk up your species!  No more having gypsum kicked in your face at your favorite Beach!\nBuy now and you get a galleon filled with our product!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 250000,
+         "gold" : 250000,
+         "water" : 150000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "shake" : 500000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 4000,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "name" : "Pump it Up!",
+   "network_19_completion" : "%s has pumped up their populace!",
+   "network_19_headline" : "New Diet is helping billions!"
+}

@@ -1,0 +1,37 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at Alpha-Zeta, we realize sometimes you get a PCC, but don't know what to do with it once you have it.  Our team of consultants can take that PCC plan kit and some materials, and make it into a shiny colony ship for you.  Just give us your unwanted plan, pay for our expenses, and we'll have a sleek colony ship for you.\n\nNote: Due to filing limitations, we can't guarantee which PCC Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "bread" : 2500,
+         "burger" : 2500,
+         "cheese" : 2500,
+         "chip" : 500,
+         "cider" : 2000,
+         "gold" : 40000,
+         "water" : 20000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 750,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "name" : "Repackaging",
+   "network_19_completion" : "%s has learned how to repack their PCC.",
+   "network_19_headline" : "How to repack seminar available through the expanse."
+}

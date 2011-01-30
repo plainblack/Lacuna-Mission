@@ -1,0 +1,79 @@
+# config-file-type: JSON 1
+{
+   "description" : "Our planet has the technology to expand, but the populace is very worried about where we would go.  And who might be out there?  I've convinced them that we can talk to you, to send out a few scanner & surveyors to check things out.\nIf you do some scans and surveys for us, we'll replace your equipment with our own, plus an extra incentive.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "gas_giant"
+            }
+         },
+         {
+            "ship_type" : "surveyor",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gold"
+      ],
+      "happiness" : 1,
+      "ships" : [
+         {
+            "combat" : 100,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 100,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 1000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 7500,
+            "type" : "surveyor"
+         }
+      ]
+   },
+   "name" : "Paranoid",
+   "network_19_completion" : "%s has helped out a skittish empire.",
+   "network_19_headline" : "Planet in Isolation worried about plans for expansion."
+}
