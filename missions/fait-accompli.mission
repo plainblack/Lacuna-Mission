@@ -1,2 +1,50 @@
 # config-file-type: JSON 1
-{"name":"Fait Accompli","mission_objective":{"happiness":1000000},"description":"If people think you're happy and complacent, they'll walk all over you.  Let's turn that smile upside down and make others fear you!","mission_reward":{"ships":[{"type":"security_ministry_seeker","combat":0,"hold_size":0,"stealth":0,"speed":1200},{"type":"security_ministry_seeker","combat":0,"hold_size":0,"stealth":0,"speed":1200},{"type":"security_ministry_seeker","combat":0,"hold_size":0,"stealth":0,"speed":1200},{"type":"security_ministry_seeker","combat":0,"hold_size":0,"stealth":0,"speed":1200},{"type":"security_ministry_seeker","combat":0,"hold_size":0,"stealth":0,"speed":1200}]},"network_19_headline":"Happiness fuels a new weapons program!","network_19_completion":"%s has put on a grimmer outlook!","max_university_level":"30"}
+{
+   "description" : "If people think you're happy and complacent, they'll walk all over you.  Let's turn that smile upside down and make others fear you!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "happiness" : 1000000
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 8000,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 4000,
+            "type" : "security_ministry_seeker"
+         },
+         {
+            "combat" : 8000,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 4000,
+            "type" : "security_ministry_seeker"
+         },
+         {
+            "combat" : 8000,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 4000,
+            "type" : "security_ministry_seeker"
+         },
+         {
+            "combat" : 8000,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 4000,
+            "type" : "security_ministry_seeker"
+         },
+         {
+            "combat" : 8000,
+            "hold_size" : 0,
+            "speed" : 2000,
+            "stealth" : 4000,
+            "type" : "security_ministry_seeker"
+         }
+      ]
+   },
+   "name" : "Fait Accompli",
+   "network_19_completion" : "%s has put on a grimmer outlook!",
+   "network_19_headline" : "Happiness fuels a new weapons program!"
+}
