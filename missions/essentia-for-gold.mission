@@ -9,9 +9,9 @@
    },
    "mission_reward" : {
       "bread" : 300,
-      "halite" : 300,
-      "trona" : 300,
       "gypsum" : 300,
+      "halite" : 300,
+      "trona" : 300
    },
    "name" : "A Proper Funeral",
    "network_19_completion" : "%s made local woman's funeral a joyous event rather than a sad one.",

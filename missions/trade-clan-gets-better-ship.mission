@@ -1,2 +1,31 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"fungus":2000,"water":3560,"goethite":20172,"energy":11866,"algae":2048,"bean":2000,"gold":6350,"apple":2000}},"name":"Trade Clan Gets Better Ship","mission_reward":{"ships":[{"combat":0,"hold_size":100000,"stealth":5000,"type":"cargo_ship","speed":2000}]},"network_19_headline":"Yamocraw Trade Clan Gets Better Ship. Selling Old One.","network_19_completion":"%s got a great deal on a well maintained used cargo ship.","max_university_level":"30","description":"The Yamocraw Trade Clan is ready to move from a cargo ship to a freighter. But first they need someone to buy their old ship. They are willing to sell it for 50k of resources. Their cargo ship \"Ethano\" has been extremely well maintained."}
+{
+   "description" : "The Yamocraw Trade Clan is ready to move from a cargo ship to a freighter. But first they need someone to buy their old ship. They are willing to sell it for 50k of resources. Their cargo ship \"Ethano\" has been extremely well maintained.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 2048,
+         "apple" : 2000,
+         "bean" : 2000,
+         "energy" : 11866,
+         "fungus" : 2000,
+         "goethite" : 20172,
+         "gold" : 6350,
+         "water" : 3560
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 100000,
+            "speed" : 2000,
+            "stealth" : 5000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Trade Clan Gets Better Ship",
+   "network_19_completion" : "%s got a great deal on a well maintained used cargo ship.",
+   "network_19_headline" : "Yamocraw Trade Clan Gets Better Ship. Selling Old One."
+}
