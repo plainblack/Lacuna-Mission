@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"monazite":50000,"goethite":50000}},"name":"Pluto Drive","mission_reward":{"ships":[{"combat":0,"hold_size":3500,"stealth":20000,"type":"smuggler_ship","speed":1000}]},"network_19_headline":"Alpha-Zeta Corp announces new drive!","network_19_completion":"Odd shapes light up the night.","max_university_level":"20","description":"We need some testing done of our new Pluto Drive.  The ship doesn't hold much and the power requirements keep the speed down, but I'm sure you'll find some uses for it.  We just need some more supplies to keep our tests going."}
+{
+   "description" : "We need some testing done of our new Pluto Drive.  The ship doesn't hold much and the power requirements keep the speed down, but I'm sure you'll find some uses for it.  We just need some more supplies to keep our tests going.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "goethite" : 50000,
+         "monazite" : 50000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 3500,
+            "speed" : 1000,
+            "stealth" : 20000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Pluto Drive",
+   "network_19_completion" : "Odd shapes light up the night.",
+   "network_19_headline" : "Alpha-Zeta Corp announces new drive!"
+}

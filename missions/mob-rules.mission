@@ -1,2 +1,43 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"shake":500,"root":5000,"corn":5000,"pie":500,"potato":5000,"milk":5000,"pancake":500,"bean":5000,"soup":500,"lapis":5000,"beetle":5000,"bread":500,"syrup":500,"meal":500,"cider":500,"wheat":5000,"apple":5000,"chip":500,"cheese":500,"burger":500}},"name":"The Mob Rules","mission_reward":{"ships":[{"combat":0,"hold_size":25000,"stealth":20000,"type":"smuggler_ship","speed":3500}]},"network_19_headline":"Riots run rampant on Rosteen 9!","network_19_completion":"Four out of Five Scientists recommend a varied diet for maximum happiness!","max_university_level":"25","description":"The people are rioting after being fed a constant diet of fungus and algae!  Please supply us with a decent variety and while you're at it, can I emigrate to your fine empire?  When I get there, you can have my ship and contents.  I'll just be happy to get away from this dreary world."}
+{
+   "description" : "The people are rioting after being fed a constant diet of fungus and algae!  Please supply us with a decent variety and while you're at it, can I emigrate to your fine empire?  When I get there, you can have my ship and contents.  I'll just be happy to get away from this dreary world.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 5000,
+         "bean" : 5000,
+         "beetle" : 5000,
+         "bread" : 500,
+         "burger" : 500,
+         "cheese" : 500,
+         "chip" : 500,
+         "cider" : 500,
+         "corn" : 5000,
+         "lapis" : 5000,
+         "meal" : 500,
+         "milk" : 5000,
+         "pancake" : 500,
+         "pie" : 500,
+         "potato" : 5000,
+         "root" : 5000,
+         "shake" : 500,
+         "soup" : 500,
+         "syrup" : 500,
+         "wheat" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 25000,
+            "speed" : 4500,
+            "stealth" : 15000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "The Mob Rules",
+   "network_19_completion" : "Four out of Five Scientists recommend a varied diet for maximum happiness!",
+   "network_19_headline" : "Riots run rampant on Rosteen 9!"
+}

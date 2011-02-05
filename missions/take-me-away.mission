@@ -1,2 +1,63 @@
 # config-file-type: JSON 1
-{"mission_objective":{"fleet_movement":[{"target":{"inhabited":1,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"scanner"},{"target":{"inhabited":1,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"snark"}]},"name":"Take me Away","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":20000,"type":"spy_shuttle","speed":6000},{"combat":0,"hold_size":0,"stealth":25000,"type":"spy_pod","speed":8000},{"combat":0,"hold_size":10000,"stealth":20000,"type":"smuggler_ship","speed":5000}]},"network_19_headline":"The men in black, their lips are sealed.","network_19_completion":"Strange shapes light up the night.","max_university_level":"30","description":"Send a snark over to the named target after scanning, so we can sneak some \"people\" in.  Distraction is the name of the game!\n\nYou'll be rewarded with a couple of top-of-the-line spy delivery ships.  Thanks in advance."}
+{
+   "description" : "Send a snark over to the named target after scanning, so we can sneak some \"people\" in.  Distraction is the name of the game!\n\nYou'll be rewarded with a couple of top-of-the-line spy delivery ships.  Thanks in advance.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "snark",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 6000,
+            "stealth" : 17500,
+            "type" : "spy_shuttle"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 8000,
+            "stealth" : 20000,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 25000,
+            "speed" : 5000,
+            "stealth" : 12000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Take me Away",
+   "network_19_completion" : "Strange shapes light up the night.",
+   "network_19_headline" : "The men in black, their lips are sealed."
+}
