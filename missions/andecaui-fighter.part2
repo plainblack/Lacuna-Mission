@@ -1,2 +1,40 @@
 # config-file-type: JSON 1
-{"max_university_level":"25","mission_reward":{"ships":[{"combat":4500,"type":"fighter","stealth":10,"hold_size":0,"speed":1800},{"combat":4500,"type":"fighter","stealth":10,"hold_size":0,"speed":1800}]},"network_19_headline":"Archeologist looking for research sponsor.","description":"Hello, Archeologist Aliyuden here. I have had some success in discovering ancient Andecaui technology. I just returned from an Andecaui settlement dig. It seems that the Andecaui used a very advanced form of nano-bot manufacturing. They would build a 'core' then program the nano-bots to convert that core into a more useful and specific purposes. \n\nIt turns out that the Andecaui 'probe' is actually a base core they build all their ships from. I think I have discovered how to convert the core into a simple fighter. The fighter is nothing special, but I am certain they can be upgraded as I unlock more of the Andecaui ancient secrets. I will need one Andecaui 'probe'. And with the addition of some energy, I think I can use the probe to convert the dories into  very basic Mark I Andecaui fighters. Lets try it out. \n\n[Be sure to save the fighters, I am certain I can convert them into a more powerful version as I better understand this technology.]","network_19_completion":"Archeologist submits scientific paper on ancient alien construction techniques.","name":"Andecaui Mark I Fighter","mission_objective":{"resources":{"energy":60000},"ships":[{"combat":4,"type":"probe","stealth":0,"hold_size":0,"speed":125}]}}
+{
+   "description" : "Hello, Archeologist Aliyuden here. I have had some success in discovering ancient Andecaui technology. I just returned from an Andecaui settlement dig. It seems that the Andecaui used a very advanced form of nano-bot manufacturing. They would build a 'core' then program the nano-bots to convert that core into a more useful and specific purposes. \n\nIt turns out that the Andecaui 'probe' is actually a base core they build all their ships from. I think I have discovered how to convert the core into a simple fighter. The fighter is nothing special, but I am certain they can be upgraded as I unlock more of the Andecaui ancient secrets. I will need one Andecaui 'probe'. And with the addition of some energy, I think I can use the probe to convert the dories into  very basic Mark I Andecaui fighters. Lets try it out. \n\n[Be sure to save the fighters, I am certain I can convert them into a more powerful version as I better understand this technology.]",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 60000
+      },
+      "ships" : [
+         {
+            "combat" : 4,
+            "hold_size" : 0,
+            "speed" : 125,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 4500,
+            "hold_size" : 0,
+            "speed" : 1800,
+            "stealth" : 10,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 4500,
+            "hold_size" : 0,
+            "speed" : 1800,
+            "stealth" : 10,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Andecaui Mark I Fighter",
+   "network_19_completion" : "Archeologist submits scientific paper on ancient alien construction techniques.",
+   "network_19_headline" : "Archeologist looking for research sponsor."
+}

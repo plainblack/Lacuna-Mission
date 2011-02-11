@@ -1,2 +1,44 @@
 # config-file-type: JSON 1
-{"max_university_level":"30","mission_reward":{"ships":[{"combat":10,"type":"hulk","stealth":3200,"hold_size":2500000,"speed":2000}]},"network_19_headline":"Archeologist uncovers ancient design for an incredible Hulk starship.","description":"Hello, Archeologist Aliyuden here. \n\nI have been working at a very interesting ancient Andecaui ship factory site. It appears that the Andecaui did not have a great need for cargo ships, due to their use of nano-manufacturing. However what is strange is there seems to be plans for construction of an extremely large transport vehicle. \n\nWhile I am still trying to understand why the Andecaui would need such a vehicle, I am very near to understanding how to execute the program which will instruct the nano-tech cores within the probes to combine and create something which I believe will resemble a modern hulk. In order to get the process started I will need a massive amount of energy and chalcopyrite and uraninite glyph to act as catalysts.for the construction of the propulsion systems. \n\nIf you can provide these items, I can get this ancient factory up and running and produce for you the incredible Andecaui Hulk!","network_19_completion":"Incredible Andecaui Hulk has been unveiled today in the Expanse by %s.","name":"The incredible Andecaui Hulk","mission_objective":{"glyphs":["chalcopyrite","uraninite"],"resources":{"energy":400000},"ships":[{"combat":4,"type":"probe","stealth":0,"hold_size":0,"speed":125},{"combat":4,"type":"probe","stealth":0,"hold_size":0,"speed":125}]}}
+{
+   "description" : "Hello, Archeologist Aliyuden here. \n\nI have been working at a very interesting ancient Andecaui ship factory site. It appears that the Andecaui did not have a great need for cargo ships, due to their use of nano-manufacturing. However what is strange is there seems to be plans for construction of an extremely large transport vehicle. \n\nWhile I am still trying to understand why the Andecaui would need such a vehicle, I am very near to understanding how to execute the program which will instruct the nano-tech cores within the probes to combine and create something which I believe will resemble a modern hulk. In order to get the process started I will need a massive amount of energy and chalcopyrite and uraninite glyph to act as catalysts.for the construction of the propulsion systems. \n\nIf you can provide these items, I can get this ancient factory up and running and produce for you the incredible Andecaui Hulk!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "uraninite"
+      ],
+      "resources" : {
+         "energy" : 400000
+      },
+      "ships" : [
+         {
+            "combat" : 4,
+            "hold_size" : 0,
+            "speed" : 125,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 4,
+            "hold_size" : 0,
+            "speed" : 125,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 10,
+            "hold_size" : 2500000,
+            "speed" : 2000,
+            "stealth" : 3200,
+            "type" : "hulk"
+         }
+      ]
+   },
+   "name" : "The incredible Andecaui Hulk",
+   "network_19_completion" : "Incredible Andecaui Hulk has been unveiled today in the Expanse by %s.",
+   "network_19_headline" : "Archeologist uncovers ancient design for an incredible Hulk starship."
+}
