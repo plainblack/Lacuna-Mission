@@ -51,21 +51,21 @@
       "happiness" : 1,
       "ships" : [
          {
-            "combat" : 100,
+            "combat" : 250,
             "hold_size" : 0,
             "speed" : 10000,
             "stealth" : 0,
             "type" : "scanner"
          },
          {
-            "combat" : 100,
+            "combat" : 250,
             "hold_size" : 0,
             "speed" : 10000,
             "stealth" : 0,
             "type" : "scanner"
          },
          {
-            "combat" : 1000,
+            "combat" : 1250,
             "hold_size" : 0,
             "speed" : 10000,
             "stealth" : 7500,
