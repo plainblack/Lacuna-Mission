@@ -12,7 +12,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 4,
+            "combat" : 0,
             "hold_size" : 0,
             "speed" : 125,
             "stealth" : 0,

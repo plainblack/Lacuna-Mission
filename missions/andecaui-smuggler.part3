@@ -9,7 +9,7 @@
       },
       "ships" : [
          {
-            "combat" : 10,
+            "combat" : 0,
             "hold_size" : 50000,
             "speed" : 3900,
             "stealth" : 10000,
@@ -27,7 +27,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 20,
+            "combat" : 0,
             "hold_size" : 75000,
             "speed" : 4200,
             "stealth" : 13000,
