@@ -16,8 +16,8 @@
          {
             "combat" : 0,
             "hold_size" : 0,
-            "speed" : 7500,
-            "stealth" : 20000,
+            "speed" : 6000,
+            "stealth" : 15000,
             "type" : "spy_shuttle"
          }
       ]
