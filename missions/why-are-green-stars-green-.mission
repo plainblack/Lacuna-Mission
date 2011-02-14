@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"mission_objective":{"fleet_movement":[{"target":{"in_zone":0,"color":"green","type":"star"},"ship_type":"probe"}]},"name":"Why Are Green Stars Green?","mission_reward":{"resources":{"sulfur":10000}},"network_19_headline":"Local astronomer is looking to conduct a mission to find out why green stars are green.","network_19_completion":"Local astronomer thanks %s for helping him discover why green stars are green.","max_university_level":"7","description":"I want to find out why green stars are green. I've consulted local astronomers and nobody is quite certain. Green stars don't exist in the Milky Way, but they do appear to exist in the Lacuna Expanse and it has fascinated me since I was a child. Unfortunately, since I'm just an amateur I don't have the ability to conduct a mission myself, but I'd be happy to pay you to find out the answer. There is a specific star I have in mind that is quite a distance from here. Send a probe, and give me the results. I'll pay you from my family's sulfur mine. I'm sure you realize sulfur is a quite useful material."}
+{
+   "description" : "I want to find out why green stars are green. I've consulted local astronomers and nobody is quite certain. Green stars don't exist in the Milky Way, but they do appear to exist in the Lacuna Expanse and it has fascinated me since I was a child. Unfortunately, since I'm just an amateur I don't have the ability to conduct a mission myself, but I'd be happy to pay you to find out the answer. There is a specific star I have in mind that is quite a distance from here. Send a probe, and give me the results. I'll pay you from my family's sulfur mine. I'm sure you realize sulfur is a quite useful material.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "sulfur" : 10000
+      }
+   },
+   "name" : "Why Are Green Stars Green?",
+   "network_19_completion" : "Local astronomer thanks %s for helping him discover why green stars are green.",
+   "network_19_headline" : "Local astronomer is looking to conduct a mission to find out why green stars are green."
+}

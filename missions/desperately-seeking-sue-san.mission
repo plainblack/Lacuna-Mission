@@ -1,2 +1,101 @@
 # config-file-type: JSON 1
-{"name":"Desperately Seeking Sue San","mission_objective":{"fleet_movement":[{"target":{"isolationist":0,"in_zone":0,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"scanner"},{"target":{"isolationist":0,"in_zone":0,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"scanner"},{"target":{"isolationist":0,"in_zone":0,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"scanner"},{"target":{"isolationist":0,"in_zone":0,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"scanner"},{"target":{"isolationist":0,"in_zone":0,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"scanner"},{"target":{"isolationist":0,"in_zone":0,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"scanner"}]},"description":"The paparazzi are desperately seeking famous choreographer and singer Sue San. They believe she is on vacation on an inhabited planet in a neighboring system. Their engineers are able to retrofit an hexangulation system onto scanners targeting unspecified black market implants. If you are willing to send six scanners to a neighboring inhabited system, they will provide you with a standard class cargo ship.","mission_reward":{"ships":[{"type":"cargo_ship","combat":0,"hold_size":45000,"stealth":3000,"speed":1200}]},"network_19_headline":"Paparazzi are desperately seeking Sue San!","network_19_completion":"%s associates with scum paparazzi in failed attempt to locate Sue San!","max_university_level":"8"}
+{
+   "description" : "The paparazzi are desperately seeking famous choreographer and singer Sue San. They believe she is on vacation on an inhabited planet in a neighboring system. Their engineers are able to retrofit an hexangulation system onto scanners targeting unspecified black market implants. If you are willing to send six scanners to a neighboring inhabited system, they will provide you with a standard class cargo ship.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 45000,
+            "speed" : 1200,
+            "stealth" : 3000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Desperately Seeking Sue San",
+   "network_19_completion" : "%s associates with scum paparazzi in failed attempt to locate Sue San!",
+   "network_19_headline" : "Paparazzi are desperately seeking Sue San!"
+}

@@ -1,2 +1,99 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"freighter","speed":0}],"fleet_movement":[{"target":{"inhabited":1,"type":"habitable","size":[58,60],"isolationist":0,"in_zone":0},"ship_type":"scanner"}],"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::AlgaePond","level":1,"extra_build_level":0},{"classname":"Lacuna::DB::Result::Building::Permanent::NaturalSpring","level":1,"extra_build_level":0}],"resources":{"energy":500000},"glyphs":["goethite"]},"name":"Singularly Powerful, Part 3","mission_reward":{"ships":[{"combat":0,"hold_size":500000,"stealth":1500,"type":"freighter","speed":2500},{"combat":0,"hold_size":0,"stealth":0,"type":"detonator","speed":150},{"combat":350,"hold_size":250000,"stealth":500,"type":"scow","speed":1000}],"plans":[{"classname":"Lacuna::DB::Result::Building::Energy::Singularity","level":8,"extra_build_level":0},{"classname":"Lacuna::DB::Result::Building::Water::Reclamation","level":10,"extra_build_level":0},{"classname":"Lacuna::DB::Result::Building::Waste::Digester","level":10,"extra_build_level":0},{"classname":"Lacuna::DB::Result::Building::Energy::Singularity","level":9,"extra_build_level":0}]},"network_19_headline":"The Numarites issue a challenge to \"inferior\" empires.  Somebody met the SECOND challenge, so...","network_19_completion":"%s accepts the Numarite's third challenge and succeeds.  They were VERY WELL-REWARDED, if you know what we mean!","max_university_level":"14","description":"Greetings again, plebian.  We, the High Ones of Numar, issued a challenge to your pitiful, backward \"Expanse,\" and it was met!  Congratulations!  Some here say you were exceptionally lucky.\n\nSO, if you can produce and deliver YET ANOTHER 500,000 units of energy, along with some additional stipulations, we will provide you with an UPGRADE to that source of nearly limitless energy we left you (or one of your fellow Expansionists).  \n\nWhat do you say, weakling?  Can you prove us wrong?  Feeling LUCKY, punk?"}
+{
+   "description" : "Greetings again, plebian.  We, the High Ones of Numar, issued a challenge to your pitiful, backward \"Expanse,\" and it was met!  Congratulations!  Some here say you were exceptionally lucky.\n\nSO, if you can produce and deliver YET ANOTHER 500,000 units of energy, along with some additional stipulations, we will provide you with an UPGRADE to that source of nearly limitless energy we left you (or one of your fellow Expansionists).  \n\nWhat do you say, weakling?  Can you prove us wrong?  Feeling LUCKY, punk?",
+   "max_university_level" : "14",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  58,
+                  60
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "glyphs" : [
+         "goethite"
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::AlgaePond",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "energy" : 500000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
+            "extra_build_level" : 0,
+            "level" : 8
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
+            "extra_build_level" : 0,
+            "level" : 10
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
+            "extra_build_level" : 0,
+            "level" : 10
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
+            "extra_build_level" : 0,
+            "level" : 9
+         }
+      ],
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 2500,
+            "stealth" : 1500,
+            "type" : "freighter"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 150,
+            "stealth" : 0,
+            "type" : "detonator"
+         },
+         {
+            "combat" : 350,
+            "hold_size" : 250000,
+            "speed" : 1000,
+            "stealth" : 500,
+            "type" : "scow"
+         }
+      ]
+   },
+   "name" : "Singularly Powerful, Part 3",
+   "network_19_completion" : "%s accepts the Numarite's third challenge and succeeds.  They were VERY WELL-REWARDED, if you know what we mean!",
+   "network_19_headline" : "The Numarites issue a challenge to \"inferior\" empires.  Somebody met the SECOND challenge, so..."
+}

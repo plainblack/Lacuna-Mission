@@ -33,7 +33,7 @@
          {
             "ship_type" : "excavator",
             "target" : {
-               "in_zone" : 0,
+               "in_zone" : 1,
                "size" : [
                   1,
                   10

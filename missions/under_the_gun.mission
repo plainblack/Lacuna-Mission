@@ -8,7 +8,7 @@
             "ship_type" : "detonator",
             "target" : {
                "color" : "any",
-               "in_zone" : 0,
+               "in_zone" : 1,
                "type" : "star"
             }
          }
