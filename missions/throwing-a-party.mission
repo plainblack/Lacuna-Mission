@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, you!\nWe here at Party Supply.co have a great deal for you and many other empires in your area, act fast because our supply of party supplies is running out!\nFor a limited time you will get a massive party for a low low cost!\nEverything will be great, bounce houses, clowns, movies, popcorn, and much much more.\nSelect smaller adult parties will be thrown for the more mature party goer.\nAll we require is some space money and a nice heap of your planets waste removed for the party space.\nAny trash left over from the party is solely the empire throwing the party's possession and we at Party Supply Co. cannot be help liable for the clean up.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 50000,
+         "waste" : 50000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 50000,
+      "resources" : {
+         "waste" : 10000
+      }
+   },
+   "name" : "Throwing a party",
+   "network_19_completion" : "All across the galaxy wild parties were thrown by empires eager to take part in the deal of a lifetime.",
+   "network_19_headline" : "A party supply company is having a sale to celebrate their 42 years of operation!"
+}

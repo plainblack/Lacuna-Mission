@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "Dear valued potential customer, here at Used Colony Ships ship super-mega-awsome-ultra-store we are having a great sale, just put a down payment of 5000 space money and a old colony ship of yours and this brand new gas giant class settlement ship can be yours!\n\n*not held liable in case of possible dangerous results of use regarding the ship's condition or stains in the seats and cup holders from the previous owner.\n** a fee of 3000 space money and magnetite will be used to repair the ship into usable service",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 8000,
+         "magnetite" : 3000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 250,
+            "stealth" : 0,
+            "type" : "gas_giant_settlement_ship"
+         }
+      ]
+   },
+   "name" : "Used Colony Ships",
+   "network_19_completion" : "Looks like someone decided to buy that hunk of junk.",
+   "network_19_headline" : "A used colony ship company is having a deal on a pristine, rusted out, old and nearly useless gas giant colony ship!"
+}

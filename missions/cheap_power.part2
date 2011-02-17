@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "Get a bit more of this ore together and get an even more powerful Geothermal Vent!\nThis will allow you to upgrade your previously found vent!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "chalcopyrite" : 200000,
+         "sulfur" : 200000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
+            "extra_build_level" : 0,
+            "level" : 2
+         }
+      ]
+   },
+   "name" : "Cheap Power, Part 2",
+   "network_19_completion" : "Even more cheap power available from Geothermal vents!",
+   "network_19_headline" : "Even more cheap plentiful Energy available!"
+}

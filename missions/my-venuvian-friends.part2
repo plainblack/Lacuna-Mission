@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "From: unknown sender\n--\n\nHey, thanks for being so stupid, your money is safe with us, don't bother even doing anything about it, you won't get your space money anyway, enjoy the breakfast gift basket though.\n\n--\nFrom: Detective Roberts of the IUSPDDACTASUV\n\nDear, *insert name of scammed citizen here*\n   I am Detective Roberts from the International Universal Space Police Detective Department Association Counter Terrorism Agency Sports Utility Vehicle and I have word that you managed to get scammed by the Venuvians, we are doing all we can to track these bad buys down, but we need some help, we need the following and for helping us, you're investment into their scam plus a 3000 gold reward for helping us out will be given to you. It would be preferable if you would transfer the data converted into energy cells for a non suspicious deal.",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 3500
+      }
+   },
+   "name" : "My Venuvian Friends part2",
+   "network_19_completion" : "Breaking news! The Venuvian scam artists who flooded the market with counterfeit hamsters have been tracked down and arrested.",
+   "network_19_headline" : "A group of Venuvian scam artists would like to thank all the people they scammed for their success."
+}

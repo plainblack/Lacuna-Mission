@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, we need your help with funding, transfer 2000 space money to us and we will be placing 40 billion space money in your account soon, as a consolation prize we will give you a nice breakfast gift basket.\nBreakfast gift basket may or may not include or cause: pancakes, syrup, fruit, Ebola, hamsters, milk, and the feeling of being scammed.",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "milk" : 1000,
+         "pancake" : 1000,
+         "syrup" : 1000
+      }
+   },
+   "name" : "My Venuvian Friends",
+   "network_19_completion" : "In other news, the Venuvian scam artists flooded the market with thousands of counterfeit space hamsters!",
+   "network_19_headline" : "A group of Venuvian scam artists need help raising funds for a new marketing scheme!"
+}

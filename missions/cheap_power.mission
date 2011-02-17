@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "Have you heard the news? Our science lab has found a solution to low energy problems. Bang these two glyphs together and you get power!",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "chalcopyrite" : 125000,
+         "sulfur" : 125000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "sulfur"
+      ]
+   },
+   "name" : "Cheap Power",
+   "network_19_completion" : "Cheap power available from Geothermal vents!",
+   "network_19_headline" : "Cheap plentiful Energy available!"
+}

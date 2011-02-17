@@ -1,0 +1,17 @@
+# config-file-type: JSON 1
+{
+   "description" : "Praise the great white one!\nWe come from a far away land and seek funding for our pilgrimage, any amount will do but we need exactly 50000 joules and 2000 units of gold to complete our pilgrimage.\nWill you look into your heart to help us? It would boost the outlook of the people upon your kind soul.\n*the monk pats you on the back with his white cane*\nSo what do you say? You're going to help us, right?",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 50000,
+         "gold" : 50000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 50000
+   },
+   "name" : "Donations to the poor and holy",
+   "network_19_completion" : "A generous donation has been given to a band of begging blind space monks which will boost the emperors popularity.",
+   "network_19_headline" : "A band of begging blind space monks as been seen traveling from empire to empire looking for handouts, more at 10."
+}

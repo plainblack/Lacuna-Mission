@@ -1,0 +1,33 @@
+# config-file-type: JSON 1
+{
+   "description" : "We here at Mister Muggles Magical Ship Upgrade Place have decided to have a deal on gas giant colony ship upgrades, just send us your old ship and we will fix it up in no time and give it a good power boost.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 100000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "gas_giant_settlement_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 1200,
+            "stealth" : 0,
+            "type" : "gas_giant_settlement_ship"
+         }
+      ]
+   },
+   "name" : "Gas giant colony ship upgrade",
+   "network_19_completion" : "The deal for gas giant colony ship upgrades is over.",
+   "network_19_headline" : "A ship tuning company is having a deal on gas giant colony ships."
+}
