@@ -1,2 +1,23 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Barren Wuffet needs beach party catered.","network_19_completion":"Barren Wuffet's party was a huge success!","description":"Barren Wuffet, famous recluse and Trillionaire wants to throw a breakfast party on a beach and has hired you to cater the party and supply the beach. You will need 10,000 Pancakes and 10,000 Syrup to feed the guests and a beach [1] plan to create the beach. For services rendered, you will receive 30,000 gold and a Chalcopyrite Glyph.","max_university_level":"20","mission_objective":{"resources":{"pancake":50000,"syrup":50000}},"mission_reward":{"resources":{"gold":30000},"glyphs":["chalcopyrite"]},"name":"Breakfast Party"}
+{
+   "description" : "Barren Wuffet, famous recluse and Trillionaire wants to throw a breakfast party on a beach and has hired you to cater the party and supply the beach. You will need 10,000 Pancakes and 10,000 Syrup to feed the guests and a pile of gypsum to make a beach. For services rendered, you will receive 30,000 gold and a Chalcopyrite Glyph.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "pancake" : 50000,
+         "syrup" : 50000,
+         "gypsum" : 50000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite"
+      ],
+      "resources" : {
+         "gold" : 30000
+      }
+   },
+   "name" : "Breakfast Party",
+   "network_19_completion" : "Barren Wuffet's party was a huge success!",
+   "network_19_headline" : "Barren Wuffet needs beach party catered."
+}
