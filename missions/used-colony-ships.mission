@@ -1,12 +1,21 @@
 # config-file-type: JSON 1
 {
-   "description" : "Dear valued potential customer, here at Used Colony Ships ship super-mega-awsome-ultra-store we are having a great sale, just put a down payment of 5000 space money and a old colony ship of yours and this brand new gas giant class settlement ship can be yours!\n\n*not held liable in case of possible dangerous results of use regarding the ship's condition or stains in the seats and cup holders from the previous owner.\n** a fee of 3000 space money and magnetite will be used to repair the ship into usable service",
+   "description" : "Dear valued potential customer, here at Used Colony Ships ship super-mega-awsome-ultra-store we are having a great sale, just put a down payment of 5000 gold and an old colony ship of yours and this \"brand new\" gas giant class settlement ship can be yours!\n\n*not held liable in case of possible dangerous results of use regarding the ship's condition or stains in the seats and cup holders from the previous owner.\n** a fee of 8000 gold and 3000 magnetite will be used to repair the ship into usable service",
    "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
          "gold" : 8000,
          "magnetite" : 3000
-      }
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
    },
    "mission_reward" : {
       "ships" : [
