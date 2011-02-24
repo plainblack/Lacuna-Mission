@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "We realize you might want to get a colony up and running quickly, but need to protect it as well.  For that, we offer a good intelligence package that gets you up and running quickly.  All we need are some material components.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "halite",
+         "uraninite",
+         "gypsum"
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Intelligence",
+            "extra_build_level" : 6,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Espionage",
+            "extra_build_level" : 6,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Security",
+            "extra_build_level" : 6,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Intelligence Startup",
+   "network_19_completion" : "Too late! the Espionage offer has been accepted.",
+   "network_19_headline" : "Want to be equipped for Espionage?"
+}

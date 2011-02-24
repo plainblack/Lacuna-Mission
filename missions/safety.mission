@@ -1,0 +1,54 @@
+# config-file-type: JSON 1
+{
+   "description" : "Need to protect yourself?  Just found out that your asteroids are vulnerable?  We can help.  Just send in some goods, and we'll give you an excellent fighter squadron.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 200000,
+         "gold" : 100000,
+         "water" : 50000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Defense supply",
+   "network_19_completion" : "%s is now safer from attacks: are you?",
+   "network_19_headline" : "Under attack? Order online to defend a bit better! call 1-800-notarealnumber soon!"
+}

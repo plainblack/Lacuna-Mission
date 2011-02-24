@@ -1,0 +1,16 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello! We are celebrating our 2000th anniversary of Spa on the Go! To celebrate, we are offering you some happiness for the ingredient to make Spa on the Go! Deal? That was the first time I framed that as a question!!! That Spa on the Go really impacted my life!!!",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 10000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : 10000
+   },
+   "name" : "Happiness to go!",
+   "network_19_completion" : "%s is now a happy empire!",
+   "network_19_headline" : "Spa on the go is now used by half the expanse."
+}

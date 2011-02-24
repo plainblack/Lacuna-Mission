@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "You look like you could use a glyph.  I managed to aquire this nice halite glyph recently and it can be yours if you help me cover my expenses for some time.  Just ignore the stain on that corner.  It's nothing.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 20000,
+         "energy" : 50000,
+         "gold" : 20000,
+         "water" : 30000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite"
+      ]
+   },
+   "name" : "Dirty Glyph",
+   "network_19_completion" : "Corruption runs rampant in the %s police force.",
+   "network_19_headline" : "Famed archeologist found dead in home.  Murder weapon missing."
+}

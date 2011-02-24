@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Psst! Over here!  I used to work at a place where they made really complex plans. I would give you one, but i need something in exchange.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 25000,
+         "energy" : 25000,
+         "water" : 25000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::AtmosphericEvaporator",
+            "extra_build_level" : 2,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Top Secret",
+   "network_19_completion" : "...%s did not hear anything too...",
+   "network_19_headline" : "You did not hear anything..."
+}

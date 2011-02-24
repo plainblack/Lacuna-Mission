@@ -1,0 +1,33 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello y'all! If you are not an isolationist, PLEASE DO NOT DO THIS MISSION. Now, all other people, we are going to help you get your first colony, but you must supply us with 3 things: food, water, and energy. There is always a catch, but at least you are not catching it! Any way please do consider the following:",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 10000,
+         "energy" : 50000,
+         "water" : 50000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 200000,
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "supply_pod2"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 35,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         }
+      ]
+   },
+   "name" : "Breaking the Barrier",
+   "network_19_completion" : "Well, now there is one less Isolationist in the Expanse...most likely, anyway...",
+   "network_19_headline" : "Did you know that most people are Isolationists? film at 13."
+}

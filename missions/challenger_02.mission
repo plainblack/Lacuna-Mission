@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey Everybody! we are the Sralcce. Recently, we have had a power outage and can no longer chat with friends over Bookfarce! Since we ranked 27th in the most sociable species in the Expanse record book, what ever year it is, this would be huge. Can you please send us Energy to fix our generator? we will give you the old town center fountain, since no one admires it anymore.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 250000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "The Best for the Worst Energy",
+   "network_19_completion" : "today we congratulate %s for Returning the favor to the Sralcce.",
+   "network_19_headline" : "the Sralcce issued  challenges to many 'wimpy' empires, the Energy for Spring being one."
+}
