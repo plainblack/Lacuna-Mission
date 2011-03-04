@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, it's King Vulcian from the Stratios system, I have a touch that turns things to gold. I was wondering if you wanted to try something with me. I want to know what will happen if I touch gold, what it would turn to?\nI don't want to waste my own gold, but I'll give you whatever it turns out to be, 100 thousand gold and it's yours.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "pie" : 150000
+      }
+   },
+   "name" : "His Touch",
+   "network_19_completion" : "%s takes advantage of the king's touch.",
+   "network_19_headline" : "A king of a far away empire has a touch reported to turn things to gold!"
+}

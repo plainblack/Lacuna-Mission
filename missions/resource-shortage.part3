@@ -1,0 +1,62 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, it's Bob from Network 19, Thanks for the probe.  We managed to contact the empire in distress, and it seems they are in dire straights.  Supply us with a couple cargo ships and a galleon with sufficient relief supplies.  We'll turn over any archeological discoveries to you.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 100000,
+         "energy" : 150000,
+         "gold" : 100000,
+         "kerogen" : 100000,
+         "milk" : 150000,
+         "potato" : 100000,
+         "sulfur" : 100000,
+         "water" : 150000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "sulfur",
+         "chalcopyrite"
+      ],
+      "happiness" : 1000000,
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Network 19 relief fund",
+   "network_19_completion" : "A relief force was sent out today from %s.",
+   "network_19_headline" : "Distress call from distant empire, more at 10."
+}

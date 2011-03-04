@@ -1,0 +1,90 @@
+# config-file-type: JSON 1
+{
+   "description" : "To whom it may concern,\n  We are looking for a private contract with anyone willing to pilot to a nearby unknown planet and rescue our survey team, their ship was reported to have crashed after hitting some sort of magnetic storm and the planet seems to have overly hostile wildlife. Time is of the essence and we need to find them quick.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Rescue the survey team",
+   "network_19_completion" : "The lost survey team was saved just a few days ago and is being given hazard bonuses. story at 10.",
+   "network_19_headline" : "In recent news, the Zeer survey company, has lost a survey ship on a remote planet and is looking to hire a private contractor for rescue."
+}

@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, it's King Vulcian from the Stratios system, remember when we made gold to pie?\nApparently, my touch to turn gold to pie, doesn't work on gold I produced by touching other stuff.\nWe need more gold to make pie, some materials for construction,  but I can replace your gold with my own, and you'll get pies and a franchise.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 50000,
+         "gypsum" : 20000,
+         "zircon" : 10000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Pie",
+            "extra_build_level" : 2,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "gold" : 50000,
+         "pie" : 50000
+      }
+   },
+   "name" : "The Golden Pie",
+   "network_19_completion" : "Pie franchise opens in %s.",
+   "network_19_headline" : "The king's golden touch turns gold to pies, with this new found talent he plans to open a very expensive pie shop."
+}

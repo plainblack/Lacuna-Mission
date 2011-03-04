@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "As part of a community service plan our company is doing, we are looking to trade 1000 loads of delicious bread for 500 clumps of plain fungus.\nThis offer is only for new colonies so act now.",
+   "max_university_level" : "6",
+   "mission_objective" : {
+      "resources" : {
+         "fungus" : 500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bread" : 1000
+      }
+   },
+   "name" : "Fungus for bread",
+   "network_19_completion" : "%s took advantage of a mold for bread exchange.",
+   "network_19_headline" : "A local intergalactic bread company is looking to help some budding colonies."
+}

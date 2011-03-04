@@ -1,0 +1,40 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, it's bob from Network 19, I hear you got that broadcast, would you mind sending me the probe that uplinked the connection? It would help me in my career and I could make it worth your while, of course it will require a bit of energy to get the thing working again, my reports indicate that it's power supply was drained with that uplink, it must have been from a very distant location.  We'll give a couple of our fast probes in return.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 25000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Network 19 strange broadcast",
+   "network_19_completion" : "It turns out that broadcast was a distress signal, more at 11.",
+   "network_19_headline" : "Strange broadcast is being tracked down."
+}

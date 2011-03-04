@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, we know you're neutral in this conflict, can you provide a ship? Don't ask why, just know you'll be doing them a favor. Gold will be placed in your planet's storage as payment.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_shuttle"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 75000
+      }
+   },
+   "name" : "Freelance spies",
+   "network_19_completion" : "A local system's rebellion failed today as a group of contracted spies exposed a rogue agent in the systems government. Story at 11.",
+   "network_19_headline" : "A group of freelance spies are looking for a  transport."
+}

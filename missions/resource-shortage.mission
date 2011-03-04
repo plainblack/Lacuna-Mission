@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "*Static* Connection established ... uplink: c23.16.akx.379dg.0000 . This is a automated message. To whoever picks up this message, we are in the middle of a horrible economic collapse and need resources. Please, help us, we will make it worth your while with what treasures we have left.\n*static* Uplink lost.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 20000,
+         "anthracite" : 50000,
+         "energy" : 100000,
+         "lapis" : 20000,
+         "root" : 20000,
+         "water" : 100000,
+         "zircon" : 50000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "goethite",
+         "bauxite",
+         "uraninite",
+         "galena"
+      ]
+   },
+   "name" : "Resource Shortage",
+   "network_19_completion" : "A few empires have reported seeing more of this automated message than before.",
+   "network_19_headline" : "A strange automated message is being picked up."
+}

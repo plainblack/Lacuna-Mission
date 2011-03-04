@@ -48,26 +48,25 @@
       "glyphs" : [
          "gold"
       ],
-      "happiness" : 1,
       "ships" : [
          {
-            "combat" : 250,
+            "combat" : 750,
             "hold_size" : 0,
-            "speed" : 10000,
+            "speed" : 15000,
             "stealth" : 0,
             "type" : "scanner"
          },
          {
-            "combat" : 250,
+            "combat" : 750,
             "hold_size" : 0,
-            "speed" : 10000,
+            "speed" : 15000,
             "stealth" : 0,
             "type" : "scanner"
          },
          {
             "combat" : 1250,
             "hold_size" : 0,
-            "speed" : 10000,
+            "speed" : 15000,
             "stealth" : 7500,
             "type" : "surveyor"
          }

@@ -1,0 +1,40 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hey, it's Jack, I've got a contact in the illegal probe mod business, if you want I can hook you up, two probes, some dosh and I can get you set up.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 1000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 15000,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "probes mods",
+   "network_19_completion" : "An illegal probe modding ring as been busted recently for illegal modding of probes to have stealth abilities.",
+   "network_19_headline" : "An illegal probe modding ring has recently been formed."
+}

@@ -1,0 +1,48 @@
+# config-file-type: JSON 1
+{
+   "description" : "Someone has been dumping tons of gold and pie onto various markets.  We think we've figured out the solution.  We'll need to barge in a supply of beetles that have been genetically modified to eat pie.  We'll also need to setup a factory on the specified planet to drain their gold reserve.\nIn return, you'll have our gratitude.  And a more material reward.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "bleeder",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "beetle" : 100000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "barge"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 1000000,
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "name" : "Gold Crash",
+   "network_19_completion" : "Gold crisis averted, by influx of pie eating beetles.",
+   "network_19_headline" : "Financial chaos spreads as pie replace gold standard."
+}
