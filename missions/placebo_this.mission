@@ -1,0 +1,88 @@
+# config-file-type: JSON 1
+{
+   "description" : "We need a distraction while we move some special supplies.  Send some placebos to the named systems, and we'll reward you with some out of bounds tech.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "placebo2",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "placebo2",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "placebo2",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "placebo2",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "placebo2",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 300000,
+            "speed" : 4000,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "name" : "Placebo this",
+   "network_19_completion" : "%s helps with some misdirection.",
+   "network_19_headline" : "Don't look here, look over there!"
+}

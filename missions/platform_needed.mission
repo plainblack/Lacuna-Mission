@@ -1,0 +1,33 @@
+# config-file-type: JSON 1
+{
+   "description" : "We completely over built our gas platform technology.  Send us a gas giant settlement ship and we'll get you the plan for one of our massive structures.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "gas_giant_settlement_ship",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "gas_giant"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GasGiantPlatform",
+            "extra_build_level" : 19,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Platform needed",
+   "network_19_completion" : "%s has taken on a big waste producer.",
+   "network_19_headline" : "Small Platform needed for starting colony."
+}

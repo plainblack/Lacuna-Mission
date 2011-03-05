@@ -1,0 +1,40 @@
+# config-file-type: JSON 1
+{
+   "description" : "Be friendly and help out a neighbor.  Wouldn't it be nice to help out that brand new colony with a decent supply pod?",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod2",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "gas_giant"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 10000,
+         "bean" : 10000,
+         "beetle" : 10000,
+         "cheese" : 10000,
+         "corn" : 10000,
+         "energy" : 70000,
+         "halite" : 25000,
+         "lapis" : 10000,
+         "milk" : 10000,
+         "sulfur" : 25000,
+         "trona" : 20000,
+         "water" : 70000
+      }
+   },
+   "name" : "Gas in Need",
+   "network_19_completion" : "%s helped out the new colony on neighboring gas giant.",
+   "network_19_headline" : "Help out your neighbor!"
+}

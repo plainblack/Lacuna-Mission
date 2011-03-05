@@ -1,0 +1,64 @@
+# config-file-type: JSON 1
+{
+   "description" : "We're in a bit of a bind.  We need to send a Class III Supply Pod to a customer, but the factory is suffering a slow down.  If you send the supplies needed, we'll hand over a few of our special Galleons.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod3",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 1,
+               "size" : [
+                  30,
+                  55
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "galleon"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "galleon"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "galleon"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "galleon"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "name" : "Supply Drop for Ships",
+   "network_19_completion" : "%s has helped out Alpha Zeta and gotten some cool ships.",
+   "network_19_headline" : "Alpha Zeta develops new delivery ships."
+}

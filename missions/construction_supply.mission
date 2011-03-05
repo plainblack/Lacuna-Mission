@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "A giving populace is a happy populace.  Send a Class III Supply Pod to the targeted planet and your population will think much better of itself.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod3",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 1,
+               "size" : [
+                  30,
+                  55
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : 1000000
+   },
+   "name" : "Doing Good",
+   "network_19_completion" : "%s has given a large donation.",
+   "network_19_headline" : "Charity project starts up."
+}

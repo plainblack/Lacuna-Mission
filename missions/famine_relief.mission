@@ -1,0 +1,36 @@
+# config-file-type: JSON 1
+{
+   "description" : "We need supplies!  What we think was a meteorite crashed into our supply depot and destroyed many of our supplies.  If we don't get help soon, I fear we won't be here much longer.\nIn return, we can supply you the plans for a good ship, I'm sure your shipyard will produce it immediately.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 1,
+               "size" : [
+                  1,
+                  60
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 200000,
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "name" : "Famine Relief",
+   "network_19_completion" : "%s has shown itself to be a benefactor to the needy.",
+   "network_19_headline" : "Planet in need sends out plea for supplies."
+}

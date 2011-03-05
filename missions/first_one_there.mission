@@ -1,0 +1,37 @@
+# config-file-type: JSON 1
+{
+   "description" : "Settle a planet and win a prize!  First empire to settle gets a nifty Supply Pod!  Good for helping out your new colony.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "colony_ship",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  55,
+                  60
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : 1000000,
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 1000000,
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "supply_pod4"
+         }
+      ]
+   },
+   "name" : "First one there",
+   "network_19_completion" : "%s has gotten there first!",
+   "network_19_headline" : "New planet promises great wealth."
+}

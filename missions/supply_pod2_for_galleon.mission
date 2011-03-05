@@ -1,0 +1,30 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here in our trade in section of Alpha Zeta, we can provide a Supply Pod II for a used Galleon ship.  Easy trade for Easy profits.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "galleon"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 100000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "supply_pod2"
+         }
+      ]
+   },
+   "name" : "Supply Pod II for Galleon",
+   "network_19_completion" : "%s has a sleek new spacious Supply Pod II.",
+   "network_19_headline" : "Alpha Zeta Pods available!"
+}

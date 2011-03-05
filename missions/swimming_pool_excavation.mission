@@ -1,0 +1,67 @@
+# config-file-type: JSON 1
+{
+   "description" : "We know that the Supply Pods at this level are very expensive, but we could use the supplies, plus we have plans on making the crater into a pool.  And really, we need a crater that's left by the Class IV.\nIn return, we'll ship you plenty of fill dirt and you can keep the ships.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod4",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  30,
+                  60
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "waste" : 10000000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 2500000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "hulk"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 2500000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "hulk"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 2500000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "hulk"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 2500000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "hulk"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 2500000,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "hulk"
+         }
+      ]
+   },
+   "name" : "Biggest Swimming Pool Ever!",
+   "network_19_completion" : "%s has made the biggest swimming pool ever!",
+   "network_19_headline" : "Pool excavation needed!"
+}
