@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "I'm angry.  Want to know why?  Well, my cousin sent me a wonderful little dory as a new commuter ship.  It was the best! Speedy, decent cargo hold, virtually undetectable.  So I take it out for a spin, and halfway home the engine dies.  Now I got back, but they had to take my ship.  So I need a replacement.  If you could lend me a dory (make it a fast one) I may be able to spare the rest of my birthday feast.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 1750,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 2000,
+         "cider" : 2000,
+         "meal" : 2000,
+         "pie" : 2000,
+         "water" : 2000
+      }
+   },
+   "name" : "Screwged",
+   "network_19_completion" : "%s calms angry citizen.",
+   "network_19_headline" : "Angry man looks for replacement ship."
+}

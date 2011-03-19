@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "We have recently ended a massive civil war between two factions on our planet.  The war killed many of our kin and left us without any corn to feed our beetles.  If you could supply us with some corn, we could give you some of our extra beetles.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 20000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "beetle" : 30000
+      }
+   },
+   "name" : "Planet of the Beetles",
+   "network_19_completion" : "%s responds to war-torn planet in need of aid.",
+   "network_19_headline" : "War-torn planet looking for food."
+}

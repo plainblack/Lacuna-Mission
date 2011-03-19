@@ -1,0 +1,29 @@
+# config-file-type: JSON 1
+{
+   "description" : "I need to get off this planet.  Everything is wrong with it.  I want to start a new life.  Can you help me? I need transport and some basic supplies.  Please help.  I can give the rest of our cheese and milk from our goat farm.",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "fungus" : 1500,
+         "water" : 1500
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cheese" : 4000,
+         "milk" : 7000
+      }
+   },
+   "name" : "Get me outta here!",
+   "network_19_completion" : "%s assists refugees.",
+   "network_19_headline" : "Refugees flee corrupt government."
+}

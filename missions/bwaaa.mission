@@ -1,0 +1,20 @@
+# config-file-type: JSON 1
+{
+   "description" : "Help! My entire village is addicted to this stupid video of this dog knocking over this 3 year-old!  They figured out how to loop it, now they just spend hours watching it instead of working!  I need to destroy the power grid, but I don't have the materials.  If you can send me some extra energy, I think I can overload the circuit.  All I have is a ton of left-over supplies from a construction product that I'm sure nobody will be missing.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 15000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chalcopyrite" : 4000,
+         "magnetite" : 8000,
+         "rutile" : 8000
+      }
+   },
+   "name" : "Bwaaa!",
+   "network_19_completion" : "%s receives pitiful load of construction supplies from village.",
+   "network_19_headline" : "Desperate villager needs energy."
+}

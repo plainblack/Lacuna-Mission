@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Blue Cross Association of Lacuna needs your help!  A magnitude 9.7 earthquake tore through the Lavastrians capitol city of Lavanath and practically leveled the city.  We are trying to assist the rebuilding process, but there simply aren't enough workers to do what is necessary.  If you can give us some food, water, and some moral support, we can send you some extra chalcopyrite we have on hand here.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "happiness" : 8000,
+      "resources" : {
+         "apple" : 4000,
+         "corn" : 4000,
+         "water" : 8000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chalcopyrite" : 30000
+      }
+   },
+   "name" : "Helping Hands 1",
+   "network_19_completion" : "%s aids Blue Plus Association in earthquake recovery.",
+   "network_19_headline" : "The Blue Plus Association looking for aid work volunteers."
+}

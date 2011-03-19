@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Blue Cross Association of Lacuna needs your help!  Now that we have room to reconstruct, we need some resources.  All the mines here were caved in so there is no way to collect resources except from the mining platforms.  Unfortunately, the mining ministry was also destroyed.  If you can get some rutile, beryl, magnetite, and bauxite, we can give you an extra mining platform.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 15000,
+         "beryl" : 15000,
+         "magnetite" : 15000,
+         "rutile" : 15000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         }
+      ]
+   },
+   "name" : "Helping Hands 3",
+   "network_19_completion" : "%s aids Blue Plus Association in earthquake recovery.",
+   "network_19_headline" : "The Blue Plus Association looking for aid work volunteers."
+}

@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Blue Cross Association of Lacuna needs your help!  We thank you for your help with getting the Lavastrians working again.  Now we need to remove the debris from the wreckage.  Both scows were at the spaceport at the time of the earthquake and were destroyed, so we need a scow to clean up the rubble.  If you can do that, we can give you a plan for a mining ministry we salvaged from the library.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 20000,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Ore::Ministry",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Helping Hands 2",
+   "network_19_completion" : "%s aids Blue Plus Association in earthquake recovery.",
+   "network_19_headline" : "The Blue Plus Association looking for aid work volunteers."
+}

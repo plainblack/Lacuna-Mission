@@ -1,0 +1,18 @@
+# config-file-type: JSON 1
+{
+   "description" : "Transmission start:\"I don't know if...-one will receive this.  If you do, you...-st know about the threa-...All of our lives depen-...it.   I need help.  I need...of uraninite. More uraninite to power...Please help me if...can. I have a large...-pply of halite i can give to...Please help me\" Transmission Ends",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "halite" : 150000
+      }
+   },
+   "name" : "Strange Transmission",
+   "network_19_completion" : "%s looks into the strange transmission received earlier today.",
+   "network_19_headline" : "Network 19 has just received a unknown transmission, appearing to originate from an asteroid on the outer rim."
+}
