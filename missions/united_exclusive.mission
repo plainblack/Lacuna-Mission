@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "Dear Sir or Madam,\nIf you are a small colony which is finding yourself hard to upgrade your university, here is a gift! Just pile up your waste and turn it into a university upgrading plan!",
+   "max_university_level" : "4",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 4000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::University",
+            "extra_build_level" : 0,
+            "level" : 5
+         }
+      ]
+   },
+   "name" : "Exclusive!",
+   "network_19_completion" : "%s gets an early boost!",
+   "network_19_headline" : "Exclusive Present for you!"
+}

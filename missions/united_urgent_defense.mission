@@ -1,0 +1,46 @@
+# config-file-type: JSON 1
+{
+   "description" : "Any danger is coming towards you? Complete this mission to strengthen your defense and, as we are looking forward to, bring peace back to you.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "essentia" : 2
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::SAW",
+            "extra_build_level" : 9,
+            "level" : 1
+         }
+      ],
+      "ships" : [
+         {
+            "combat" : 20000,
+            "hold_size" : 0,
+            "name" : "Quick Defense",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 20000,
+            "hold_size" : 0,
+            "name" : "Quick Defense",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 20000,
+            "hold_size" : 0,
+            "name" : "Quick Defense",
+            "speed" : 9000,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Urgent Defense",
+   "network_19_completion" : "%s stocks up on defensive weapons!",
+   "network_19_headline" : "Emergency Rescue for your Planet!"
+}

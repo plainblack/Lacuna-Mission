@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hullo starters! I have experienced through most things that you face and I am completely understanding what should be happening. Okay, that's all for introduction, and here's what is on offer: \nIf you have built a waste treatment center or a waste recycling center in order to get rid of your waste, you probably find yourself having too much excess water, ore and power, or any one. Upgrading and building your storage can cost much time! So now you have a chance to get what you probably need in fact, food!\nDo not mention my help and have fun and take ease in Lacuna Expanse!",
+   "max_university_level" : "3",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 500,
+         "gold" : 200,
+         "sulfur" : 300,
+         "water" : 500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "algae" : 1000,
+         "bean" : 1000,
+         "bread" : 1000
+      }
+   },
+   "name" : "Exchange!",
+   "network_19_completion" : "%s takes advantage of beginner help!",
+   "network_19_headline" : "Quick and easy exchange for starters!"
+}

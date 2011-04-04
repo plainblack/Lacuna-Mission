@@ -1,0 +1,48 @@
+# config-file-type: JSON 1
+{
+   "description" : "Are you wasting time to build piles of spy pods? Try this mission so you can own a smuggler ship for sustainable use.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Sustainable",
+            "speed" : 4000,
+            "stealth" : 10000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Sustainability",
+   "network_19_completion" : "%s goes for greeener spy transport.",
+   "network_19_headline" : "Make it sustainable !"
+}
