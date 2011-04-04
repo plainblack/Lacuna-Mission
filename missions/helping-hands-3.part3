@@ -15,6 +15,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Blue Cross Miner",
             "speed" : 500,
             "stealth" : 0,
             "type" : "mining_platform_ship"

@@ -27,35 +27,40 @@
          {
             "combat" : 0,
             "hold_size" : 2500000,
-            "speed" : 2500,
+            "name" : "Alpha Zeta Hulk",
+            "speed" : 2800,
             "stealth" : 0,
             "type" : "hulk"
          },
          {
             "combat" : 0,
             "hold_size" : 2500000,
-            "speed" : 2500,
+            "name" : "Alpha Zeta Hulk",
+            "speed" : 2800,
             "stealth" : 0,
             "type" : "hulk"
          },
          {
             "combat" : 0,
             "hold_size" : 2500000,
-            "speed" : 2500,
+            "name" : "Alpha Zeta Hulk",
+            "speed" : 2800,
             "stealth" : 0,
             "type" : "hulk"
          },
          {
             "combat" : 0,
             "hold_size" : 2500000,
-            "speed" : 2500,
+            "name" : "Alpha Zeta Hulk",
+            "speed" : 2800,
             "stealth" : 0,
             "type" : "hulk"
          },
          {
             "combat" : 0,
             "hold_size" : 2500000,
-            "speed" : 2500,
+            "name" : "Alpha Zeta Hulk",
+            "speed" : 2800,
             "stealth" : 0,
             "type" : "hulk"
          }

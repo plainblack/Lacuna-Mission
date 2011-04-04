@@ -1,2 +1,38 @@
 # config-file-type: JSON 1
-{"max_university_level":"19","mission_reward":{"resources":{"energy":10000,"water":10000},"ships":[{"combat":0,"type":"cargo_ship","stealth":3000,"hold_size":75000,"speed":1200}]},"network_19_headline":"IxNib 7 government in chaos. Hackers disrupt parliamentary computer system, losing votes on legislation.","description":"The people of IxNib 7 have been quite restless lately. In response to a recent crackdown on illegal file sharing, IxNib hackers staged a dedicated denial of service attack on the legislature's computer systems. Everything ground to a halt, and now the provisional government has no way to access its records or enact new legislation. They need to review a set of intelligence and security ministry plans to deal with the hacker threat, and are willing to richly reward whomever can get them out of this technological pickle.","network_19_completion":"Order restored to IxNib 7 legislature. Speaker of the house praises %s for quick, decisive response.","name":"Computer Hackers","mission_objective":{"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::Security","extra_build_level":0},{"level":1,"classname":"Lacuna::DB::Result::Building::Intelligence","extra_build_level":0}]}}
+{
+   "description" : "The people of IxNib 7 have been quite restless lately. In response to a recent crackdown on illegal file sharing, IxNib hackers staged a dedicated denial of service attack on the legislature's computer systems. Everything ground to a halt, and now the provisional government has no way to access its records or enact new legislation. They need to review a set of intelligence and security ministry plans to deal with the hacker threat, and are willing to richly reward whomever can get them out of this technological pickle.",
+   "max_university_level" : "19",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Security",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Intelligence",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 10000,
+         "water" : 10000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 75000,
+            "name" : "Ixnib Cargo",
+            "speed" : 2000,
+            "stealth" : 5000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Computer Hackers",
+   "network_19_completion" : "Order restored to IxNib 7 legislature. Speaker of the house praises %s for quick, decisive response.",
+   "network_19_headline" : "IxNib 7 government in chaos. Hackers disrupt parliamentary computer system, losing votes on legislation."
+}

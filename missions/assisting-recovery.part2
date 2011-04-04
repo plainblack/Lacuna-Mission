@@ -26,6 +26,7 @@
          {
             "combat" : 7500,
             "hold_size" : 0,
+            "name" : "Alluvian Fighter",
             "speed" : 8000,
             "stealth" : 0,
             "type" : "fighter"
@@ -33,6 +34,7 @@
          {
             "combat" : 7500,
             "hold_size" : 0,
+            "name" : "Alluvian Fighter",
             "speed" : 8000,
             "stealth" : 0,
             "type" : "fighter"
@@ -40,6 +42,7 @@
          {
             "combat" : 7500,
             "hold_size" : 0,
+            "name" : "Alluvian Fighter",
             "speed" : 8000,
             "stealth" : 0,
             "type" : "fighter"

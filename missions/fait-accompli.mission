@@ -10,36 +10,41 @@
          {
             "combat" : 8000,
             "hold_size" : 0,
-            "speed" : 2000,
-            "stealth" : 4000,
+            "name" : "Curved Security",
+            "speed" : 5000,
+            "stealth" : 1000,
             "type" : "security_ministry_seeker"
          },
          {
             "combat" : 8000,
             "hold_size" : 0,
-            "speed" : 2000,
-            "stealth" : 4000,
+            "name" : "Curved Security",
+            "speed" : 5000,
+            "stealth" : 1000,
             "type" : "security_ministry_seeker"
          },
          {
             "combat" : 8000,
             "hold_size" : 0,
-            "speed" : 2000,
-            "stealth" : 4000,
+            "name" : "Curved Security",
+            "speed" : 5000,
+            "stealth" : 1000,
             "type" : "security_ministry_seeker"
          },
          {
             "combat" : 8000,
             "hold_size" : 0,
-            "speed" : 2000,
-            "stealth" : 4000,
+            "name" : "Curved Security",
+            "speed" : 5000,
+            "stealth" : 1000,
             "type" : "security_ministry_seeker"
          },
          {
             "combat" : 8000,
             "hold_size" : 0,
-            "speed" : 2000,
-            "stealth" : 4000,
+            "name" : "Curved Security",
+            "speed" : 5000,
+            "stealth" : 1000,
             "type" : "security_ministry_seeker"
          }
       ]

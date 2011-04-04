@@ -22,8 +22,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 1000000,
-            "speed" : 1500,
+            "hold_size" : 2000000,
+            "name" : "Alpha Zeta Hulk",
+            "speed" : 1750,
             "stealth" : 0,
             "type" : "hulk"
          }

@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"apple":6600}},"name":"Sock Gnome Hunt Part 1","mission_reward":{"ships":[{"combat":7000,"hold_size":0,"stealth":0,"type":"drone","speed":1000}]},"network_19_headline":"Let The Great Gnome Hunt Begin!","network_19_completion":"%s has successfully aided in exterminating Gnomes.","max_university_level":"10","description":"Gnomes have found the Secret Sock Factories on Clee Railoa 3 and are ruining the economy!\n\nPlease help us!  All our left footed socks except the ones we are wearing are missing. Who would want to buy two right footed socks?  Gnomes are sneaky and... -Wait, where's my left sock!  Stole it right from my foot the little... -Anyway, you can see our need.\n\nRumor has it that the little buggers have a soft spot for apples. The easiest way to catch them is when they are munching on one.  In exchange for 6,600 units of apples we will supply a drone to your world to help defend against your own gnome invasion."}
+{
+   "description" : "Gnomes have found the Secret Sock Factories on Clee Railoa 3 and are ruining the economy!\n\nPlease help us!  All our left footed socks except the ones we are wearing are missing. Who would want to buy two right footed socks?  Gnomes are sneaky and... -Wait, where's my left sock!  Stole it right from my foot the little... -Anyway, you can see our need.\n\nRumor has it that the little buggers have a soft spot for apples. The easiest way to catch them is when they are munching on one.  In exchange for 6,600 units of apples we will supply a drone to your world to help defend against your own gnome invasion.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 6600
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 10000,
+            "hold_size" : 0,
+            "name" : "Apple Core",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         }
+      ]
+   },
+   "name" : "Sock Gnome Hunt Part 1",
+   "network_19_completion" : "%s has successfully aided in exterminating Gnomes.",
+   "network_19_headline" : "Let The Great Gnome Hunt Begin!"
+}

@@ -1,2 +1,50 @@
 # config-file-type: JSON 1
-{"max_university_level":"30","mission_reward":{"ships":[{"combat":15000,"type":"fighter","stealth":30,"hold_size":0,"speed":8000},{"combat":15000,"type":"fighter","stealth":30,"hold_size":0,"speed":8000}]},"network_19_headline":"Archeologist requests aid to unlock basic Andecaui weapon technology.","description":"Hello, Archeologist Aliyuden here. \n\nI have been playing around with improving the weapon systems. It seems the weapons system is based on a form of chalcopyrite. If you provide me with a couple Andecaui Mark II fighters, a dory, chalcopyrite, and energy, I can convert the ships into Andecaui Mark III fighters. \n\nThe Mark III is the most advance form of fighter I can unlock at this point. I am certain that once I finish some formulas I may be able to convert this into a heavy fighter. So try and save a couple of these for future use.","network_19_completion":"Archeologist discovers basic Adecaui fighter weapon technology.","name":"Andecaui Mark III Fighter","mission_objective":{"resources":{"energy":60000,"chalcopyrite":25000},"ships":[{"combat":10000,"type":"fighter","stealth":20,"hold_size":0,"speed":5500},{"combat":10000,"type":"fighter","stealth":20,"hold_size":0,"speed":5500}]}}
+{
+   "description" : "Hello, Archeologist Aliyuden here. \n\nI have been playing around with improving the weapon systems. It seems the weapons system is based on a form of chalcopyrite. If you provide me with a couple Andecaui Mark II fighters, a dory, chalcopyrite, and energy, I can convert the ships into Andecaui Mark III fighters. \n\nThe Mark III is the most advance form of fighter I can unlock at this point. I am certain that once I finish some formulas I may be able to convert this into a heavy fighter. So try and save a couple of these for future use.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "chalcopyrite" : 25000,
+         "energy" : 60000
+      },
+      "ships" : [
+         {
+            "combat" : 10000,
+            "hold_size" : 0,
+            "speed" : 5500,
+            "stealth" : 20,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 10000,
+            "hold_size" : 0,
+            "speed" : 5500,
+            "stealth" : 20,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "name" : "Andecaui Fighter",
+            "speed" : 8000,
+            "stealth" : 30,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "name" : "Andecaui Fighter",
+            "speed" : 8000,
+            "stealth" : 30,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Andecaui Mark III Fighter",
+   "network_19_completion" : "Archeologist discovers basic Adecaui fighter weapon technology.",
+   "network_19_headline" : "Archeologist requests aid to unlock basic Andecaui weapon technology."
+}

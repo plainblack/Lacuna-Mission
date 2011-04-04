@@ -89,6 +89,7 @@
          {
             "combat" : 0,
             "hold_size" : 45000,
+            "name" : "Susan's Search",
             "speed" : 1200,
             "stealth" : 3000,
             "type" : "cargo_ship"

@@ -24,6 +24,7 @@
          {
             "combat" : 0,
             "hold_size" : 200000,
+            "name" : "Relief Galleon",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "galleon"

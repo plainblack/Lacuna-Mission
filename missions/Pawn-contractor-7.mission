@@ -1,2 +1,35 @@
 # config-file-type: JSON 1
-{"max_university_level":"7","mission_reward":{"ships":[{"speed":5000,"type":"probe","combat":0,"hold_size":0,"stealth":0},{"speed":5000,"type":"probe","combat":0,"hold_size":0,"stealth":0}]},"network_19_headline":"Pawn Lacuna needs to construct expansion.","description":"We have located a perfect spot to expand. We are in the business of pawning and not construction. Please oversee this construction project, and we will give you some probes we do not need anymore.  You will incur the costs of feeding your crews and providing building materials for the project.","network_19_completion":"Pawn Lacuna opened up a new branch.","name":"Pawn Lacuna needs contractor","mission_objective":{"resources":{"burger":1000,"bauxite":2000,"gypsum":2000}}}
+{
+   "description" : "We have located a perfect spot to expand. We are in the business of pawning and not construction. Please oversee this construction project, and we will give you some probes we do not need anymore.  You will incur the costs of feeding your crews and providing building materials for the project.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 2000,
+         "burger" : 1000,
+         "gypsum" : 2000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "PL Probe",
+            "speed" : 8000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "PL Probe",
+            "speed" : 8000,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Pawn Lacuna needs contractor",
+   "network_19_completion" : "Pawn Lacuna opened up a new branch.",
+   "network_19_headline" : "Pawn Lacuna needs to construct expansion."
+}

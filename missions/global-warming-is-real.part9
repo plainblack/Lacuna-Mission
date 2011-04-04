@@ -19,23 +19,26 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 5000,
+            "combat" : 7500,
             "hold_size" : 0,
-            "speed" : 3000,
+            "name" : "Calderaan Fighter",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "fighter"
          },
          {
-            "combat" : 5000,
+            "combat" : 7500,
             "hold_size" : 0,
-            "speed" : 3000,
+            "name" : "Calderaan Fighter",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "fighter"
          },
          {
             "combat" : 0,
             "hold_size" : 0,
-            "speed" : 3000,
+            "name" : "Calderaan Spy Pod",
+            "speed" : 7000,
             "stealth" : 9000,
             "type" : "spy_pod"
          }

@@ -21,8 +21,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 200000,
-            "speed" : 2500,
+            "hold_size" : 300000,
+            "name" : "Alpha Zeta Galleon",
+            "speed" : 3000,
             "stealth" : 0,
             "type" : "galleon"
          }

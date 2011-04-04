@@ -1,2 +1,31 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"type":"dory","stealth":0,"hold_size":0,"speed":0}]},"mission_reward":{"ships":[{"combat":0,"type":"supply_pod","stealth":0,"hold_size":50000,"speed":2500}]},"description":"We're able to cut a special deal if you have a used dory, we can get you a nice supply pod for your purposes.","network_19_headline":"Alpha Zeta Pods available!","network_19_completion":"%s has a sleek new spacious Supply Pod.","name":"Supply Pod for Dory","max_university_level":"15"}
+{
+   "description" : "We're able to cut a special deal if you have a used dory, we can get you a nice supply pod for your purposes.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Alpha Zeta Supply Pod",
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "supply_pod"
+         }
+      ]
+   },
+   "name" : "Supply Pod for Dory",
+   "network_19_completion" : "%s has a sleek new spacious Supply Pod.",
+   "network_19_headline" : "Alpha Zeta Pods available!"
+}

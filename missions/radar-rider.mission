@@ -1,2 +1,70 @@
 # config-file-type: JSON 1
-{"mission_objective":{"glyphs":["halite","uraninite"]},"name":"Radar Rider","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"excavator","speed":3000},{"combat":0,"hold_size":0,"stealth":0,"type":"excavator","speed":3000},{"combat":0,"hold_size":0,"stealth":0,"type":"excavator","speed":3000},{"combat":0,"hold_size":0,"stealth":0,"type":"excavator","speed":3000},{"combat":0,"hold_size":0,"stealth":0,"type":"excavator","speed":3000},{"combat":0,"hold_size":32000,"stealth":1500,"type":"dory","speed":4000}],"resources":{"halite":75000,"uraninite":75000}},"network_19_headline":"Strange artifact found on Dentroid 8.","network_19_completion":"Pools of green slime found in archeologists home.","max_university_level":"30","description":"We have an odd problem.  One of our top archeologists is missing along with his daughter.  We'll handle that part of the investigation, but we can't find the glyphs he was supposed to have in his possession.  If you can supply us with a suitable replacement, we have a few ships available."}
+{
+   "description" : "We have an odd problem.  One of our top archeologists is missing along with his daughter.  We'll handle that part of the investigation, but we can't find the glyphs he was supposed to have in his possession.  If you can supply us with a suitable replacement, we have a few ships available.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "halite",
+         "uraninite"
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "halite" : 75000,
+         "uraninite" : 75000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 32000,
+            "name" : "Digger's Folly",
+            "speed" : 4000,
+            "stealth" : 1500,
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Radar Rider",
+   "network_19_completion" : "Pools of green slime found in archeologists home.",
+   "network_19_headline" : "Strange artifact found on Dentroid 8."
+}

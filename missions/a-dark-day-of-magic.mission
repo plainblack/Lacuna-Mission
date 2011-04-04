@@ -39,9 +39,10 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 2500,
             "hold_size" : 0,
-            "speed" : 1120,
+            "name" : "Ambrose Detonator",
+            "speed" : 3000,
             "stealth" : 0,
             "type" : "detonator"
          }

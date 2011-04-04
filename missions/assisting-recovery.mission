@@ -1,2 +1,60 @@
 # config-file-type: JSON 1
-{"name":"Assisting Recovery","mission_objective":{"resources":{"water":3000,"fungus":3000},"ships":[{"type":"dory","combat":0,"hold_size":1000,"stealth":0,"speed":0},{"type":"dory","combat":0,"hold_size":1000,"stealth":0,"speed":0},{"type":"dory","combat":0,"hold_size":1000,"stealth":0,"speed":0},{"type":"dory","combat":0,"hold_size":1000,"stealth":0,"speed":0}]},"description":"The Alluvian Empire took a serious blow recently when their Homeworld was violently and unprovokedly attacked. Many buildings were damaged and some resources were destroyed. They are looking out to the Expanse to assist in repairing their home planet.\n\nHere is an excerpt from the call from their Leader:\n\n\"We have the resources in our Empire, but due to the loss of our Shipyard we cannot produce ships fast enough to collect resources. Since there are many worlds to collect resources from we would only need Dory-class ships for our initial recovery. All we currently have is one older Cargo-class vessel, which we would gladly send to our benefactors laden with Methane and Magnetite.\n\nIn the meantime while we get those ships, we are in desperate need of water and basic foods.\n\nAs we've always been a peaceful peple, we look to our closest neighbors in these trying times to assist in our recovery.\"\n\nSurely, four mid-capacity Dory-class vessels and 3k worth of fungus and water should allow them to survive until their Empire can redirect resources.","mission_reward":{"resources":{"methane":3500,"magnetite":3500},"ships":[{"type":"cargo_ship","combat":0,"hold_size":50000,"stealth":1500,"speed":1500}]},"network_19_headline":"Alluvian Homeworld bombarded by unknown assailants!","network_19_completion":"%s is the first to offer aid to the Alluvians following the terrorist attack.","max_university_level":"10"}
+{
+   "description" : "The Alluvian Empire took a serious blow recently when their Homeworld was violently and unprovokedly attacked. Many buildings were damaged and some resources were destroyed. They are looking out to the Expanse to assist in repairing their home planet.\n\nHere is an excerpt from the call from their Leader:\n\n\"We have the resources in our Empire, but due to the loss of our Shipyard we cannot produce ships fast enough to collect resources. Since there are many worlds to collect resources from we would only need Dory-class ships for our initial recovery. All we currently have is one older Cargo-class vessel, which we would gladly send to our benefactors laden with Methane and Magnetite.\n\nIn the meantime while we get those ships, we are in desperate need of water and basic foods.\n\nAs we've always been a peaceful peple, we look to our closest neighbors in these trying times to assist in our recovery.\"\n\nSurely, four mid-capacity Dory-class vessels and 3k worth of fungus and water should allow them to survive until their Empire can redirect resources.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "fungus" : 3000,
+         "water" : 3000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 1000,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 1000,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 1000,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 1000,
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "magnetite" : 3500,
+         "methane" : 3500
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Alluvian Cargo",
+            "speed" : 1500,
+            "stealth" : 1500,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Assisting Recovery",
+   "network_19_completion" : "%s is the first to offer aid to the Alluvians following the terrorist attack.",
+   "network_19_headline" : "Alluvian Homeworld bombarded by unknown assailants!"
+}

@@ -16,7 +16,8 @@
          {
             "combat" : 0,
             "hold_size" : 0,
-            "speed" : 6000,
+            "name" : "Alpha Zeta Spy Shuttle",
+            "speed" : 7500,
             "stealth" : 15000,
             "type" : "spy_shuttle"
          }

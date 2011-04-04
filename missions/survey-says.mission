@@ -23,7 +23,8 @@
          {
             "combat" : 1000,
             "hold_size" : 0,
-            "speed" : 6000,
+            "name" : "Alpha Zeta Surveyor",
+            "speed" : 9000,
             "stealth" : 5000,
             "type" : "surveyor"
          }

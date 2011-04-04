@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_reward":{"ships":[{"speed":1000,"combat":0,"hold_size":0,"stealth":0,"type":"mining_platform_ship"}]},"network_19_headline":"A Independent Colony Is Depressed!","description":"We ran outta depression pills. And we're broke.How could this get worse? We have ships to trade for them but the drug factory said they don't take ships.We hate ships. Especially mining ships.Blah,we hate everything. It's all so dull. So would you care to take this ship? And you have any depression pills? We can make some if you throw in some root. Bad day to you just like all the rest of us.","network_19_completion":"A Shipment of Anti-Depressant Ingredients And Happiness Was Sent To The Depressed Colony!","max_university_level":"15","name":"Need Happiness","mission_objective":{"resources":{"root":150000},"happiness":20000}}
+{
+   "description" : "We ran outta depression pills. And we're broke.How could this get worse? We have ships to trade for them but the drug factory said they don't take ships.We hate ships. Especially mining ships.Blah,we hate everything. It's all so dull. So would you care to take this ship? And you have any depression pills? We can make some if you throw in some root. Bad day to you just like all the rest of us.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "happiness" : 20000,
+      "resources" : {
+         "root" : 150000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dreadful Luck",
+            "speed" : 1000,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         }
+      ]
+   },
+   "name" : "Need Happiness",
+   "network_19_completion" : "A Shipment of Anti-Depressant Ingredients And Happiness Was Sent To The Depressed Colony!",
+   "network_19_headline" : "A Independent Colony Is Depressed!"
+}

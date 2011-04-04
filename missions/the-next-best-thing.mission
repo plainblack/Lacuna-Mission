@@ -24,6 +24,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Betsy",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "excavator"
@@ -31,6 +32,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Wilma",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "excavator"
@@ -38,6 +40,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "June",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "excavator"
@@ -45,6 +48,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Judy",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "excavator"
@@ -52,6 +56,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Trixie",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "excavator"

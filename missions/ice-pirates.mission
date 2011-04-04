@@ -1,2 +1,31 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"uraninite":25000,"monazite":25000,"energy":50000,"sulfur":25000}},"name":"Ice Pirates","mission_reward":{"ships":[{"combat":0,"hold_size":40000,"stealth":10000,"type":"smuggler_ship","speed":3500}],"resources":{"water":40000}},"network_19_headline":"Tourist advisory listed for Raffill 3!","network_19_completion":"Come visit the ice fields of Raffil 3!  Advisory lifted.","max_university_level":"30","description":"We have a rather delicate situation that needs clearing quick.  Any day now those bastards at N19 are going to announce that we have an infestation of a pest here.\nWe need to cleanse the space port area and need a supply of materials to do so.\nIn exchange, you can have the ship left here by a crew of miscreants.  We'll make sure that no traces remain of the pest on board before turning it over to you."}
+{
+   "description" : "We have a rather delicate situation that needs clearing quick.  Any day now those bastards at N19 are going to announce that we have an infestation of a pest here.\nWe need to cleanse the space port area and need a supply of materials to do so.\nIn exchange, you can have the ship left here by a crew of miscreants.  We'll make sure that no traces remain of the pest on board before turning it over to you.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 50000,
+         "monazite" : 25000,
+         "sulfur" : 25000,
+         "uraninite" : 25000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "water" : 40000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 65000,
+            "name" : "Zagora's Quest",
+            "speed" : 5500,
+            "stealth" : 12000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Ice Pirates",
+   "network_19_completion" : "Come visit the ice fields of Raffil 3!  Advisory lifted.",
+   "network_19_headline" : "Tourist advisory listed for Raffill 3!"
+}

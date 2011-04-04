@@ -1,2 +1,50 @@
 # config-file-type: JSON 1
-{"name":"Casting Call","mission_objective":{"fleet_movement":[{"target":{"isolationist":0,"in_zone":1,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"spy_pod"},{"target":{"isolationist":0,"in_zone":1,"type":"habitable","size":[1,121],"inhabited":1},"ship_type":"spy_pod"}]},"description":"Looking to fill a role for an undercover agent on \"To Catch a Colonial Despot\"\n\nYou provide a spy with built-in pixelation blur and a sense of moral ambiguity.  If we like he/she, we'll offer you a streamlined spy shuttle for future openings.","mission_reward":{"ships":[{"type":"spy_shuttle","combat":0,"hold_size":0,"stealth":11100,"speed":3300}]},"network_19_headline":"To Catch a Colonial Despot casting call open to all.","network_19_completion":"We're happy to announce the To Catch a Colonial Despot \"Undercover Agent\" role has been cast by a spy from %s.","max_university_level":"20"}
+{
+   "description" : "Looking to fill a role for an undercover agent on \"To Catch a Colonial Despot\"\n\nYou provide a spy with built-in pixelation blur and a sense of moral ambiguity.  If we like he/she, we'll offer you a streamlined spy shuttle for future openings.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "spy_pod",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "spy_pod",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Despot Catcher",
+            "speed" : 6000,
+            "stealth" : 11100,
+            "type" : "spy_shuttle"
+         }
+      ]
+   },
+   "name" : "Casting Call",
+   "network_19_completion" : "We're happy to announce the To Catch a Colonial Despot \"Undercover Agent\" role has been cast by a spy from %s.",
+   "network_19_headline" : "To Catch a Colonial Despot casting call open to all."
+}

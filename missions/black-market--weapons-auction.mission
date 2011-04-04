@@ -12,9 +12,10 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 9000,
+            "combat" : 15000,
             "hold_size" : 0,
-            "speed" : 3000,
+            "name" : "Slick Fighter",
+            "speed" : 7000,
             "stealth" : 0,
             "type" : "fighter"
          }

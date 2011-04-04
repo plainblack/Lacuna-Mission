@@ -28,7 +28,8 @@
          {
             "combat" : 0,
             "hold_size" : 50000,
-            "speed" : 3900,
+            "name" : "Andecaui Smuggler",
+            "speed" : 4500,
             "stealth" : 10000,
             "type" : "smuggler_ship"
          }

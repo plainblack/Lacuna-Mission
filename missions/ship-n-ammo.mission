@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_reward":{"ships":[{"speed":1600,"combat":0,"hold_size":55000,"stealth":2000,"type":"cargo_ship"}]},"network_19_headline":"Warlike Species Needs Resources For Ammo!","description":"We like to blow stuff up. But we ran outta ammo. We need ammo. \nWe will give you a ship if you give us resources to create ammo. \nAmmo for a Ship? Not a bad deal? This ship has no places to shoot. Its a bad ship for us. \nBut you can have this ship...for something to make ammo.","network_19_completion":"Warlike Species Was Supplied With Resources For Ammo!","max_university_level":"12","name":"Ship'n Ammo","mission_objective":{"resources":{"magnetite":25000,"sulfur":15000}}}
+{
+   "description" : "We like to blow stuff up. But we ran outta ammo. We need ammo. \nWe will give you a ship if you give us resources to create ammo. \nAmmo for a Ship? Not a bad deal? This ship has no places to shoot. Its a bad ship for us. \nBut you can have this ship...for something to make ammo.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "magnetite" : 25000,
+         "sulfur" : 15000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 55000,
+            "name" : "Ammo Hauler",
+            "speed" : 1600,
+            "stealth" : 2000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Ship'n Ammo",
+   "network_19_completion" : "Warlike Species Was Supplied With Resources For Ammo!",
+   "network_19_headline" : "Warlike Species Needs Resources For Ammo!"
+}

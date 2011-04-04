@@ -15,6 +15,7 @@
          {
             "combat" : 7500,
             "hold_size" : 0,
+            "name" : "Cheapo Fighter",
             "speed" : 2500,
             "stealth" : 0,
             "type" : "fighter"

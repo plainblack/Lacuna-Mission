@@ -11,8 +11,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 75000,
-            "speed" : 5000,
+            "hold_size" : 55000,
+            "name" : "Jefferson Starship",
+            "speed" : 5500,
             "stealth" : 18000,
             "type" : "smuggler_ship"
          }

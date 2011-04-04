@@ -25,6 +25,7 @@
          {
             "combat" : 0,
             "hold_size" : 1000000,
+            "name" : "Supply Pod Prize",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "supply_pod4"

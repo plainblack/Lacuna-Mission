@@ -22,6 +22,7 @@
          {
             "combat" : 0,
             "hold_size" : 400000,
+            "name" : "Lacuna Pawn Freighter",
             "speed" : 1800,
             "stealth" : 0,
             "type" : "freighter"

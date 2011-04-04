@@ -15,7 +15,8 @@
          {
             "combat" : 4000,
             "hold_size" : 0,
-            "speed" : 1200,
+            "name" : "Garbage Bleeder",
+            "speed" : 2500,
             "stealth" : 5000,
             "type" : "bleeder"
          }

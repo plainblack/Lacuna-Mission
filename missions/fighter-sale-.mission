@@ -26,16 +26,18 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 10000,
+            "combat" : 15000,
             "hold_size" : 0,
-            "speed" : 6000,
+            "name" : "Mynar Fighter",
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "fighter"
          },
          {
-            "combat" : 10000,
+            "combat" : 15000,
             "hold_size" : 0,
-            "speed" : 6000,
+            "name" : "Mynar Fighter",
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "fighter"
          }

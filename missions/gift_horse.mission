@@ -1,2 +1,29 @@
 # config-file-type: JSON 1
-{"name":"Look a Gift Horse in the Mouth","mission_objective":{"resources":{"root":15000,"shake":5000,"beetle":10000,"chip":5000,"monazite":10000}},"description":"Greetings lesser creature. We are new to the Expanse, and have been given a..gift.. we do not desire. Our people do not wish to leave our home, and we wish for this ship to be taken away post haste. We will allow you to take it for a small sum of foods we can not grow, and some fertilizer for our own crops.","mission_reward":{"ships":[{"type":"short_range_colony_ship","combat":0,"hold_size":0,"stealth":0,"speed":25}]},"network_19_headline":"Isolationist Empire Humbug seeks to get rid of unwanted ship.","network_19_completion":"%s ship allowed to dock briefly on xenophobic Humbug homeworld, returns with Colony Ship in tow.","max_university_level":"10"}
+{
+   "description" : "Greetings lesser creature. We are new to the Expanse, and have been given a..gift.. we do not desire. Our people do not wish to leave our home, and we wish for this ship to be taken away post haste. We will allow you to take it for a small sum of foods we can not grow, and some fertilizer for our own crops.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 10000,
+         "chip" : 5000,
+         "monazite" : 10000,
+         "root" : 15000,
+         "shake" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 5000,
+            "hold_size" : 0,
+            "name" : "Horse's Gift",
+            "speed" : 25,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         }
+      ]
+   },
+   "name" : "Look a Gift Horse in the Mouth",
+   "network_19_completion" : "%s ship allowed to dock briefly on xenophobic Humbug homeworld, returns with Colony Ship in tow.",
+   "network_19_headline" : "Isolationist Empire Humbug seeks to get rid of unwanted ship."
+}

@@ -36,6 +36,7 @@
          {
             "combat" : 0,
             "hold_size" : 1000000,
+            "name" : "Pie Eater",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "freighter"

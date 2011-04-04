@@ -1,2 +1,30 @@
 # config-file-type: JSON 1
-{"mission_reward":{"resources":{"methane":5000,"fluorite":5000,"sulfur":5000},"ships":[{"speed":1300,"combat":0,"hold_size":15000,"stealth":3500,"type":"dory"}]},"network_19_headline":"A Reptilian Species Is In Dire Need Of More Heat!","description":"We are a reptilian species.<SSSSSSSS>\nWe are running out of energy for our heaters and lights.<SSSSSSSS>\nWe must acquire some energy to keep our heat factories running or else we will perish.<SSSSSSSS>\nHelp us in our time of need and you will be rewarded with a ship full of our precious ores.<SSSSSSSS>","network_19_completion":"%s Shipped the Needy Reptilian Species Energy To Generate Heat!","max_university_level":"8","name":"Keeping The Heat Hot","mission_objective":{"resources":{"energy":20000}}}
+{
+   "description" : "We are a reptilian species.<SSSSSSSS>\nWe are running out of energy for our heaters and lights.<SSSSSSSS>\nWe must acquire some energy to keep our heat factories running or else we will perish.<SSSSSSSS>\nHelp us in our time of need and you will be rewarded with a ship full of our precious ores.<SSSSSSSS>",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 20000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "fluorite" : 5000,
+         "methane" : 5000,
+         "sulfur" : 5000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 15000,
+            "name" : "Reptile Dory",
+            "speed" : 1500,
+            "stealth" : 3000,
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Keeping The Heat Hot",
+   "network_19_completion" : "%s Shipped the Needy Reptilian Species Energy To Generate Heat!",
+   "network_19_headline" : "A Reptilian Species Is In Dire Need Of More Heat!"
+}

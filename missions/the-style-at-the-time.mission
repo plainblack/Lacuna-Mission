@@ -1,2 +1,63 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"spy_shuttle","speed":2500}]},"name":"The Style At The Time","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":9999,"type":"spy_pod","speed":3100},{"combat":0,"hold_size":0,"stealth":9999,"type":"spy_pod","speed":3100},{"combat":0,"hold_size":0,"stealth":9999,"type":"spy_pod","speed":2900},{"combat":0,"hold_size":0,"stealth":9999,"type":"spy_pod","speed":2700},{"combat":0,"hold_size":0,"stealth":9999,"type":"spy_pod","speed":2700}]},"network_19_headline":"Affluent Kiltian seeking new personal conveyance.","network_19_completion":"%s completes ship trade with Kiltian gentry.","max_university_level":"15","description":"You have no idea how difficult it is being subject to the whims of fashion.  Not three cycles ago my friend Javarian was insisting that the new standard in luxury was going to be in quick spy pods, and this morning he told me my sleekest little number was too cramped for him and his hangers-on... No matter.  If you have a suitable spy shuttle, with a speed rating of at least, say, 2500, I can send you all of the spy pods I've been collecting.  They're next to worthless to me now, anyway.  But that's just the price one must pay to be at the forefront of starship chic..."}
+{
+   "description" : "You have no idea how difficult it is being subject to the whims of fashion.  Not three cycles ago my friend Javarian was insisting that the new standard in luxury was going to be in quick spy pods, and this morning he told me my sleekest little number was too cramped for him and his hangers-on... No matter.  If you have a suitable spy shuttle, with a speed rating of at least, say, 2500, I can send you all of the spy pods I've been collecting.  They're next to worthless to me now, anyway.  But that's just the price one must pay to be at the forefront of starship chic...",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "speed" : 2500,
+            "stealth" : 0,
+            "type" : "spy_shuttle"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Kiltian Folly",
+            "speed" : 9000,
+            "stealth" : 9999,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Kiltian Folly",
+            "speed" : 9000,
+            "stealth" : 9999,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Kiltian Folly",
+            "speed" : 9000,
+            "stealth" : 9999,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Kiltian Folly",
+            "speed" : 9000,
+            "stealth" : 9999,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Kiltian Folly",
+            "speed" : 9000,
+            "stealth" : 9999,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "name" : "The Style At The Time",
+   "network_19_completion" : "%s completes ship trade with Kiltian gentry.",
+   "network_19_headline" : "Affluent Kiltian seeking new personal conveyance."
+}

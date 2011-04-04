@@ -1,2 +1,27 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":10000,"monazite":7000,"methane":5000}},"name":"Need Fuel","mission_reward":{"ships":[{"combat":0,"hold_size":25000,"stealth":1250,"type":"cargo_ship","speed":3500}]},"network_19_headline":"Trade organization seeks fuel to power their fleet.","network_19_completion":"%s has won the contract to supply fuel for the Nagam Trade Federation.","max_university_level":"20","description":"We are vetting potential suppliers of fuel for our fleet of cargo ships. As you likely know, we are known for our very fast transports, which means we need the highest quality fuel sources. We need you to provide us with 10,000 water, 5,000 methane and 7,000 monazite so that we can test the purity of the materials. In exchange, we will provide you with one of our high performance transports so that you can experiment with various fuel mixtures."}
+{
+   "description" : "We are vetting potential suppliers of fuel for our fleet of cargo ships. As you likely know, we are known for our very fast transports, which means we need the highest quality fuel sources. We need you to provide us with 10,000 water, 5,000 methane and 7,000 monazite so that we can test the purity of the materials. In exchange, we will provide you with one of our high performance transports so that you can experiment with various fuel mixtures.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "methane" : 5000,
+         "monazite" : 7000,
+         "water" : 10000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 25000,
+            "name" : "Casteen",
+            "speed" : 3500,
+            "stealth" : 1250,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Need Fuel",
+   "network_19_completion" : "%s has won the contract to supply fuel for the Nagam Trade Federation.",
+   "network_19_headline" : "Trade organization seeks fuel to power their fleet."
+}

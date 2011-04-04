@@ -21,7 +21,8 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 15000,
+            "hold_size" : 25000,
+            "name" : "Alpha Zeta Barge",
             "speed" : 1500,
             "stealth" : 2000,
             "type" : "barge"

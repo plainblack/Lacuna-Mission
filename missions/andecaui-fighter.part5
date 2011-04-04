@@ -1,2 +1,70 @@
 # config-file-type: JSON 1
-{"max_university_level":"30","mission_reward":{"ships":[{"combat":25000,"type":"sweeper","stealth":8000,"hold_size":0,"speed":10000}]},"network_19_headline":"Archeologist requests further exploration in hopes of discovering more Andecaui technology.","description":"Hello, Archeologist Aliyuden here. \n\nI need to broaden my understanding of the Andecaui. I am almost able to apply Andecaui technology to produce an Andecaui sweeper using their Mark III fighters, but I need some questions answered. It would be great if I had another Andecaui site to research. \n\nYou can help by sending excavators to the following planets which match the Andecaui profile. I am sure one of these planets will hold the answer to my immediate research questions. Once that happens I will convert some Andecaui Mark III fighters into an Andecaui Mark I sweeper. \n\nThe Andecaui sweeper will be more effective than most civilizations in the expanse can construct themselves. Not a bad result from a lowly probe. Nano-technology is so wonderful! However the process does require a lot of energy due to the nature of the conversion.","network_19_completion":"Archeologist team starts to research new Andecaui site.","name":"Andecaui Mark I Sweeper","mission_objective":{"fleet_movement":[{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"excavator"},{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"excavator"}],"resources":{"energy":300000},"ships":[{"combat":15000,"type":"fighter","stealth":30,"hold_size":0,"speed":8000},{"combat":15000,"type":"fighter","stealth":30,"hold_size":0,"speed":8000}]}}
+{
+   "description" : "Hello, Archeologist Aliyuden here. \n\nI need to broaden my understanding of the Andecaui. I am almost able to apply Andecaui technology to produce an Andecaui sweeper using their Mark III fighters, but I need some questions answered. It would be great if I had another Andecaui site to research. \n\nYou can help by sending excavators to the following planets which match the Andecaui profile. I am sure one of these planets will hold the answer to my immediate research questions. Once that happens I will convert some Andecaui Mark III fighters into an Andecaui Mark I sweeper. \n\nThe Andecaui sweeper will be more effective than most civilizations in the expanse can construct themselves. Not a bad result from a lowly probe. Nano-technology is so wonderful! However the process does require a lot of energy due to the nature of the conversion.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "energy" : 300000
+      },
+      "ships" : [
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "name" : "Andecaui Fighter",
+            "speed" : 8000,
+            "stealth" : 30,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 15000,
+            "hold_size" : 0,
+            "name" : "Andecaui Fighter",
+            "speed" : 8000,
+            "stealth" : 30,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 25000,
+            "hold_size" : 0,
+            "speed" : 10000,
+            "stealth" : 8000,
+            "type" : "sweeper"
+         }
+      ]
+   },
+   "name" : "Andecaui Mark I Sweeper",
+   "network_19_completion" : "Archeologist team starts to research new Andecaui site.",
+   "network_19_headline" : "Archeologist requests further exploration in hopes of discovering more Andecaui technology."
+}

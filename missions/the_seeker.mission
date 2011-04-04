@@ -81,8 +81,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 50000,
-            "speed" : 5000,
+            "hold_size" : 75000,
+            "name" : "Daltrey",
+            "speed" : 6000,
             "stealth" : 13000,
             "type" : "smuggler_ship"
          }
