@@ -1,2 +1,37 @@
 # config-file-type: JSON 1
-{"name":"Beam Me Up","mission_objective":{"resources":{"energy":15000},"ships":[{"type":"cargo_ship","combat":0,"hold_size":50000,"stealth":0,"speed":0},{"type":"spy_pod","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"We have a \"reporter\" we need to get out of a tough situation and need your help. He is trapped underground but we have a device to get him out. We need a Cargo Ship with a lot of power and a Spy Pod. He has with him multiple Halite Glyphs. We will give you one for your help.","mission_reward":{"glyphs":["halite"]},"network_19_headline":"Reporter trapped with halite glyphs needs rescue.","network_19_completion":"%s has saved a Network 19 reporter.","max_university_level":"25"}
+{
+   "description" : "We have a \"reporter\" we need to get out of a tough situation and need your help. He is trapped underground but we have a device to get him out. We need a Cargo Ship with a lot of power and a Spy Pod. He has with him multiple Halite Glyphs. We will give you one for your help.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 15000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite"
+      ],
+      "ships" : []
+   },
+   "name" : "Beam Me Up",
+   "network_19_completion" : "%s has saved a Network 19 reporter.",
+   "network_19_headline" : "Reporter trapped with halite glyphs needs rescue."
+}

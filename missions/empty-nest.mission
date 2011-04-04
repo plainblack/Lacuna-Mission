@@ -1,2 +1,43 @@
 # config-file-type: JSON 1
-{"name":"Empty Nest","mission_objective":{"ships":[{"type":"short_range_colony_ship","combat":0,"hold_size":0,"stealth":0,"speed":0},{"type":"short_range_colony_ship","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"Xernos 10 used to be a thriving planet, but it's pretty much all used up now, and the population is fleeing to greener pastures. The colony's famed residential and entertainment district has fallen on hard times, as the government struggles to create enough colony ships to handle the mass exodus. Rather than tear down their expansive civic infrastructure, they're willing to dispatch it to the right buyer in exchange for a pair of short range colony ships.","mission_reward":{"plans":[{"extra_build_level":4,"level":1,"classname":"Lacuna::DB::Result::Building::LuxuryHousing"},{"extra_build_level":3,"level":1,"classname":"Lacuna::DB::Result::Building::LuxuryHousing"}]},"network_19_headline":"Mass migration from Xernos 10 leaves luxury housing virtually empty. Government struggles to build colony ships.","network_19_completion":"Xernos 10 migration a huge success. Planetary Administrator Faluk thanks %s for their quick assistance.","max_university_level":"18"}
+{
+   "description" : "Xernos 10 used to be a thriving planet, but it's pretty much all used up now, and the population is fleeing to greener pastures. The colony's famed residential and entertainment district has fallen on hard times, as the government struggles to create enough colony ships to handle the mass exodus. Rather than tear down their expansive civic infrastructure, they're willing to dispatch it to the right buyer in exchange for a pair of short range colony ships.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
+            "extra_build_level" : 4,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
+            "extra_build_level" : 3,
+            "level" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Empty Nest",
+   "network_19_completion" : "Xernos 10 migration a huge success. Planetary Administrator Faluk thanks %s for their quick assistance.",
+   "network_19_headline" : "Mass migration from Xernos 10 leaves luxury housing virtually empty. Government struggles to build colony ships."
+}

@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":10000,"stealth":0,"type":"dory","speed":1308}],"resources":{"lapis":100000,"meal":10000,"corn":100000,"pie":10000}},"name":"Food Basket, Orbit 2 Plea","mission_reward":{"glyphs":["anthracite","halite"]},"network_19_headline":"Lacunans Announce the creation of a Orbit 2 Food Pantry to feed starving Beeldeban Herders in Sector 9.","network_19_completion":"%s has contributed greatly to the Orbit 2 Food Pantry Program feeding starving Beeldeban Herders in Sector 9.","max_university_level":"12","description":"Beeldeban Herders in Sector 9 are facing a harsh winter this year.  Although the items requested are considered by some to be luxury items, we feel that our Orbit 2 philanthropists would like to help out, and this is how they can!  As a reward for furnishing us your fresh produce and goods, we will give a token of our appreciation: anthracite and halite glyphs, which you can save to create a Lapis Forest when you build an Archaeology Ministry, put them on your mantle, or perhaps sell them."}
+{
+   "description" : "Beeldeban Herders in Sector 9 are facing a harsh winter this year.  Although the items requested are considered by some to be luxury items, we feel that our Orbit 2 philanthropists would like to help out, and this is how they can!  As a reward for furnishing us your fresh produce and goods, we will give a token of our appreciation: anthracite and halite glyphs, which you can save to create a Lapis Forest when you build an Archaeology Ministry, put them on your mantle, or perhaps sell them.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 100000,
+         "lapis" : 100000,
+         "meal" : 10000,
+         "pie" : 10000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 10000,
+            "name" : "",
+            "speed" : 1308,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite",
+         "halite"
+      ],
+      "ships" : []
+   },
+   "name" : "Food Basket, Orbit 2 Plea",
+   "network_19_completion" : "%s has contributed greatly to the Orbit 2 Food Pantry Program feeding starving Beeldeban Herders in Sector 9.",
+   "network_19_headline" : "Lacunans Announce the creation of a Orbit 2 Food Pantry to feed starving Beeldeban Herders in Sector 9."
+}

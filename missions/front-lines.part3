@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 1200,
             "stealth" : 0,
             "type" : "detonator"
@@ -14,6 +15,7 @@
          {
             "combat" : 5000,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 2500,
             "stealth" : 0,
             "type" : "fighter"
@@ -21,6 +23,7 @@
          {
             "combat" : 2500,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 1200,
             "stealth" : 0,
             "type" : "snark"

@@ -1,2 +1,31 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"spy_pod","speed":0}]},"name":"Industrial Espionage","mission_reward":{"resources":{"bauxite":2500,"chalcopyrite":1000,"halite":1000,"sulfur":1500,"zircon":1500,"beryl":1500}},"network_19_headline":"Developing Empire Trabblx seeks to quickly develop its technology base.","network_19_completion":"A spy shuttle was stolen from %s by an unknown entity.","max_university_level":"15","description":"We the Trabblx wish to expand our technology base, but due to the single-minded nature of our race we find it very difficult to develop or discover on our own. We would gladly offer you an array of supplies if you would allow our scientists to work with your security ministry to understand the inner-workings of your pod technology.\n\nIn exchange for having a close look at a spy shuttle from your empire we will offer a significant quantity of ores and a pair of glyphs."}
+{
+   "description" : "We the Trabblx wish to expand our technology base, but due to the single-minded nature of our race we find it very difficult to develop or discover on our own. We would gladly offer you an array of supplies if you would allow our scientists to work with your security ministry to understand the inner-workings of your pod technology.\n\nIn exchange for having a close look at a spy shuttle from your empire we will offer a significant quantity of ores and a pair of glyphs.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bauxite" : 2500,
+         "beryl" : 1500,
+         "chalcopyrite" : 1000,
+         "halite" : 1000,
+         "sulfur" : 1500,
+         "zircon" : 1500
+      },
+      "ships" : []
+   },
+   "name" : "Industrial Espionage",
+   "network_19_completion" : "A spy shuttle was stolen from %s by an unknown entity.",
+   "network_19_headline" : "Developing Empire Trabblx seeks to quickly develop its technology base."
+}

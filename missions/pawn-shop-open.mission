@@ -1,2 +1,34 @@
 # config-file-type: JSON 1
-{"max_university_level":"7","mission_reward":{"resources":{"chip":2000,"pancake":2000,"cheese":2000,"syrup":2000,"soup":2000,"shake":2000}},"network_19_headline":"Pawn Lacuna opened its first branch.","description":"One thing the Expanse needs is a decent pawn shop. We just need some goods to sell to get started. Will you help? Great ground floor opportunity. Dories and Gold are good sellers. We can offer an 'InstaKitchen 2000' food processor in exchange. Great for picnics.","network_19_completion":"Pawn business is a success in this down economy!","name":"New pawn shop opens","mission_objective":{"resources":{"gold":1000},"ships":[{"speed":0,"type":"dory","combat":0,"hold_size":0,"stealth":0}]}}
+{
+   "description" : "One thing the Expanse needs is a decent pawn shop. We just need some goods to sell to get started. Will you help? Great ground floor opportunity. Dories and Gold are good sellers. We can offer an 'InstaKitchen 2000' food processor in exchange. Great for picnics.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 1000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cheese" : 2000,
+         "chip" : 2000,
+         "pancake" : 2000,
+         "shake" : 2000,
+         "soup" : 2000,
+         "syrup" : 2000
+      },
+      "ships" : []
+   },
+   "name" : "New pawn shop opens",
+   "network_19_completion" : "Pawn business is a success in this down economy!",
+   "network_19_headline" : "Pawn Lacuna opened its first branch."
+}

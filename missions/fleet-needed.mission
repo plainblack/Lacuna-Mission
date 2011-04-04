@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -14,6 +15,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -21,6 +23,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -28,6 +31,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -35,6 +39,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -42,6 +47,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -49,6 +55,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"
@@ -56,6 +63,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "dory"

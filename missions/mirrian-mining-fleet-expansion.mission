@@ -1,2 +1,65 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"name":"Mirrian Mining Fleet Expansion","mission_reward":{"resources":{"trona":8000,"zircon":8000,"beryl":8000,"chromite":8000,"goethite":8000,"bauxite":8000,"rutile":8000,"fluorite":8000}},"network_19_headline":"Mirrian Mining is Expanding its Fleet.","network_19_completion":"%s helps Mirrian Mining to complete its Fleet Expansion!","max_university_level":"10","description":"Due to the success of our recent expansion into new and profitable areas, we need to increase the size of our shipping fleet. Our current fleet is at capacity handling our existing lanes, we need additional transports to handle all the new mines coming online ASAP.\n\nPlease provide us with sufficient transports to do this and we will pay you handsomely in ore."}
+{
+   "description" : "Due to the success of our recent expansion into new and profitable areas, we need to increase the size of our shipping fleet. Our current fleet is at capacity handling our existing lanes, we need additional transports to handle all the new mines coming online ASAP.\n\nPlease provide us with sufficient transports to do this and we will pay you handsomely in ore.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bauxite" : 8000,
+         "beryl" : 8000,
+         "chromite" : 8000,
+         "fluorite" : 8000,
+         "goethite" : 8000,
+         "rutile" : 8000,
+         "trona" : 8000,
+         "zircon" : 8000
+      },
+      "ships" : []
+   },
+   "name" : "Mirrian Mining Fleet Expansion",
+   "network_19_completion" : "%s helps Mirrian Mining to complete its Fleet Expansion!",
+   "network_19_headline" : "Mirrian Mining is Expanding its Fleet."
+}

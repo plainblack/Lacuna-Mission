@@ -58,6 +58,7 @@
          {
             "combat" : 25000,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 10000,
             "stealth" : 8000,
             "type" : "sweeper"

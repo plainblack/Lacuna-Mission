@@ -11,6 +11,7 @@
          {
             "combat" : 10000,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 5500,
             "stealth" : 20,
             "type" : "fighter"
@@ -18,6 +19,7 @@
          {
             "combat" : 10000,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 5500,
             "stealth" : 20,
             "type" : "fighter"

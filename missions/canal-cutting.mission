@@ -1,2 +1,38 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0}]},"mission_reward":{"resources":{"chalcopyrite":8000,"gypsum":7000,"water":25000,"goethite":31000,"zircon":4000}},"description":"Greetings.  We represent Suphureri's development council.  We are looking for a trade partner to offer us a couple of excavators that we intend to adapt cut our canals.  Obviously we'll be pulling up a lot of dirt and rocks to make the canal. -We're also going to develop easier access to our water processing plants.  If you can get those excavators to us, we'll send plenty of minerals and water your way.","network_19_headline":"Planetary leaders seek special equipment to dig waterway.","network_19_completion":"%s provides Suphureri tools to build canals.","name":"Canal cutting","max_university_level":"18"}
+{
+   "description" : "Greetings.  We represent Suphureri's development council.  We are looking for a trade partner to offer us a couple of excavators that we intend to adapt cut our canals.  Obviously we'll be pulling up a lot of dirt and rocks to make the canal. -We're also going to develop easier access to our water processing plants.  If you can get those excavators to us, we'll send plenty of minerals and water your way.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chalcopyrite" : 8000,
+         "goethite" : 31000,
+         "gypsum" : 7000,
+         "water" : 25000,
+         "zircon" : 4000
+      },
+      "ships" : []
+   },
+   "name" : "Canal cutting",
+   "network_19_completion" : "%s provides Suphureri tools to build canals.",
+   "network_19_headline" : "Planetary leaders seek special equipment to dig waterway."
+}

@@ -1,2 +1,51 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":2000},{"combat":0,"hold_size":0,"stealth":0,"type":"freighter","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"freighter","speed":0}],"resources":{"bread":30000,"cheese":15000,"burger":30000}},"name":"The Big Picture pt 3","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Shipyard","level":1,"extra_build_level":11}]},"network_19_headline":"Film producer thrilled audiences with real fighters.  Next up is real love, set on a real freighter.","network_19_completion":"After successful desert scenes and action packed aerial battles, producer aims for the heart with a deep romance set against a deep tragedy.","max_university_level":"30","description":"This is sector-wide film producer,  Mr. Mega Star.  I know audiences everywhere loved the action packed adventure flick, but it seemed too simple.  I need to get to deeper levels, and what better way than to tell a romantic love story against the backdrop of a great tragedy.  Of course I mean the loss of the cruise ship Gigantic, which ran into an asteroid in 9112.  They all thought the ship was the toughest around, so I'll need a big freighter.  You should send along some burgers and bread, too, for my crews.  \n\nThe movie business is a big business, too!   We will, of course, need two such large freighters, and a speedy dory for camera work.  In return, we will help you upgrade your shipbuilding facilities."}
+{
+   "description" : "This is sector-wide film producer,  Mr. Mega Star.  I know audiences everywhere loved the action packed adventure flick, but it seemed too simple.  I need to get to deeper levels, and what better way than to tell a romantic love story against the backdrop of a great tragedy.  Of course I mean the loss of the cruise ship Gigantic, which ran into an asteroid in 9112.  They all thought the ship was the toughest around, so I'll need a big freighter.  You should send along some burgers and bread, too, for my crews.  \n\nThe movie business is a big business, too!   We will, of course, need two such large freighters, and a speedy dory for camera work.  In return, we will help you upgrade your shipbuilding facilities.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "bread" : 30000,
+         "burger" : 30000,
+         "cheese" : 15000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "freighter"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Shipyard",
+            "extra_build_level" : 11,
+            "level" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "The Big Picture pt 3",
+   "network_19_completion" : "After successful desert scenes and action packed aerial battles, producer aims for the heart with a deep romance set against a deep tragedy.",
+   "network_19_headline" : "Film producer thrilled audiences with real fighters.  Next up is real love, set on a real freighter."
+}

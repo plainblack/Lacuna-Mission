@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"name":"Honest Dan Used Ship Deals A","mission_objective":{"ships":[{"type":"dory","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old Dory you just can't get rid of? This is the place to come!  Today's special: Cash for clunkers.  We'll give you cash for your old Dory, any size, any speed!  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!","mission_reward":{"resources":{"gold":5000}},"network_19_headline":"Honest Dan's Used Ship Dealership is now open for business!","network_19_completion":"%s made a great deal at Honest Dan's Used Ship Dealership!","max_university_level":"15"}
+{
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old Dory you just can't get rid of? This is the place to come!  Today's special: Cash for clunkers.  We'll give you cash for your old Dory, any size, any speed!  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 5000
+      },
+      "ships" : []
+   },
+   "name" : "Honest Dan Used Ship Deals A",
+   "network_19_completion" : "%s made a great deal at Honest Dan's Used Ship Dealership!",
+   "network_19_headline" : "Honest Dan's Used Ship Dealership is now open for business!"
+}

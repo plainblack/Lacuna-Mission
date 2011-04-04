@@ -37,6 +37,7 @@
          {
             "combat" : 0,
             "hold_size" : 75000,
+            "name" : "",
             "speed" : 5000,
             "stealth" : 12500,
             "type" : "smuggler_ship"

@@ -10,6 +10,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
+            "name" : "",
             "speed" : 1300,
             "stealth" : 0,
             "type" : "dory"

@@ -1,2 +1,54 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"type":"spy_pod","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"spy_pod","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"spy_pod","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"spy_pod","stealth":0,"hold_size":0,"speed":0}]},"mission_reward":{"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::MunitionsLab","extra_build_level":3}]},"description":"Some of my people are informing me that the planetary council of Koot have gotten an elite force together just for me.  I'm honored in a way, but shattered as well.  My dream was to transform Koot. Now it seems I've got to leave in a hurry.  \n\nWhat I need to get out of here are a couple of spy pods.  We've wanted to crush that planetary council, and we hoped the Munition Lab plans we recently acquired would help.  We've got no use for them now. I hope you can put them to good use.","network_19_headline":"Hunt for the terrorist leader Korc gears up. Will he find a way to escape justice?","network_19_completion":"The people of Koot have worked very hard to capture the elusive terrorist leader Korc, but it seems he's vanished, and they have no leads.","name":"revenge is justice","max_university_level":"10"}
+{
+   "description" : "Some of my people are informing me that the planetary council of Koot have gotten an elite force together just for me.  I'm honored in a way, but shattered as well.  My dream was to transform Koot. Now it seems I've got to leave in a hurry.  \n\nWhat I need to get out of here are a couple of spy pods.  We've wanted to crush that planetary council, and we hoped the Munition Lab plans we recently acquired would help.  We've got no use for them now. I hope you can put them to good use.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::MunitionsLab",
+            "extra_build_level" : 3,
+            "level" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "revenge is justice",
+   "network_19_completion" : "The people of Koot have worked very hard to capture the elusive terrorist leader Korc, but it seems he's vanished, and they have no leads.",
+   "network_19_headline" : "Hunt for the terrorist leader Korc gears up. Will he find a way to escape justice?"
+}

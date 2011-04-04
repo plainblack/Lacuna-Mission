@@ -1,2 +1,42 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"name":"Sock Gnome Hunt Part 5","mission_reward":{"resources":{"gold":51000}},"network_19_headline":"Gnomes And Leprechauns Wreck Havoc.","network_19_completion":"%s has successfully aided in mass evacuation.","max_university_level":"12","description":"Amid fire and screaming in the top secret sock factory...\n\n\"THE HORROR, The Horror...\"\n\nWe tried poisoning the Gnomes' and Leprechauns' water source, but it mutated them instead!  Now we've got fire spitting Gnomes and the Leprechaun's... Well, let's just say: you wouldn't like them when they are angry.  \n\nThat's it.  We give up.  Let them have the planet!  The only problem is that were kinda stuck here.  A group of Leprechaun's went after our space port.  They demolished our dories and crushed our cargo ships.  WE NEED TRANSPORT!  \n\nIn exchange for 3 dories we offer the 51K gold we have left from what we used to lure the Leprechauns here... -Who's idea was that anyway?\n\nI quit.  Time to start making hats, forget socks!"}
+{
+   "description" : "Amid fire and screaming in the top secret sock factory...\n\n\"THE HORROR, The Horror...\"\n\nWe tried poisoning the Gnomes' and Leprechauns' water source, but it mutated them instead!  Now we've got fire spitting Gnomes and the Leprechaun's... Well, let's just say: you wouldn't like them when they are angry.  \n\nThat's it.  We give up.  Let them have the planet!  The only problem is that were kinda stuck here.  A group of Leprechaun's went after our space port.  They demolished our dories and crushed our cargo ships.  WE NEED TRANSPORT!  \n\nIn exchange for 3 dories we offer the 51K gold we have left from what we used to lure the Leprechauns here... -Who's idea was that anyway?\n\nI quit.  Time to start making hats, forget socks!",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 51000
+      },
+      "ships" : []
+   },
+   "name" : "Sock Gnome Hunt Part 5",
+   "network_19_completion" : "%s has successfully aided in mass evacuation.",
+   "network_19_headline" : "Gnomes And Leprechauns Wreck Havoc."
+}

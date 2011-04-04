@@ -12,6 +12,7 @@
          {
             "combat" : 5000,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 2500,
             "stealth" : 0,
             "type" : "fighter"
@@ -22,7 +23,8 @@
       "glyphs" : [
          "halite",
          "fluorite"
-      ]
+      ],
+      "ships" : []
    },
    "name" : "Pirates ",
    "network_19_completion" : "Pirates Have Been Supplied!",

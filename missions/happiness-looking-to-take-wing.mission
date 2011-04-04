@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "colony_ship"
@@ -14,7 +15,8 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 100000
+      "happiness" : 100000,
+      "ships" : []
    },
    "name" : "Happiness Looking to Take Wing",
    "network_19_completion" : "The Raisle Government promises that settlement will continue as planned.",

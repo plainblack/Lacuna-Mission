@@ -1,2 +1,46 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"snark","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"snark","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"snark","speed":0}]},"name":"The Master Builder","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Capitol","level":12,"extra_build_level":0}]},"network_19_headline":"Crozet Capitol Construction Halted. Master Builder Murdered By Apprentices.","network_19_completion":"Work on Crozet Capitol Continues Apace; Viceroy commends %s for a meritorious act of service.","max_university_level":"20","description":"The Crozet people of Nag Dabbar 2 were busily constructing their new national capitol when disaster struck. Three dissatisfied apprentices, intent on learning the craft secrets of the capitol's Sacred Architect murdered their master right where he stood. Now the government is in chaos and desperately seeking proper Capitol Building plans to lay upon their trestle board.  The plans can be recreated, but we need to restore order to the planet first.  Please supply enough to pacify the populace, and we will share our plans."}
+{
+   "description" : "The Crozet people of Nag Dabbar 2 were busily constructing their new national capitol when disaster struck. Three dissatisfied apprentices, intent on learning the craft secrets of the capitol's Sacred Architect murdered their master right where he stood. Now the government is in chaos and desperately seeking proper Capitol Building plans to lay upon their trestle board.  The plans can be recreated, but we need to restore order to the planet first.  Please supply enough to pacify the populace, and we will share our plans.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Capitol",
+            "extra_build_level" : 0,
+            "level" : 12
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "The Master Builder",
+   "network_19_completion" : "Work on Crozet Capitol Continues Apace; Viceroy commends %s for a meritorious act of service.",
+   "network_19_headline" : "Crozet Capitol Construction Halted. Master Builder Murdered By Apprentices."
+}

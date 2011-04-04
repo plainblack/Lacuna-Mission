@@ -1,2 +1,105 @@
 # config-file-type: JSON 1
-{"mission_reward":{"glyphs":["kerogen","trona","zircon","anthracite","beryl","uraninite","gypsum","uraninite"]},"network_19_headline":"Excavators Need An Escort!","description":"We are currently exploring a hostile sector. We have had many ships go into it and yet none come out again. We are sending in our excavators to search for glyphs next week. We will need some Snarks,Drones,and Scanners. Just to ensure that if we encounter hostiles, we are prepared to fight, defend our excavators, and gain information at the same time. \nWe have a few glyphs we'll give for an escort fleet to clear the area of any hostiles. Good Day.","network_19_completion":"Excavators Have An Escort!","max_university_level":"30","name":"Escorts For Clearance","mission_objective":{"ships":[{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"snark"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"snark"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"scanner"},{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"scanner"}]}}
+{
+   "description" : "We are currently exploring a hostile sector. We have had many ships go into it and yet none come out again. We are sending in our excavators to search for glyphs next week. We will need some Snarks,Drones,and Scanners. Just to ensure that if we encounter hostiles, we are prepared to fight, defend our excavators, and gain information at the same time. \nWe have a few glyphs we'll give for an escort fleet to clear the area of any hostiles. Good Day.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "kerogen",
+         "trona",
+         "zircon",
+         "anthracite",
+         "beryl",
+         "uraninite",
+         "gypsum",
+         "uraninite"
+      ],
+      "ships" : []
+   },
+   "name" : "Escorts For Clearance",
+   "network_19_completion" : "Excavators Have An Escort!",
+   "network_19_headline" : "Excavators Need An Escort!"
+}

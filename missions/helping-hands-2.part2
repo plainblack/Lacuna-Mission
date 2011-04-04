@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 20000,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "scow"
@@ -20,7 +21,8 @@
             "extra_build_level" : 1,
             "level" : 1
          }
-      ]
+      ],
+      "ships" : []
    },
    "name" : "Helping Hands 2",
    "network_19_completion" : "%s aids Blue Plus Association in earthquake recovery.",

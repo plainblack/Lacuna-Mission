@@ -1,2 +1,29 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"detonator","speed":0}]},"name":"Weapons for Peace","mission_reward":{"resources":{"bread":100000,"shake":100000,"cheese":100000,"pie":100000}},"network_19_headline":"Demilitarization is all the rage. Usarlaz Ongla offers exchange of weapons for food.","network_19_completion":"%s participated in Usarlaz Ongla's weapons for peace program.","max_university_level":"20","description":"Usarlaz Ongla is offering empires a weapons for peace program. Participating empires will be given 400K food in exchange for demilitarizing a detonator class ship."}
+{
+   "description" : "Usarlaz Ongla is offering empires a weapons for peace program. Participating empires will be given 400K food in exchange for demilitarizing a detonator class ship.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "detonator"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bread" : 100000,
+         "cheese" : 100000,
+         "pie" : 100000,
+         "shake" : 100000
+      },
+      "ships" : []
+   },
+   "name" : "Weapons for Peace",
+   "network_19_completion" : "%s participated in Usarlaz Ongla's weapons for peace program.",
+   "network_19_headline" : "Demilitarization is all the rage. Usarlaz Ongla offers exchange of weapons for food."
+}

@@ -14,6 +14,7 @@
          {
             "combat" : 0,
             "hold_size" : 50000,
+            "name" : "",
             "speed" : 1200,
             "stealth" : 2500,
             "type" : "cargo_ship"

@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"name":"Down the Wurm Hole","mission_objective":{"resources":{"uraninite":500},"ships":[{"type":"dory","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"Atticus Wurm, inventor of the nano-piezo flux capacitor, is looking for a Dory and 500 units of Uraninite. He believes he can modify the dory to open a hole in the space-time continuum when it reaches the velocity of 88 parsecs per hour. The empire which fronts the Dory and Uraninite will receive plans for a level 2 fusion reactor.","mission_reward":{"plans":[{"extra_build_level":1,"level":1,"classname":"Lacuna::DB::Result::Building::Energy::Fusion"}]},"network_19_headline":"Atticus Wurm seeks dory for one way trip through wormhole.","network_19_completion":"%s has financed Wurm's whole journey.","max_university_level":"7"}
+{
+   "description" : "Atticus Wurm, inventor of the nano-piezo flux capacitor, is looking for a Dory and 500 units of Uraninite. He believes he can modify the dory to open a hole in the space-time continuum when it reaches the velocity of 88 parsecs per hour. The empire which fronts the Dory and Uraninite will receive plans for a level 2 fusion reactor.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 500
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Fusion",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Down the Wurm Hole",
+   "network_19_completion" : "%s has financed Wurm's whole journey.",
+   "network_19_headline" : "Atticus Wurm seeks dory for one way trip through wormhole."
+}

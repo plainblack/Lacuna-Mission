@@ -1,2 +1,42 @@
 # config-file-type: JSON 1
-{"name":"Rescue our people","mission_objective":{"ships":[{"type":"cargo_ship","combat":0,"hold_size":0,"stealth":0,"speed":0},{"type":"cargo_ship","combat":0,"hold_size":0,"stealth":0,"speed":0},{"type":"cargo_ship","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"It seems we may have, er, miscalculated slightly. As our old sun on Caldesto continues to die, we piled our \"best and brightest\" on the colony ship to Caldesto II. Unfortunately, we seem to have brought only politicians, no one knows how to tend the farms!! We need to rescue some more of our people, but after that big bonus we gave ourselves for the initial recolonization, our government can't afford another ship! Please, send us some cargo ships to help transport our farmers! We'll give you this odd glyph we found in some ruins on our new world.","mission_reward":{"glyphs":["anthracite"]},"network_19_headline":"Caldesto II suffering from severe food shortages. Government cries out for help!","network_19_completion":"With the aid of %s, the Caldestan farmers have arrived safely. The sound of tractors rumbling fills the air.","max_university_level":"12"}
+{
+   "description" : "It seems we may have, er, miscalculated slightly. As our old sun on Caldesto continues to die, we piled our \"best and brightest\" on the colony ship to Caldesto II. Unfortunately, we seem to have brought only politicians, no one knows how to tend the farms!! We need to rescue some more of our people, but after that big bonus we gave ourselves for the initial recolonization, our government can't afford another ship! Please, send us some cargo ships to help transport our farmers! We'll give you this odd glyph we found in some ruins on our new world.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite"
+      ],
+      "ships" : []
+   },
+   "name" : "Rescue our people",
+   "network_19_completion" : "With the aid of %s, the Caldestan farmers have arrived safely. The sound of tractors rumbling fills the air.",
+   "network_19_headline" : "Caldesto II suffering from severe food shortages. Government cries out for help!"
+}
