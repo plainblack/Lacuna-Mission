@@ -1,0 +1,133 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. Tyos was a space-faring man of the first order. He used to buzz around from light-year to light-year, teaching people in different time spaces how to build a better mousetrap. One day, the mice decided that they’d had enough, and contrived of a way to strike back against his obvious failure at inter-species diplomacy. Armed to the teeth, they set about him with a vast array of powerfully-armed star-cruisers.  They secured from him, under threat of violence and the watchful gaze of innumerable panoplies of multicolored suns, the holocron containing his better mousetrap plans. Returning to their homeworld behind the kitchen baseboard, they connected the holocron to their matchbox-and-ticky-tacky battle computer with a little bit of old string. The files uploaded anyway, and instantly defragged the entire rodent warship armada. Now free of the burgeoning buffer-bloat and Toxoplasm Gondii that the mice had been using to enslave them, the entire herd of starships broke rank and scarpered. Now the mice are pissed, because they need a new fleet of breeding pairs to replenish the ranks of their navy. They’d gladly give you their nemesis in return. ”",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "barge"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "barge"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTh",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Noah's Arms",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

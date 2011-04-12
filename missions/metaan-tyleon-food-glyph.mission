@@ -1,0 +1,40 @@
+# config-file-type: JSON 1
+{
+   "description" : "Early work on the Tyleon project must begin.  In order to sustain a self-contained environment, an empire must have an understanding of a balanced ecology.  The first ingredient of life is water, the second is food, and the unavoidable byproduct is waste.  Now that the dynamics of water usage are fully understood, there needs to be a better grasp on food.  In the initial experiments, only algae and fungus were observed.  Unfortunately they didn't have much interplay with each other.  A much larger food cycle must be studied to understand how it all might come together in an arcology.  To look at production, storage, and consumption there have to be some minerals to feed the crops, a variety of food types with interlocked dynamics, energy for freezing or freeze-drying, and some willing participants to... um... taste-test the products.  Though large quantities are still necessary, collaboration with allies or trade partners will certainly be necessary to get diverse samples and fully understand how various ecologies work.  Any empire that can accomplish all of this just might produce a Tyleon food glyph.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "happiness" : "10000",
+      "resources" : {
+         "algae" : 1500,
+         "apple" : 1500,
+         "bean" : 1500,
+         "beetle" : 1500,
+         "cheese" : 1500,
+         "cider" : 1500,
+         "corn" : 1500,
+         "energy" : 10000,
+         "fluorite" : 1000,
+         "fungus" : 1500,
+         "lapis" : 1500,
+         "milk" : 1500,
+         "potato" : 1500,
+         "root" : 1500,
+         "sulfur" : 2000,
+         "syrup" : 1500,
+         "trona" : 2000,
+         "wheat" : 1500
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTi",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Tyleon Food Glyph",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

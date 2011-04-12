@@ -1,0 +1,56 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. The Tyleon well knew something many modern empires in the expanse have long forgotten: one + one = two. This seemingly simple concept is somehow lost on mother nature. She likes to add in dribs and drabs; you almost never catch the woman working with whole numbers. Unless it's about sex, and even then, the results are more like one + one ≠ two, because you might break up, or you might have fourteen kids. Many of the great minds of the expanse have attempted to explain this stark difference between how reality works and how we try to understand it. Putting all the observations together into a workable theory one can use as a pickup line has proven incredibly difficult, and the secrets of math harmony have been ignored as a result. However, a trillion brains baking under the harsh light of innumerable panoplies of multicolored suns get madder than dogs and Englishmen interbred, and madness is the seed of brilliance. Maybe if your empire wastes all its greatest geomorphic discoveries in one act of mad-scientist like addition, they can be combines into something that is provably perfect and beautiful. \"",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::BeeldebanNest",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::LapisForest",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTf",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Add The Rainbow",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

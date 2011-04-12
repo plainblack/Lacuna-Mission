@@ -1,0 +1,101 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings fellow expanse inhabitants!\n              I am part of a team of scientists and archeologists, we are seeking the rumored magical city of Tyleon. You know, the mythical lost city? It's a completely self sustaining city, takes care of it's waste, produces everything imaginable, completely self sustaining. That part is being a great technological and mythical wonder, because if such a city exists we can't use any bi-products produced by the city to help locate it by our scans. So, we had a great idea! It's sort of like how you pump water into a pipe to check the seals for leaks, why not fill ships with waste and dump them all over planets, if the city is present then, maybe, just maybe, the waste will be removed from that area of the planet, thus finding the leak, in a metaphorical sense of speaking of course, allowing us to find such a marvelous feat of engineering, or in some believed cases, a source of great mystical energy. Can you get us some ships to help with that? Oh and could we get a ship to get a photo of the planets, it's easier than us going by and checking by eye, and we'd get it done so much faster this way.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTf",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Scow Location",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Finally. we have solid earth under our feet again! Still, it will take a long time and a lot of effort to create even a semblance of what we lost in Tyleon. The orchards that bear fruit twice a year, the dense jungle of lapis, the golden fields of wheat ... oh, how we miss these!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 40000,
+         "lapis" : 40000,
+         "wheat" : 40000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTe",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Agricultural Aid",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

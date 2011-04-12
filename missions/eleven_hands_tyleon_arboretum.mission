@@ -1,0 +1,87 @@
+# config-file-type: JSON 1
+{
+   "description" : "My friends, my Countrymen, I have seen it!  I have seen it, though not with my own eyes.  \nLast night I went on a journey; a journey through time and a journey through The Expanse, a journey from a place not far from here, and a journey to a place too long forgotten.  My friends, I speak of the Tyleon Arboretum.\n\nWe floated down to the edge of the magnificent city.  There, a long glass cylinder lay on its side.  Through a door on one end, and into the mythos we went, and I tell you now that all I had said about the splendor of Tyleon was but a scratch of the surface.  The city, you know, is a self contained entity; seemingly much smaller than it is in reality.  I would never have expected that the ancient architects of Tyleon could use the same technology within itself, yet there were the riches of an entire world, landscape and all, inside a building, inside a city.  A Lost City.\n\nMany times, I know, you have heard my tales of the Lost City.  Many times you have disbelieved, but today I bring you proof: Tyleon is real.\n\nAt the end of my journey they showed me, showed me the source of their endless resources; they showed me how to fit a planet inside a bottle.  Now, come; bring me the land, the trees, the lakes, the creatures all, even the sand and the lava.  Come, and we will build the Tyleon Arboretum once again!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "essentia" : "100",
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::AlgaePond",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::BeeldebanNest",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lagoon",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lake",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::LapisForest",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Ravine",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::RockyOutcrop",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Sand",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTc",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "The Tyleon Arboretum",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

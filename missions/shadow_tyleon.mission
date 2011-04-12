@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "Help! We knew that the asteroid FBA-01507 will one day collide with our planet, but we miscalculated and had to leave in a hurry. So now we are in this pathetic ship without FTL and with minimal resources. Please send us a rescue team and we will share with you the plans of our city, Tyleon!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 15000,
+         "bread" : 5000,
+         "water" : 25000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTd",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Survivors of Tyleon",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

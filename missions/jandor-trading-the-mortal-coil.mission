@@ -1,0 +1,137 @@
+# config-file-type: JSON 1
+{
+   "description" : "The path is clear and immortality is forever. In order to possess the power of Tyleon, you must be willing to part with your material wealth and your ambitions of domination. You show your willingness to give up your fleet, discard your possessions, and donate to charity that which you have earned.\n\nIf you can do these things, then and only then will the ancient secrets of Tyleon be revealed to you. Your search has been long and difficult. You need only take this last step to reach your ultimate goal.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "essentia" : "10",
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod4",
+            "target" : {
+               "in_zone" : 0,
+               "inhabited" : 1,
+               "isolationist" : 1,
+               "size" : [
+                  1,
+                  45
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "supply_pod4",
+            "target" : {
+               "in_zone" : 0,
+               "inhabited" : 1,
+               "isolationist" : 1,
+               "size" : [
+                  1,
+                  45
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "glyphs" : [
+         "anthracite",
+         "bauxite",
+         "beryl",
+         "chalcopyrite",
+         "chromite",
+         "fluorite",
+         "galena",
+         "goethite",
+         "gold",
+         "gypsum",
+         "halite",
+         "kerogen",
+         "magnetite",
+         "methane",
+         "monazite",
+         "rutile",
+         "sulfur",
+         "trona",
+         "uraninite",
+         "zircon"
+      ],
+      "happiness" : "50000000",
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "bleeder"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "observatory_seeker"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "placebo5"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "security_ministry_seeker"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark3"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spaceport_seeker"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "sweeper"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTa",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "The Mortal Coil",
+   "network_19_completion" : "%s has unlocked the last part of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, but many believe its secrets will be revealed soon."
+}

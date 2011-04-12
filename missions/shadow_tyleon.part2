@@ -1,0 +1,62 @@
+# config-file-type: JSON 1
+{
+   "description" : "Thanks to the generous help we received, we were able to survive our ordeal in the aftermath of the asteroid impact. But now we need to settle down somewhere, and start rebuilding. Could you help us again to survey the promising stars, so we may begin rebuilding as fast as possible?",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "bauxite" : 10000,
+         "gypsum" : 10000,
+         "magnetite" : 10000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTi",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Settlers",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

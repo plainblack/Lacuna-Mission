@@ -1,0 +1,49 @@
+# config-file-type: JSON 1
+{
+   "description" : "TYLEON! You’ve heard of it? It was the best city in the universe! Ever! But it disappeared. Where? Where did it go. I don’t know! But! They did everything in Tyleon, everything. It was just one city, but it could produce all its own resources! Completely self-sufficient, no pollution, no unrest. All perfect. All of it!\n\nAnd! The most perfectly perfect of their many perfections: their STORAGE! Wahahahah, yes! They probably could have stored your whole little empire in that splendiferous vault! And *I* have reproduced their long-forgotten technique! So obvious that only a genius of my magnitude could have figured it out!! feeee-heeheeheheheeheheeeee!!!\n\nYou see, it’s quite simple: all it is... is an Interdimensional Rift... INSIDE ANOTHER INTERDIMENSIONAL RIFT!!! Hohohohohoho!!! Brilliant!!!\n\nBut! There’s some science involved if you want one of your own. I need something big and explosive to destabilize the rifts, plenty of chromite and magnetite to re-stabilize them during the confluxation, refined gypsum to make bonding plaster, and some of the FINEST CHEESE IN THE UNIVERSE. You know, for my mice. They get hungry turning all the wheels that power my laboratory. \n\nIf you can provide all that in addition to the two rifts, I’d be glad to make your Tyleon-inspired Mega-Rift free of charge!! All I ask is that you ensure Network 19 spells my name right when they report the transaction. It’s W-A-L-L-Y. Not \"Wacko\" Wally or \"Wally Crazypants\", just WALLY. Ok?",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "glyphs" : [
+         "gypsum"
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::InterDimensionalRift",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::InterDimensionalRift",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "cheese" : 200000,
+         "chromite" : 500000,
+         "magnetite" : 500000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "detonator"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTe",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Tyleon Mega-Rift Deluxe",
+   "network_19_completion" : "MWA HA HA! %s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

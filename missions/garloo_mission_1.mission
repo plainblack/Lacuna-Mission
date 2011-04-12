@@ -1,0 +1,93 @@
+# config-file-type: JSON 1
+{
+   "description" : "While on a routine archaeological dig on Tannis 3, our survey team has has made an astounding discovery.  What we once thought to be legend only, The Lost City of Tyleon, has shown itself to be real.  The ancient records make clear that this marvel of the Great Race is by no means an easy technology to master.   Many of the details as to its construction are absent.   It seems that the Great Ones split the plans into 9 parts so that the technology would be accessible only to a truly advanced society.  The records offer us a clue to follow, a clue that will lead us to the first of 9 plans for the Lost City of Tyleon.   We need to search the nearby systems for the first plan.  Please help us out by probing these 9 systems.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTg",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Tyleon Dig (part 1)",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

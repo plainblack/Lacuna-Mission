@@ -1,0 +1,70 @@
+# config-file-type: JSON 1
+{
+   "description" : "That ancient jazz, man. You heard it?\n\nNah, nah, didn’t think so. Nobody ever knows what I’m talkin’ about. \n\nBut these sounds, man. I look up at night at the stars, into the expanse... and I hear it, man. The jazz. It calls out to me, each note tinkling down from a different star. It’s *deep*, man. I’ve heard music from every culture in the expanse and I’ve never heard nothin’ like this...\n\nSometimes, I close my eyes, and I... I see it. Where the jazz is comin’ from. Ya dig? I see great blocky structures, populated with light and color. I see the musicians, standing amongst the sound, not so much creating it as a part of it. I hear whispers through the pulsing waves; they call this place the “Odeon of Oncavia.” They speak another name - “Tyleon” - and the city surrounding the Odeon comes into focus briefly, before the whole scene fades like the memory of a dream...\n\nI don’t know what any of it means, man. But, the jazz... I think it wants to be heard again. Will you help me recreate the Odeon? I would need construction materials, transport vessels, colony ships full of workers. But most importantly: happiness. The jazz... it creates happiness, but it's also born of it. Ya dig?",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "happiness" : "50000",
+      "resources" : {
+         "bauxite" : 5000,
+         "beryl" : 5000,
+         "fluorite" : 10000,
+         "goethite" : 10000,
+         "gypsum" : 10000,
+         "magnetite" : 10000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 5000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "barge"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 2000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTg",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "That Ancient Jazz",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

@@ -1,0 +1,264 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. What living bits of these once vibrant cities remain refract skyward the combined starfall energy of innumerable panoplies of multicolored suns. A trillion tiny bricks, cast across the expanse and each possessed of a single etheric eye, gaze heavenward like seeds awaiting the storm, yearning to be moistened with the sweet waters of possibility and thus flower into towering cityspheres capable of casting colonies to solar winds like so many iridescent dandelion seeds.  All eyes look up, but space is vast, and all are seeking new planets upon which to further replicate their unique bio-masonic edifices of living silicate life-form stones cemented together with carbon-based bio-mechanical mortar. However, the ruins of the old buildings can't see very far or hear very well anymore. In exchange for the assistance of a probe fleet, they will endeavor to use their hyper-dimensional tetrad physics to force one of their unique seed blocks into existence on your planet. If you water it well, it just might sprout into a foundation stone for a new arcology.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 0,
+               "type" : "star"
+            }
+         }
+      ],
+      "resources" : {
+         "water" : 10000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTi",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "See(d) The Rainbow",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

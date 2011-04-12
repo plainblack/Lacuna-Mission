@@ -1,0 +1,38 @@
+# config-file-type: JSON 1
+{
+   "description" : "Success!   Your assistance in searching for the Lost City of Tyleon has gotten us past the first hurdle.  We’ve narrowed down our next digging site to a few systems.  Unfortunately, our bosses back at the Archaeology Ministry think this whole adventure is a lot of pie in the sky!  They’ve cut our funding and taken back most of our equipment.  We know we’re right!  We just can’t prove it yet!  If only we had more funding to finish this latest dig.  We’re sure we’re on the verge of finding another another piece of the plan.  We can stall the ministry for only a couple of days.  Please help us out in our hour of need!",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 15000,
+         "chromite" : 5000,
+         "energy" : 20000,
+         "magnetite" : 5000,
+         "water" : 20000,
+         "wheat" : 10000,
+         "zircon" : 5000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "barge"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTh",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Tyleon Dig (part 2)",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

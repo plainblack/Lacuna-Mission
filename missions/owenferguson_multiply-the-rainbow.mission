@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. Waste = food. This is the secret of the mystery of death. The Tyleon never recycled. This is because their science was perfect, and every object in their use was a manifestation of pure will, not some puny physical trinket tool to be cast aside after first use, never to be sought again, languishing for all eternity in the back of the garage until eventually being thrown out when you die. The Arcologies used to eat waste, in as much as the walls themselves acted as a respiratory, digestive and excretory system for the organism of the building. The walls literally ate crap and shat out ice cream, an they were all effectively cross-managed by a computer referred to only as the \"Burroughs Large System.\" Recycling is not an effective way to run an arcology. You get way more out of it than you put into it. Thankfully, a temporary reality disruption has occurred, and you can get rid of some unneeded trash fast, by shoveling it into the hole. Just remember to think about what you're getting yourself into. If everybody beneath innumerable panoplies of multicolored suns begins pushing their trash into hyperspace, what happens when the frames between universes begin to break down? Who are you going to call?\"",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Waste",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Waste::Treatment",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "waste" : 50000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTe",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Multiply The Rainbow",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

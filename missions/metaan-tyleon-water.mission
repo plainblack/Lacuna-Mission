@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "Early work on the Tyleon project must begin.  In order to sustain a self-contained environment, an empire must have an understanding of a balanced ecology.  The first ingredient of life is water, the second is food, and the unavoidable byproduct is waste.  To start understanding how water is balanced in this context is not going to be easy, but the challenges ahead are far greater.  Firstly, an empire needs to collect a supply of water for study.  25,000 units should do for a start.  By observing how fungus and algae consume, store, or even excrete water, it can be imagined how these processes scale up.  5,000 of each should be enough.  Lastly, water must be studied in various atmospheres.  An empire can construct a dory and convert it to an orbital science lab for the purpose of applying different gravities and pressures to the experiments.  They would then be able to learn enough about water usage to move forward with the project.  One Tyleon City glyph will be produced by the empire.  The water glyph.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 5000,
+         "fungus" : 5000,
+         "water" : 25000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTg",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Tyleon Water Glyph",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

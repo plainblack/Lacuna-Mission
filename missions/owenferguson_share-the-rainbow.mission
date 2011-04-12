@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. The Tyleon believed that love was the foundational energy of the universe, and from this simple and brilliant observation, they derived an astounding corollary: Food is the meaning of life. Love is the food upon which we feed the soul, and as such the organization of efficient, self-reliant citizens was vital in the development of the Tyleon Arcologies. Only the man who feeds himself is free, and freedom is embodied in the Arc. The freedom to harmonize for good, to gather 'round the potluck table at harvest time and all sup equally of the bounty of the fields. Community cannot grow where plants do not, cannot blossom and flower where fields lie fallow. Feed your people well; let them taste the sweet nectars and bitter hues of food stocks harvested from beneath innumerable panoplies of multicolored suns. If you persevere and understand that variety is the key to happiness and that happiness is the key to life, your people will have the nourishment they need to cast for you the Key of Fraternity.\"",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "happiness" : "200000",
+      "resources" : {
+         "algae" : 5000,
+         "apple" : 5000,
+         "bean" : 5000,
+         "beetle" : 5000,
+         "bread" : 5000,
+         "burger" : 5000,
+         "cheese" : 5000,
+         "chip" : 5000,
+         "cider" : 5000,
+         "corn" : 5000,
+         "fungus" : 5000,
+         "lapis" : 5000,
+         "meal" : 5000,
+         "milk" : 5000,
+         "pancake" : 5000,
+         "pie" : 5000,
+         "potato" : 5000,
+         "root" : 5000,
+         "shake" : 5000,
+         "soup" : 5000,
+         "syrup" : 5000,
+         "wheat" : 5000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTg",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Share The Rainbow",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

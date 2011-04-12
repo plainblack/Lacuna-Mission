@@ -1,0 +1,56 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Archeology Department of the University of Caladan is asking for volunteers to clean up the pile of searched ore that is threatening to overflow the campus, and is looking for scows that would be capable of preventing such piles to gather again. The ore is reported to have come from the former colony of Tyleon, and it might be worth the time of an Excavator or two to sift through it again ... and a generous donation to the university can secure the award of the contract.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 50000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 150000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 150000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTf",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Spring Cleaning",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

@@ -1,0 +1,43 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. The Tyleon had a myth that all asteroids in the expanse are just large bricks from the Great Arcology of Tyos. According to the legend, Tyos smote his own temple asunder, smashing its precious holographic knowledge into a trillion giant pieces of base reality that parade to this day around the shrinking hearts of his slowly dying Eyatet. While the time of the great dequickening is now little but an ancient memory, the wisdom of the temple arc remains encoded in the billion scatted bones of Tyos. They dance their lazy circles 'round Eyatet's embers, held fast for aeons by the surety of Tyos' eternal love for her to innumerable panoplies of multicolored suns. Our corollary of that love is the energy we use to power our singularity plants, and it is with these keys; the energy of love and the essential oils of all the temple building blocks, that we can learn to erect the base triangle of the temple of holographic love.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "happiness" : "200000",
+      "resources" : {
+         "anthracite" : 5000,
+         "bauxite" : 5000,
+         "beryl" : 5000,
+         "chalcopyrite" : 5000,
+         "chromite" : 5000,
+         "energy" : 50000,
+         "fluorite" : 5000,
+         "galena" : 5000,
+         "goethite" : 5000,
+         "gold" : 5000,
+         "gypsum" : 5000,
+         "halite" : 5000,
+         "kerogen" : 5000,
+         "magnetite" : 5000,
+         "methane" : 5000,
+         "monazite" : 5000,
+         "rutile" : 5000,
+         "sulfur" : 5000,
+         "trona" : 5000,
+         "uraninite" : 5000,
+         "zircon" : 5000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTh",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Touch The Rainbow",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

@@ -1,0 +1,39 @@
+# config-file-type: JSON 1
+{
+   "description" : "Early work on the Tyleon project must begin.  In order to sustain a self-contained environment, an empire must have an understanding of a balanced ecology.  The first ingredient of life is water, the second is food, and the unavoidable byproduct is waste.  Understanding how waste is generated helps to understand how it must be dealt with.  Sometimes the only option is to dispose of it, but the most advanced and sophisticated of systems would be able to reuse it.  Any empire that hopes to build an enclosed arcology the likes of the lost city of Tyleon must have a solid understanding of waste production, storage, and utilization.  First, the empire in question must have waste to work with.  Granted, people don't like working knee deep in it, but it must be done.  Acquiring 50,000 waste aught to be enough to get started.  After that, collecting some of the minerals used for waste treatment is imperative.  Finally, the empire must explore what kinds of things can be done in a zero G environment.  A scow could be transformed into a lab for this purpose.  With all of the scientists in an empire focused on waste strategies, perhaps they could synthesis a waste glyph.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "happiness" : "35000",
+      "resources" : {
+         "beryl" : 1000,
+         "gypsum" : 1000,
+         "halite" : 1000,
+         "sulfur" : 1000,
+         "trona" : 1000,
+         "waste" : 50000,
+         "zircon" : 1000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 40000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTe",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Tyleon Waste Glyph",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}

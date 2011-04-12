@@ -1,0 +1,41 @@
+# config-file-type: JSON 1
+{
+   "description" : "\"The nomadic ancient city builders of Tyleon are long forgotten, but the network of sacred city architecture they erected continues to pump geo-magnetheric influence out of the crust, on to the planets of the expanse. Across the expanse, ancient medicine women tell a salty tale about the great love of Tyos and Eyatet. The two immortals, as it is told, worked hand in hand to build the Great Arcology of Tyos, which once fed a trillion souls and was powered, at its core, by the love of innumerable panoplies of multicolored suns. During the great unquickening, however, the immortality paradox began to set in on the two lovers. As they both grew older, the vacuum of entropy incessantly sucked away at their union of souls like some great, unfortunate, sucking thing. Eventually, the centre could not hold, and things fell apart. He left in a huff and she turned to her gay friend for consolation. Their once palatial home was forever shattered on the sharp rocks of eternity, and its pieces left to wander aimlessly through space. Well, almost aimlessly. Eyatet was convinced that Tyos still loved her, and every day she’d write him another note, and hide it on another asteroid. Word has it that anyone who collects a complete set of her love notes and submerges them in her crucible of life can unlock the key to her great celestial journal of this sad affair. It’s a bit of a downer at the end, but it does record blueprints she used to help him build his flawless castle.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "glyphs" : [
+         "anthracite",
+         "bauxite",
+         "beryl",
+         "chalcopyrite",
+         "chromite",
+         "fluorite",
+         "galena",
+         "goethite",
+         "gold",
+         "gypsum",
+         "halite",
+         "kerogen",
+         "magnetite",
+         "methane",
+         "monazite",
+         "rutile",
+         "sulfur",
+         "trona",
+         "uraninite",
+         "zircon"
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LCOTd",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Divide The Rainbow",
+   "network_19_completion" : "%s has unlocked a piece of the Lost City of Tyleon.",
+   "network_19_headline" : "The Lost City of Tyleon has eluded discovery for millennia, and many believe its secrets will never be revealed."
+}
