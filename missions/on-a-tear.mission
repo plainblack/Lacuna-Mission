@@ -1,2 +1,39 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","mission_reward":{"resources":{"bauxite":60000},"plans":[{"classname":"Lacuna::DB::Result::Building::Ore::Mine","extra_build_level":8,"level":1}]},"network_19_headline":"A tear in the space-time continuum has opened near Uflegh. Causes are unknown, but scientists fear reality is leaking through the tear.","description":"Scientists from the Uflegh Institute of Technology have detected a tear in the space-time continuum near Uflegh.  Teenagers with speedster racing craft were spotted in the area, and sources indicate they may have been using the widely-banned Infernality Drive technology in their ships, which may have led to the tear.  Reality is leaking out of our universe through the tear at the rate of 15 gigaperceptions per hour.  UIT engineers are working on a patch, but they've run out of key materials.  Can you help?  You will be compensated for your trouble - the UIT Mining division is offering rewards.","network_19_completion":"The tear in the space-time continuum near Uflegh has been patched successfully with help from %s.","name":"On a tear","mission_objective":{"resources":{"uraninite":20000,"energy":30000,"trona":20000,"galena":20000},"ships":[{"speed":0,"type":"probe","combat":0,"hold_size":0,"stealth":0}]}}
+{
+   "description" : "Scientists from the Uflegh Institute of Technology have detected a tear in the space-time continuum near Uflegh.  Teenagers with speedster racing craft were spotted in the area, and sources indicate they may have been using the widely-banned Infernality Drive technology in their ships, which may have led to the tear.  Reality is leaking out of our universe through the tear at the rate of 15 gigaperceptions per hour.  UIT engineers are working on a patch, but they've run out of key materials.  Can you help?  You will be compensated for your trouble - the UIT Mining division is offering rewards.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 30000,
+         "galena" : 20000,
+         "trona" : 20000,
+         "uraninite" : 20000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Ore::Mine",
+            "extra_build_level" : 8,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "bauxite" : 60000
+      },
+      "ships" : []
+   },
+   "name" : "On a tear",
+   "network_19_completion" : "The tear in the space-time continuum near Uflegh has been patched successfully with help from %s.",
+   "network_19_headline" : "A tear in the space-time continuum has opened near Uflegh. Causes are unknown, but scientists fear reality is leaking through the tear."
+}

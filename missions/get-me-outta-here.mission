@@ -11,6 +11,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "dory"
@@ -21,7 +22,8 @@
       "resources" : {
          "cheese" : 4000,
          "milk" : 7000
-      }
+      },
+      "ships" : []
    },
    "name" : "Get me outta here!",
    "network_19_completion" : "%s assists refugees.",

@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"uraninite":150000}},"name":"Radiation Leak","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"mining_platform_ship","speed":800}]},"network_19_headline":"Burat Mining Corp expedition vessel collides with tug, now suffering breach of nuclear refining core.","network_19_completion":"Terrible explosion prevented. Burat Mining Corp CIO praises %s, promises extravagant gift.","max_university_level":"19","description":"Mining ship Gerrn Tallon was docking at a space station in outer rim space when it collided with one of the platform's harbor master's duty tugs. The tug damaged the containment shielding that protects the mining ship's refining core, and radioactive materials began leaking out. Crews on scene have managed to patch up the breach, but the reactor is now dangerously low of fuel and at risk of terrible explosion if some replacement ore is not soon found. Burat is asking for assistance from any party concerned about the safety of mining supply hubs in outer rim space."}
+{
+   "description" : "Mining ship Gerrn Tallon was docking at a space station in outer rim space when it collided with one of the platform's harbor master's duty tugs. The tug damaged the containment shielding that protects the mining ship's refining core, and radioactive materials began leaking out. Crews on scene have managed to patch up the breach, but the reactor is now dangerously low of fuel and at risk of terrible explosion if some replacement ore is not soon found. Burat is asking for assistance from any party concerned about the safety of mining supply hubs in outer rim space.",
+   "max_university_level" : "19",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 150000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Radioactive",
+            "speed" : 800,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         }
+      ]
+   },
+   "name" : "Radiation Leak",
+   "network_19_completion" : "Terrible explosion prevented. Burat Mining Corp CIO praises %s, promises extravagant gift.",
+   "network_19_headline" : "Burat Mining Corp expedition vessel collides with tug, now suffering breach of nuclear refining core."
+}

@@ -10,6 +10,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "probe"
@@ -17,6 +18,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "probe"
@@ -28,6 +30,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Fast Probe",
             "speed" : 15000,
             "stealth" : 0,
             "type" : "probe"

@@ -12,16 +12,18 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 7500,
+            "combat" : 17500,
             "hold_size" : 0,
-            "speed" : 2500,
+            "name" : "Ixtishof Fighter",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "fighter"
          },
          {
-            "combat" : 7500,
+            "combat" : 17500,
             "hold_size" : 0,
-            "speed" : 2500,
+            "name" : "Ixtishof Fighter",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "fighter"
          }

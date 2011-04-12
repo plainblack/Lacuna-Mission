@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Planetary police auction announced!","network_19_completion":"Police auction was a success and an seized smuggler ship held the most interest.","description":"Auction Flyer: Planetary police are pleased to announce another seized asset auction at the courthouse steps. This time we are showcasing a smuggler ship that was seized as it was involved in criminal activity. Here is your chance to own such a ship, if you win the auction that is. There is a gold paddle registration fee.","max_university_level":"15","mission_objective":{"resources":{"gold":60001}},"name":"Police Auction - Smuggler Ship","mission_reward":{"ships":[{"combat":0,"speed":2750,"stealth":8000,"hold_size":25000,"type":"smuggler_ship"}]}}
+{
+   "description" : "Auction Flyer: Planetary police are pleased to announce another seized asset auction at the courthouse steps. This time we are showcasing a smuggler ship that was seized as it was involved in criminal activity. Here is your chance to own such a ship, if you win the auction that is. There is a gold paddle registration fee.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 60001
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 30000,
+            "name" : "Auction Smuggler",
+            "speed" : 3000,
+            "stealth" : 8000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Police Auction - Smuggler Ship",
+   "network_19_completion" : "Police auction was a success and an seized smuggler ship held the most interest.",
+   "network_19_headline" : "Planetary police auction announced!"
+}

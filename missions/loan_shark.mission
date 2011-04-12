@@ -12,6 +12,7 @@
          {
             "combat" : 0,
             "hold_size" : 100000,
+            "name" : "Collateral",
             "speed" : 5000,
             "stealth" : 10000,
             "type" : "smuggler_ship"

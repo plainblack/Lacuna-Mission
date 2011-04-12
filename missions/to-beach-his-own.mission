@@ -1,2 +1,46 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::Beach10","extra_build_level":0,"level":1}]},"network_19_headline":"Eccentric dictator seeks to trade beaches for spacecraft.","description":"The eccentric dictator Kennius Gee of Geeworld (population 3 plus a cat) has decided that he needs to form a powerful space fleet.  The problem?  Geeworld is actually a Y-class moon whose surface consists only of coarse regolith, so his options are limited. Kennius proposes to trade the sand from his world to anybody who provides him a ship.  He's starting small - just a few ships - but he'll give you enough sand to form a beach on your world.","network_19_completion":"Ships-for-sand program a success!  %s now owns enough sand to form a new beach!","name":"To Beach His Own","mission_objective":{"ships":[{"speed":0,"type":"dory","combat":0,"hold_size":0,"stealth":0},{"speed":0,"type":"probe","combat":0,"hold_size":0,"stealth":0},{"speed":0,"type":"scanner","combat":0,"hold_size":0,"stealth":0}]}}
+{
+   "description" : "The eccentric dictator Kennius Gee of Geeworld (population 3 plus a cat) has decided that he needs to form a powerful space fleet.  The problem?  Geeworld is actually a Y-class moon whose surface consists only of coarse regolith, so his options are limited. Kennius proposes to trade the sand from his world to anybody who provides him a ship.  He's starting small - just a few ships - but he'll give you enough sand to form a beach on your world.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "To Beach His Own",
+   "network_19_completion" : "Ships-for-sand program a success!  %s now owns enough sand to form a new beach!",
+   "network_19_headline" : "Eccentric dictator seeks to trade beaches for spacecraft."
+}

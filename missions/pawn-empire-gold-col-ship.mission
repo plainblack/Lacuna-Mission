@@ -1,2 +1,36 @@
 # config-file-type: JSON 1
-{"max_university_level":"10","mission_reward":{"ships":[{"speed":500,"type":"colony_ship","combat":0,"hold_size":0,"stealth":0}]},"network_19_headline":"Pawn Lacuna offers credit to both the smallest and largest of customers.","description":"I know times are tough. Your empire is looking to settle another planet but does not have the ability or ease to produce a colony ship. You are just in luck. I took one such ship in for trade. Its yours if you are willing to pawn your empires gold and Galena stock? Of course responsibility to transport it to our shop is yours.","network_19_completion":"An Expanse empire pawns their gold stock!","name":"Gold for colonies.","mission_objective":{"resources":{"gold":75000,"galena":60000},"ships":[{"speed":0,"type":"dory","combat":0,"hold_size":0,"stealth":0}]}}
+{
+   "description" : "I know times are tough. Your empire is looking to settle another planet but does not have the ability or ease to produce a colony ship. You are just in luck. I took one such ship in for trade. Its yours if you are willing to pawn your empires gold and Galena stock? Of course responsibility to transport it to our shop is yours.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 60000,
+         "gold" : 75000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 1500,
+            "hold_size" : 0,
+            "name" : "PL Colony",
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "name" : "Gold for colonies.",
+   "network_19_completion" : "An Expanse empire pawns their gold stock!",
+   "network_19_headline" : "Pawn Lacuna offers credit to both the smallest and largest of customers."
+}

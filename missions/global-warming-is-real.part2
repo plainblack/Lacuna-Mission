@@ -1,2 +1,32 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","mission_objective":{"resources":{"water":75000}},"description":"S.O.S.\nIs there anyone out there?\n<tap tap tap>\nIs it working?\n//yes sir.//\n<Cough>\nIf there's anyone listening we still need your help desperately. \nThe previous administration ignored the warning signs for too long and now global warming has altered our climate so much that our lakes have dried up and we are in desperate need of water for our people.  Please send us a water and we will reward you with our speediest civilian ship and seeds.\nThis is Generalissimo Frankenfurter. Out.\n\nThis one? \n<SQUAWK-SQUEEEEEEEEEEL!!!> \n//no sir, this one.// \n<zzzzzzzbbkt!>","mission_reward":{"ships":[{"combat":1337,"hold_size":35350,"stealth":5500,"speed":4500,"type":"smuggler_ship"}],"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::Grove","level":1,"extra_build_level":3}]},"network_19_headline":"Local isolationist pleas for additional help as global warming dries up their lakes.","network_19_completion":"Local philanthropist %s has delivered water aid package to Frankenfurter's regime.","name":"Global warming is really real!"}
+{
+   "description" : "S.O.S.\nIs there anyone out there?\n<tap tap tap>\nIs it working?\n//yes sir.//\n<Cough>\nIf there's anyone listening we still need your help desperately. \nThe previous administration ignored the warning signs for too long and now global warming has altered our climate so much that our lakes have dried up and we are in desperate need of water for our people.  Please send us a water and we will reward you with our speediest civilian ship and seeds.\nThis is Generalissimo Frankenfurter. Out.\n\nThis one? \n<SQUAWK-SQUEEEEEEEEEEL!!!> \n//no sir, this one.// \n<zzzzzzzbbkt!>",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "water" : 75000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 3,
+            "level" : 1
+         }
+      ],
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 55000,
+            "name" : "Forest",
+            "speed" : 4500,
+            "stealth" : 9900,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Global warming is really real!",
+   "network_19_completion" : "Local philanthropist %s has delivered water aid package to Frankenfurter's regime.",
+   "network_19_headline" : "Local isolationist pleas for additional help as global warming dries up their lakes."
+}

@@ -1,2 +1,46 @@
 # config-file-type: JSON 1
-{"mission_reward":{"ships":[{"speed":1300,"combat":3000,"hold_size":0,"stealth":3000,"type":"snark"},{"speed":1300,"combat":3000,"hold_size":0,"stealth":3000,"type":"snark"},{"speed":3000,"combat":0,"hold_size":0,"stealth":8000,"type":"spy_shuttle"}]},"network_19_headline":"Unknown Species Is Selling War Ships!","description":"Ugh!\nDiplomats always find a way to ruin the fun. \nThey somehow managed to negotiate a peace treaty with a empire we were about to invade. Now we have 3 Snarks and 1 Spy Shuttle that will just sit in the spaceport and rust...\n\n...unless you would like to purchase said ships? If you do here's the bill.","network_19_completion":"We Bought Their War Ships!","max_university_level":"30","name":"Truce Called","mission_objective":{"resources":{"water":300000,"fungus":25000,"algae":25000,"energy":300000,"beetle":25000,"pancake":25000}}}
+{
+   "description" : "Ugh!\nDiplomats always find a way to ruin the fun. \nThey somehow managed to negotiate a peace treaty with a empire we were about to invade. Now we have 3 Snarks and 1 Spy Shuttle that will just sit in the spaceport and rust...\n\n...unless you would like to purchase said ships? If you do here's the bill.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 25000,
+         "beetle" : 25000,
+         "energy" : 300000,
+         "fungus" : 25000,
+         "pancake" : 25000,
+         "water" : 300000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 3000,
+            "hold_size" : 0,
+            "name" : "Rusty Snark",
+            "speed" : 1500,
+            "stealth" : 3000,
+            "type" : "snark"
+         },
+         {
+            "combat" : 3000,
+            "hold_size" : 0,
+            "name" : "Rusty Snark",
+            "speed" : 1500,
+            "stealth" : 3000,
+            "type" : "snark"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Rusty Shuttle",
+            "speed" : 7000,
+            "stealth" : 12000,
+            "type" : "spy_shuttle"
+         }
+      ]
+   },
+   "name" : "Truce Called",
+   "network_19_completion" : "We Bought Their War Ships!",
+   "network_19_headline" : "Unknown Species Is Selling War Ships!"
+}

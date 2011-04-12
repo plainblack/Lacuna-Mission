@@ -1,0 +1,59 @@
+# config-file-type: JSON 1
+{
+   "description" : "Dear Sir or Madam, \nHave your planet started to search for glyphs? You might be quite unsatisfied of the accuracy to discover glyphs. Think hard how can you find them? The answer is VOLUME! But we are sad to tell there are still bugs in our new technology, so there might be a bit of waste produced.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : 100000,
+         "bauxite" : 100000,
+         "beryl" : 100000,
+         "chalcopyrite" : 100000,
+         "chromite" : 100000,
+         "fluorite" : 100000,
+         "galena" : 100000,
+         "goethite" : 100000,
+         "gold" : 100000,
+         "gypsum" : 100000,
+         "halite" : 100000,
+         "kerogen" : 100000,
+         "magnetite" : 100000,
+         "methane" : 100000,
+         "monazite" : 100000,
+         "rutile" : 100000,
+         "sulfur" : 100000,
+         "trona" : 100000,
+         "uraninite" : 100000,
+         "zircon" : 100000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite",
+         "bauxite",
+         "beryl",
+         "chalcopyrite",
+         "chromite",
+         "fluorite",
+         "galena",
+         "goethite",
+         "gold",
+         "gypsum",
+         "halite",
+         "kerogen",
+         "magnetite",
+         "methane",
+         "monazite",
+         "rutile",
+         "sulfur",
+         "trona",
+         "uraninite",
+         "zircon"
+      ],
+      "resources" : {
+         "waste" : 1800000
+      }
+   },
+   "name" : "100% accurate search",
+   "network_19_completion" : "%s spends a wad of ore for good results.",
+   "network_19_headline" : "100% accuracy on glyph search."
+}

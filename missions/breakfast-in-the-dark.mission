@@ -1,2 +1,47 @@
 # config-file-type: JSON 1
-{"name":"Breakvast in the Dark.","mission_objective":{"resources":{"sulfur":5000,"pancake":10000},"ships":[{"type":"spy_pod","combat":0,"hold_size":0,"stealth":0,"speed":0},{"type":"spy_pod","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"(BZZZZT)...is this getting through?  No!  Connect the blue wire to the orange wire, you idiot!  There...we have a signal.  What, we're already transmitting?!\n\nAhem!  This is Agent Flitch, Spy Union Lacuna Local 2945.  To raise awareness of spy civil liberties, we have organized a pancake cook-off and worker's rally.  I'm sure a couple of your empire's spies would be more than willing to attend this function.  Alas, we are a little short on pancakes and syrup.  Please bring enough food for everybody!  As with last year, you will need to provide you own transportation for yourself and a friend.\n\nFor helping us in our cause, I will be willing to give you one of my own personal spy shuttles, gently used.  It's only missing a few screws here and there.  What?  The FTL drive is missing?  Well, I can throw in some...of...these used batteries.  I've been using them as paper weights, but there should be a little juice left in them.\n\nI have a feeling this year's gathering will be a good one.  Maybe those tight-wads in the ministry will give us a decent dental plan before we have to strike!  Oh no!  You spilled coffee all over the (BZZZT!).","mission_reward":{"resources":{"energy":1000},"ships":[{"type":"spy_shuttle","combat":0,"hold_size":0,"stealth":9000,"speed":2000}]},"network_19_headline":"Strange Noise Heard Over N19 Low-End!","network_19_completion":"Nearby Probe Detects Delicious-Smelling Spy Pods!","max_university_level":"12"}
+{
+   "description" : "(BZZZZT)...is this getting through?  No!  Connect the blue wire to the orange wire, you idiot!  There...we have a signal.  What, we're already transmitting?!\n\nAhem!  This is Agent Flitch, Spy Union Lacuna Local 2945.  To raise awareness of spy civil liberties, we have organized a pancake cook-off and worker's rally.  I'm sure a couple of your empire's spies would be more than willing to attend this function.  Alas, we are a little short on pancakes and syrup.  Please bring enough food for everybody!  As with last year, you will need to provide you own transportation for yourself and a friend.\n\nFor helping us in our cause, I will be willing to give you one of my own personal spy shuttles, gently used.  It's only missing a few screws here and there.  What?  The FTL drive is missing?  Well, I can throw in some...of...these used batteries.  I've been using them as paper weights, but there should be a little juice left in them.\n\nI have a feeling this year's gathering will be a good one.  Maybe those tight-wads in the ministry will give us a decent dental plan before we have to strike!  Oh no!  You spilled coffee all over the (BZZZT!).",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "pancake" : 10000,
+         "sulfur" : 5000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 1000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Ministry Shuttle",
+            "speed" : 2000,
+            "stealth" : 9000,
+            "type" : "spy_shuttle"
+         }
+      ]
+   },
+   "name" : "Breakvast in the Dark.",
+   "network_19_completion" : "Nearby Probe Detects Delicious-Smelling Spy Pods!",
+   "network_19_headline" : "Strange Noise Heard Over N19 Low-End!"
+}

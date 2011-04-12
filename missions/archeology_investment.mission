@@ -1,2 +1,63 @@
 # config-file-type: JSON 1
-{"max_university_level":"30","mission_reward":{"glyphs":["gold","galena","sulfur"]},"network_19_headline":"Archaeology Investment Now Available.","description":"I am the CEO of our Archaeology Research Facility. We,the Crexeplian empire seek knowledge of glyphs. However our government foolishly shut down our funding. They say we are in debt, and are hoping to save on expenses... or so we're told. Anyway, we need 10 Excavators to continue our search for glyphs. We will also need a large sum of energy or we wont be able to power them. We will give you some of our findings for helping us find even more. Its not about the wealth. It's about the knowledge.","network_19_completion":"%s Has Completed an Archaeology Investment.","name":"Archaeology Investment","mission_objective":{"resources":{"energy":100000},"ships":[{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0},{"combat":0,"type":"excavator","stealth":0,"hold_size":0,"speed":0}]}}
+{
+   "description" : "I am the CEO of our Archaeology Research Facility. We,the Crexeplian empire seek knowledge of glyphs. However our government foolishly shut down our funding. They say we are in debt, and are hoping to save on expenses... or so we're told. Anyway, we need 10 Excavators to continue our search for glyphs. We will also need a large sum of energy or we wont be able to power them. We will give you some of our findings for helping us find even more. Its not about the wealth. It's about the knowledge.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 100000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gold",
+         "galena",
+         "sulfur"
+      ],
+      "ships" : []
+   },
+   "name" : "Archaeology Investment",
+   "network_19_completion" : "%s Has Completed an Archaeology Investment.",
+   "network_19_headline" : "Archaeology Investment Now Available."
+}

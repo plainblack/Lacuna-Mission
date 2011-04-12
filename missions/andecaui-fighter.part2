@@ -10,6 +10,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 125,
             "stealth" : 0,
             "type" : "probe"
@@ -21,6 +22,7 @@
          {
             "combat" : 4500,
             "hold_size" : 0,
+            "name" : "Andecaui Fighter",
             "speed" : 1800,
             "stealth" : 10,
             "type" : "fighter"
@@ -28,6 +30,7 @@
          {
             "combat" : 4500,
             "hold_size" : 0,
+            "name" : "Andecaui Fighter",
             "speed" : 1800,
             "stealth" : 10,
             "type" : "fighter"

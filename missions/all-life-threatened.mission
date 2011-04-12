@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_reward":{"resources":{"energy":15000}},"network_19_headline":"A Huge Asteroid Is Threatening Life On a Nearby Populated World!","description":"OH MY GOSH! A huge asteroid has just appeared on our observatory scopes! And its heading here! We need a drone to go in and self destruct. The asteroid will then be small enough to where the pieces will burn up in our atmosphere. Please help us and we will give you whats left in our energy reserves.","network_19_completion":"A Drone Shattered The Asteroid Which Eliminated The Threat!","max_university_level":"8","name":"All Life Threatened","mission_objective":{"ships":[{"speed":0,"combat":0,"hold_size":0,"stealth":0,"type":"drone"}]}}
+{
+   "description" : "OH MY GOSH! A huge asteroid has just appeared on our observatory scopes! And its heading here! We need a drone to go in and self destruct. The asteroid will then be small enough to where the pieces will burn up in our atmosphere. Please help us and we will give you whats left in our energy reserves.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 15000
+      },
+      "ships" : []
+   },
+   "name" : "All Life Threatened",
+   "network_19_completion" : "A Drone Shattered The Asteroid Which Eliminated The Threat!",
+   "network_19_headline" : "A Huge Asteroid Is Threatening Life On a Nearby Populated World!"
+}

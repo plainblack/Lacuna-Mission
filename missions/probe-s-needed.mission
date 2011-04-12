@@ -1,2 +1,48 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"probe","speed":0}]},"name":"Probe's Needed","mission_reward":{"ships":[{"combat":200,"hold_size":0,"stealth":0,"type":"scanner","speed":1000},{"combat":200,"hold_size":0,"stealth":0,"type":"scanner","speed":1000}]},"network_19_headline":"Colony forgets to build probes to compliment Scanners.","network_19_completion":"%s helps neighbor see the stars once again.","max_university_level":"10","description":"Yeah, so we wanted to take pictures of the pretty planets we've heard of in our neighboring systems.  Our shipwrights have worked around the clock to produce an adequate number of Scanners, but now our Space Port is full and we forgot to build any probes!\n\nReally, you would be doing us a favor by taking some of these Scanners off of our hands and giving us your probes."}
+{
+   "description" : "Yeah, so we wanted to take pictures of the pretty planets we've heard of in our neighboring systems.  Our shipwrights have worked around the clock to produce an adequate number of Scanners, but now our Space Port is full and we forgot to build any probes!\n\nReally, you would be doing us a favor by taking some of these Scanners off of our hands and giving us your probes.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 200,
+            "hold_size" : 0,
+            "name" : "Slow Scanner",
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "scanner"
+         },
+         {
+            "combat" : 200,
+            "hold_size" : 0,
+            "name" : "Slow Scanner",
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "scanner"
+         }
+      ]
+   },
+   "name" : "Probe's Needed",
+   "network_19_completion" : "%s helps neighbor see the stars once again.",
+   "network_19_headline" : "Colony forgets to build probes to compliment Scanners."
+}

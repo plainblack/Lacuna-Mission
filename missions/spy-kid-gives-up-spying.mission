@@ -12,8 +12,9 @@
          {
             "combat" : 0,
             "hold_size" : 0,
-            "speed" : 2240,
-            "stealth" : 12000,
+            "name" : "Mini Spy Pod",
+            "speed" : 4000,
+            "stealth" : 15000,
             "type" : "spy_pod"
          }
       ]

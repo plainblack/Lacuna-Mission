@@ -1,2 +1,56 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0},{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"name":"Missing Daughter","mission_reward":{"resources":{"water":10000,"magnetite":5000,"gold":5000,"lapis":5000,"beryl":5000,"milk":5000,"energy":10000}},"network_19_headline":"Local planet baron's daughter kidnapped and glyph missing.","network_19_completion":"%s provides information and ships to catch defected spy.","max_university_level":"8","description":"I am Baron Von Strutselhausen.  When I woke up this morning I found both my daughter and prized glyph missing!  Not only that, but my laziest spy has turned up missing as well and I am sure he is the culprit.\n\nThis will not be tolerated!\n\nAll of my ships are out right now on trading missions and the longer it takes to go after them the further away they get.  I require whatever assistance you can render and will reward you nicely for you help."}
+{
+   "description" : "I am Baron Von Strutselhausen.  When I woke up this morning I found both my daughter and prized glyph missing!  Not only that, but my laziest spy has turned up missing as well and I am sure he is the culprit.\n\nThis will not be tolerated!\n\nAll of my ships are out right now on trading missions and the longer it takes to go after them the further away they get.  I require whatever assistance you can render and will reward you nicely for you help.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "beryl" : 5000,
+         "energy" : 10000,
+         "gold" : 5000,
+         "lapis" : 5000,
+         "magnetite" : 5000,
+         "milk" : 5000,
+         "water" : 10000
+      },
+      "ships" : []
+   },
+   "name" : "Missing Daughter",
+   "network_19_completion" : "%s provides information and ships to catch defected spy.",
+   "network_19_headline" : "Local planet baron's daughter kidnapped and glyph missing."
+}

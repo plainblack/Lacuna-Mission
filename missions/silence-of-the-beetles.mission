@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"scanner","speed":0}],"plans":[{"classname":"Lacuna::DB::Result::Building::Park","level":1,"extra_build_level":0}]},"name":"Silence of the Beetles","mission_reward":{"resources":{"beetle":10000}},"network_19_headline":"Kur-Mo investigators at a loss dealing with infamous psychopath.","network_19_completion":"%s renders some assistance to Kur-Mo investigations office.","max_university_level":"10","description":"I am Wah Ji-Ahn of the Kur-Mo internal investigations office.  We are in the process of negotiating with one of our incarcerated killers for assistance in tracking another, who remains at large.  However, he seems... eccentric.  He demands to see plans for a Level 1 Park, and something to do with a scanner.  I have no idea exactly why, but I have a creepy feeling it has to do with my childhood... If you have the plans and the scanner, we're prepared to reward you with a one-time payment of ... well, beetle shakes.  We had them sitting around the office, you see... What do you say?  Will you help us?"}
+{
+   "description" : "I am Wah Ji-Ahn of the Kur-Mo internal investigations office.  We are in the process of negotiating with one of our incarcerated killers for assistance in tracking another, who remains at large.  However, he seems... eccentric.  He demands to see plans for a Level 1 Park, and something to do with a scanner.  I have no idea exactly why, but I have a creepy feeling it has to do with my childhood... If you have the plans and the scanner, we're prepared to reward you with a one-time payment of ... well, beetle shakes.  We had them sitting around the office, you see... What do you say?  Will you help us?",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Park",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scanner"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "beetle" : 10000
+      },
+      "ships" : []
+   },
+   "name" : "Silence of the Beetles",
+   "network_19_completion" : "%s renders some assistance to Kur-Mo investigations office.",
+   "network_19_headline" : "Kur-Mo investigators at a loss dealing with infamous psychopath."
+}

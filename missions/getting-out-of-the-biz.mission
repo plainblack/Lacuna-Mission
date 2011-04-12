@@ -1,2 +1,42 @@
 # config-file-type: JSON 1
-{"name":"Getting out of the Biz","mission_objective":{"resources":{"algae":25000,"gold":10000,"fungus":25000,"magnetite":25000},"glyphs":["gold","gypsum"],"ships":[{"type":"dory","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"I'm looking for a safe harbor to land in.  I worked for a government that I started disagreeing with their policies.  I couldn't bring much with me, but I can hand over the ship I fled in.  I just need enough to live off of, some materials for my research, and some transport to replace the one I'm giving you.","mission_reward":{"ships":[{"type":"smuggler_ship","combat":0,"hold_size":50000,"stealth":10000,"speed":3900}]},"network_19_headline":"Scientist on the run seeks safety from friendly government.","network_19_completion":"%s grants asylum to government agent.","max_university_level":"25"}
+{
+   "description" : "I'm looking for a safe harbor to land in.  I worked for a government that I started disagreeing with their policies.  I couldn't bring much with me, but I can hand over the ship I fled in.  I just need enough to live off of, some materials for my research, and some transport to replace the one I'm giving you.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         "gold",
+         "gypsum"
+      ],
+      "resources" : {
+         "algae" : 25000,
+         "fungus" : 25000,
+         "gold" : 10000,
+         "magnetite" : 25000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Second Hand Smuggler",
+            "speed" : 4500,
+            "stealth" : 10000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Getting out of the Biz",
+   "network_19_completion" : "%s grants asylum to government agent.",
+   "network_19_headline" : "Scientist on the run seeks safety from friendly government."
+}

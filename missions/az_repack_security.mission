@@ -16,6 +16,7 @@
          {
             "combat" : 12000,
             "hold_size" : 0,
+            "name" : "Alpha Zeta Fighter",
             "speed" : 6000,
             "stealth" : 0,
             "type" : "fighter"
@@ -23,6 +24,7 @@
          {
             "combat" : 12000,
             "hold_size" : 0,
+            "name" : "Alpha Zeta Fighter",
             "speed" : 6000,
             "stealth" : 0,
             "type" : "fighter"

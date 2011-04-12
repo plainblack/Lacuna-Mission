@@ -14,6 +14,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 125,
             "stealth" : 0,
             "type" : "probe"
@@ -21,6 +22,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 125,
             "stealth" : 0,
             "type" : "probe"
@@ -31,9 +33,10 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 2500000,
-            "speed" : 2000,
-            "stealth" : 3200,
+            "hold_size" : 3000000,
+            "name" : "Andecaui Hulk",
+            "speed" : 2500,
+            "stealth" : 0,
             "type" : "hulk"
          }
       ]

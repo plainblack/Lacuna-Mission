@@ -1,2 +1,60 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","mission_objective":{"resources":{"energy":133700,"burger":10000,"potato":10000,"shake":10000}},"description":"Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nWe are just about ready to bodily remove General Frankenfurter from the palace and all that is left is to charge our new weapon.  Our first target is the spaceport.\n\nIf you can send us energy quickly we can get this over with and I can return to my rightful place on the throne of Bokka Churra Znerk in the palace.  Oh, and I’ve promised the Royal Guard burgers, fries, and a shake.\n\nI will pay you with the loot.\n\nThis is Emperor Calderaan, we most eagerly await your response.  Long live Znerk.\n\n<click>","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":2500,"speed":7500,"type":"probe"},{"combat":0,"hold_size":0,"stealth":2500,"speed":7500,"type":"probe"},{"combat":0,"hold_size":0,"stealth":2500,"speed":7500,"type":"probe"},{"combat":5000,"hold_size":0,"stealth":5000,"speed":5000,"type":"stake"},{"combat":2500,"hold_size":0,"stealth":3000,"speed":1500,"type":"colony_ship"}]},"network_19_headline":"Emperor Calderaan seeks assistance in assaulting Frankenfurters spaceport.","network_19_completion":"%s helps Emperor Calderaan thwart General Frankenfurter’s colonization plans.","name":"First target – The Spaceport"}
+{
+   "description" : "Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nWe are just about ready to bodily remove General Frankenfurter from the palace and all that is left is to charge our new weapon.  Our first target is the spaceport.\n\nIf you can send us energy quickly we can get this over with and I can return to my rightful place on the throne of Bokka Churra Znerk in the palace.  Oh, and I’ve promised the Royal Guard burgers, fries, and a shake.\n\nI will pay you with the loot.\n\nThis is Emperor Calderaan, we most eagerly await your response.  Long live Znerk.\n\n<click>",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "burger" : 10000,
+         "energy" : 133700,
+         "potato" : 10000,
+         "shake" : 10000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Calderaan Probe",
+            "speed" : 9000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Calderaan Probe",
+            "speed" : 9000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Calderaan Probe",
+            "speed" : 9000,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 1500,
+            "hold_size" : 0,
+            "name" : "Calderaan Stake",
+            "speed" : 10000,
+            "stealth" : 0,
+            "type" : "stake"
+         },
+         {
+            "combat" : 2500,
+            "hold_size" : 0,
+            "name" : "Calderaan Colony",
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "name" : "First target – The Spaceport",
+   "network_19_completion" : "%s helps Emperor Calderaan thwart General Frankenfurter’s colonization plans.",
+   "network_19_headline" : "Emperor Calderaan seeks assistance in assaulting Frankenfurters spaceport."
+}

@@ -76,6 +76,7 @@
          {
             "combat" : 0,
             "hold_size" : 300000,
+            "name" : "Misdirected Mouse",
             "speed" : 4000,
             "stealth" : 0,
             "type" : "galleon"

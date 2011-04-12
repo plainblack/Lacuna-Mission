@@ -1,2 +1,40 @@
 # config-file-type: JSON 1
-{"name":"Agile Methods","mission_objective":{"ships":[{"type":"cargo_ship","combat":0,"hold_size":75000,"stealth":0,"speed":0},{"type":"cargo_ship","combat":0,"hold_size":0,"stealth":0,"speed":1200}]},"description":"Pleasantries.  My name is Gruz.  I'm Chief Operations Officer for Mukata Trade Corp., and we're restructuring our trades around our core business.  We need to expand a little, our core business of shipping Malcud Burgers from the fringes to the capitol is just not as profitable as it used to be.  We'd like to obtain two cargo ships for greater trade agility.  In exchange we can send you one of our freighters, which is too large for our new business model.","mission_reward":{"ships":[{"type":"freighter","combat":0,"hold_size":200000,"stealth":2000,"speed":1500}]},"network_19_headline":"Mukata Trade Corp. restructures along less centralized lines.","network_19_completion":"Mukata Trade Corp. agrees to vessel exchange with %s.","max_university_level":"25"}
+{
+   "description" : "Pleasantries.  My name is Gruz.  I'm Chief Operations Officer for Mukata Trade Corp., and we're restructuring our trades around our core business.  We need to expand a little, our core business of shipping Malcud Burgers from the fringes to the capitol is just not as profitable as it used to be.  We'd like to obtain two cargo ships for greater trade agility.  In exchange we can send you one of our freighters, which is too large for our new business model.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 75000,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 1200,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 200000,
+            "name" : "Burger Hauler",
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "name" : "Agile Methods",
+   "network_19_completion" : "Mukata Trade Corp. agrees to vessel exchange with %s.",
+   "network_19_headline" : "Mukata Trade Corp. restructures along less centralized lines."
+}

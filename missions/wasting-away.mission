@@ -1,2 +1,36 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","mission_reward":{"resources":{"waste":100000,"cheese":20000},"ships":[{"speed":500,"type":"scow","combat":0,"hold_size":35000,"stealth":0}]},"network_19_headline":"A holding tank on Crompus III has burst, releasing a torrent of toxic sludge.  The Crompean hegemony requests assistance!","description":"A holding tank on Crompus III has burst, releasing a torrent of toxic sludge into a nearby fromagerie!  The Crompean hegemony has requested help from any sector to help clean up the waste.  If you can donate a scow for the cleanup efforts, they'll return you a load of the waste and a bunch of cheese as a reward for your trouble.  100% Non-contaminated cheese - they promise.  Uh huh.  Unfortunately, the Crompeans are mostly illiterate, so you may not get the same scow back that you sent.","network_19_completion":"Our sources on Crompus III report that %s has kindly volunteered to help clean up the spilled waste.","name":"Wasting away","mission_objective":{"ships":[{"speed":0,"type":"scow","combat":0,"hold_size":0,"stealth":0}]}}
+{
+   "description" : "A holding tank on Crompus III has burst, releasing a torrent of toxic sludge into a nearby fromagerie!  The Crompean hegemony has requested help from any sector to help clean up the waste.  If you can donate a scow for the cleanup efforts, they'll return you a load of the waste and a bunch of cheese as a reward for your trouble.  100% Non-contaminated cheese - they promise.  Uh huh.  Unfortunately, the Crompeans are mostly illiterate, so you may not get the same scow back that you sent.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cheese" : 20000,
+         "waste" : 100000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 100000,
+            "name" : "Crumpus Scow",
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "scow"
+         }
+      ]
+   },
+   "name" : "Wasting away",
+   "network_19_completion" : "Our sources on Crompus III report that %s has kindly volunteered to help clean up the spilled waste.",
+   "network_19_headline" : "A holding tank on Crompus III has burst, releasing a torrent of toxic sludge.  The Crompean hegemony requests assistance!"
+}

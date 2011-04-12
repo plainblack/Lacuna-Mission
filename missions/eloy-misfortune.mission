@@ -1,2 +1,32 @@
 # config-file-type: JSON 1
-{"name":"Money Pit","mission_objective":{"ships":[{"type":"short_range_colony_ship","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"The Eloy mistakenly took out a contract from the Moorelocks to construct a cargo ship when they had meant to build a short range colony ship. Overruns and delays have plagued the cargo ship project. The current administration of the Eloy empire is refusing to accept delivery of the completed cargo ship. Meanwhile, legal constraints and court rulings have made it impossible for them to build anything else until the issues with the cargo ship have been resolved.  If an empire is willing to step forward to provide a short range colony ship, the Eloy and Moorelock have agreed to settle their differences and exchange it for the cargo ship.","mission_reward":{"ships":[{"type":"cargo_ship","combat":0,"hold_size":50000,"stealth":3000,"speed":1200}]},"network_19_headline":"Eloy misfortune is your gain!","network_19_completion":"Eloy and Moorelocks settle differences thanks to %s.","max_university_level":"8"}
+{
+   "description" : "The Eloy mistakenly took out a contract from the Moorelocks to construct a cargo ship when they had meant to build a short range colony ship. Overruns and delays have plagued the cargo ship project. The current administration of the Eloy empire is refusing to accept delivery of the completed cargo ship. Meanwhile, legal constraints and court rulings have made it impossible for them to build anything else until the issues with the cargo ship have been resolved.  If an empire is willing to step forward to provide a short range colony ship, the Eloy and Moorelock have agreed to settle their differences and exchange it for the cargo ship.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Elroy's Cargo",
+            "speed" : 1200,
+            "stealth" : 3000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Money Pit",
+   "network_19_completion" : "Eloy and Moorelocks settle differences thanks to %s.",
+   "network_19_headline" : "Eloy misfortune is your gain!"
+}

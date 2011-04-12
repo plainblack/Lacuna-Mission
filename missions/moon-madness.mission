@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"short_range_colony_ship","speed":0}]},"name":"Moon Madness","mission_reward":{"resources":{"cheese":75000}},"network_19_headline":"Cheese Rush on the third moon of Epi Epi Prime.","network_19_completion":"%s makes huge profit in cheese from Epi Epi Prime.","max_university_level":"16","description":"Here on Epi Epi Prime, my family has always been poor. But I've just heard that the egg heads have confirmed that our third moon is really made of cheese.  I think we can get in on the ground floor of this cheese rush if you can just get us a small colony ship to move the whole family up there.  We can cut you in on our cheese if you help us out."}
+{
+   "description" : "Here on Epi Epi Prime, my family has always been poor. But I've just heard that the egg heads have confirmed that our third moon is really made of cheese.  I think we can get in on the ground floor of this cheese rush if you can just get us a small colony ship to move the whole family up there.  We can cut you in on our cheese if you help us out.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "short_range_colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cheese" : 75000
+      },
+      "ships" : []
+   },
+   "name" : "Moon Madness",
+   "network_19_completion" : "%s makes huge profit in cheese from Epi Epi Prime.",
+   "network_19_headline" : "Cheese Rush on the third moon of Epi Epi Prime."
+}

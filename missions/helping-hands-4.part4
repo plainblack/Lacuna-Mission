@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "cargo_ship"
@@ -35,7 +36,8 @@
          "trona" : 2000,
          "uraninite" : 2000,
          "zircon" : 2000
-      }
+      },
+      "ships" : []
    },
    "name" : "Helping Hands 4",
    "network_19_completion" : "%s aids Blue Plus Association in earthquake recovery.",

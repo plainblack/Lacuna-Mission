@@ -12,8 +12,9 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 8000,
+            "combat" : 12000,
             "hold_size" : 0,
+            "name" : "Bargain Fighter",
             "speed" : 5000,
             "stealth" : 0,
             "type" : "fighter"

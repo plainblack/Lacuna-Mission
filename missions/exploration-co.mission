@@ -102,8 +102,9 @@
       "happiness" : 100000,
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 2000,
             "hold_size" : 0,
+            "name" : "NG Colony",
             "speed" : 1000,
             "stealth" : 0,
             "type" : "colony_ship"

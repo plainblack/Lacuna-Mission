@@ -10,6 +10,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 125,
             "stealth" : 0,
             "type" : "probe"
@@ -17,6 +18,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "smuggler_ship"
@@ -28,7 +30,8 @@
          {
             "combat" : 0,
             "hold_size" : 50000,
-            "speed" : 3900,
+            "name" : "Andecaui Smuggler",
+            "speed" : 4500,
             "stealth" : 10000,
             "type" : "smuggler_ship"
          }

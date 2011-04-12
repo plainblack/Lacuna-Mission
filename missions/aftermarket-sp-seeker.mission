@@ -1,2 +1,35 @@
 # config-file-type: JSON 1
-{"name":"Aftermarket SP Seeker","mission_objective":{"resources":{"halite":50000},"ships":[{"type":"snark","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"Griv Fulner is a offering to integrate a modification into one of your snarks which will enhance the astrogational navigation and targeting system. If the aftermarket modification works, you're snark will be a space port seeker. Griv insists on payment in halite.","mission_reward":{"ships":[{"type":"spaceport_seeker","combat":2000,"hold_size":0,"stealth":6300,"speed":1200}]},"network_19_headline":"Shady mechanic offering aftermarket snark to space port seeker conversion.","network_19_completion":"%s has converted a snark to a space port seeker. But will it work?","max_university_level":"18"}
+{
+   "description" : "Griv Fulner is a offering to integrate a modification into one of your snarks which will enhance the astrogational navigation and targeting system. If the aftermarket modification works, you're snark will be a space port seeker. Griv insists on payment in halite.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "halite" : 50000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 2500,
+            "hold_size" : 0,
+            "name" : "Griv Special",
+            "speed" : 3000,
+            "stealth" : 6300,
+            "type" : "spaceport_seeker"
+         }
+      ]
+   },
+   "name" : "Aftermarket SP Seeker",
+   "network_19_completion" : "%s has converted a snark to a space port seeker. But will it work?",
+   "network_19_headline" : "Shady mechanic offering aftermarket snark to space port seeker conversion."
+}

@@ -15,6 +15,7 @@
          {
             "combat" : 2500,
             "hold_size" : 0,
+            "name" : "Crom",
             "speed" : 900,
             "stealth" : 1500,
             "type" : "thud"
@@ -22,6 +23,7 @@
          {
             "combat" : 2500,
             "hold_size" : 0,
+            "name" : "Thorgrim",
             "speed" : 900,
             "stealth" : 1500,
             "type" : "thud"
@@ -29,6 +31,7 @@
          {
             "combat" : 2500,
             "hold_size" : 0,
+            "name" : "Thulsa",
             "speed" : 900,
             "stealth" : 1500,
             "type" : "thud"

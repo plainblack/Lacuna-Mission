@@ -1,2 +1,80 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Empire Requesting Spy Pods.","network_19_completion":"Spy Pods Sent To Empire.","description":"We are currently at war. We need to send spies to 5 different enemy planets. However we only have 3 spy shuttles. We will give you these 3 shuttles for 5 pods. We must invade and conquer all colonies!","max_university_level":"15","mission_objective":{"ships":[{"combat":0,"speed":0,"stealth":0,"hold_size":0,"type":"spy_pod"},{"combat":0,"speed":0,"stealth":0,"hold_size":0,"type":"spy_pod"},{"combat":0,"speed":0,"stealth":0,"hold_size":0,"type":"spy_pod"},{"combat":0,"speed":0,"stealth":0,"hold_size":0,"type":"spy_pod"},{"combat":0,"speed":0,"stealth":0,"hold_size":0,"type":"spy_pod"}]},"name":"Spy's Divided By 5 ","mission_reward":{"ships":[{"combat":0,"speed":2500,"stealth":8000,"hold_size":0,"type":"spy_shuttle"},{"combat":0,"speed":2500,"stealth":8000,"hold_size":0,"type":"spy_shuttle"},{"combat":0,"speed":2500,"stealth":8000,"hold_size":0,"type":"spy_shuttle"}]}}
+{
+   "description" : "We are currently at war. We need to send spies to 5 different enemy planets. However we only have 3 spy shuttles. We will give you these 3 shuttles for 5 pods. We must invade and conquer all colonies!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Empire Shuttle",
+            "speed" : 2500,
+            "stealth" : 12000,
+            "type" : "spy_shuttle"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Empire Shuttle",
+            "speed" : 2500,
+            "stealth" : 12000,
+            "type" : "spy_shuttle"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Empire Shuttle",
+            "speed" : 2500,
+            "stealth" : 12000,
+            "type" : "spy_shuttle"
+         }
+      ]
+   },
+   "name" : "Spy's Divided By 5 ",
+   "network_19_completion" : "Spy Pods Sent To Empire.",
+   "network_19_headline" : "Empire Requesting Spy Pods."
+}

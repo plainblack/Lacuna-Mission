@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"max_university_level":"30","mission_reward":{"glyphs":["sulfur"]},"network_19_headline":"Man on the run seeks aide.","description":"Hey! Please sirt help! I'm on the run from the authorities! I got caught in an uhhh deal, ya know? Heh heh. I don't want to go into details...or jail that is.  But please! You must help me! I'll do anything! I have a glyph? I don't know how valuable it is. But please its all I have. Give me a ship with food,water,and energy. It will get me where I'm going.  Just hurry! If they come here, I'm doomed! I beg you!\n\nP.S. You never saw me.","network_19_completion":"%s helped out a wanted felon.","name":"On The Run","mission_objective":{"resources":{"water":5000,"energy":100000,"burger":500,"apple":500,"chip":500},"ships":[{"combat":0,"type":"dory","stealth":0,"hold_size":0,"speed":0}]}}
+{
+   "description" : "Hey! Please sirt help! I'm on the run from the authorities! I got caught in an uhhh deal, ya know? Heh heh. I don't want to go into details...or jail that is.  But please! You must help me! I'll do anything! I have a glyph? I don't know how valuable it is. But please its all I have. Give me a ship with food,water,and energy. It will get me where I'm going.  Just hurry! If they come here, I'm doomed! I beg you!\n\nP.S. You never saw me.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 500,
+         "burger" : 500,
+         "chip" : 500,
+         "energy" : 100000,
+         "water" : 5000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "sulfur"
+      ],
+      "ships" : []
+   },
+   "name" : "On The Run",
+   "network_19_completion" : "%s helped out a wanted felon.",
+   "network_19_headline" : "Man on the run seeks aide."
+}

@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "spy_shuttle"
@@ -16,7 +17,8 @@
    "mission_reward" : {
       "resources" : {
          "gold" : 75000
-      }
+      },
+      "ships" : []
    },
    "name" : "Freelance spies",
    "network_19_completion" : "A local system's rebellion failed today as a group of contracted spies exposed a rogue agent in the systems government. Story at 11.",

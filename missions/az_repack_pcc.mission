@@ -23,9 +23,10 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 5000,
             "hold_size" : 0,
-            "speed" : 750,
+            "name" : "Alpha Zeta Colony",
+            "speed" : 2000,
             "stealth" : 0,
             "type" : "colony_ship"
          }

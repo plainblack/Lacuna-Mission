@@ -14,6 +14,7 @@
          {
             "combat" : 15000,
             "hold_size" : 0,
+            "name" : "Tiger Fighter",
             "speed" : 10000,
             "stealth" : 0,
             "type" : "fighter"
@@ -21,6 +22,7 @@
          {
             "combat" : 15000,
             "hold_size" : 0,
+            "name" : "Tiger Fighter",
             "speed" : 10000,
             "stealth" : 0,
             "type" : "fighter"
@@ -28,6 +30,7 @@
          {
             "combat" : 15000,
             "hold_size" : 0,
+            "name" : "Tiger Fighter",
             "speed" : 10000,
             "stealth" : 0,
             "type" : "fighter"
@@ -35,6 +38,7 @@
          {
             "combat" : 15000,
             "hold_size" : 0,
+            "name" : "Tiger Fighter",
             "speed" : 10000,
             "stealth" : 0,
             "type" : "fighter"
@@ -42,6 +46,7 @@
          {
             "combat" : 15000,
             "hold_size" : 0,
+            "name" : "Tiger Fighter",
             "speed" : 10000,
             "stealth" : 0,
             "type" : "fighter"

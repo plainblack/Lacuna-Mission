@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"cargo_ship","speed":0}]},"name":"Veteran of the Psychic Wars","mission_reward":{"resources":{"shake":50000}},"network_19_headline":"How long will these shakes go on?","network_19_completion":"%s sets up retirement RV for veteran.","max_university_level":"14","description":"It's time we had a break from it\nSend me to the rear\nWhere the tides of madness swell\nAnd been sliding into hell\nOh, please don't let shakes go on\n\nTake these shakes off my hands, please!"}
+{
+   "description" : "It's time we had a break from it\nSend me to the rear\nWhere the tides of madness swell\nAnd been sliding into hell\nOh, please don't let shakes go on\n\nTake these shakes off my hands, please!",
+   "max_university_level" : "14",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "shake" : 50000
+      },
+      "ships" : []
+   },
+   "name" : "Veteran of the Psychic Wars",
+   "network_19_completion" : "%s sets up retirement RV for veteran.",
+   "network_19_headline" : "How long will these shakes go on?"
+}

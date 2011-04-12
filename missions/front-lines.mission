@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "spy_pod"
@@ -14,6 +15,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "spy_pod"
@@ -21,6 +23,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "spy_pod"
@@ -32,6 +35,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Spangled Shuttle",
             "speed" : 5600,
             "stealth" : 17500,
             "type" : "spy_shuttle"

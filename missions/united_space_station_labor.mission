@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "You may need piles of resources and long time to upgrade your buildings to get a space station hull which is compulsory for the entire space station facility. All you need to do is make your people work harder!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "happiness" : 50000000,
+      "resources" : {
+         "energy" : 5000000,
+         "water" : 5000000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Fluffy Star",
+            "speed" : 50,
+            "stealth" : 0,
+            "type" : "space_station"
+         }
+      ]
+   },
+   "name" : "Space Station Labor",
+   "network_19_completion" : "%s has a space station! Now what are they going to do?",
+   "network_19_headline" : "Get a space station in seconds!"
+}

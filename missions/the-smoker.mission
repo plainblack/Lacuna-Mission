@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"lapis":50000}},"name":"The Smoker","mission_reward":{"ships":[{"combat":0,"hold_size":50000,"stealth":20,"type":"cargo_ship","speed":2500}]},"network_19_headline":"New Lapis tea treated with nicotine contains no cancer causing agents.","network_19_completion":"%s helps smokers across Lacuna Expanse quit smoking!","max_university_level":"20","description":"Marlmel Tobacco Company has completed testing its new nicotine laced Lapis tea for cancer causing agents.  Not only have they found no traces of cancer causing agents, but the natural healing effects of Lapis help repair some of the damage caused by smoking tobacco!\n\nWe are in need of massive amounts of Lapis to keep up with demand of our new tea.  In exchange for the Lapis, we will provide you with some of our fastest Cargo ships to send us more in the coming months!"}
+{
+   "description" : "Marlmel Tobacco Company has completed testing its new nicotine laced Lapis tea for cancer causing agents.  Not only have they found no traces of cancer causing agents, but the natural healing effects of Lapis help repair some of the damage caused by smoking tobacco!\n\nWe are in need of massive amounts of Lapis to keep up with demand of our new tea.  In exchange for the Lapis, we will provide you with some of our fastest Cargo ships to send us more in the coming months!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "lapis" : 50000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Lapis Luxery",
+            "speed" : 3000,
+            "stealth" : 20,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "The Smoker",
+   "network_19_completion" : "%s helps smokers across Lacuna Expanse quit smoking!",
+   "network_19_headline" : "New Lapis tea treated with nicotine contains no cancer causing agents."
+}

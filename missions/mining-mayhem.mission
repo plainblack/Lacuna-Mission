@@ -24,6 +24,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Mayhem Miner",
             "speed" : 600,
             "stealth" : 0,
             "type" : "mining_platform_ship"
@@ -31,6 +32,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Mayhem Miner",
             "speed" : 600,
             "stealth" : 0,
             "type" : "mining_platform_ship"

@@ -1,2 +1,29 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"excavator","speed":0}],"glyphs":["gold"]},"name":"One for One?","mission_reward":{"glyphs":["halite"]},"network_19_headline":"Halite Glyph available for trade.","network_19_completion":"%s makes a shrewd deal for Halite Glyph.","max_university_level":"30","description":"I love exploring for glyphs, I'm trying to complete my collection but am missing a few.  Fortunately I have some duplicates and was wondering if you may be interested in a trade?\n\nIn exchange for this rare Halite Glyph, I would like one Gold Glyph and one Excavator.  Do we have a deal?"}
+{
+   "description" : "I love exploring for glyphs, I'm trying to complete my collection but am missing a few.  Fortunately I have some duplicates and was wondering if you may be interested in a trade?\n\nIn exchange for this rare Halite Glyph, I would like one Gold Glyph and one Excavator.  Do we have a deal?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "gold"
+      ],
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "excavator"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite"
+      ],
+      "ships" : []
+   },
+   "name" : "One for One?",
+   "network_19_completion" : "%s makes a shrewd deal for Halite Glyph.",
+   "network_19_headline" : "Halite Glyph available for trade."
+}

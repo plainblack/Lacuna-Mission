@@ -16,6 +16,7 @@
          {
             "combat" : 0,
             "hold_size" : 25000,
+            "name" : "Alpha Zeta Dory",
             "speed" : 5000,
             "stealth" : 0,
             "type" : "dory"

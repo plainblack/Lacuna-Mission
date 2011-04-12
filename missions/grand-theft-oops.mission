@@ -1,2 +1,32 @@
 # config-file-type: JSON 1
-{"name":"Grand Theft Oops","mission_objective":{"ships":[{"type":"cargo_ship","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"My name's not important, and I don't care to know yours.  I made a mistake, and my client doesn't tolerate them.  This is going to look odd to you, since I'm trading at a loss, but I need a different type of ship.  I got the wrong kind.  Don't ask how either, that's not important.  If you've got a cargo ship, I've got a standard colony ship.  Take it or leave it.","mission_reward":{"ships":[{"type":"colony_ship","combat":0,"hold_size":0,"stealth":0,"speed":552}]},"network_19_headline":"Unknown figure seeking ship exchange at a loss.","network_19_completion":"Ship exchange with unknown parties completed by %s.","max_university_level":"25"}
+{
+   "description" : "My name's not important, and I don't care to know yours.  I made a mistake, and my client doesn't tolerate them.  This is going to look odd to you, since I'm trading at a loss, but I need a different type of ship.  I got the wrong kind.  Don't ask how either, that's not important.  If you've got a cargo ship, I've got a standard colony ship.  Take it or leave it.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 1500,
+            "hold_size" : 0,
+            "name" : "Colony Oops",
+            "speed" : 552,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "name" : "Grand Theft Oops",
+   "network_19_completion" : "Ship exchange with unknown parties completed by %s.",
+   "network_19_headline" : "Unknown figure seeking ship exchange at a loss."
+}

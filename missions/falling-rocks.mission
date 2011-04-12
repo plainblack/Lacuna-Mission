@@ -1,2 +1,43 @@
 # config-file-type: JSON 1
-{"name":"Falling Rocks","mission_objective":{"ships":[{"type":"mining_platform_ship","combat":0,"hold_size":0,"stealth":0,"speed":0},{"type":"mining_platform_ship","combat":0,"hold_size":0,"stealth":0,"speed":0},{"type":"snark","combat":0,"hold_size":0,"stealth":0,"speed":0}]},"description":"Erflot 6 is a thriving community nestled on a small planet. Their observatory has just discovered that a \"widowmaker\" class asteroid is on a direct collision course with the planet, and the need a pair of mining platforms and a snark to intercept and destroy the onrushing threat. In exchange, they offer up a pair of glyphs that can be combined in your Archaeology Ministry to produce an Algae Pond.","mission_reward":{"glyphs":["methane","uraninite"]},"network_19_headline":"Asteroid detected on collision course with Erflot 6. High council weighs options to avert catastrophe.","network_19_completion":"Erflot 6 is saved. Mining platforms destroy asteroid, high council salutes %s for their support.","max_university_level":"25"}
+{
+   "description" : "Erflot 6 is a thriving community nestled on a small planet. Their observatory has just discovered that a \"widowmaker\" class asteroid is on a direct collision course with the planet, and the need a pair of mining platforms and a snark to intercept and destroy the onrushing threat. In exchange, they offer up a pair of glyphs that can be combined in your Archaeology Ministry to produce an Algae Pond.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane",
+         "uraninite"
+      ],
+      "ships" : []
+   },
+   "name" : "Falling Rocks",
+   "network_19_completion" : "Erflot 6 is saved. Mining platforms destroy asteroid, high council salutes %s for their support.",
+   "network_19_headline" : "Asteroid detected on collision course with Erflot 6. High council weighs options to avert catastrophe."
+}

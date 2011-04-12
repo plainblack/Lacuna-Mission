@@ -7,6 +7,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 1750,
             "stealth" : 0,
             "type" : "dory"
@@ -20,7 +21,8 @@
          "meal" : 2000,
          "pie" : 2000,
          "water" : 2000
-      }
+      },
+      "ships" : []
    },
    "name" : "Screwged",
    "network_19_completion" : "%s calms angry citizen.",

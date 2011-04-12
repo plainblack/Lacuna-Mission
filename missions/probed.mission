@@ -1,2 +1,34 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"corn":4000,"wheat":4000}},"name":"Probed?","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":10,"type":"probe","speed":5750},{"combat":0,"hold_size":0,"stealth":10,"type":"probe","speed":5750}]},"network_19_headline":"Would you like to see whats going on next door?","network_19_completion":"%s has done some discrete probing into the nature of things.","max_university_level":"7","description":"We are a small race who specialise in probes, all forms of probes.  However it has come to our attention that our population is starving due to our tendancy to make strange circles in all our crops.  We seek crops in exchange for some of our wonderous probes"}
+{
+   "description" : "We are a small race who specialise in probes, all forms of probes.  However it has come to our attention that our population is starving due to our tendancy to make strange circles in all our crops.  We seek crops in exchange for some of our wonderous probes",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 4000,
+         "wheat" : 4000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Circular Probe",
+            "speed" : 7500,
+            "stealth" : 0,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Circular Probe",
+            "speed" : 7500,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Probed?",
+   "network_19_completion" : "%s has done some discrete probing into the nature of things.",
+   "network_19_headline" : "Would you like to see whats going on next door?"
+}

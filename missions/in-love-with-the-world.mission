@@ -1,2 +1,28 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"chromite":5000,"goethite":5000,"uraninite":5000,"energy":10000,"rutile":5000}},"name":"In Love with the World","mission_reward":{"ships":[{"combat":0,"hold_size":10000,"stealth":0,"type":"dory","speed":5000}]},"network_19_headline":"Hotrod Dories now being built by temple dignitary.","network_19_completion":"So there was only one thing to do: ding a ding dang my dang a long ling long.","max_university_level":"15","description":"Nobody with a good dory needs to be justified.\nWhere you are ain't no good unless you can get away from there.\n\nSupply the materials, and we'll get you a ride worthy."}
+{
+   "description" : "Nobody with a good dory needs to be justified.\nWhere you are ain't no good unless you can get away from there.\n\nSupply the materials, and we'll get you a ride worthy.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 5000,
+         "energy" : 10000,
+         "goethite" : 5000,
+         "rutile" : 5000,
+         "uraninite" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 15000,
+            "speed" : 5000,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "In Love with the World",
+   "network_19_completion" : "So there was only one thing to do: ding a ding dang my dang a long ling long.",
+   "network_19_headline" : "Hotrod Dories now being built by temple dignitary."
+}

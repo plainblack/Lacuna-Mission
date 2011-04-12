@@ -1,2 +1,32 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","mission_reward":{"ships":[{"combat":0,"type":"cargo_ship","stealth":3003,"hold_size":50505,"speed":1320}]},"network_19_headline":"Blamco seeking plans for further demonstrations.","description":"Hi again!  The last demo went great.  This time, we've got a demo planned on short notice, and we need to quickly build up a security ministry to demonstrate the effectiveness of our new robotic seeker.  If you've got the plans and a little uranite to help blow it up, we can send you one of our spacious cargo ships.  Deal?","network_19_completion":"Blamco signs another deal with %s for building plans.","name":"Just Gonna Blow It Up","mission_objective":{"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::Security","extra_build_level":0}],"resources":{"uraninite":10000}}}
+{
+   "description" : "Hi again!  The last demo went great.  This time, we've got a demo planned on short notice, and we need to quickly build up a security ministry to demonstrate the effectiveness of our new robotic seeker.  If you've got the plans and a little uranite to help blow it up, we can send you one of our spacious cargo ships.  Deal?",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Security",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "uraninite" : 10000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Blamco Cargo",
+            "speed" : 1500,
+            "stealth" : 5000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Just Gonna Blow It Up",
+   "network_19_completion" : "Blamco signs another deal with %s for building plans.",
+   "network_19_headline" : "Blamco seeking plans for further demonstrations."
+}

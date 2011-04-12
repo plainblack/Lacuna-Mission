@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"gypsum":200000}},"name":"Beach Front Property","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"mining_platform_ship","speed":700},{"combat":0,"hold_size":75000,"stealth":3000,"type":"cargo_ship","speed":1500}]},"network_19_headline":"Rumor has it Pete want's out of the rat race.","network_19_completion":"A local retiree was killed yesterday when a broken down cargo ship crashed on the beach, southwest of the water.","max_university_level":"15","description":"Longtime owner of Pete's mining and Exploration would like to retire. In his glory days he hopes to sit on a beach (with land to the southwest) and watch the cargo ships fly overhead without him. Alas Pete has no beach regardless of where the land is, just an old mining platform and a rusty cargo ship. Can you make Pete's dreams come true?"}
+{
+   "description" : "Longtime owner of Pete's mining and Exploration would like to retire. In his glory days he hopes to sit on a beach (with land to the southwest) and watch the cargo ships fly overhead without him. Alas Pete has no beach regardless of where the land is, just an old mining platform and a rusty cargo ship. Can you make Pete's dreams come true?",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "gypsum" : 200000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Pete's Retirement",
+            "speed" : 700,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 75000,
+            "name" : "The Missing Mistress",
+            "speed" : 2000,
+            "stealth" : 3000,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Beach Front Property",
+   "network_19_completion" : "A local retiree was killed yesterday when a broken down cargo ship crashed on the beach, southwest of the water.",
+   "network_19_headline" : "Rumor has it Pete want's out of the rat race."
+}

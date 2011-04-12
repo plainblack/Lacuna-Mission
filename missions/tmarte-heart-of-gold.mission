@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"gold":200000}},"name":"Heart of Gold","mission_reward":{"ships":[{"combat":0,"hold_size":35000,"stealth":10000,"type":"smuggler_ship","speed":4000}]},"network_19_headline":"The president has stolen the Heart of Gold again.","network_19_completion":"%s is the proud owner of the fastest ship in the universe, the Heart of Gold.","max_university_level":"25","description":"Zircon Beeldeban has stolen the Heart of Gold and parked it on your planet! He said it's the fastest ship in the universe and can be yours for a small price.\n\nGet Zircon Beeldeban 200,000 gold and he will hand over the keys to his sweet ride."}
+{
+   "description" : "Zircon Beeldeban has stolen the Heart of Gold and parked it on your planet! He said it's the fastest ship in the universe and can be yours for a small price.\n\nGet Zircon Beeldeban 200,000 gold and he will hand over the keys to his sweet ride.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 200000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "Heart of Gold",
+            "speed" : 5000,
+            "stealth" : 15000,
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "name" : "Heart of Gold",
+   "network_19_completion" : "%s is the proud owner of the fastest ship in the universe, the Heart of Gold.",
+   "network_19_headline" : "The president has stolen the Heart of Gold again."
+}

@@ -25,6 +25,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "barge"
@@ -36,6 +37,7 @@
          {
             "combat" : 0,
             "hold_size" : 1000000,
+            "name" : "Pie Eater",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "freighter"

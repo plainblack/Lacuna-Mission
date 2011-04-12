@@ -11,7 +11,7 @@
                "inhabited" : 1,
                "isolationist" : 0,
                "size" : [
-                  58,
+                  50,
                   60
                ],
                "type" : "habitable"
@@ -40,6 +40,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 0,
             "stealth" : 0,
             "type" : "freighter"
@@ -50,36 +51,38 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
-            "extra_build_level" : 0,
-            "level" : 8
+            "extra_build_level" : 1,
+            "level" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
-            "extra_build_level" : 0,
-            "level" : 10
+            "extra_build_level" : 5,
+            "level" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
-            "extra_build_level" : 0,
-            "level" : 10
+            "extra_build_level" : 5,
+            "level" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
-            "extra_build_level" : 0,
-            "level" : 9
+            "extra_build_level" : 1,
+            "level" : 1
          }
       ],
       "ships" : [
          {
             "combat" : 0,
             "hold_size" : 500000,
+            "name" : "Numarite Freighter",
             "speed" : 2500,
             "stealth" : 1500,
             "type" : "freighter"
          },
          {
-            "combat" : 0,
+            "combat" : 3000,
             "hold_size" : 0,
+            "name" : "Numarite Detonator",
             "speed" : 150,
             "stealth" : 0,
             "type" : "detonator"
@@ -87,6 +90,7 @@
          {
             "combat" : 350,
             "hold_size" : 250000,
+            "name" : "Numarite Scow",
             "speed" : 1000,
             "stealth" : 500,
             "type" : "scow"

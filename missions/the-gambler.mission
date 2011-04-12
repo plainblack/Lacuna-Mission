@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"name":"The Gambler","mission_reward":{"resources":{"gold":20000}},"network_19_headline":"The Gambler Has Arrived In The Quadrant.","network_19_completion":"%s won the grand prize at local poker tournament.","max_university_level":"10","description":"So I'm sure you've already heard about the big poker tournament on Omicron Setti 6 this weekend.  They've gone all out to make it as high tech and fast as possible. -Easier to separate us from our credits that way I guess.\n\nAnyway, I programed the vid units and interfaces for the gaming commission there. -I don't know how they missed it, but the algorithm I developed for predictive card syncing slipped through!  With this you cannot loose!  The code was kinda rough, and you still have to make the right bets; but the code I embedded into the cards' background communicates with the Dealer system. And the Dealer exposes an API for the SCUSSI that will allow you XYZ the ABC...\n\n[After about 10 minutes of technical nonsense spoken in a dialect of a programming language derived from Perl version 6.2831854... ]\n\n-You cant loose!  This practically guarantees you'll take the pot.  Not only will you know what your opponents have in their hands, but you'll know what they will have in every hand before it is dealt!  With the sub scripting I embedded into the... \n\n[15 more minutes of techno babble]\n\n-Its a sure thing!  Now I just gotta get out of the sector with everything I've embezzled before they catch on. Do you have a ship? A dory would do. Speed, stealth, and size of don't matter. I can program the engine and navigation systems to circumvent the fail safes..."}
+{
+   "description" : "So I'm sure you've already heard about the big poker tournament on Omicron Setti 6 this weekend.  They've gone all out to make it as high tech and fast as possible. -Easier to separate us from our credits that way I guess.\n\nAnyway, I programed the vid units and interfaces for the gaming commission there. -I don't know how they missed it, but the algorithm I developed for predictive card syncing slipped through!  With this you cannot loose!  The code was kinda rough, and you still have to make the right bets; but the code I embedded into the cards' background communicates with the Dealer system. And the Dealer exposes an API for the SCUSSI that will allow you XYZ the ABC...\n\n[After about 10 minutes of technical nonsense spoken in a dialect of a programming language derived from Perl version 6.2831854... ]\n\n-You cant loose!  This practically guarantees you'll take the pot.  Not only will you know what your opponents have in their hands, but you'll know what they will have in every hand before it is dealt!  With the sub scripting I embedded into the... \n\n[15 more minutes of techno babble]\n\n-Its a sure thing!  Now I just gotta get out of the sector with everything I've embezzled before they catch on. Do you have a ship? A dory would do. Speed, stealth, and size of don't matter. I can program the engine and navigation systems to circumvent the fail safes...",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 20000
+      },
+      "ships" : []
+   },
+   "name" : "The Gambler",
+   "network_19_completion" : "%s won the grand prize at local poker tournament.",
+   "network_19_headline" : "The Gambler Has Arrived In The Quadrant."
+}

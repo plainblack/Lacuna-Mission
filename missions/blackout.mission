@@ -1,2 +1,34 @@
 # config-file-type: JSON 1
-{"name":"Blackout","mission_objective":{"resources":{"milk":5000,"energy":10000}},"description":"A massive power failure on Oed Kalimar 3 has left the main colony without any form of power.  Your help is needed to help restore primary functions and any food aid you can supply will be of great help to the aid services.  We will reward you with 2 of our now inactive drones.","mission_reward":{"ships":[{"type":"drone","combat":7000,"hold_size":0,"stealth":0,"speed":1000},{"type":"drone","combat":7000,"hold_size":0,"stealth":0,"speed":1000}]},"network_19_headline":"Massive blackout strikes Oed Kalimar 3.","network_19_completion":"Power has been restored on Oed Kalimar 3 thanks to help from %s.","max_university_level":"8"}
+{
+   "description" : "A massive power failure on Oed Kalimar 3 has left the main colony without any form of power.  Your help is needed to help restore primary functions and any food aid you can supply will be of great help to the aid services.  We will reward you with 2 of our now inactive drones.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 10000,
+         "milk" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 20000,
+            "hold_size" : 0,
+            "name" : "Oed Drone",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 20000,
+            "hold_size" : 0,
+            "name" : "Oed Drone",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "drone"
+         }
+      ]
+   },
+   "name" : "Blackout",
+   "network_19_completion" : "Power has been restored on Oed Kalimar 3 thanks to help from %s.",
+   "network_19_headline" : "Massive blackout strikes Oed Kalimar 3."
+}

@@ -1,2 +1,45 @@
 # config-file-type: JSON 1
-{"network_19_completion":"You Bought Happy Meals! Your Citizens Are Now Happier!","max_university_level":"20","network_19_headline":"Happy Meals For Sale!","description":"We are selling happy meals! You see our happy meals are going to get old since we're shut down for our holidays. We need to sell them. Don't worry they're still good. We will need ships with some ore in them though.","mission_objective":{"resources":{"methane":10000,"magnetite":25000,"trona":10000},"ships":[{"stealth":0,"speed":1500,"combat":0,"hold_size":18000,"type":"dory"},{"stealth":0,"speed":1500,"combat":0,"hold_size":18000,"type":"dory"},{"stealth":0,"speed":1200,"combat":0,"hold_size":75000,"type":"cargo_ship"}]},"mission_reward":{"happiness":20000},"name":"Happy Meals"}
+{
+   "description" : "We are selling happy meals! You see our happy meals are going to get old since we're shut down for our holidays. We need to sell them. Don't worry they're still good. We will need ships with some ore in them though.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "magnetite" : 25000,
+         "methane" : 10000,
+         "trona" : 10000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 18000,
+            "name" : "",
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 18000,
+            "name" : "",
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 75000,
+            "name" : "",
+            "speed" : 1200,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : 20000,
+      "ships" : []
+   },
+   "name" : "Happy Meals",
+   "network_19_completion" : "You Bought Happy Meals! Your Citizens Are Now Happier!",
+   "network_19_headline" : "Happy Meals For Sale!"
+}

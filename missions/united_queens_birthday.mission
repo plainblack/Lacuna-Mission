@@ -1,0 +1,19 @@
+# config-file-type: JSON 1
+{
+   "description" : "We are going to hold a huge ceremony on 3 March, birthday of our Queen. We expected to send a video to all of you but our broadcasting system does not work very well. If you can cancel your subscription and make ease for our system to work, we're giving out some of our celebration funds!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "happiness" : 200000
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "zircon"
+      ],
+      "resources" : {
+         "gold" : 50000
+      }
+   },
+   "name" : "Queen's Birthday!",
+   "network_19_completion" : "%s help's celebrates The Queen's Birthday !",
+   "network_19_headline" : "Queen's Birthday Celebration in jeopardy!"
+}

@@ -21,6 +21,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Eddie Probe",
             "speed" : 10000,
             "stealth" : 5000,
             "type" : "probe"

@@ -13,30 +13,34 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 7777,
+            "combat" : 12000,
             "hold_size" : 0,
-            "speed" : 2500,
+            "name" : "Quick Screen",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "fighter"
          },
          {
-            "combat" : 7777,
+            "combat" : 14000,
             "hold_size" : 0,
-            "speed" : 2500,
+            "name" : "Quick Screen",
+            "speed" : 0,
             "stealth" : 0,
             "type" : "drone"
          },
          {
-            "combat" : 7777,
+            "combat" : 14000,
             "hold_size" : 0,
-            "speed" : 2500,
+            "name" : "Quick Screen",
+            "speed" : 0,
             "stealth" : 0,
             "type" : "drone"
          },
          {
-            "combat" : 7777,
+            "combat" : 14000,
             "hold_size" : 0,
-            "speed" : 2500,
+            "name" : "Quick Screen",
+            "speed" : 0,
             "stealth" : 0,
             "type" : "drone"
          }

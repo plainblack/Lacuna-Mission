@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"gold":5000,"chalcopyrite":5000}},"name":"Sock Gnome Hunt Part 3","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"network_19_headline":"The Great Gnome Hunt Is Still On.","network_19_completion":"%s has successfully aided in exterminating Gnomes.","max_university_level":"8","description":"Back to the late breaking story at our top secret sock factory...\n\nThere was no luck trying to catch Sock Gnomes with Apples. -And they didn't fall for our cookies and milk traps either.  Our greatest historians have uncovered stories of epic battles between the Sock Gnomes and Leprechauns. But Leprechauns aren't readily available for import.\n\nIn an effort to attract the Leprechauns to our planet we find ourselves in need of 5K Chalcopyrite to build pots and 5K Gold to fill them with.  \n\nIn exchange for your generous assistance, we would like to present you with one of our top of the line dories used for exporting our exquisite socks."}
+{
+   "description" : "Back to the late breaking story at our top secret sock factory...\n\nThere was no luck trying to catch Sock Gnomes with Apples. -And they didn't fall for our cookies and milk traps either.  Our greatest historians have uncovered stories of epic battles between the Sock Gnomes and Leprechauns. But Leprechauns aren't readily available for import.\n\nIn an effort to attract the Leprechauns to our planet we find ourselves in need of 5K Chalcopyrite to build pots and 5K Gold to fill them with.  \n\nIn exchange for your generous assistance, we would like to present you with one of our top of the line dories used for exporting our exquisite socks.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "chalcopyrite" : 5000,
+         "gold" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 25000,
+            "name" : "Sock Hauler",
+            "speed" : 2500,
+            "stealth" : 1000,
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Sock Gnome Hunt Part 3",
+   "network_19_completion" : "%s has successfully aided in exterminating Gnomes.",
+   "network_19_headline" : "The Great Gnome Hunt Is Still On."
+}

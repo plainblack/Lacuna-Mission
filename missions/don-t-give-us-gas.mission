@@ -15,6 +15,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
+            "name" : "Lhousa Gas",
             "speed" : 600,
             "stealth" : 0,
             "type" : "gas_giant_settlement_ship"

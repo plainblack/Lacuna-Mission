@@ -1,2 +1,49 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Deposed Emperor asks for help ousting military dictator.","network_19_completion":"%s sides with Emperor against military dictator.","description":"Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nThe scans you provided have confirmed our worst fears.  There are more troops on the palace grounds than the general had under his command before the coup.  It appears he has recruited off-world mercenaries.\n\nWe need drones to prevent any more mercenaries arriving.\n\nIn exchange we will give you the plans for a Munitions lab we recovered from the General's old office in Newcastle, we have no need for it as we wish to remain isolationists.\n\nThis is Emperor Calderaan, we eagerly await your response.  Long live Znerk.\n\n<click>","max_university_level":"13","mission_objective":{"ships":[{"combat":1000,"speed":1000,"stealth":0,"hold_size":0,"type":"drone"},{"combat":1000,"speed":1000,"stealth":0,"hold_size":0,"type":"drone"},{"combat":1000,"speed":1000,"stealth":0,"hold_size":0,"type":"drone"}]},"name":"Frankenfurter's army grows","mission_reward":{"resources":{"gold":34000},"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::PilotTraining","extra_build_level":5}]}}
+{
+   "description" : "Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nThe scans you provided have confirmed our worst fears.  There are more troops on the palace grounds than the general had under his command before the coup.  It appears he has recruited off-world mercenaries.\n\nWe need drones to prevent any more mercenaries arriving.\n\nIn exchange we will give you the plans for a Munitions lab we recovered from the General's old office in Newcastle, we have no need for it as we wish to remain isolationists.\n\nThis is Emperor Calderaan, we eagerly await your response.  Long live Znerk.\n\n<click>",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 1000,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 1000,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 1000,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 1000,
+            "stealth" : 0,
+            "type" : "drone"
+         },
+         {
+            "combat" : 1000,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 1000,
+            "stealth" : 0,
+            "type" : "drone"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PilotTraining",
+            "extra_build_level" : 5,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "gold" : 34000
+      },
+      "ships" : []
+   },
+   "name" : "Frankenfurter's army grows",
+   "network_19_completion" : "%s sides with Emperor against military dictator.",
+   "network_19_headline" : "Deposed Emperor asks for help ousting military dictator."
+}

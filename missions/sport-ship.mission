@@ -1,2 +1,30 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"fungus":250,"water":600,"magnetite":50,"energy":4000,"bauxite":50,"chromite":50}},"name":"Sleek Ship Available","mission_reward":{"ships":[{"combat":0,"hold_size":0,"stealth":15000,"type":"spy_pod","speed":9000}]},"network_19_headline":"Alpha-Zeta Corp announces new Sports Ship!","network_19_completion":"%s supplies agents with new ship.","max_university_level":"15","description":"For a low price, the lucky system gets a brand new flashy ship! \nAre your agents tired of shlepping about in economy transport.  Send your agents in style in the new Zeta Penetrator!\nMilk bar with chrome controls are standard!"}
+{
+   "description" : "For a low price, the lucky system gets a brand new flashy ship! \nAre your agents tired of shlepping about in economy transport.  Send your agents in style in the new Zeta Penetrator!\nMilk bar with chrome controls are standard!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 50,
+         "chromite" : 50,
+         "energy" : 4000,
+         "fungus" : 250,
+         "magnetite" : 50,
+         "water" : 600
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Alpha Zeta Spy Pod",
+            "speed" : 11000,
+            "stealth" : 25000,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "name" : "Sleek Ship Available",
+   "network_19_completion" : "%s supplies agents with new ship.",
+   "network_19_headline" : "Alpha-Zeta Corp announces new Sports Ship!"
+}

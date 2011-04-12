@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Winner of the customization contest announce. Man was that ride pimping!","max_university_level":"10","network_19_headline":"Local competition set to showcase customized rides.","description":"Did you always want a pimping ride? Here at Mach 3000 Customization shop we can pimp your ride. There is a contest soon that we can showcase our work, and give you that ride you always wanted. Give us the materials to showcase our work, and you can keep the ride. It may not be the fastest, but it sure will shine with all that bling so it is not to easy to hide.","mission_objective":{"resources":{"chromite":5000,"gold":5000}},"mission_reward":{"ships":[{"speed":1400,"combat":0,"hold_size":10000,"stealth":0,"type":"dory"}]},"name":"Pimp my ride"}
+{
+   "description" : "Did you always want a pimping ride? Here at Mach 3000 Customization shop we can pimp your ride. There is a contest soon that we can showcase our work, and give you that ride you always wanted. Give us the materials to showcase our work, and you can keep the ride. It may not be the fastest, but it sure will shine with all that bling so it is not to easy to hide.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 5000,
+         "gold" : 5000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 10000,
+            "name" : "Purple Dory",
+            "speed" : 1400,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Pimp my ride",
+   "network_19_completion" : "Winner of the customization contest announce. Man was that ride pimping!",
+   "network_19_headline" : "Local competition set to showcase customized rides."
+}

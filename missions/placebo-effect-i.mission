@@ -15,8 +15,9 @@
          {
             "combat" : 0,
             "hold_size" : 0,
-            "speed" : 1150,
-            "stealth" : 5000,
+            "name" : "Navajo Nancy",
+            "speed" : 5000,
+            "stealth" : 18000,
             "type" : "placebo"
          }
       ]

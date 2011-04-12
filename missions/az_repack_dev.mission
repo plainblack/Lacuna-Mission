@@ -16,6 +16,7 @@
          {
             "combat" : 0,
             "hold_size" : 100000,
+            "name" : "Alpha Zeta Supply Pod II",
             "speed" : 2500,
             "stealth" : 0,
             "type" : "supply_pod2"

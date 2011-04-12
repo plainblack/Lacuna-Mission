@@ -1,2 +1,34 @@
 # config-file-type: JSON 1
-{"max_university_level":"7","mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"speed":0,"type":"dory"}],"resources":{"gold":500,"bauxite":100}},"description":"Can you believe it! I lost the drywall contract because it took too long to fill the order. No fear I signed a new contract off world, but I have no way of transporting the finished product. I am ready to get out of the drywall business. Take care of this contract and you can have the factory for cheap. With some minor modifications you can turn it into an Oversight Ministry.","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Oversight","level":1,"extra_build_level":2}]},"network_19_headline":"Drywall shortages expected to stop once the new shipment is made.","network_19_completion":"Drywall prices drop to lowest level in years due to supply.","name":"Construction Boom-Shipment"}
+{
+   "description" : "Can you believe it! I lost the drywall contract because it took too long to fill the order. No fear I signed a new contract off world, but I have no way of transporting the finished product. I am ready to get out of the drywall business. Take care of this contract and you can have the factory for cheap. With some minor modifications you can turn it into an Oversight Ministry.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 100,
+         "gold" : 500
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Oversight",
+            "extra_build_level" : 2,
+            "level" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Construction Boom-Shipment",
+   "network_19_completion" : "Drywall prices drop to lowest level in years due to supply.",
+   "network_19_headline" : "Drywall shortages expected to stop once the new shipment is made."
+}

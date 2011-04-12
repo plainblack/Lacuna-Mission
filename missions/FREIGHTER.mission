@@ -1,2 +1,39 @@
 # config-file-type: JSON 1
-{"name":"Honest Dan Used Ship Deals J","mission_objective":{"resources":{"gold":20000},"glyphs":["uraninite","magnetite"],"ships":[{"type":"cargo_ship","combat":0,"hold_size":50000,"stealth":2500,"speed":1200}]},"description":"Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an itch to see how the big boys deliver resources?   This is the place to come!  Today's special: FREIGHTER.  Recycle that old Cargo-Ship and just a bit more and we'll put you behind the wheel of an 18-engine big-rig. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!","mission_reward":{"ships":[{"type":"freighter","combat":0,"hold_size":250000,"stealth":600,"speed":1000}]},"network_19_headline":"Honest Dan's Used Ship Dealership is now open for business!","network_19_completion":"%s made a great deal at Honest Dan's Used Ship Dealership!","max_university_level":"20"}
+{
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an itch to see how the big boys deliver resources?   This is the place to come!  Today's special: FREIGHTER.  Recycle that old Cargo-Ship and just a bit more and we'll put you behind the wheel of an 18-engine big-rig. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "glyphs" : [
+         "uraninite",
+         "magnetite"
+      ],
+      "resources" : {
+         "gold" : 20000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 50000,
+            "name" : "",
+            "speed" : 1200,
+            "stealth" : 2500,
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 250000,
+            "name" : "Dan's Freighter",
+            "speed" : 1000,
+            "stealth" : 600,
+            "type" : "freighter"
+         }
+      ]
+   },
+   "name" : "Honest Dan Used Ship Deals J",
+   "network_19_completion" : "%s made a great deal at Honest Dan's Used Ship Dealership!",
+   "network_19_headline" : "Honest Dan's Used Ship Dealership is now open for business!"
+}

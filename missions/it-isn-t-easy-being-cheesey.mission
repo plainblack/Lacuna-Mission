@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}]},"name":"It isn't easy being cheesey","mission_reward":{"resources":{"cheese":20000}},"network_19_headline":"Charlie Cheddar looking for new delivery creature (Must provide your own transportation).","network_19_completion":"Kiki from %s got her first job delivering cheese.","max_university_level":"30","description":"Charlie Cheddar recently had to fire his delivery creature, because it was eating all the cheese. Would you like a job delivering cheese? You must provide your own transportation. Once we fix your ship up for cheese delivery, it won't be good for anything else. All workers are paid in cheese."}
+{
+   "description" : "Charlie Cheddar recently had to fire his delivery creature, because it was eating all the cheese. Would you like a job delivering cheese? You must provide your own transportation. Once we fix your ship up for cheese delivery, it won't be good for anything else. All workers are paid in cheese.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cheese" : 20000
+      },
+      "ships" : []
+   },
+   "name" : "It isn't easy being cheesey",
+   "network_19_completion" : "Kiki from %s got her first job delivering cheese.",
+   "network_19_headline" : "Charlie Cheddar looking for new delivery creature (Must provide your own transportation)."
+}

@@ -1,2 +1,35 @@
 # config-file-type: JSON 1
-{"mission_objective":{"ships":[{"combat":0,"hold_size":0,"stealth":0,"type":"dory","speed":0}],"resources":{"gold":5000}},"name":" Danonia Used Ship Emporium","mission_reward":{"ships":[{"combat":0,"hold_size":20000,"stealth":5000,"type":"dory","speed":1500}]},"network_19_headline":"Used-Spaceship Dealership opening up, looking for inventory.","network_19_completion":"Another satisfied customer at Big Ed's Used Spaceship Emporium.","max_university_level":"15","description":"I'm opening up a used-spaceship dealership and will upgrade your old Dory for Cash and trade-in - get rid of those old useless spaceships you've had on the market for days."}
+{
+   "description" : "I'm opening up a used-spaceship dealership and will upgrade your old Dory for Cash and trade-in - get rid of those old useless spaceships you've had on the market for days.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 5000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 20000,
+            "name" : "Dan's Dory",
+            "speed" : 1500,
+            "stealth" : 5000,
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : " Danonia Used Ship Emporium",
+   "network_19_completion" : "Another satisfied customer at Big Ed's Used Spaceship Emporium.",
+   "network_19_headline" : "Used-Spaceship Dealership opening up, looking for inventory."
+}

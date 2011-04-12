@@ -23,6 +23,7 @@
          {
             "combat" : 0,
             "hold_size" : 1000000,
+            "name" : "Fast Freighter",
             "speed" : 2750,
             "stealth" : 0,
             "type" : "freighter"

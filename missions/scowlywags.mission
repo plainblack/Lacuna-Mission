@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"waste":1000000}},"name":"Scowlywag","mission_reward":{"ships":[{"combat":350,"hold_size":250000,"stealth":1500,"type":"scow","speed":750},{"combat":350,"hold_size":250000,"stealth":1500,"type":"scow","speed":750}]},"network_19_headline":"Scowlywags Support Decontamination Efforts.","network_19_completion":"Scowlywags collect bounty in waste from %s!","max_university_level":"30","description":"The Scowlywags have come planet-side to trade their services. This odd species of the Expanse has an economy which is completely dependent on waste. It is rumored that their planets have no resource production facilities except for recyclers. They are offering to take away 1,000,000 units of waste. In exchange, they are offering to leave behind 2 of their high capacity scows as payment."}
+{
+   "description" : "The Scowlywags have come planet-side to trade their services. This odd species of the Expanse has an economy which is completely dependent on waste. It is rumored that their planets have no resource production facilities except for recyclers. They are offering to take away 1,000,000 units of waste. In exchange, they are offering to leave behind 2 of their high capacity scows as payment.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 1000000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 350,
+            "hold_size" : 250000,
+            "name" : "Scowlwag Scow",
+            "speed" : 1250,
+            "stealth" : 150,
+            "type" : "scow"
+         },
+         {
+            "combat" : 350,
+            "hold_size" : 250000,
+            "name" : "Scowlwag Scow",
+            "speed" : 1250,
+            "stealth" : 150,
+            "type" : "scow"
+         }
+      ]
+   },
+   "name" : "Scowlywag",
+   "network_19_completion" : "Scowlywags collect bounty in waste from %s!",
+   "network_19_headline" : "Scowlywags Support Decontamination Efforts."
+}
