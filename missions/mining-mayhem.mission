@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Hello there.  Its so simple a beeldeban could do it.  Send some snarks to the nearest asteroid and we'll give you some mining ships.  Sound good?",
+   "description" : "Hello there.  Its so simple a beeldeban could do it.  Send a detonator at the listed asteroid and we'll give you some mining ships.  Sound good?",
    "max_university_level" : "30",
    "mission_objective" : {
       "fleet_movement" : [
