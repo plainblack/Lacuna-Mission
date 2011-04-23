@@ -25,16 +25,16 @@
             "combat" : 2000,
             "hold_size" : 0,
             "name" : "Sneaky Snark",
-            "speed" : 1500,
-            "stealth" : 12000,
+            "speed" : 2500,
+            "stealth" : 2400,
             "type" : "snark"
          },
          {
             "combat" : 2000,
             "hold_size" : 0,
             "name" : "Sneaky Snark",
-            "speed" : 1500,
-            "stealth" : 12000,
+            "speed" : 2500,
+            "stealth" : 2400,
             "type" : "snark"
          }
       ]
