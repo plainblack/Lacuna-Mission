@@ -66,6 +66,8 @@ foreach my $filename (@files) {
     # Objective ships sanity
     my $obships = $config->get('mission_objective')->{ships};
     for my $ship ( @$obships ) {
+        ok ( ( $ship->{speed} >= 0 ),
+            $filename.' ships move' );
         ok ( ( $ship->{speed} < 25000 ),
             $filename.' sane speed on ships' );
         ok ( ( $ship->{combat} == 0 or $ship->{combat} > 199 ),
@@ -78,6 +80,8 @@ foreach my $filename (@files) {
     # Reward ships sanity
     my $reships = $config->get('mission_reward')->{ships};
     for my $ship ( @$reships ) {
+        ok ( ( $ship->{speed} > 10 or $ship->{type} eq 'drone' ),
+            $filename.' ships move' );
         ok ( ( $ship->{speed} < 25000 ),
             $filename.' sane speed on ships' );
         ok ( ( $ship->{combat} == 0 or $ship->{combat} > 199 ),
