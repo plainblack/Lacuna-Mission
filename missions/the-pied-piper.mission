@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s helps eradicate rats on Klandleexy 3.","max_university_level":"30","description":"Rats, I hate rats, and these aren't your average rats either.  They must have come in on some cargo ship and been effected by solar gamma rays or something.  Their tails alone are 3 feet long!  \n\nBoy are they hungry too, the space rats are eating all of our pies.  We are known sector wide for our variety of flavors and how long of a shelf life they have.  \n\nIn an effort to eradicate the pests, we need cheese for our traps.  In return, we will give you 2 cycles worth of pie production.  Please hurry or the rats will eat all of the payment!","mission_objective":{"resources":{"cheese":5000}},"name":"The Pied Piper","mission_reward":{"resources":{"pie":7500}},"network_19_headline":"Rats infest Klandleexy 3."}
+{
+   "description" : "Rats, I hate rats, and these aren't your average rats either.  They must have come in on some cargo ship and been effected by solar gamma rays or something.  Their tails alone are 3 feet long!  \n\nBoy are they hungry too, the space rats are eating all of our pies.  We are known sector wide for our variety of flavors and how long of a shelf life they have.  \n\nIn an effort to eradicate the pests, we need cheese for our traps.  In return, we will give you 2 cycles worth of pie production.  Please hurry or the rats will eat all of the payment!",
+   "max_university_level" : "22",
+   "mission_objective" : {
+      "resources" : {
+         "cheese" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "pie" : 7500
+      }
+   },
+   "name" : "The Pied Piper",
+   "network_19_completion" : "%s helps eradicate rats on Klandleexy 3.",
+   "network_19_headline" : "Rats infest Klandleexy 3."
+}
