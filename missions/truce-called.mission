@@ -31,6 +31,14 @@
             "type" : "snark"
          },
          {
+            "combat" : 3000,
+            "hold_size" : 0,
+            "name" : "Rusty Snark",
+            "speed" : 1500,
+            "stealth" : 3000,
+            "type" : "snark"
+         },
+         {
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Rusty Shuttle",
@@ -41,6 +49,6 @@
       ]
    },
    "name" : "Truce Called",
-   "network_19_completion" : "We Bought Their War Ships!",
-   "network_19_headline" : "Unknown Species Is Selling War Ships!"
+   "network_19_completion" : "%s bought some war ships!",
+   "network_19_headline" : "Species is dumping surplus war ships!"
 }
