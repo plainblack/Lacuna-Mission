@@ -1,0 +1,86 @@
+# config-file-type: JSON 1
+{
+   "description" : "Ah, Bureaucracy. Wouldn't it be nice to expedite past the politicians.  You know the other members of your alliance just send the people they don't want at the capitol.  Anyway, you need the level 25 Parliament if you want to be able to use the BFG.  Apparently, they need the special wood desks and comfy chairs made from the finest woods. Plus the cushions are derived from some special kelp found in the middle of oceans.  We'll need a previous plan, some materials, and we'll need some plans for growing some of the materials.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "gypsum",
+         "zircon"
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::Parliament",
+            "extra_build_level" : 0,
+            "level" : 24
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "algae" : 10000000,
+         "energy" : 150000000,
+         "gypsum" : 25000000,
+         "water" : 150000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::Parliament",
+            "extra_build_level" : 0,
+            "level" : 25
+         }
+      ]
+   },
+   "name" : "Bureaucracy Overload",
+   "network_19_completion" : "Watchout! %s has access to powerful politicians!",
+   "network_19_headline" : "Alpha Zeta can let you lobby for BHG targets!"
+}

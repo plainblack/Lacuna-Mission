@@ -1,0 +1,40 @@
+# config-file-type: JSON 1
+{
+   "description" : "We now have the methodology down, but the resource requirements are pretty amazing.  We have the ability to bump a level 24 Station Command up to level 25.  It's going to take a lot of energy, ore, and we'll be setting up a special chamber using glyphs.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "chalcopyrite",
+         "bauxite",
+         "bauxite",
+         "gold",
+         "gold"
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::StationCommand",
+            "extra_build_level" : 0,
+            "level" : 24
+         }
+      ],
+      "resources" : {
+         "bauxite" : 5000000,
+         "chalcopyrite" : 250000000,
+         "energy" : 250000000,
+         "gold" : 75000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::StationCommand",
+            "extra_build_level" : 0,
+            "level" : 25
+         }
+      ]
+   },
+   "name" : "Commanding Presence",
+   "network_19_completion" : "%s is one step away from Ultimate Power!",
+   "network_19_headline" : "Alpha Zeta is your source for the highest level command modules."
+}

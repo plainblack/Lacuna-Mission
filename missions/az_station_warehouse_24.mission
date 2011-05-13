@@ -1,0 +1,54 @@
+# config-file-type: JSON 1
+{
+   "description" : "Alpha Zeta has been working on the latest technologies and notes that it's tough to get those last few space station modules.  Our scientists have been working on this problem and using special tech, we're able to combine lesser plans for a larger one.  You'll note our success with glyph plans for instance.\nFor the first step, we're going to need a lot of help from you.  Scan a space station in your zone, get us two of the lower level plans, and we'll need a hulk to get all the material to your planet for final assembly.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "space_station"
+            }
+         }
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::Warehouse",
+            "extra_build_level" : 0,
+            "level" : 23
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::Warehouse",
+            "extra_build_level" : 0,
+            "level" : 23
+         }
+      ],
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "hulk"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::Warehouse",
+            "extra_build_level" : 0,
+            "level" : 24
+         }
+      ]
+   },
+   "name" : "A Place for More Stuff",
+   "network_19_completion" : "%s has plenty of storage.",
+   "network_19_headline" : "Alpha Zeta has developed a way to increase your space station storage!"
+}

@@ -1,0 +1,49 @@
+# config-file-type: JSON 1
+{
+   "description" : "Now that we've got the tech down for producing higher level space station plans, some of the previous requirements are no longer needed.  However, the amount of material needed to produce these plans is pretty amazing. And since it is an art installation, we'll have to have a caterer. Maybe the culinary institute can lend a hand? And a fast limo to get all those dignitaries to the function.  We'll still need a copy of the next lower plan, and we'll give you a list of materials.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::ArtMuseum",
+            "extra_build_level" : 0,
+            "level" : 24
+         }
+      ],
+      "resources" : {
+         "apple" : 5000000,
+         "chalcopyrite" : 250000000,
+         "cheese" : 500000,
+         "chip" : 500000,
+         "cider" : 500000,
+         "gold" : 75000000,
+         "pie" : 500000,
+         "rutile" : 250000000,
+         "shake" : 500000,
+         "uraninite" : 250000000,
+         "zircon" : 250000000
+      },
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 1750,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Module::ArtMuseum",
+            "extra_build_level" : 0,
+            "level" : 25
+         }
+      ]
+   },
+   "name" : "Art Installation",
+   "network_19_completion" : "Art critcs flock to %s. %s readies the BHG.",
+   "network_19_headline" : "Alpha Zeta can make your art installation really shine!"
+}
