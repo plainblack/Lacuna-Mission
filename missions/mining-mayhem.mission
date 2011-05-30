@@ -12,9 +12,9 @@
                "isolationist" : 0,
                "size" : [
                   1,
-                  121
+                  10
                ],
-               "type" : "habitable"
+               "type" : "asteroid"
             }
          }
       ]
