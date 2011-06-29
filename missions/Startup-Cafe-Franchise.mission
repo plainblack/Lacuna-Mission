@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Porquoi Pas Cafe chain needs investors for its startup phase.  Investors will procure the necessary resources to start the chain, and will be rewarded with a certificate good at any Porquoi Pas Cafe in this Sector, a sizeable return on your investment, as well as a gift basket full of all the goodies PPC makes.",
+   "description" : "Porquoi Pas Cafe chain needs investors for its startup phase.  Investors will procure the necessary resources to start the chain, and will be rewarded with a certificate good at any Porquoi Pas Cafe in this Sector, a sizable return on your investment, as well as a gift basket full of all the goodies PPC makes.",
    "max_university_level" : "12",
    "mission_objective" : {
       "resources" : {
@@ -22,12 +22,12 @@
    "mission_reward" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Lake",
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
             "extra_build_level" : 0,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lake",
             "extra_build_level" : 0,
             "level" : 1
          }

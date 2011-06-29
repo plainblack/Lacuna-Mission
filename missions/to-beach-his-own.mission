@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "The eccentric dictator Kennius Gee of Geeworld (population 3 plus a cat) has decided that he needs to form a powerful space fleet.  The problem?  Geeworld is actually a Y-class moon whose surface consists only of coarse regolith, so his options are limited. Kennius proposes to trade the sand from his world to anybody who provides him a ship.  He's starting small - just a few ships - but he'll give you enough sand to form a beach on your world.",
-   "max_university_level" : "15",
+   "max_university_level" : "10",
    "mission_objective" : {
       "ships" : [
          {
@@ -36,9 +36,13 @@
             "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
             "extra_build_level" : 0,
             "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Sand",
+            "extra_build_level" : 0,
+            "level" : 1
          }
-      ],
-      "ships" : []
+      ]
    },
    "name" : "To Beach His Own",
    "network_19_completion" : "Ships-for-sand program a success!  %s now owns enough sand to form a new beach!",
