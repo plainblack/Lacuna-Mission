@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "You can do the right thing.  The precious, beautiful, and unique Diamond Backed Turtles of our world are dying out.  Our agency, Save the Turtles, is trying to make a conservation for them that's separated from our overly polluted natural oceans.  Please give us a couple of Beach 13 plans for some safe, clean hatching beds to get things started.  We don't have much, but we can offer you a galena glyph.  Please help these beautiful Diamond-Backs.  Help these gentle strong creatures escape the horrible tortured future our society has destined for them.  It would mean so much to us, we'll even send you a sample of our greatest delicacy, Ruby-Backed Crab cakes.  Those Ruby-Backs are SO dumb but OH so tasty!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "galena"
+      ]
+   },
+   "name" : "Save the Turtles",
+   "network_19_completion" : "Diamond Back Turtle hatching sanctuary successfully established due to Beach plans provided by %s.",
+   "network_19_headline" : "Rare Diamond Back Turtles endangered and likely to die out if protective beaches are not built."
+}

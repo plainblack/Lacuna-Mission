@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Alas, when I was young, deep sea fishing was everything to me.  Then I met and fell in love with a beautiful young woman who brought me to this silly planet with only lakes, lagoons, and springs... Who can go deep sea fishing in that?  Determined to live life with both of my true loves, I will bring a sea to this planet, yet.  If you can get me two Beach 9 plans, I'll hand over the wedding gift from my in-laws, a anthracite glyph.  What good is that to a family, anyway?  Thanks for the help.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite"
+      ]
+   },
+   "name" : "Deep Sea Fishing",
+   "network_19_completion" : "Fisherman built ocean plans with help from %s and now often found fishing during visits from the in-laws.",
+   "network_19_headline" : "Long time fisherman falls in love with land-locked lass.  Now seeking ocean plans to live the good life."
+}

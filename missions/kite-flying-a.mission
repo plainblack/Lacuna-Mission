@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "When's the last time you've flown a kite?  I'm sure it's been a while.  Where were you the last time you flew a kite?  Were you on a beach?  If you were, then you know, beaches are the BEST places to fly kites.  I'm trying to relive a nostalgic moment of my childhood and I need just the right beach property to do it.  If you can get me a pair of Beach 6 plans, I'll get you a rutile glyph.  There's nothing like our memories, you know?",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "rutile"
+      ]
+   },
+   "name" : "Kite Flying",
+   "network_19_completion" : "%s creates beach to help man fulfill precious moment of skillful kite flying. Onlookers were stunned.",
+   "network_19_headline" : "Quest for nostalgic kite flying experience calls for beach plans."
+}

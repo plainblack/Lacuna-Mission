@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hi, I'm just starting up a tourism business on planet, and I need some pretty pictures of \nthe place to get people to come visit.  My problem is... it's not that pretty here.  I need your help making the perfect spot for getting the perfect shot.  What brings more people than scenes of a perfect beach?  Nothing!  For this reason, I'm looking for a couple of Beach 7 plans.  With some good marketing based on those beauties, we'll have a tourist hot spot in no time.  I'll even be able to repay you in a chalcopyrite glyph.  Things are really looking up!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite"
+      ]
+   },
+   "name" : "Tourism",
+   "network_19_completion" : "With beach plans placed by %s, production can commence on tourism oriented marketing materials.",
+   "network_19_headline" : "Tourism to ugly planet may be stimulated by pretty beach pictures."
+}

@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Surf's up, dude!  Well, it would be if we had a surf.  I totally moved to this downer of a planet and now I can't get my surf on because there are no beaches!  You would be totally rad if you could hook me up with a killer coast to cut the waves.  Two Beach 8 plans aught to do it.  And wouldn't you know surfing is so important to me I'll even hit you back with a precious sulfur glyph from my home planet for your trouble.  Cowabunga!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "sulfur"
+      ]
+   },
+   "name" : "Hitting the Waves",
+   "network_19_completion" : "People take notice as surfing enthusiast successfully creates a surfers perfect beach with plans from %s.",
+   "network_19_headline" : "Surfing enthusiast tries to barter a glyph for beach plans for recreational use on boring planet."
+}

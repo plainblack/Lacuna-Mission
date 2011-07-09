@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello there.  I represent the most genious company ever.  We have produced \nthe ultimate sunscreen.  We GAURANTEE it will protect your skin, no matter what species you are, no \nmatter what star shines on you, no matter what orbit!  With a product like this, our sales should be astronomical!  But their not.  I blame our last marketing team that just put pictures of star-inflicted skin diseases on our bottles.  Our new marketing team has a better plan: pictures of beautiful healthy people on a beach.  Can't you see it?  All we need are a couple of Beach 12 plans to pull it off, and you'll get a goethite glyph out of the deal.  What do you say?",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "goethite"
+      ]
+   },
+   "name" : "Sunscreen Marketing",
+   "network_19_completion" : "Impressive images from a new beach site constructed with %s plans help sunscreen sales to rise.",
+   "network_19_headline" : "Best sun protection product ever still suffers sad sales.  New marketing team wants beach pics for new branding."
+}

@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings.  I'm on a science team that's working to diversify our planet's energy production strategies.  Because of an extremely bizarre magnetic distortion caused by our planet's cumbersome moons, we can't get singularity power plants on-line.  We theorize, however, that if we had a beach, we could manufacture some tidal generators that would really pay off.  If you can provide us with a couple of Beach 10 plans for experimentation, we could send you a methane glyph as payment.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane"
+      ]
+   },
+   "name" : "Tidal Generators",
+   "network_19_completion" : "Preliminary tests show promise on newly installed generator technology at beaches build by %s plans.",
+   "network_19_headline" : "Beach plans needed for tidal generators to be explored as solution to energy needs."
+}

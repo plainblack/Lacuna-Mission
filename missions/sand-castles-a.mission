@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "We are a very artistic people.  Ever since the beginning of our recorded history we have had centennial art competitions.  Our tradition dictates that each cycle focus on a single medium that has not been used before.  Creative as we are, we've had to start borrowing art mediums from alien species to fulfill this mandate.  Now our scouts have identified this thing called \"sand castles\" and our panel must check to see if this meets our standards for an artistic medium.  The trouble is, we need some beach space to do it.  If you can supply us with two Beach 11 plans, we can reward you with a chromite glyph.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chromite"
+      ]
+   },
+   "name" : "Sand Castles",
+   "network_19_completion" : "Art panel is pleased with the potential of sand-castles. Sand canvas provided by %s beach plans.",
+   "network_19_headline" : "Artsy race considers sand castles for next art competition.  Fresh Beach plans needed."
+}

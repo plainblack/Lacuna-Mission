@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "A penny saved is a penny earned, but what about a penny found?  And there's no better place to treasure hunt than the BEACH!  If you can get me a couple of Beach 1 plans, I would just be so delighted.  I'll even get you a gypsum glyph to reward you.  Wish me happy hunting!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gypsum"
+      ]
+   },
+   "name" : "Scouring the Beach",
+   "network_19_completion" : "Beach plans purchased from %s to satisfy amateur treasure hunter's boyhood fantasy.",
+   "network_19_headline" : "Amateur treasure hunter seeking beaches to scour."
+}

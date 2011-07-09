@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "I have fallen madly in love!  Problem is, she's not quite convinced I'm the one for her.  I know that a beautiful walk on the beach under the moonlight would be the perfect event to win her over, but there aren't any beaches on this stupid planet...  PLEASE help me out!  My family has a nice shiny uraninite glyph that I can offer you if you get me two Beach 4 plans.  Even more than that reward, though, you'll know that you were the person that allowed true love to blossom!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach4",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach4",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "uraninite"
+      ]
+   },
+   "name" : "Buy her Love",
+   "network_19_completion" : "Man elated as beach plans acquired from %s help him make the perfect date!",
+   "network_19_headline" : "Desperate man creatively tries to impress love interest."
+}

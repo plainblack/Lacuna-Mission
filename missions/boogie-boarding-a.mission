@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Have you ever been boogie boarding?  Well I gotta tell you, it's a blast!  You can't boogie board without a beach, though.  If you can go ahead and send me just two Beach 2 plans, I'll show you the ropes, and throw in a gypsum glyph to boot.  Just beware of sand in your pants...",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gypsum"
+      ]
+   },
+   "name" : "Boogie Boarding",
+   "network_19_completion" : "Costumers thrilled with the chance to learn boogie boarding. Cheers for %s, who supplied the beach plans.",
+   "network_19_headline" : "Boogie boarding boy prodigy seeks beach space to begin a boogie boarding boot camp."
+}

@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "I'm so depressed.  Nothing seems to work.  My doctor says the problem is that I just can't find a moment to relax.  This planet is always about MOVE MOVE MOVE and I just need a quite peaceful spot.  We have no forests, no meadows, no nothing.  Maybe if you could get me two Beach 5 plans, this whole planet would benefit from having a peaceful place to relax.  I could use some of the savings from counseling to purchase you a nice halite glyph for payment.  I'll also send you a photo of me, in a hammock, sipping a tasty drink.  That's the life.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite"
+      ]
+   },
+   "name" : "Seaside Treatment",
+   "network_19_completion" : "Beach plans from %s prove useful in calming down anxious and stressed citizens.",
+   "network_19_headline" : "Some seek to treat symptoms of stress by relaxing on the beach."
+}

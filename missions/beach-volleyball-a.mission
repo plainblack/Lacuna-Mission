@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "I've been trying to get a beach volleyball tournament started up on our quaint little planet here, but can't for the life of me find the right spot.  I guess we'll just have to engineer the perfect beach!  If you can get me a couple of Beach 3 plans, I'll use some of proceeds from the tournament to send you a magnetite glyph in return.  Thanks for the help!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach3",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach3",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "magnetite"
+      ]
+   },
+   "name" : "Beach Volleyball",
+   "network_19_completion" : "Now with beaches finally installed with help from %s, plans for volleyball tournament can move forward.",
+   "network_19_headline" : "Perfect beaches sought for a volleyball tournament."
+}
