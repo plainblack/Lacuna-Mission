@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Have you ever had ruby-backed crab cakes?  Man, they are delicious!  We need more.  We need more now.  The problem is, we're running out space to farm our crabs!  Could you trade us five Beach 13 plans?  Those are the best for crab farms.  We can give two galena glyphs and gypsum glyph in the deal.  What do you say?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach13",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "galena",
+         "galena",
+         "gypsum"
+      ]
+   },
+   "name" : "Farming Crabs",
+   "network_19_completion" : "Thanks to a trade with %s for some new beach plans, crab farming can expand rapidly.",
+   "network_19_headline" : "Crab farmers love crab cakes so much, they can't get enough!"
+}

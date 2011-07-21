@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Oh, I had no idea boogie boarding would grow so popular.  People from all across the planet want to learn how it's done!  I can show them all, but I'll need a lot more space.  Please send five Beach 2 plans over here.  The boogie camp has acquired three gypsum glyphs that we can trade for them.  What do you say?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gypsum",
+         "gypsum",
+         "gypsum"
+      ]
+   },
+   "name" : "Boogie Board Bonanza",
+   "network_19_completion" : "Glyphs paid out to beautiful beach plan donor from %s who supported the boogie boarding bonanza.",
+   "network_19_headline" : "Boogie boarder boot camp begins a boogie boarding craze.  More beaches needed to meet demand."
+}

@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Man, surfing has really taken off at our little beach community here, but as we're getting more skilled we need more of a challenge.  We just need to expand our coastline a little bit and we'll have all the challenge we need.  Do you think you could hook us up with five Beach 8 plans?  We'll have some great monster surf if you do.  And hey, sometimes the tide pulls in some crusty old glyphs.  We'll give you two sulfur glyphs and a gypsum glyph for those plans.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "sulfur",
+         "sulfur",
+         "gypsum"
+      ]
+   },
+   "name" : "Hitting Higher Waves",
+   "network_19_completion" : "New beach plans purchased from %s to produce higher waves for master surfers.",
+   "network_19_headline" : "Surfing enthusiasts improve skills and seek higher, tougher waves."
+}

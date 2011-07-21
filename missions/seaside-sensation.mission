@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "So there was a revelation recently on this planet that fewer anti-depressant prescriptions were needed once we got a little coastline.  Thing is, now that we're not sad or depressed, we really don't feel much of anything!  We're hoping a few more waves will pick us up even more and we'll actually get around to feeling good.  If you can get us five Beach 5 plans, we'll offer you some old ingredients from our pharmaceuticals: two halite glyphs and a gypsum glyph.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "halite",
+         "halite",
+         "gypsum"
+      ]
+   },
+   "name" : "Seaside Sensations",
+   "network_19_completion" : "Happier lives abound in community after receiving beautiful beach plans from %s.",
+   "network_19_headline" : "People seek happiness by the seaside.  Seaside now needed."
+}

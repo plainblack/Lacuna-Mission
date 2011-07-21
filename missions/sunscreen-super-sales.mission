@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Our company has recently designed the best sunblock ever known to the expanse.  It will protect ANY kind of flesh from ANY kind of star!  We know we have a good product, but it still isn't really selling.  We've tried marketing tactics, but what will really help us out is genuine consumer need.  We thought about depleting the ozone on our planet, but thought purchasing a few beach plans would make more sense.  Do you happen to have five Beach 12 plans?  As we dig for ingredients for our product we come accross glyphs sometimes and we can offer two goethite glyphs and a gypsum glyph in return.  If you act now, we'll even throw in 200 tubes of sunscreen for FREE!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach12",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "goethite",
+         "goethite",
+         "gypsum"
+      ]
+   },
+   "name" : "Sunscreen Supersales",
+   "network_19_completion" : "Sunblock manufacturer pleased to see sales rise after %s created more beaches in their region.",
+   "network_19_headline" : "Greatest sunblock ever invented.  With too few consumers, the manufacturer seeks to create more need for the product."
+}

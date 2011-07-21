@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "My science team just accomplished amazing results testing some tidal power generators just off our beaches out here.  We've published the results and got a grant to expand our study!  Isn't that great!  They've granted some glyphs, but we could really use more space than they'll make.  We really want five Beach 10 plans.  For that we'll give you two methane glyphs and a gypsum glyph.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane",
+         "methane",
+         "gypsum"
+      ]
+   },
+   "name" : "Tidal Generator Grant",
+   "network_19_completion" : "Scientists quick to trade in glyphs for actual beach plans from %s.  Now tidal generator studies are sure to advance more quickly.",
+   "network_19_headline" : "A glyph grant was offered to scientists studying tidal generators.  Is it enough to further their research?"
+}

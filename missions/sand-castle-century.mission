@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "After last year's sand castle challenge, this entire population became completely inspired.  Now EVERYONE wants to make sand castles!  Our artsy community has gotten together, done some digging, and came up with two chromite glyphs and a gypsum glyph.  Do you think you could part with five Beach 11 plans for as much?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chromite",
+         "chromite",
+         "gypsum"
+      ]
+   },
+   "name" : "Sand Castle Century",
+   "network_19_completion" : "Sand castle artists now resting after digging deep and trading glyphs to %s for more beach plans.",
+   "network_19_headline" : "Artsy community falls in love with the medium of sand castles.  Now they're competing for every inch of sandy beach."
+}

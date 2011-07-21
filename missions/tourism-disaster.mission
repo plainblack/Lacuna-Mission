@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "We have the best beaches in the sector! At least, we used to.  A couple of misguided scows recently ruined all that.  We can't afford to lose any of our tourism economy, though.  All their insurance company could muster up in the short term is a few lousy glyphs!  We can't rebuild all of our beaches with that!  Please send us five Beach 7 plans as quickly as you can and we'll give you these glyphs as payment.  That's two chalcopyrite glyphs and a gypsum glyph.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chalcopyrite",
+         "chalcopyrite",
+         "gypsum"
+      ]
+   },
+   "name" : "Tourism Disaster",
+   "network_19_completion" : "Insurance payout of glyphs were successfully used to trade for pristine new beach plans from %s.",
+   "network_19_headline" : "Scow muddies the waters of popular tourist beaches."
+}

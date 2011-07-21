@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Well, I initially asked for some ocean plans so I could do some deep sea fishing and get away from my in-laws.  Well, it turns out my father-in-law wanted to come with me once and he actually really loved it!  Problem is, we still don't get along, and there's just not enough room for the two of us.  I'd do anything to get some more ocean plans out here.  Five Beach 9 plans aught to do it.  I'll even give up two anthracite glyphs and a gypsum glyph for it.  Can you make it happen?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite",
+         "anthracite",
+         "gypsum"
+      ]
+   },
+   "name" : "Deep Sea Drama",
+   "network_19_completion" : "Son-in-law breaths easier now that extra ocean plans from %s installed for father-in-law to sail his own coarse.",
+   "network_19_headline" : "Son-in-law mistakenly introduces father-in-law to a new favorite hobby.  Now they must share space."
+}

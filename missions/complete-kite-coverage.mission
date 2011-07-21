@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Not too long ago we read an inspiring feed about a quaint little place buying a couple of beaches just to recreate someone's nostalgic desire for kite-flying.  Well I'm the manger of the largest kite producer in the Expanse and I'm here to tell you Kite's are for EVERYONE!  Beaches really are the best place to showcase them, though.  To illustrate the point, we need to acquire five Beach 6 plans.  This way we can invite anyone anytime to test our product and have a good time.  As payment, we can give you two rutile glyphs and a gypsum glyph.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "rutile",
+         "rutile",
+         "gypsum"
+      ]
+   },
+   "name" : "Complete Kite Coverage",
+   "network_19_completion" : "With extended areas of windy beach now available from %s plans, kite production stock soars.",
+   "network_19_headline" : "Kite production company desires to make super kite fun zone."
+}

@@ -1,0 +1,41 @@
+# config-file-type: JSON 1
+{
+   "description" : "For a while now I've been satisfied with my two beach properties and my little treasure scanner.  I've even managed to find some glyphs, if you can imagine that!  I've got a fancy new treasure hunting surveyor, though, so I could use a bit more beach space.  If you can get me five Beach 1 plans, I'll send a couple of gypsum glyphs your way, and even some of my hard earned treasure!  How's 50,000 gold sound?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gypsum",
+         "gypsum"
+      ],
+      "resources" : {
+         "gold" : 50000
+      }
+   },
+   "name" : "Surveying the Beach",
+   "network_19_completion" : "With new beaches in place from %s plans, the treasure hunter is excited to spend hours scouring, barefoot.",
+   "network_19_headline" : "Treasure hunter eagerly expanding his beach-based treasure searches. Offering glyphs for plans."
+}
