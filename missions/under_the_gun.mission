@@ -18,13 +18,12 @@
       }
    },
    "mission_reward" : {
-      "happiness" : 1,
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 1000000,
+            "hold_size" : 2000000,
             "name" : "Fast Freighter",
-            "speed" : 2750,
+            "speed" : 4000,
             "stealth" : 0,
             "type" : "freighter"
          }
