@@ -1,20 +1,45 @@
 # config-file-type: JSON 1
 {
-   "description" : "Here in the Alpha-Zeta offices, we've learned that often you wind up with plans you have no use for. That's where we come in!  Give us your unused plan and we'll give you a little something for the water supply!\n\nNote: Due to filing limitations, we can't guarantee which Capitol Plan we will take out of your inventory. For safety, we suggest you place plans you wish to keep on another planet.",
+   "description" : "Just Kidding, you might get a hold of a capitol plan via a mission, but spies just can't get a capitol plan, since they can't steal plans from a capitol planet.  So how about instead, you find us some unique plans. Perhaps some of those excavator found plans.",
    "max_university_level" : "30",
    "mission_objective" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Capitol",
-            "extra_build_level" : 0,
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Crater",
+            "extra_build_level" : 3,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 3,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lagoon",
+            "extra_build_level" : 3,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lake",
+            "extra_build_level" : 3,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Ravine",
+            "extra_build_level" : 3,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Sand",
+            "extra_build_level" : 3,
             "level" : 1
          }
       ]
    },
    "mission_reward" : {
-      "happiness" : 250000
+      "happiness" : "6000000"
    },
    "name" : "Plan stripping - Capitol",
-   "network_19_completion" : "%s has redeemed his Capitol plan for a boost to happiness!",
+   "network_19_completion" : "%s turned some worthless plans into a source of happiness!",
    "network_19_headline" : "Turn a Capitol Plan into a source of pride!"
 }
