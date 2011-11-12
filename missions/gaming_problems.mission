@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Hello. I am going to talk real fast, so please keep up with me. Since we have so little galena to make wires we need to ask for some so we can keep up with the amount of orders for our new platform called: The Oddeser. We can offer a model of our most awesomest artifacts. Deal? Oh, and we also need the plastic to make the coating for the system and it's wires too. Thank You!",
+   "description" : "Hello. I am going to talk real fast, so please keep up with me. Since we have so little galena to make wires we need to ask for some so we can keep up with the amount of orders for our new platform called: The Oddeser. We can offer a model of our most awesomest artifacts. Deal? Oh, and we also need the plastic to make the coating for the system and its wires too. Thank You!",
    "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
