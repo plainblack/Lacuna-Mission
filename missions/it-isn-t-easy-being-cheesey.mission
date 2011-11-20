@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Charlie Cheddar recently had to fire his delivery creature, because it was eating all the cheese. Would you like a job delivering cheese? You must provide your own transportation. Once we fix your ship up for cheese delivery, it won't be good for anything else. All workers are paid in cheese.",
-   "max_university_level" : "30",
+   "max_university_level" : "22",
    "mission_objective" : {
       "ships" : [
          {
