@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "We have located a perfect spot to expand. We are in the business of pawning and not construction. Please oversee this construction project, and we will give you some probes we do not need anymore.  You will incur the costs of feeding your crews and providing building materials for the project.",
+   "description" : "We have located a perfect spot to expand. We are in the business of pawning and not construction. Please oversee this construction project, and we will give you some probes we do not need anymore.  You will incur the costs of feeding your crews and providing building materials for the project. Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
    "max_university_level" : "7",
    "mission_objective" : {
       "resources" : {
