@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Dirty Doug has parked his freighter and opened his doors for business. Used ships, recently acquired from our \"honest\" competition and upgraded with the latest tech in after market stealth and speed boosts. \nLeave your clunkers at home. Just bring your cold hard rutile.  Supplies are limited. Today's special: A boosted dory in mint condition.",
+   "description" : "Dirty Doug has parked his freighter and opened his doors for business. Used ships, recently acquired from our \"honest\" competition and upgraded with the latest tech in after market stealth and speed boosts. \nLeave your clunkers at home. Just bring your cold hard rutile.  Supplies are limited. Today's special: A boosted dory in mint condition. Note, check to see that you have sufficient dock space before completing this mission.",
    "max_university_level" : "15",
    "mission_objective" : {
       "resources" : {
