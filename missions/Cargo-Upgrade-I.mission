@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old cargo_ship that needs upgrading?   This is the place to come!  Today's special: New lamps for old (er, new Cargo_ships for old).  Recycle those old Cargo-Ship clunkers for less than a brand new model. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old cargo_ship that needs upgrading?   This is the place to come!  Today's special: New lamps for old (er, new Cargo_ships for old).  Recycle those old Cargo-Ship clunkers for less than a brand new model. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note, check to see that you have sufficient dock space in your SpacePort before completing this mission.",
    "max_university_level" : "12",
    "mission_objective" : {
       "resources" : {
