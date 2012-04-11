@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got a mid-size Dory you like to upgrade?  Want to trade with the big boys, but can't build that cargo ship just yet? This is the place to come!  Today's special: Mid-size upgrade to cargo ship for resources (waste-free).  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got a mid-size Dory you like to upgrade?  Want to trade with the big boys, but can't build that cargo ship just yet? This is the place to come!  Today's special: Mid-size upgrade to cargo ship for resources (waste-free).  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
    "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
