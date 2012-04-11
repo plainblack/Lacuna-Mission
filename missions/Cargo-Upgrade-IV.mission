@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old cargo_ship that needs upgrading?   This is the place to come!  Today's special: New lamps for old (er, new Cargo_ships for old).  Recycle that old Cargo-Ship for less than a brand new model. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old cargo_ship that needs upgrading?   This is the place to come!  Today's special: New lamps for old (er, new Cargo_ships for old).  Recycle that old Cargo-Ship for less than a brand new model. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note, check to see that you have sufficient dock space in your SpacePort before completing this mission.",
    "max_university_level" : "16",
    "mission_objective" : {
       "resources" : {
@@ -16,8 +16,8 @@
             "combat" : 0,
             "hold_size" : 50000,
             "name" : "",
-            "speed" : 1200,
-            "stealth" : 2500,
+            "speed" : 0,
+            "stealth" : 0,
             "type" : "cargo_ship"
          }
       ]
@@ -26,10 +26,10 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 100000,
+            "hold_size" : 280000,
             "name" : "Dan's Cargo",
-            "speed" : 1400,
-            "stealth" : 2500,
+            "speed" : 3400,
+            "stealth" : 4500,
             "type" : "cargo_ship"
          }
       ]
