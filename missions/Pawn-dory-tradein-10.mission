@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
-   "description" : "Here at Pawn Lacuna we strive to have the customer walk away from every deal happy. DO we have a deal for you!  You may be in the need of a cargo ship.  Just pawn a couple of dory's and a probe that is lying around in your spaceport, and the cargo ship is yours! What do you say?",
-   "max_university_level" : "8",
+   "description" : "Here at Pawn Lacuna we strive to have the customer walk away from every deal happy. DO we have a deal for you!  You may be in the need of a cargo ship.  Just pawn a couple of dory's and a probe that is lying around in your spaceport, and the cargo ship is yours! What do you say? Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "10",
    "mission_objective" : {
       "ships" : [
          {
@@ -34,10 +34,10 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 50000,
+            "hold_size" : 190000,
             "name" : "PL Cargo",
-            "speed" : 1500,
-            "stealth" : 1000,
+            "speed" : 2500,
+            "stealth" : 3000,
             "type" : "cargo_ship"
          }
       ]
