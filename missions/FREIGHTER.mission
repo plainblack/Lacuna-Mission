@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an itch to see how the big boys deliver resources?   This is the place to come!  Today's special: FREIGHTER.  Recycle that old Cargo-Ship and just a bit more and we'll put you behind the wheel of an 18-engine big-rig. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an itch to see how the big boys deliver resources?   This is the place to come!  Today's special: FREIGHTER.  Recycle that old Cargo-Ship and just a bit more and we'll put you behind the wheel of an 18-engine big-rig. Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
    "max_university_level" : "20",
    "mission_objective" : {
       "glyphs" : [
@@ -25,10 +25,10 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 250000,
+            "hold_size" : 600000,
             "name" : "Dan's Freighter",
-            "speed" : 1000,
-            "stealth" : 600,
+            "speed" : 3000,
+            "stealth" : 0,
             "type" : "freighter"
          }
       ]
