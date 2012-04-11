@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
-   "description" : "We of the Wigut Empire bring grim tidings. It has happened again, we have broken our most holy and almighty Tronul moments after a brave space captain brought us a new one. We cannot carry on this way, a solution must be found. We require certain components to start producing more Tronuls, so we always have a backup, just in case. Some Water and Energy which our machines can whip into a helix sort of shape, some Halite we can extrude into long spindles, and some of those shiny red things you call \"Apples\" should do the trick. Please help! In exchange we can offer you our last 2 ultra-fast model probes.",
-   "max_university_level" : "7",
+   "description" : "We of the Wigut Empire bring grim tidings. It has happened again, we have broken our most holy and almighty Tronul moments after a brave space captain brought us a new one. We cannot carry on this way, a solution must be found. We require certain components to start producing more Tronuls, so we always have a backup, just in case. Some Water and Energy which our machines can whip into a helix sort of shape, some Halite we can extrude into long spindles, and some of those shiny red things you call \"Apples\" should do the trick. Please help! In exchange we can offer you our last 2 ultra-fast model probes. Note, check to see that you have sufficient dock space before completing this mission.",
+   "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
          "apple" : 1000,
