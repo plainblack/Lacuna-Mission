@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got a mid-size Dory you like to upgrade?  Want to trade with the big boys, but can't build that cargo ship just yet? This is the place to come!  Today's special: Mid-size upgrade to cargo ship for resources (waste-free).  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
-   "max_university_level" : "8",
+   "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
          "algae" : 1000,
@@ -30,8 +30,8 @@
             "combat" : 0,
             "hold_size" : 50000,
             "name" : "Dan's Cargo",
-            "speed" : 1250,
-            "stealth" : 500,
+            "speed" : 2250,
+            "stealth" : 7500,
             "type" : "cargo_ship"
          }
       ]
