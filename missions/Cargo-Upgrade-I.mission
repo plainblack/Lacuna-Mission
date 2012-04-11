@@ -35,18 +35,18 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 50000,
+            "hold_size" : 170000,
             "name" : "Dan's Cargo",
-            "speed" : 1200,
-            "stealth" : 250,
+            "speed" : 2200,
+            "stealth" : 3000,
             "type" : "cargo_ship"
          },
          {
             "combat" : 0,
-            "hold_size" : 50000,
+            "hold_size" : 170000,
             "name" : "Dan's Cargo",
-            "speed" : 1200,
-            "stealth" : 2500,
+            "speed" : 2200,
+            "stealth" : 3000,
             "type" : "cargo_ship"
          }
       ]
