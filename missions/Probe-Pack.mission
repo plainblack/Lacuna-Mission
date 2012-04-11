@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "A handy 6-pack of probes to investigate the next layer of your neighborhood. \n\nMAKE SURE YOU HAVE ROOM IN YOUR SPACEPORT AND OBSERVATORY FOR THIS INFLUX OF 6 PROBES.",
-   "max_university_level" : "7",
+   "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
          "magnetite" : 20000
@@ -13,7 +13,7 @@
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Safety Probe",
-            "speed" : 6500,
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "probe"
          },
@@ -21,7 +21,7 @@
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Safety Probe",
-            "speed" : 6500,
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "probe"
          },
@@ -29,7 +29,7 @@
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Safety Probe",
-            "speed" : 6500,
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "probe"
          },
@@ -37,7 +37,7 @@
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Safety Probe",
-            "speed" : 6500,
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "probe"
          },
@@ -45,7 +45,7 @@
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Safety Probe",
-            "speed" : 6500,
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "probe"
          },
@@ -53,7 +53,7 @@
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Safety Probe",
-            "speed" : 6500,
+            "speed" : 7500,
             "stealth" : 0,
             "type" : "probe"
          }
