@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Can you believe it! I lost the drywall contract because it took too long to fill the order. No fear I signed a new contract off world, but I have no way of transporting the finished product. I am ready to get out of the drywall business. Take care of this contract and you can have the factory for cheap. With some minor modifications you can turn it into an Oversight Ministry.",
-   "max_university_level" : "7",
+   "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
          "bauxite" : 100,
