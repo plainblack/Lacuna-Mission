@@ -1,2 +1,30 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"pie":5000,"corn":10000,"meal":5000,"lapis":10000}},"mission_reward":{"plans":[{"extra_build_level":4,"level":1,"classname":"Lacuna::DB::Result::Building::Food::Bean"},{"extra_build_level":4,"level":1,"classname":"Lacuna::DB::Result::Building::Food::Shake"}]},"description":"Our missionaries, throughout the Expanse, have been reporting to us that they are homesick, and this condition is affecting their work.  We think that packages of food from home would help greatly!  The ones we are asking for now are our human missionaries, who like foods like apples, corn, wheat, potatoes, and milk, and prepared foods made from these food-stocks.  In return, they will be \"willing\" to part with food preparation equipment from  the worlds where they work, which will work in any orbit!  Please give!","network_19_headline":"Missionary on heathen planet requests \"normal\" foods from home for a change.","name":"Missionaria (Orbit 2)","network_19_completion":"We at Missionaria, Inc. wish to thank %s for his/her/its relief package to our Orbit 2 missionaries!","max_university_level":"10"}
+{
+   "description" : "Our missionaries, throughout the Expanse, have been reporting to us that they are homesick, and this condition is affecting their work.  We think that packages of food from home would help greatly!  The ones we are asking for now are our human missionaries, who like foods like apples, corn, wheat, potatoes, and milk, and prepared foods made from these food-stocks.  In return, they will be \"willing\" to part with food preparation equipment from  the worlds where they work, which will work in any orbit!  Please give!",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 10000,
+         "lapis" : 10000,
+         "meal" : 5000,
+         "pie" : 5000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Bean",
+            "extra_build_level" : 4,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Shake",
+            "extra_build_level" : 4,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Missionaria (Orbit 2)",
+   "network_19_completion" : "We at Missionaria, Inc. wish to thank %s for his/her/its relief package to our Orbit 2 missionaries!",
+   "network_19_headline" : "Missionary on heathen planet requests \"normal\" foods from home for a change."
+}

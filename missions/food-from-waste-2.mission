@@ -1,2 +1,39 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Large Scale Food from Waste plant opens for contract business.","network_19_completion":"%s recycled at the Large Scale Food to Waste Plant.","description":"Small scale efforts at turning waste to food have shown to be quite successful - one of the most popular Missions in the Expanse.  Now, our efforts to scale up the operation is a great success.  Development time is over, we are taking orders TODAY!  Enough food to generate up to 3M happiness...  For some reason, this generation of convertors just cannot seem to get milk correct.","mission_objective":{"resources":{"chalcopyrite":10000,"energy":100000,"kerogen":10000,"halite":10000,"waste":500000,"gold":1000}},"name":"Food from Waste","mission_reward":{"resources":{"soup":30000,"root":30000,"wheat":30000,"pancake":30000,"corn":30000,"cider":30000,"chip":30000,"potato":30000,"cheese":30000,"meal":30000,"shake":30000,"apple":30000,"pie":30000,"lapis":30000,"bean":30000,"bread":30000,"beetle":30000}},"max_university_level":"20"}
+{
+   "description" : "Small scale efforts at turning waste to food have shown to be quite successful - one of the most popular Missions in the Expanse.  Now, our efforts to scale up the operation is a great success.  Development time is over, we are taking orders TODAY!  Enough food to generate up to 3M happiness...  For some reason, this generation of convertors just cannot seem to get milk correct.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "chalcopyrite" : 10000,
+         "energy" : 100000,
+         "gold" : 1000,
+         "halite" : 10000,
+         "kerogen" : 10000,
+         "waste" : 500000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 30000,
+         "bean" : 30000,
+         "beetle" : 30000,
+         "bread" : 30000,
+         "cheese" : 30000,
+         "chip" : 30000,
+         "cider" : 30000,
+         "corn" : 30000,
+         "lapis" : 30000,
+         "meal" : 30000,
+         "pancake" : 30000,
+         "pie" : 30000,
+         "potato" : 30000,
+         "root" : 30000,
+         "shake" : 30000,
+         "soup" : 30000,
+         "wheat" : 30000
+      }
+   },
+   "name" : "Food from Waste",
+   "network_19_completion" : "%s recycled at the Large Scale Food to Waste Plant.",
+   "network_19_headline" : "Large Scale Food from Waste plant opens for contract business."
+}

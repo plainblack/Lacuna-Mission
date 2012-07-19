@@ -23,7 +23,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 100000,
+      "happiness" : "100000",
       "ships" : []
    },
    "name" : "Be Stiff",

@@ -1,2 +1,27 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":100000000,"halite":50000000,"energy":100000000,"magnetite":50000000,"beetle":100000000},"happiness":15000000},"mission_reward":{"plans":[{"level":25,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"Sir, our lead researcher has an idea which will cost a trunk and a tentacle, but stands a reasonable chance of gaining some new insights by going back over the Orion technology we've already  harvested. If you approve, we'll need to raise taxes to increase funding for our scientists. Happiness will suffer, but it may be the only way to reach the next break through.","network_19_headline":"The race for Orion technology has heated up as new information comes to light.","network_19_completion":"%s have salvaged some of the Orion technology they gotten their hands on.","name":"Legacy of Orion 5","max_university_level":"30"}
+{
+   "description" : "Sir, our lead researcher has an idea which will cost a trunk and a tentacle, but stands a reasonable chance of gaining some new insights by going back over the Orion technology we've already  harvested. If you approve, we'll need to raise taxes to increase funding for our scientists. Happiness will suffer, but it may be the only way to reach the next break through.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "happiness" : "15000000",
+      "resources" : {
+         "beetle" : 100000000,
+         "energy" : 100000000,
+         "halite" : 50000000,
+         "magnetite" : 50000000,
+         "water" : 100000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 25
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 5",
+   "network_19_completion" : "%s have salvaged some of the Orion technology they gotten their hands on.",
+   "network_19_headline" : "The race for Orion technology has heated up as new information comes to light."
+}

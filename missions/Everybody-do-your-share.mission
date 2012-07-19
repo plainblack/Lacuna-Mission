@@ -1,2 +1,16 @@
 # config-file-type: JSON 1
-{"name":"Everybody Do Your Share","mission_objective":{"resources":{"waste":200000}},"description":"Past problems with pollution have left the planet littered with waste and environmental hazards. The Teal Party is organizing planet wide instruction on how to re-use and recycle waste. If the planetary government chooses to participate in the program, it is believed that Eco-tourism will take off. Economists are predicting we may be able to achieve a 20 to 1 conversion of waste into well-being and happiness.","mission_reward":{"happiness":10000},"network_19_headline":"Planetary Cleanup Effort!","network_19_completion":"Karma and inner balance have been restored within %s.","max_university_level":"30"}
+{
+   "description" : "Past problems with pollution have left the planet littered with waste and environmental hazards. The Teal Party is organizing planet wide instruction on how to re-use and recycle waste. If the planetary government chooses to participate in the program, it is believed that Eco-tourism will take off. Economists are predicting we may be able to achieve a 20 to 1 conversion of waste into well-being and happiness.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 200000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : "10000"
+   },
+   "name" : "Everybody Do Your Share",
+   "network_19_completion" : "Karma and inner balance have been restored within %s.",
+   "network_19_headline" : "Planetary Cleanup Effort!"
+}

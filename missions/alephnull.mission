@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Weaponized uraninite-based virus crippling Omeganix society.","max_university_level":"10","description":"\"To anyone who might be listening; I find my current project floundering due to a lack of uraninite. If you could deliver some to my cruiser, currently in the Omeganix system, I would gladly repay you with a great deal of energy.\"","mission_objective":{"resources":{"uraninite":10000}},"name":"alephnull Base Mission","mission_reward":{"resources":{"energy":20000}},"network_19_headline":"Omeganix robot society a role-model for constructed life everywhere."}
+{
+   "description" : "\"To anyone who might be listening; I find my current project floundering due to a lack of uraninite. If you could deliver some to my cruiser, currently in the Omeganix system, I would gladly repay you with a great deal of energy.\"",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 20000
+      }
+   },
+   "name" : "alephnull Base Mission",
+   "network_19_completion" : "Weaponized uraninite-based virus crippling Omeganix society.",
+   "network_19_headline" : "Omeganix robot society a role-model for constructed life everywhere."
+}

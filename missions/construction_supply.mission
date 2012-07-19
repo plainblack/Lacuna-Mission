@@ -20,7 +20,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 1000000
+      "happiness" : "1000000"
    },
    "name" : "Doing Good",
    "network_19_completion" : "%s has given a large donation.",

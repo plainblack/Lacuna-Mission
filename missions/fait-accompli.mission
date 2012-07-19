@@ -3,7 +3,7 @@
    "description" : "If people think you're happy and complacent, they'll walk all over you.  Let's turn that smile upside down and make others fear you!",
    "max_university_level" : "30",
    "mission_objective" : {
-      "happiness" : 1000000
+      "happiness" : "1000000"
    },
    "mission_reward" : {
       "ships" : [

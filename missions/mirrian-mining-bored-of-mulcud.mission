@@ -1,2 +1,41 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Mirrian Mining has Party!","max_university_level":"10","network_19_headline":"Mirrian Mining Bored of Mulcud!","description":"Dear Sir/Madam\nMoral is low at Mirrian Mining, the miners are tired of eating Mulcud and are threatening a revolt if we don't supply them with more variety! We wish to throw a party to boost the morale of the miners and have sufficient left over for them to eat something other than Mulcud for a few months.\n\nPlease provide us with a variety of food stuffs so that we may throw a party the miners will remember!\nIn return we will provide a wide selection of ores.","mission_objective":{"resources":{"algae":2500,"apple":2500,"bean":2500,"wheat":2500,"beetle":2500,"syrup":2500,"potato":2500,"root":2500}},"mission_reward":{"resources":{"bauxite":2000,"zircon":5000,"galena":2000,"rutile":2000,"goethite":2000,"halite":2000,"gypsum":2000,"uraninite":5000,"chromite":2000,"trona":2000,"beryl":5000,"fluorite":2000,"sulfur":2000,"anthracite":2000,"chalcopyrite":2000,"kerogen":2000,"gold":2000}},"name":"Mirrian Mining Bored of Mulcud"}
+{
+   "description" : "Dear Sir/Madam\nMoral is low at Mirrian Mining, the miners are tired of eating Mulcud and are threatening a revolt if we don't supply them with more variety! We wish to throw a party to boost the morale of the miners and have sufficient left over for them to eat something other than Mulcud for a few months.\n\nPlease provide us with a variety of food stuffs so that we may throw a party the miners will remember!\nIn return we will provide a wide selection of ores.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 2500,
+         "apple" : 2500,
+         "bean" : 2500,
+         "beetle" : 2500,
+         "potato" : 2500,
+         "root" : 2500,
+         "syrup" : 2500,
+         "wheat" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "anthracite" : 2000,
+         "bauxite" : 2000,
+         "beryl" : 5000,
+         "chalcopyrite" : 2000,
+         "chromite" : 2000,
+         "fluorite" : 2000,
+         "galena" : 2000,
+         "goethite" : 2000,
+         "gold" : 2000,
+         "gypsum" : 2000,
+         "halite" : 2000,
+         "kerogen" : 2000,
+         "rutile" : 2000,
+         "sulfur" : 2000,
+         "trona" : 2000,
+         "uraninite" : 5000,
+         "zircon" : 5000
+      }
+   },
+   "name" : "Mirrian Mining Bored of Mulcud",
+   "network_19_completion" : "Mirrian Mining has Party!",
+   "network_19_headline" : "Mirrian Mining Bored of Mulcud!"
+}

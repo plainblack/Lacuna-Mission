@@ -5,12 +5,12 @@
    "mission_objective" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Security",
+            "classname" : "Lacuna::DB::Result::Building::Intelligence",
             "extra_build_level" : 0,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Intelligence",
+            "classname" : "Lacuna::DB::Result::Building::Security",
             "extra_build_level" : 0,
             "level" : 1
          }

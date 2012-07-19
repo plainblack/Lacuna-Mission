@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Investors are rushing to invest in uraninite, prices expected to soar with this new demand!","network_19_completion":"The uraninite market cools down after demand was met. Reactors are a good investment now.","description":"Energy is what makes the expanse economy work. However energy needs are greater than the supply. It is not a problem now, but due to the recent environmental legislation, soon I suspect there will be a rush to build fisson and fusion power plants. When that happens uraninite will become worth a bit more. Will you sell me some? In return I give you all-you-can eat access to my sisters cafe for a year!","max_university_level":"7","mission_objective":{"resources":{"uraninite":3500}},"name":"Resource Speculation:Uraninite","mission_reward":{"resources":{"burger":1000,"cider":1000,"pie":1000,"chip":1000,"cheese":1000}}}
+{
+   "description" : "Energy is what makes the expanse economy work. However energy needs are greater than the supply. It is not a problem now, but due to the recent environmental legislation, soon I suspect there will be a rush to build fisson and fusion power plants. When that happens uraninite will become worth a bit more. Will you sell me some? In return I give you all-you-can eat access to my sisters cafe for a year!",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 3500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 1000,
+         "cheese" : 1000,
+         "chip" : 1000,
+         "cider" : 1000,
+         "pie" : 1000
+      }
+   },
+   "name" : "Resource Speculation:Uraninite",
+   "network_19_completion" : "The uraninite market cools down after demand was met. Reactors are a good investment now.",
+   "network_19_headline" : "Investors are rushing to invest in uraninite, prices expected to soar with this new demand!"
+}

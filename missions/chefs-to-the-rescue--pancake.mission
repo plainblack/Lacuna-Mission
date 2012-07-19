@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"3","mission_objective":{"resources":{"potato":2000}},"description":"The chefs of FAT (Food Advocating Team) can offer you variety, the spice of life. You send us your freshly picked potato, and in return we surprise you with our great tasting pancake. You don't have to waste time in the kitchen, and no more: why do we always have to eat the same thing?","mission_reward":{"resources":{"pancake":2000}},"network_19_headline":"Unemployed chefs of Culinaria venturing into space to create heavenly dishes.","network_19_completion":"Thanks to FAT, the unrest on %s greatly reduced. Will it last?","name":"Chefs to the rescue: pancake"}
+{
+   "description" : "The chefs of FAT (Food Advocating Team) can offer you variety, the spice of life. You send us your freshly picked potato, and in return we surprise you with our great tasting pancake. You don't have to waste time in the kitchen, and no more: why do we always have to eat the same thing?",
+   "max_university_level" : "3",
+   "mission_objective" : {
+      "resources" : {
+         "potato" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "pancake" : 2000
+      }
+   },
+   "name" : "Chefs to the rescue: pancake",
+   "network_19_completion" : "Thanks to FAT, the unrest on %s greatly reduced. Will it last?",
+   "network_19_headline" : "Unemployed chefs of Culinaria venturing into space to create heavenly dishes."
+}

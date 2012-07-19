@@ -9,7 +9,7 @@
       }
    },
    "mission_reward" : {
-      "happiness" : 50000,
+      "happiness" : "50000",
       "resources" : {
          "waste" : 10000
       }

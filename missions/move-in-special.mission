@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Brand new housing sits vacant on Tertiod.","network_19_completion":"The people of Tertiod happy... Real Estate Developer pissed off.","description":"The economic crisis has hit the planet of Tertiod with great force. The unemployment rate sits at 20% and home foreclosures are on the rise. The people are hungry and hope looks all but lost. On the bright side there is a nice new luxury housing development that nobody can afford. In exchange for some badly needed resources the government is willing to seize the plan for the new housing.","max_university_level":"16","mission_objective":{"resources":{"bread":150000,"cheese":150000,"water":150000,"energy":150000}},"name":"Move in Special","mission_reward":{"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::LuxuryHousing","extra_build_level":10}]}}
+{
+   "description" : "The economic crisis has hit the planet of Tertiod with great force. The unemployment rate sits at 20% and home foreclosures are on the rise. The people are hungry and hope looks all but lost. On the bright side there is a nice new luxury housing development that nobody can afford. In exchange for some badly needed resources the government is willing to seize the plan for the new housing.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "resources" : {
+         "bread" : 150000,
+         "cheese" : 150000,
+         "energy" : 150000,
+         "water" : 150000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
+            "extra_build_level" : 10,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Move in Special",
+   "network_19_completion" : "The people of Tertiod happy... Real Estate Developer pissed off.",
+   "network_19_headline" : "Brand new housing sits vacant on Tertiod."
+}

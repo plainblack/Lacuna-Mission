@@ -1,2 +1,23 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Galaxy Burger's Grand Opening in trouble.","network_19_completion":"Galaxy Burger's Grand Opening saved!","description":"Galaxy Burger's Grand Opening has been a huge success. Lines are still forming and they are running out of raw materials to make burgers and shakes. They are desperate for more Beetles and Fungus so the Grand Opening runs smoothly. They are asking for 50k Beetles and 50k Fungus, in return they will give you some great food and a Beryl Glyph.","max_university_level":"18","mission_objective":{"resources":{"fungus":50000,"beetle":50000}},"name":"Galaxy Burger Opening","mission_reward":{"resources":{"burger":10000,"shake":10000},"glyphs":["beryl"]}}
+{
+   "description" : "Galaxy Burger's Grand Opening has been a huge success. Lines are still forming and they are running out of raw materials to make burgers and shakes. They are desperate for more Beetles and Fungus so the Grand Opening runs smoothly. They are asking for 50k Beetles and 50k Fungus, in return they will give you some great food and a Beryl Glyph.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 50000,
+         "fungus" : 50000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "beryl"
+      ],
+      "resources" : {
+         "burger" : 10000,
+         "shake" : 10000
+      }
+   },
+   "name" : "Galaxy Burger Opening",
+   "network_19_completion" : "Galaxy Burger's Grand Opening saved!",
+   "network_19_headline" : "Galaxy Burger's Grand Opening in trouble."
+}

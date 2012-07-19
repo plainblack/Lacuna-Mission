@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"max_university_level":"12","mission_objective":{"resources":{"apple":20000,"corn":20000,"bean":20000}},"description":"A man on Eezz Snailai Iot 1 has won 1M gold playing pull tabs at a local fast food joint. The only problem is it took him six months to find the winning ticket. After all those burgers he will be lucky to live long enough to spend his treasure. In exchange for some health food he will share his cash.","mission_reward":{"resources":{"gold":80000}},"network_19_headline":"Local man eats his way to fortune.","network_19_completion":"Prize winner, now skinny, a spokesperson for O'Brien produce farms.","name":"Piggy Bank as full as Pants"}
+{
+   "description" : "A man on Eezz Snailai Iot 1 has won 1M gold playing pull tabs at a local fast food joint. The only problem is it took him six months to find the winning ticket. After all those burgers he will be lucky to live long enough to spend his treasure. In exchange for some health food he will share his cash.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 20000,
+         "bean" : 20000,
+         "corn" : 20000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 80000
+      }
+   },
+   "name" : "Piggy Bank as full as Pants",
+   "network_19_completion" : "Prize winner, now skinny, a spokesperson for O'Brien produce farms.",
+   "network_19_headline" : "Local man eats his way to fortune."
+}

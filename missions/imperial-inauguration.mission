@@ -1,2 +1,24 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"chromite":7000,"gold":7000}},"mission_reward":{"resources":{"chip":3000,"beetle":3000,"burger":2000,"cider":2000,"soup":2000,"shake":3000}},"description":"Hello there.  I am Christy, the head of the party planning committee for our new Imperial Inauguration, and I just absolutely LOVE glitter!  Help us make this bash smashing by supplying us some shiny metals! Won't you?  We need chromite and gold.  In return we'll give you the Emperor's leftovers.  Everyone's making something, and there's always just too much to go round.","network_19_headline":"New government seeks shiny metals for Emperor's inauguration.","network_19_completion":"A grand inauguration was held for new Emperor.","name":"Imperial Inauguration","max_university_level":"14"}
+{
+   "description" : "Hello there.  I am Christy, the head of the party planning committee for our new Imperial Inauguration, and I just absolutely LOVE glitter!  Help us make this bash smashing by supplying us some shiny metals! Won't you?  We need chromite and gold.  In return we'll give you the Emperor's leftovers.  Everyone's making something, and there's always just too much to go round.",
+   "max_university_level" : "14",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 7000,
+         "gold" : 7000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "beetle" : 3000,
+         "burger" : 2000,
+         "chip" : 3000,
+         "cider" : 2000,
+         "shake" : 3000,
+         "soup" : 2000
+      }
+   },
+   "name" : "Imperial Inauguration",
+   "network_19_completion" : "A grand inauguration was held for new Emperor.",
+   "network_19_headline" : "New government seeks shiny metals for Emperor's inauguration."
+}

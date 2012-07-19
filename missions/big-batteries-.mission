@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s recharges energy stores.","max_university_level":"8","description":"My name is Alset Ilocin and I'm a scientist of sorts.  Through my work with experimental coils, I find myself filling my batteries quicker than I can develop new ones.  \n\nI would gladly let you drain my batteries if only you had some precious uranite available so that I may continue my experiments.","mission_objective":{"resources":{"uraninite":3000}},"name":"Big Batteries","mission_reward":{"resources":{"energy":4500}},"network_19_headline":"Large amount of energy available on market."}
+{
+   "description" : "My name is Alset Ilocin and I'm a scientist of sorts.  Through my work with experimental coils, I find myself filling my batteries quicker than I can develop new ones.  \n\nI would gladly let you drain my batteries if only you had some precious uranite available so that I may continue my experiments.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 3000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 4500
+      }
+   },
+   "name" : "Big Batteries",
+   "network_19_completion" : "%s recharges energy stores.",
+   "network_19_headline" : "Large amount of energy available on market."
+}

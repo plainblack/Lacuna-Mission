@@ -1,2 +1,27 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":1075000000,"halite":537500000,"energy":1075000000,"magnetite":537500000,"beetle":1075000000},"happiness":100000},"mission_reward":{"plans":[{"level":29,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"Sir, our scientist´s where able to recover a specific wave pattern signaling from the transdimensional factory and storage system.  We think that by influencing this wave pattern we may be able to contact the sublimed Orions themselves! At the very least, we can attempt to decipher the signal itself. We believe it may hold the key to creating a cornucopia device. We will need to build and transport a particle beam harvester to this distant system. The risks will be great. But so also are the potential rewards.","network_19_headline":"Ancient Orions are all the news.","network_19_completion":"%s have found transmissions from the ancient Orion´s!","name":"Legacy of Orion 9","max_university_level":"30"}
+{
+   "description" : "Sir, our scientist´s where able to recover a specific wave pattern signaling from the transdimensional factory and storage system.  We think that by influencing this wave pattern we may be able to contact the sublimed Orions themselves! At the very least, we can attempt to decipher the signal itself. We believe it may hold the key to creating a cornucopia device. We will need to build and transport a particle beam harvester to this distant system. The risks will be great. But so also are the potential rewards.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "happiness" : "100000",
+      "resources" : {
+         "beetle" : 1075000000,
+         "energy" : 1075000000,
+         "halite" : 537500000,
+         "magnetite" : 537500000,
+         "water" : 1075000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 29
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 9",
+   "network_19_completion" : "%s have found transmissions from the ancient Orion´s!",
+   "network_19_headline" : "Ancient Orions are all the news."
+}

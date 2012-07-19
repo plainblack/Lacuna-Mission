@@ -3,7 +3,7 @@
    "description" : "Any danger is coming towards you? Complete this mission to strengthen your defense and, as we are looking forward to, bring peace back to you.",
    "max_university_level" : "20",
    "mission_objective" : {
-      "essentia" : 2
+      "essentia" : "2"
    },
    "mission_reward" : {
       "plans" : [

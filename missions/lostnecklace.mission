@@ -1,2 +1,50 @@
 # config-file-type: JSON 1
-{"mission_objective":{"fleet_movement":[{"target":{"in_zone":1,"size":[1,121],"type":"asteroid"},"ship_type":"excavator"},{"target":{"in_zone":1,"size":[1,121],"type":"asteroid"},"ship_type":"excavator"},{"target":{"in_zone":1,"size":[1,121],"type":"asteroid"},"ship_type":"excavator"}]},"name":"Lost Necklace","mission_reward":{"glyphs":["bauxite"]},"network_19_headline":"Queen Thipxl of Thixlandia reports lost necklace! Reward offered.","network_19_completion":"%s has recovered the necklace of Queen Thipxl, who had already forgotten it was missing.","max_university_level":"20","description":"Sire, sire!  Please help me... Queen Thipxl has gone mad with grief about her lost necklace.  This necklace is made from ultra-rare beeldeban queen carapice, and is worth more than most colonies.  I'm worried if I don't find it soon, she will kill all of my family and anyone who shares any chromosomes with any of my relatives!\n\nThe best information we have is it may have fallen off while her limo was being chased by the paparazzi around \"an asteroid\".  I know it doesn't help much, but I'm desperate!"}
+{
+   "description" : "Sire, sire!  Please help me... Queen Thipxl has gone mad with grief about her lost necklace.  This necklace is made from ultra-rare beeldeban queen carapice, and is worth more than most colonies.  I'm worried if I don't find it soon, she will kill all of my family and anyone who shares any chromosomes with any of my relatives!\n\nThe best information we have is it may have fallen off while her limo was being chased by the paparazzi around \"an asteroid\".  I know it doesn't help much, but I'm desperate!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "asteroid"
+            }
+         },
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "asteroid"
+            }
+         },
+         {
+            "ship_type" : "excavator",
+            "target" : {
+               "in_zone" : 1,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "asteroid"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "bauxite"
+      ]
+   },
+   "name" : "Lost Necklace",
+   "network_19_completion" : "%s has recovered the necklace of Queen Thipxl, who had already forgotten it was missing.",
+   "network_19_headline" : "Queen Thipxl of Thixlandia reports lost necklace! Reward offered."
+}

@@ -1,2 +1,86 @@
 # config-file-type: JSON 1
-{"mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Energy::Singularity","level":1,"extra_build_level":7},{"classname":"Lacuna::DB::Result::Building::Water::Reclamation","level":1,"extra_build_level":9},{"classname":"Lacuna::DB::Result::Building::Waste::Digester","level":1,"extra_build_level":9}]},"network_19_headline":"The Numarites issue a challenge to \"inferior\" empires.  Somebody met the FIRST challenge, so...","description":"Greetings again, plebian.  We, the High Ones of Numar, issued a challenge to your pitiful, backward \"Expanse,\" and it was met!  Congratulations!  Some here say you were exceptionally lucky.\n\nSO, if you can produce and deliver another 250,000 units of energy, along with some additional stipulations, we will provide you with an UPGRADE to that source of nearly limitless energy we left you (or one of your fellow Expansionists).  \n\nWhat do you say, weakling?  Can you prove us wrong?  Feeling LUCKY, punk?","network_19_completion":"%s accepts the Numarite's second challenge and succeeds.  They were well-rewarded!","name":"Singularly Powerful, Part 2","max_university_level":"13","mission_objective":{"resources":{"energy":250000},"glyphs":["chalcopyrite","sulfur"],"fleet_movement":[{"ship_type":"probe","target":{"type":"star","color":"yellow","in_zone":1}},{"ship_type":"probe","target":{"type":"star","color":"white","in_zone":1}},{"ship_type":"probe","target":{"type":"star","color":"red","in_zone":1}},{"ship_type":"probe","target":{"type":"star","color":"magenta","in_zone":1}},{"ship_type":"probe","target":{"type":"star","color":"green","in_zone":1}},{"ship_type":"probe","target":{"type":"star","color":"blue","in_zone":1}}]}}
+{
+   "description" : "Greetings again, plebian.  We, the High Ones of Numar, issued a challenge to your pitiful, backward \"Expanse,\" and it was met!  Congratulations!  Some here say you were exceptionally lucky.\n\nSO, if you can produce and deliver another 250,000 units of energy, along with some additional stipulations, we will provide you with an UPGRADE to that source of nearly limitless energy we left you (or one of your fellow Expansionists).  \n\nWhat do you say, weakling?  Can you prove us wrong?  Feeling LUCKY, punk?",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "yellow",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "white",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "red",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "green",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "blue",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ],
+      "glyphs" : [
+         "chalcopyrite",
+         "sulfur"
+      ],
+      "resources" : {
+         "energy" : 250000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
+            "extra_build_level" : 7,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
+            "extra_build_level" : 9,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
+            "extra_build_level" : 9,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Singularly Powerful, Part 2",
+   "network_19_completion" : "%s accepts the Numarite's second challenge and succeeds.  They were well-rewarded!",
+   "network_19_headline" : "The Numarites issue a challenge to \"inferior\" empires.  Somebody met the FIRST challenge, so..."
+}

@@ -1,2 +1,21 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Item Exchange Commission Struggling in opening days.","network_19_completion":"%s successfully boosted the Item Exchange Commission's start up funds.","description":"We've been having a bit of a problem starting our expanse wide exchange commission, we're gonna go under if we don't get help from someone, all we need is a nominal fee and we can begin our operations, once we get going we'll make it worth your time.","mission_objective":{"resources":{"gold":20000}},"name":"Item Exchange commission","mission_reward":{"resources":{"meal":10000,"gold":5000,"apple":5000,"chip":5000}},"max_university_level":"20"}
+{
+   "description" : "We've been having a bit of a problem starting our expanse wide exchange commission, we're gonna go under if we don't get help from someone, all we need is a nominal fee and we can begin our operations, once we get going we'll make it worth your time.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 20000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 5000,
+         "chip" : 5000,
+         "gold" : 5000,
+         "meal" : 10000
+      }
+   },
+   "name" : "Item Exchange commission",
+   "network_19_completion" : "%s successfully boosted the Item Exchange Commission's start up funds.",
+   "network_19_headline" : "Item Exchange Commission Struggling in opening days."
+}

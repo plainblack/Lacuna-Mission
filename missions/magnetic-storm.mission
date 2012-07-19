@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s aids in Oorn Equuel Rhoa rebuild effort.","max_university_level":"6","description":"Yesterday, massive magnetic storms rampaged through our system.  They wiped out all of our energy reserves, boiled off half our water, and microwaved several of our food stores including popping all of our Beetles like popcorn.\n\nIf it were not for one of our cargo ships being off world at the time, we would not even be able to make this plea.  Surely someone in the Expanse can help us?\n\nWe are on a gold rich planet and have little use for our extra stores.  Help us and our gold is yours!","mission_objective":{"resources":{"water":2500,"beetle":2500,"energy":2500}},"name":"Magnetic Storm","mission_reward":{"resources":{"gold":10000}},"network_19_headline":"Residents of Oorn Equuel Rhoa suffer from massive magnetic storms."}
+{
+   "description" : "Yesterday, massive magnetic storms rampaged through our system.  They wiped out all of our energy reserves, boiled off half our water, and microwaved several of our food stores including popping all of our Beetles like popcorn.\n\nIf it were not for one of our cargo ships being off world at the time, we would not even be able to make this plea.  Surely someone in the Expanse can help us?\n\nWe are on a gold rich planet and have little use for our extra stores.  Help us and our gold is yours!",
+   "max_university_level" : "6",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 2500,
+         "energy" : 2500,
+         "water" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 10000
+      }
+   },
+   "name" : "Magnetic Storm",
+   "network_19_completion" : "%s aids in Oorn Equuel Rhoa rebuild effort.",
+   "network_19_headline" : "Residents of Oorn Equuel Rhoa suffer from massive magnetic storms."
+}

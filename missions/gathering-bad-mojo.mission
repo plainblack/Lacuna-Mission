@@ -1,2 +1,23 @@
 # config-file-type: JSON 1
-{"name":"Gathering Bad Mojo","mission_objective":{"fleet_movement":[{"target":{"color":"any","in_zone":1,"type":"star"},"ship_type":"scow"}]},"description":"The way to peace and happiness is to get rid of ones negativeness and the best way is to gather it into a object and to then put this object far away.","mission_reward":{"happiness":20000},"network_19_headline":"New guru finds way to increase happiness!","network_19_completion":"%s shoots it's negative energy into a nearby star!","max_university_level":"30"}
+{
+   "description" : "The way to peace and happiness is to get rid of ones negativeness and the best way is to gather it into a object and to then put this object far away.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scow",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : "20000"
+   },
+   "name" : "Gathering Bad Mojo",
+   "network_19_completion" : "%s shoots it's negative energy into a nearby star!",
+   "network_19_headline" : "New guru finds way to increase happiness!"
+}

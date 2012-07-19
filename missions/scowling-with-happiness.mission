@@ -3,7 +3,7 @@
    "description" : "The Lokian vagabond traders are passing through your system. They have odd tastes, terrible hygiene, and say they are looking for a good time. In exchange for 100K happiness, they are offering to leave behind 4 large scows. As an added bonus, they're agreeing to leave a large mess behind.",
    "max_university_level" : "30",
    "mission_objective" : {
-      "happiness" : 100000
+      "happiness" : "100000"
    },
    "mission_reward" : {
       "resources" : {

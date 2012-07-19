@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Robots of Omeganix thank %s for their timely help.","max_university_level":"10","description":"The robot society of Omeganix is currently suffering from a devastating virus created by a vile extortionist. They have discovered an anti-virus, but it requires large quantities of fluorite. They will gladly trade it for the unused energy which has been building up as their society is virtually shut down.","mission_objective":{"resources":{"fluorite":12000}},"name":"alpehnull part2","mission_reward":{"resources":{"energy":20000}},"network_19_headline":"Omeganix robot society rapidly collapsing."}
+{
+   "description" : "The robot society of Omeganix is currently suffering from a devastating virus created by a vile extortionist. They have discovered an anti-virus, but it requires large quantities of fluorite. They will gladly trade it for the unused energy which has been building up as their society is virtually shut down.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 12000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 20000
+      }
+   },
+   "name" : "alpehnull part2",
+   "network_19_completion" : "Robots of Omeganix thank %s for their timely help.",
+   "network_19_headline" : "Omeganix robot society rapidly collapsing."
+}

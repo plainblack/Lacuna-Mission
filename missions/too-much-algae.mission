@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"10","network_19_headline":"A Kid Needs some Water.","description":"There is a kid who doesn't have as much water as he used to have because he polluted it by dropping an algae seed in the water. He now has lots of algae but would like to trade it for water.","network_19_completion":"%s Helped The Kid Get Water.","name":"Too Much Algae ","mission_objective":{"resources":{"water":5000}},"mission_reward":{"resources":{"algae":7500}}}
+{
+   "description" : "There is a kid who doesn't have as much water as he used to have because he polluted it by dropping an algae seed in the water. He now has lots of algae but would like to trade it for water.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "water" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "algae" : 7500
+      }
+   },
+   "name" : "Too Much Algae ",
+   "network_19_completion" : "%s Helped The Kid Get Water.",
+   "network_19_headline" : "A Kid Needs some Water."
+}

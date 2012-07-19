@@ -1,2 +1,30 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","mission_objective":{"resources":{"chalcopyrite":10000,"chromite":5000,"fluorite":1000,"bauxite":10000,"beryl":2000,"uraninite":5000}},"description":"Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nOur intelligence indicates that the drones you have provided have successfully blockaded our planet and stopped any more mercs from joining the General’s already formidable force.\n\nUnfortunately the General has barricaded himself into the palace and I fear he will start to sell the crown jewels to get help to break the blockade.  We need to get him out fast and thus require a large number of resources to build a neutron bomb to wipe out his forces without damaging my beautiful palace. Znerk would roll over in his grave if he heard that his descendents have ended up in such dire straits.\n\nIt seems the General had more plans in his secret bathroom which was hidden behind his Noobian tchotchke display case, and we will provide them as payment.\n\nThis is Emperor Calderaan, we most eagerly await your response.  Long live Znerk.\n\n<click>","mission_reward":{"resources":{"gold":30000},"plans":[{"classname":"Lacuna::DB::Result::Building::MunitionsLab","level":1,"extra_build_level":5}]},"network_19_headline":"Deposed Emperor needs resources for WMD.","network_19_completion":"Neighboring empires think that %s should stay neutral and not get involved in the Znerkian civil war.","name":"Frankenfurter must go!"}
+{
+   "description" : "Attention!  This is Emperor Calderaan, the legitimate heir to the throne of Bokka Churra Znerk.\n\nOur intelligence indicates that the drones you have provided have successfully blockaded our planet and stopped any more mercs from joining the General’s already formidable force.\n\nUnfortunately the General has barricaded himself into the palace and I fear he will start to sell the crown jewels to get help to break the blockade.  We need to get him out fast and thus require a large number of resources to build a neutron bomb to wipe out his forces without damaging my beautiful palace. Znerk would roll over in his grave if he heard that his descendents have ended up in such dire straits.\n\nIt seems the General had more plans in his secret bathroom which was hidden behind his Noobian tchotchke display case, and we will provide them as payment.\n\nThis is Emperor Calderaan, we most eagerly await your response.  Long live Znerk.\n\n<click>",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 10000,
+         "beryl" : 2000,
+         "chalcopyrite" : 10000,
+         "chromite" : 5000,
+         "fluorite" : 1000,
+         "uraninite" : 5000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::MunitionsLab",
+            "extra_build_level" : 5,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "gold" : 30000
+      }
+   },
+   "name" : "Frankenfurter must go!",
+   "network_19_completion" : "Neighboring empires think that %s should stay neutral and not get involved in the Znerkian civil war.",
+   "network_19_headline" : "Deposed Emperor needs resources for WMD."
+}

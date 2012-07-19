@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"beetle":1000}},"mission_reward":{"resources":{"burger":1500}},"description":"Beetles have feelings too, you know!  How would you like to be blended into a milkshake, huh?!  You probably wouldn't like it very much, I'm sure.\n\nSet free your beetle slaves, and lift the guilt from your conscience!  Each of these miraculous creatures whose life you decide to spare will be sent to a local wildlife preserve, where they can run free and be happy little bugs.  For your generous efforts, a sizable amount of premium fresh-pressed Malcud burgers -- guaranteed 100% cruelty-free -- will be donated to your empire's food banks.\n\nPlease, look into your own heart and ask yourself, \"How many more innocent insects am I willing to slaughter?\"","network_19_headline":"Local Activist Bent on Banning Butchering of Beetles!","name":"Burgers For Beetles","network_19_completion":"Large Beeldeban Herd Liberated by Local Activist, Guiltless Patties Exchanged.","max_university_level":"5"}
+{
+   "description" : "Beetles have feelings too, you know!  How would you like to be blended into a milkshake, huh?!  You probably wouldn't like it very much, I'm sure.\n\nSet free your beetle slaves, and lift the guilt from your conscience!  Each of these miraculous creatures whose life you decide to spare will be sent to a local wildlife preserve, where they can run free and be happy little bugs.  For your generous efforts, a sizable amount of premium fresh-pressed Malcud burgers -- guaranteed 100% cruelty-free -- will be donated to your empire's food banks.\n\nPlease, look into your own heart and ask yourself, \"How many more innocent insects am I willing to slaughter?\"",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 1000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 1500
+      }
+   },
+   "name" : "Burgers For Beetles",
+   "network_19_completion" : "Large Beeldeban Herd Liberated by Local Activist, Guiltless Patties Exchanged.",
+   "network_19_headline" : "Local Activist Bent on Banning Butchering of Beetles!"
+}

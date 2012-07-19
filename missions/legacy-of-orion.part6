@@ -1,2 +1,36 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":205000000,"halite":102500000,"energy":205000000,"magnetite":102500000,"beetle":205000000},"fleet_movement":[{"target":{"in_zone":1,"color":"any","type":"star"},"ship_type":"probe"}]},"mission_reward":{"plans":[{"level":26,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"Sir, it is time we find information about the shady dealer who has been involved in every facet of the Orion investigations. I tracked him down to a specific system. All you need to do now is to give me the resources to green light operation \"Take Down\". Send a probe when we're ready, and my agents will take him and all of his plans.","network_19_headline":"Who is this shady dealer offering information about the ancient Orion? The Expanse wants to know!","network_19_completion":"%s has solved the mystery of the shady dealer´s origin. Will they ever let use know?","name":"Legacy of Orion 6","max_university_level":"30"}
+{
+   "description" : "Sir, it is time we find information about the shady dealer who has been involved in every facet of the Orion investigations. I tracked him down to a specific system. All you need to do now is to give me the resources to green light operation \"Take Down\". Send a probe when we're ready, and my agents will take him and all of his plans.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ],
+      "resources" : {
+         "beetle" : 205000000,
+         "energy" : 205000000,
+         "halite" : 102500000,
+         "magnetite" : 102500000,
+         "water" : 205000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 26
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 6",
+   "network_19_completion" : "%s has solved the mystery of the shady dealer´s origin. Will they ever let use know?",
+   "network_19_headline" : "Who is this shady dealer offering information about the ancient Orion? The Expanse wants to know!"
+}

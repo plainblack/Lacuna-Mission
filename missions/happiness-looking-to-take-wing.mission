@@ -15,7 +15,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 100000,
+      "happiness" : "100000",
       "ships" : []
    },
    "name" : "Happiness Looking to Take Wing",

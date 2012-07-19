@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s has successfully aided in defeating the Gnome/Leprechaun alliance.","max_university_level":"12","mission_objective":{"resources":{"uraninite":5000}},"description":"Things are heating up in our top secret sock factory...\n\nOur historians didn't dig deeply enough.  Apparently the Leprechaun and Gnome wars ended when the beautiful Leprechaun Princess Lillypad wed Gnarl, King of the Gnomes.\n\n-Long story short, we are now infested with Leprechauns and Gnomes! They are walking freely through the streets with pots full of our gold and all our left socks!  But were not giving up yet.\n\nIn a final effort to keep from having to relocate operations, we are asking for your help once again.  We have located both the Leprechauns' and Gnomes' water source and are going to poison the well.  We find ourselves in need of uraninite due to it's radioactive nature.\n\nI know it sounds extreme, but when you have a pest, you do what you have to in order to get rid of it!  In exchange for 5K uraninite we offer 7.5K energy.  Our singularity plants are producing more than we can use anyway...","mission_reward":{"resources":{"energy":7500}},"name":"Sock Gnome Hunt Part 4","network_19_headline":"Gnomes Ally Themselves With Leprechauns."}
+{
+   "description" : "Things are heating up in our top secret sock factory...\n\nOur historians didn't dig deeply enough.  Apparently the Leprechaun and Gnome wars ended when the beautiful Leprechaun Princess Lillypad wed Gnarl, King of the Gnomes.\n\n-Long story short, we are now infested with Leprechauns and Gnomes! They are walking freely through the streets with pots full of our gold and all our left socks!  But were not giving up yet.\n\nIn a final effort to keep from having to relocate operations, we are asking for your help once again.  We have located both the Leprechauns' and Gnomes' water source and are going to poison the well.  We find ourselves in need of uraninite due to it's radioactive nature.\n\nI know it sounds extreme, but when you have a pest, you do what you have to in order to get rid of it!  In exchange for 5K uraninite we offer 7.5K energy.  Our singularity plants are producing more than we can use anyway...",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "uraninite" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 7500
+      }
+   },
+   "name" : "Sock Gnome Hunt Part 4",
+   "network_19_completion" : "%s has successfully aided in defeating the Gnome/Leprechaun alliance.",
+   "network_19_headline" : "Gnomes Ally Themselves With Leprechauns."
+}

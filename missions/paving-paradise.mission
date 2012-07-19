@@ -1,2 +1,36 @@
 # config-file-type: JSON 1
-{"network_19_headline":"New development in mining!","network_19_completion":"%s has a lot more ore, but the populace is looking to move.","name":"Paving Paradise","mission_objective":{"happiness":500000},"mission_reward":{"resources":{"fluorite":100000,"zircon":100000,"anthracite":100000,"gypsum":100000,"chromite":100000,"sulfur":100000,"gold":100000,"chalcopyrite":100000,"trona":100000,"methane":100000,"halite":100000,"magnetite":100000,"rutile":100000,"waste":1000000,"goethite":100000,"bauxite":100000,"kerogen":100000,"uraninite":100000,"beryl":100000,"galena":100000,"monazite":100000}},"max_university_level":"30","description":"Sure, it causes a big mess, but our mining techniques are guaranteed to give you a bundle of every type of ore.  Make sure you have room for it!"}
+{
+   "description" : "Sure, it causes a big mess, but our mining techniques are guaranteed to give you a bundle of every type of ore.  Make sure you have room for it!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "happiness" : "500000"
+   },
+   "mission_reward" : {
+      "resources" : {
+         "anthracite" : 100000,
+         "bauxite" : 100000,
+         "beryl" : 100000,
+         "chalcopyrite" : 100000,
+         "chromite" : 100000,
+         "fluorite" : 100000,
+         "galena" : 100000,
+         "goethite" : 100000,
+         "gold" : 100000,
+         "gypsum" : 100000,
+         "halite" : 100000,
+         "kerogen" : 100000,
+         "magnetite" : 100000,
+         "methane" : 100000,
+         "monazite" : 100000,
+         "rutile" : 100000,
+         "sulfur" : 100000,
+         "trona" : 100000,
+         "uraninite" : 100000,
+         "waste" : 1000000,
+         "zircon" : 100000
+      }
+   },
+   "name" : "Paving Paradise",
+   "network_19_completion" : "%s has a lot more ore, but the populace is looking to move.",
+   "network_19_headline" : "New development in mining!"
+}

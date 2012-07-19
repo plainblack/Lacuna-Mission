@@ -4,9 +4,9 @@
    "max_university_level" : "20",
    "mission_objective" : {
       "resources" : {
+         "gypsum" : 50000,
          "pancake" : 50000,
-         "syrup" : 50000,
-         "gypsum" : 50000
+         "syrup" : 50000
       }
    },
    "mission_reward" : {

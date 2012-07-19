@@ -1,2 +1,38 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Enrollment in the local University just increased by one.","network_19_completion":"%s has graduated in the basics of trading.","description":"The key to a positive trade is to trade for a commodity that you need, in exchange for something you have a surplus of.\n\nCollect 10,000 algae, in exchange you'll receive 500 of each food type.","mission_objective":{"resources":{"algae":10000}},"name":"Basics of Trading","mission_reward":{"resources":{"root":500,"cider":500,"soup":500,"syrup":500,"potato":500,"shake":500,"beetle":500,"bean":500,"chip":500,"corn":500,"milk":500,"meal":500,"lapis":500,"wheat":500,"pancake":500,"bread":500,"pie":500,"cheese":500,"apple":500,"fungus":500,"burger":500}},"max_university_level":"9"}
+{
+   "description" : "The key to a positive trade is to trade for a commodity that you need, in exchange for something you have a surplus of.\n\nCollect 10,000 algae, in exchange you'll receive 500 of each food type.",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 500,
+         "bean" : 500,
+         "beetle" : 500,
+         "bread" : 500,
+         "burger" : 500,
+         "cheese" : 500,
+         "chip" : 500,
+         "cider" : 500,
+         "corn" : 500,
+         "fungus" : 500,
+         "lapis" : 500,
+         "meal" : 500,
+         "milk" : 500,
+         "pancake" : 500,
+         "pie" : 500,
+         "potato" : 500,
+         "root" : 500,
+         "shake" : 500,
+         "soup" : 500,
+         "syrup" : 500,
+         "wheat" : 500
+      }
+   },
+   "name" : "Basics of Trading",
+   "network_19_completion" : "%s has graduated in the basics of trading.",
+   "network_19_headline" : "Enrollment in the local University just increased by one."
+}

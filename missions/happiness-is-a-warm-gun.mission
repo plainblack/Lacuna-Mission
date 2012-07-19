@@ -1,2 +1,28 @@
 # config-file-type: JSON 1
-{"mission_objective":{"fleet_movement":[{"target":{"inhabited":1,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"snark"}]},"name":"Happiness is a Warm Gun","mission_reward":{"happiness":90000},"network_19_headline":"Sometimes violence does make you smile.","network_19_completion":"%s feels much better for expelling all that negative energy.","max_university_level":"16","description":"Anger management is an important tool for your colony and it's always better to have your people mad at someone else, rather than say your government.  So let's direct their dissatisfaction about lack of pie, elsewhere."}
+{
+   "description" : "Anger management is an important tool for your colony and it's always better to have your people mad at someone else, rather than say your government.  So let's direct their dissatisfaction about lack of pie, elsewhere.",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "snark",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : "90000"
+   },
+   "name" : "Happiness is a Warm Gun",
+   "network_19_completion" : "%s feels much better for expelling all that negative energy.",
+   "network_19_headline" : "Sometimes violence does make you smile."
+}

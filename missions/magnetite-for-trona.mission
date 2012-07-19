@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"12","mission_reward":{"resources":{"magnetite":15000}},"network_19_headline":"Zibnub Frugar representative of Uurgh guarantees iron oxide for carbonic acid.","description":"Looking for a reliable trade partner? Zibnub Frugar representative of Uurgh wishes to convert iron oxide for carbonic acid. Our miners furnish a superabundance of iron oxide. However our planet greatly lacks a production capacity for carbonic acid to produce chemicals. Our empire will convert magnetite for trona. We will make it worth your while.","network_19_completion":"%s exchanges carbonic acid for iron oxide.","name":"magnetite for trona","mission_objective":{"resources":{"trona":10000}}}
+{
+   "description" : "Looking for a reliable trade partner? Zibnub Frugar representative of Uurgh wishes to convert iron oxide for carbonic acid. Our miners furnish a superabundance of iron oxide. However our planet greatly lacks a production capacity for carbonic acid to produce chemicals. Our empire will convert magnetite for trona. We will make it worth your while.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "trona" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "magnetite" : 15000
+      }
+   },
+   "name" : "magnetite for trona",
+   "network_19_completion" : "%s exchanges carbonic acid for iron oxide.",
+   "network_19_headline" : "Zibnub Frugar representative of Uurgh guarantees iron oxide for carbonic acid."
+}

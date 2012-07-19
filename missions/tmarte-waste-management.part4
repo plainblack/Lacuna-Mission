@@ -1,2 +1,23 @@
 # config-file-type: JSON 1
-{"network_19_completion":"What's that interesting smell? It's %s learning about the art of Waste burning.","name":"Waste Management Part 4","mission_objective":{"resources":{"cheese":500,"gold":5000}},"description":"Besides squeezing it, there's a lot more you should know about Waste's flexibility. Well it's not exactly flexibility as it is just lighting it on fire. Our friendly waste consultant found the plans to a new Waste Energy Plant that generates energy by, well what else, burning trash! Also, he wants some cheese for his burgers in addition to his normal fee.\n\nCollect 5000 Gold and 500 Cheese and receive a Level 5 Waste Energy Plan as a reward.","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Energy::Waste","level":1,"extra_build_level":4}]},"max_university_level":"9","network_19_headline":"If all else fails, burn it. Your trash not your spies!"}
+{
+   "description" : "Besides squeezing it, there's a lot more you should know about Waste's flexibility. Well it's not exactly flexibility as it is just lighting it on fire. Our friendly waste consultant found the plans to a new Waste Energy Plant that generates energy by, well what else, burning trash! Also, he wants some cheese for his burgers in addition to his normal fee.\n\nCollect 5000 Gold and 500 Cheese and receive a Level 5 Waste Energy Plan as a reward.",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "cheese" : 500,
+         "gold" : 5000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Waste",
+            "extra_build_level" : 4,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Waste Management Part 4",
+   "network_19_completion" : "What's that interesting smell? It's %s learning about the art of Waste burning.",
+   "network_19_headline" : "If all else fails, burn it. Your trash not your spies!"
+}

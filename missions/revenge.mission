@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"uraninite":5000,"monazite":5000}},"mission_reward":{"resources":{"fluorite":3000,"methane":6000,"trona":2000,"bauxite":4000}},"description":"This is Korc, leader of ENUF, the only organization Koot needs to discover its potential.  Unfortunately the planetary council has exiled us.  Retaliation is the only way to display our strength and righteousness!  Help us contaminate their water supply.  We just need supplies of radioactive materials like Uraninite and Monazite.  We can repay you with some benign minerals we've been able to siphon off of Koot's asteroid operations, even if justice should be reward in itself...","network_19_headline":"Leaders of the fringe militant political group \"ENUF\" threaten retaliation as they face exile.","network_19_completion":"Terrible news today as the population of Koot discover terrible amounts of radiation in their water supply.","name":"revenge is justice","max_university_level":"10"}
+{
+   "description" : "This is Korc, leader of ENUF, the only organization Koot needs to discover its potential.  Unfortunately the planetary council has exiled us.  Retaliation is the only way to display our strength and righteousness!  Help us contaminate their water supply.  We just need supplies of radioactive materials like Uraninite and Monazite.  We can repay you with some benign minerals we've been able to siphon off of Koot's asteroid operations, even if justice should be reward in itself...",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "monazite" : 5000,
+         "uraninite" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bauxite" : 4000,
+         "fluorite" : 3000,
+         "methane" : 6000,
+         "trona" : 2000
+      }
+   },
+   "name" : "revenge is justice",
+   "network_19_completion" : "Terrible news today as the population of Koot discover terrible amounts of radiation in their water supply.",
+   "network_19_headline" : "Leaders of the fringe militant political group \"ENUF\" threaten retaliation as they face exile."
+}

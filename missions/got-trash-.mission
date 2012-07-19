@@ -1,2 +1,23 @@
 # config-file-type: JSON 1
-{"max_university_level":"25","mission_reward":{"resources":{"energy":150000,"soup":33333,"burger":33333,"syrup":33333,"water":150000}},"network_19_headline":"A Company Needs Excess Trash!","description":"Hello good sir. Do you have excess trash? Trash here? Trash there? Trash Everywhere?! Well send some here! We will use our own scows to pick up the waste. All we'll need is waste and some corn so that we can extract the seeds to plant in the fertile waste. In return we'll give you processed food along with some other resources. Do we have a deal good sir?","network_19_completion":"The Company Received The Excess Trash You Sent!","name":"Got Trash? We Can Mash!","mission_objective":{"resources":{"waste":400000,"corn":100000}}}
+{
+   "description" : "Hello good sir. Do you have excess trash? Trash here? Trash there? Trash Everywhere?! Well send some here! We will use our own scows to pick up the waste. All we'll need is waste and some corn so that we can extract the seeds to plant in the fertile waste. In return we'll give you processed food along with some other resources. Do we have a deal good sir?",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 100000,
+         "waste" : 400000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 33333,
+         "energy" : 150000,
+         "soup" : 33333,
+         "syrup" : 33333,
+         "water" : 150000
+      }
+   },
+   "name" : "Got Trash? We Can Mash!",
+   "network_19_completion" : "The Company Received The Excess Trash You Sent!",
+   "network_19_headline" : "A Company Needs Excess Trash!"
+}

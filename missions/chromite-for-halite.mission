@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Velor Propulsion is looking for chromite for research.","network_19_completion":"Chromite has been acquired and research is progressing.","description":"The Velor Propulsion Company is looking to acquire Chromite for their new Propulsion Plant. They are looking for 20,000 Chromite and are willing to return 25,000 Halite in exchange.","max_university_level":"17","mission_objective":{"resources":{"chromite":20000}},"mission_reward":{"resources":{"halite":25000}},"name":"Chromite for Halite"}
+{
+   "description" : "The Velor Propulsion Company is looking to acquire Chromite for their new Propulsion Plant. They are looking for 20,000 Chromite and are willing to return 25,000 Halite in exchange.",
+   "max_university_level" : "17",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 20000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "halite" : 25000
+      }
+   },
+   "name" : "Chromite for Halite",
+   "network_19_completion" : "Chromite has been acquired and research is progressing.",
+   "network_19_headline" : "Velor Propulsion is looking for chromite for research."
+}

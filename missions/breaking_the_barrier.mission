@@ -12,20 +12,20 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 200000,
-            "name" : "Starter Supply Pod II",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "supply_pod2"
-         },
-         {
             "combat" : 2000,
             "hold_size" : 0,
             "name" : "Starter SRCS",
             "speed" : 35,
             "stealth" : 0,
             "type" : "short_range_colony_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 200000,
+            "name" : "Starter Supply Pod II",
+            "speed" : 2000,
+            "stealth" : 0,
+            "type" : "supply_pod2"
          }
       ]
    },

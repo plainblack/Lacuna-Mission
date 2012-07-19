@@ -21,7 +21,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 60000,
+      "happiness" : "60000",
       "ships" : []
    },
    "name" : "Down in the Mall",

@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"12","mission_reward":{"resources":{"gypsum":15000}},"network_19_headline":"Tanis ip Philnar steward of Iathwert proffers gypsum for fluorine.","description":"Would you listen to a proposition? Tanis ip Philnar steward of Iathwert promises to exchange gypsum for fluorine. Our empire produces a surplus of gypsum. Nonetheless our people very much so desire a supplier of fluorine so that we can fabricate fluoropolymers. Our planet will convert gypsum for fluorite. Will you expectorate non-acidic bodily fluids onto an appendage as I do likewise. -Then grab your appendage with mine and shake them vigorously?","network_19_completion":"%s swaps fluorine for gypsum.","name":"gypsum for fluorite","mission_objective":{"resources":{"fluorite":10000}}}
+{
+   "description" : "Would you listen to a proposition? Tanis ip Philnar steward of Iathwert promises to exchange gypsum for fluorine. Our empire produces a surplus of gypsum. Nonetheless our people very much so desire a supplier of fluorine so that we can fabricate fluoropolymers. Our planet will convert gypsum for fluorite. Will you expectorate non-acidic bodily fluids onto an appendage as I do likewise. -Then grab your appendage with mine and shake them vigorously?",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gypsum" : 15000
+      }
+   },
+   "name" : "gypsum for fluorite",
+   "network_19_completion" : "%s swaps fluorine for gypsum.",
+   "network_19_headline" : "Tanis ip Philnar steward of Iathwert proffers gypsum for fluorine."
+}

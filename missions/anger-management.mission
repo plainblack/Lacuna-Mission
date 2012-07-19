@@ -3,7 +3,7 @@
    "description" : "Screw this happy feeley touchy crapola.  You don't want those neighbors of you rolling over you later.  Show them the power in your spaceports.",
    "max_university_level" : "30",
    "mission_objective" : {
-      "happiness" : 100000
+      "happiness" : "100000"
    },
    "mission_reward" : {
       "ships" : [

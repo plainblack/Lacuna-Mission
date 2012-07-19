@@ -33,6 +33,11 @@
    "mission_reward" : {
       "plans" : [
          {
+            "classname" : "Lacuna::DB::Result::Building::CloakingLab",
+            "extra_build_level" : 0,
+            "level" : 20
+         },
+         {
             "classname" : "Lacuna::DB::Result::Building::Food::Shake",
             "extra_build_level" : 0,
             "level" : 1
@@ -41,11 +46,6 @@
             "classname" : "Lacuna::DB::Result::Building::Food::Soup",
             "extra_build_level" : 0,
             "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::CloakingLab",
-            "extra_build_level" : 0,
-            "level" : 20
          },
          {
             "classname" : "Lacuna::DB::Result::Building::MunitionsLab",

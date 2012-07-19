@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Haldralious Prime under siege by killer llamas.","network_19_completion":"Killer llamas vanquished by %s.","description":"They just appeared out of nowhere, falling from the sky like meteors,. Then they began eating our buildings and squashing any of our people who were in the way.\nPlease help us with a supply of fissionables, we can't hold out against them for long, our lives are in your hands, we will send some of our food reserves in exchange.","mission_objective":{"resources":{"uraninite":10000,"monazite":10000}},"name":"Killer Llamas!","mission_reward":{"resources":{"gold":5000,"shake":5000,"pancake":10000,"pie":2000}},"max_university_level":"15"}
+{
+   "description" : "They just appeared out of nowhere, falling from the sky like meteors,. Then they began eating our buildings and squashing any of our people who were in the way.\nPlease help us with a supply of fissionables, we can't hold out against them for long, our lives are in your hands, we will send some of our food reserves in exchange.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "monazite" : 10000,
+         "uraninite" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 5000,
+         "pancake" : 10000,
+         "pie" : 2000,
+         "shake" : 5000
+      }
+   },
+   "name" : "Killer Llamas!",
+   "network_19_completion" : "Killer llamas vanquished by %s.",
+   "network_19_headline" : "Haldralious Prime under siege by killer llamas."
+}

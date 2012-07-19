@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Xhyphgrtwyn catastrophe diverted when a spy shuttle from %s arrived at Xhyphr Secondus.","max_university_level":"20","description":"New reports are in that the legendary Xhyphgrtwyn race is back. Many believed they were only a story to scare grubblings before daytime stories.  An archeological intern at Ultar Three unwittingly activated an ancient dimensional gate bringing back the boogeyman race that legend attributes as being responsible for the last Great Extinction. \n\n--Breaking News: We have just receive a replicator template for a genetically engineered blood-born pathogen targeting the Xhyphgrtwyn's coboglobins. A bauxite glyph is required to produce the pathogen.\n\nThe source of the pathogen is unprecedented. Our sources tell us the the template comes from the Philionimi.  This race has not been heard from since it ascended during the Xhyphrgtwyn-induced Great Extinction.  The Philionimi have pledged to create a Natural Spring at the homeworld of the first Empire to send a ship containing a bauxite glyph to Xhyphr Secondus.","mission_objective":{"glyphs":["bauxite"]},"name":"A Planet Too Far","mission_reward":{"plans":[{"extra_build_level":0,"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::NaturalSpring"}]},"network_19_headline":"Great Extinction Imminent?"}
+{
+   "description" : "New reports are in that the legendary Xhyphgrtwyn race is back. Many believed they were only a story to scare grubblings before daytime stories.  An archeological intern at Ultar Three unwittingly activated an ancient dimensional gate bringing back the boogeyman race that legend attributes as being responsible for the last Great Extinction. \n\n--Breaking News: We have just receive a replicator template for a genetically engineered blood-born pathogen targeting the Xhyphgrtwyn's coboglobins. A bauxite glyph is required to produce the pathogen.\n\nThe source of the pathogen is unprecedented. Our sources tell us the the template comes from the Philionimi.  This race has not been heard from since it ascended during the Xhyphrgtwyn-induced Great Extinction.  The Philionimi have pledged to create a Natural Spring at the homeworld of the first Empire to send a ship containing a bauxite glyph to Xhyphr Secondus.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "glyphs" : [
+         "bauxite"
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "A Planet Too Far",
+   "network_19_completion" : "Xhyphgrtwyn catastrophe diverted when a spy shuttle from %s arrived at Xhyphr Secondus.",
+   "network_19_headline" : "Great Extinction Imminent?"
+}

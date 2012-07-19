@@ -3,10 +3,10 @@
    "description" : "Dear all, \nEssentia is a precious resource to all due to its power, so you always want to have some. Here's a chance for the Isolationists who have millions of excess happiness in storage! Although my supervising minister did not allow me to give you a very good ratio for this exchange, it might be worth for getting those drops of essentia which is going to power up cities and planets. Please be noted of the speedy arrival of the essentia will soon cause you a crater!",
    "max_university_level" : "20",
    "mission_objective" : {
-      "happiness" : 2000000
+      "happiness" : "2000000"
    },
    "mission_reward" : {
-      "essentia" : 2,
+      "essentia" : "2",
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Crater",

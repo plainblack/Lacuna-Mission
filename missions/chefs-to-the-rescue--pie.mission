@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"3","mission_objective":{"resources":{"lapis":2000}},"description":"The chefs of FAT (Food Advocating Team) can offer you variety, the spice of life. Just send us your newly gathered lapis, and in exchange we surprise you with our great tasting pie. No more kitchen duties, and no more: why do we always have to eat the same thing?","mission_reward":{"resources":{"pie":2000}},"network_19_headline":"Well-rounded chefs preparing meals for needy colonists on Cosmic kitchen.","network_19_completion":"With the arrival of the Cosmic Kitchen belts and buttons were relaxed on %s. Could this be the answer?","name":"Chefs to the rescue: pie"}
+{
+   "description" : "The chefs of FAT (Food Advocating Team) can offer you variety, the spice of life. Just send us your newly gathered lapis, and in exchange we surprise you with our great tasting pie. No more kitchen duties, and no more: why do we always have to eat the same thing?",
+   "max_university_level" : "3",
+   "mission_objective" : {
+      "resources" : {
+         "lapis" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "pie" : 2000
+      }
+   },
+   "name" : "Chefs to the rescue: pie",
+   "network_19_completion" : "With the arrival of the Cosmic Kitchen belts and buttons were relaxed on %s. Could this be the answer?",
+   "network_19_headline" : "Well-rounded chefs preparing meals for needy colonists on Cosmic kitchen."
+}

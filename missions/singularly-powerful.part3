@@ -55,8 +55,8 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
-            "extra_build_level" : 5,
+            "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
+            "extra_build_level" : 1,
             "level" : 1
          },
          {
@@ -65,20 +65,12 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
-            "extra_build_level" : 1,
+            "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
+            "extra_build_level" : 5,
             "level" : 1
          }
       ],
       "ships" : [
-         {
-            "combat" : 0,
-            "hold_size" : 500000,
-            "name" : "Numarite Freighter",
-            "speed" : 2500,
-            "stealth" : 1500,
-            "type" : "freighter"
-         },
          {
             "combat" : 3000,
             "hold_size" : 0,
@@ -86,6 +78,14 @@
             "speed" : 150,
             "stealth" : 0,
             "type" : "detonator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 500000,
+            "name" : "Numarite Freighter",
+            "speed" : 2500,
+            "stealth" : 1500,
+            "type" : "freighter"
          },
          {
             "combat" : 350,

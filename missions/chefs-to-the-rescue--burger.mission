@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"3","mission_objective":{"resources":{"fungus":2000}},"description":"We at FAT (Food Advocating Team) can make your citizens happy. Just send us your harvest of fungus, and in return we send you our great tasting burger. No more kitchen duties, and no more: why do we always have to eat the same thing?","mission_reward":{"resources":{"burger":2000}},"network_19_headline":"A group of 'big boned' chefs to create heavenly dishes.","network_19_completion":"With the arrival of the Cosmic Kitchen the citizens of %s gained a lot. Could this be the answer?","name":"Chefs to the rescue: burger"}
+{
+   "description" : "We at FAT (Food Advocating Team) can make your citizens happy. Just send us your harvest of fungus, and in return we send you our great tasting burger. No more kitchen duties, and no more: why do we always have to eat the same thing?",
+   "max_university_level" : "3",
+   "mission_objective" : {
+      "resources" : {
+         "fungus" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 2000
+      }
+   },
+   "name" : "Chefs to the rescue: burger",
+   "network_19_completion" : "With the arrival of the Cosmic Kitchen the citizens of %s gained a lot. Could this be the answer?",
+   "network_19_headline" : "A group of 'big boned' chefs to create heavenly dishes."
+}

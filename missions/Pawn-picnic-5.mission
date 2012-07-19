@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"max_university_level":"4","mission_reward":{"resources":{"gold":6000}},"network_19_headline":"Pawn Lacuna needs caterer for company picnic.","description":"Hello, I am the event planner for Pawn Lacuna. We need to source some food for our company picnic. Can you help?  We have some scrap gold we can spend for any costs involved. Let us know if you can help us out.","network_19_completion":"The burgers at the Pawn Lacuna company picnic were a hit.","name":"Company picnic planned","mission_objective":{"resources":{"burger":1000,"bread":2000,"cheese":1000}}}
+{
+   "description" : "Hello, I am the event planner for Pawn Lacuna. We need to source some food for our company picnic. Can you help?  We have some scrap gold we can spend for any costs involved. Let us know if you can help us out.",
+   "max_university_level" : "4",
+   "mission_objective" : {
+      "resources" : {
+         "bread" : 2000,
+         "burger" : 1000,
+         "cheese" : 1000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 6000
+      }
+   },
+   "name" : "Company picnic planned",
+   "network_19_completion" : "The burgers at the Pawn Lacuna company picnic were a hit.",
+   "network_19_headline" : "Pawn Lacuna needs caterer for company picnic."
+}

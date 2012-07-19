@@ -30,27 +30,27 @@
          },
          {
             "combat" : 0,
+            "hold_size" : 60000,
+            "name" : "",
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 60000,
+            "name" : "",
+            "speed" : 500,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
             "hold_size" : 30000,
             "name" : "",
             "speed" : 100,
             "stealth" : 0,
             "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 60000,
-            "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 60000,
-            "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
-            "type" : "cargo_ship"
          }
       ]
    },

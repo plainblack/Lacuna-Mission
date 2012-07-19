@@ -1,2 +1,24 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s upgraded University cheaply.","max_university_level":"12","description":"Hey there.  I've been out of work for a while and stupidly went to the casino and bet  all in on purple.  I lost, and that's not the worst of it.  The casino has this thing called credit and, well... -Long story short I owe the wrong people a bunch of money.  \n\nIf you bail me out I'll upgrade your University FOR FREE!","mission_objective":{"resources":{"gold":10000,"chalcopyrite":15000,"energy":10000}},"name":"Cheap Contractor","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::University","level":9,"extra_build_level":0}]},"network_19_headline":"Cheap Contractor Looking For Work."}
+{
+   "description" : "Hey there.  I've been out of work for a while and stupidly went to the casino and bet  all in on purple.  I lost, and that's not the worst of it.  The casino has this thing called credit and, well... -Long story short I owe the wrong people a bunch of money.  \n\nIf you bail me out I'll upgrade your University FOR FREE!",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "chalcopyrite" : 15000,
+         "energy" : 10000,
+         "gold" : 10000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::University",
+            "extra_build_level" : 0,
+            "level" : 9
+         }
+      ]
+   },
+   "name" : "Cheap Contractor",
+   "network_19_completion" : "%s upgraded University cheaply.",
+   "network_19_headline" : "Cheap Contractor Looking For Work."
+}

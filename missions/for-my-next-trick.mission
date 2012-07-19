@@ -19,7 +19,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 200000,
+      "happiness" : "200000",
       "ships" : []
    },
    "name" : "For my next trick",

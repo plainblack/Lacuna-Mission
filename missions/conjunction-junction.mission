@@ -10,12 +10,12 @@
    "mission_reward" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Waste::Sequestration",
+            "classname" : "Lacuna::DB::Result::Building::Waste::Recycling",
             "extra_build_level" : 2,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Waste::Recycling",
+            "classname" : "Lacuna::DB::Result::Building::Waste::Sequestration",
             "extra_build_level" : 2,
             "level" : 1
          }

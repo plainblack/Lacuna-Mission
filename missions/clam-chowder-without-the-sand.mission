@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","mission_objective":{"plans":[{"extra_build_level":0,"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::Beach10"}]},"description":"The hard working citizens of Chae Aequowtr Xea 7 have been without a vacation in decades since the closest resort town is in orbit 3. They have been trying to dig a lake but have only succeeded in making a crater. Some have recommended paying a contractor but all they have to offer soup.","mission_reward":{"resources":{"soup":260000}},"network_19_headline":"All soup and no suntans make the people of Chae Aequowtr Xea 7 really odd.","network_19_completion":"Citizens of Chae Aequowtr Xea 7 can go back to work on Monday with a tan line.","name":"Clam Chowder without the Sand"}
+{
+   "description" : "The hard working citizens of Chae Aequowtr Xea 7 have been without a vacation in decades since the closest resort town is in orbit 3. They have been trying to dig a lake but have only succeeded in making a crater. Some have recommended paying a contractor but all they have to offer soup.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach10",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "soup" : 260000
+      }
+   },
+   "name" : "Clam Chowder without the Sand",
+   "network_19_completion" : "Citizens of Chae Aequowtr Xea 7 can go back to work on Monday with a tan line.",
+   "network_19_headline" : "All soup and no suntans make the people of Chae Aequowtr Xea 7 really odd."
+}

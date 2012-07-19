@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Colony Supplied With Lapis To Recover!","max_university_level":"20","network_19_headline":"Lapis Forest Fire On A Distant Colony!","description":"There has been a dry season. Or is this just global warming? No matter how the fire started. Anyway our lapis forest was destroyed in a forest fire. We need lapis badly. What a horrible disaster! Well we would normally ask you for some lapis forest plans but sadly we have no engineers available so we will have to do it the old fashioned way. You take the seeds...throw em on the dirt...and pray they grow. So to do that we'll need 100,000 lapis. In exchange we will give you a variety of processed consumables with some water to grow the rest of your lapis into a lush forest like our new one will be like.","mission_objective":{"resources":{"lapis":100000}},"mission_reward":{"resources":{"water":80000,"shake":25000,"burger":25000}},"name":"Lapis Shortage"}
+{
+   "description" : "There has been a dry season. Or is this just global warming? No matter how the fire started. Anyway our lapis forest was destroyed in a forest fire. We need lapis badly. What a horrible disaster! Well we would normally ask you for some lapis forest plans but sadly we have no engineers available so we will have to do it the old fashioned way. You take the seeds...throw em on the dirt...and pray they grow. So to do that we'll need 100,000 lapis. In exchange we will give you a variety of processed consumables with some water to grow the rest of your lapis into a lush forest like our new one will be like.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "lapis" : 100000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 25000,
+         "shake" : 25000,
+         "water" : 80000
+      }
+   },
+   "name" : "Lapis Shortage",
+   "network_19_completion" : "Colony Supplied With Lapis To Recover!",
+   "network_19_headline" : "Lapis Forest Fire On A Distant Colony!"
+}

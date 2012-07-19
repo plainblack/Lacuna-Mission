@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Scientists from Beeldonopolis need genetic samples.","network_19_completion":"Genetic samples collected for Beeldonopolis by %s.","description":"It's quite simple really, we need ya to find a few beetles, collect a few genetic samples from them, and put the remains in these little cups, think you can do that? Thanks, return them to us when you're done please, these samples are priceless.","mission_objective":{"resources":{"beetle":5000}},"name":"Beeldeban gene harvesting","mission_reward":{"resources":{"shake":7000}},"max_university_level":"15"}
+{
+   "description" : "It's quite simple really, we need ya to find a few beetles, collect a few genetic samples from them, and put the remains in these little cups, think you can do that? Thanks, return them to us when you're done please, these samples are priceless.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "shake" : 7000
+      }
+   },
+   "name" : "Beeldeban gene harvesting",
+   "network_19_completion" : "Genetic samples collected for Beeldonopolis by %s.",
+   "network_19_headline" : "Scientists from Beeldonopolis need genetic samples."
+}

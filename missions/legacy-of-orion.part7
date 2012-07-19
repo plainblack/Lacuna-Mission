@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":360000000,"halite":180000000,"energy":360000000,"magnetite":180000000,"beetle":360000000}},"mission_reward":{"plans":[{"level":27,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"Sir, the name of that Shady dealer is Peter Sagefjord. After we where done with the \"questioning\",  he has agreed to lead us to additional Orion hive command and control center technology in exchange for the resources he requires to \"transcend\". He seems to indicate that he can transform himself into a being composed purely of energy.","network_19_headline":"Shady dealer in Orion technology holds the key!","network_19_completion":"%s have gotten Peter Sagefjord to lead them to more Orion technology!","name":"Legacy of Orion 7","max_university_level":"30"}
+{
+   "description" : "Sir, the name of that Shady dealer is Peter Sagefjord. After we where done with the \"questioning\",  he has agreed to lead us to additional Orion hive command and control center technology in exchange for the resources he requires to \"transcend\". He seems to indicate that he can transform himself into a being composed purely of energy.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 360000000,
+         "energy" : 360000000,
+         "halite" : 180000000,
+         "magnetite" : 180000000,
+         "water" : 360000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 27
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 7",
+   "network_19_completion" : "%s have gotten Peter Sagefjord to lead them to more Orion technology!",
+   "network_19_headline" : "Shady dealer in Orion technology holds the key!"
+}

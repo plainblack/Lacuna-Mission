@@ -1,2 +1,27 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"gypsum":500,"monazite":500,"sulfur":500}},"mission_reward":{"resources":{"cheese":200,"potato":300,"corn":200,"wheat":300,"milk":300,"cider":200,"apple":300,"pie":200}},"description":"SPECIAL TODAY!\nThe new Farmers Market Colony on Eeggousou is currently accepting phosphorous-containing ores for a wide variety of fresh farm-grown food products!  Get yours today, before it's all gone!","network_19_headline":"Committee Acknowledges Registration of New Farmers Market.","name":"Farmers Market","network_19_completion":"Local Food Market Bestows Its Bounty on %s's Empire.","max_university_level":"5"}
+{
+   "description" : "SPECIAL TODAY!\nThe new Farmers Market Colony on Eeggousou is currently accepting phosphorous-containing ores for a wide variety of fresh farm-grown food products!  Get yours today, before it's all gone!",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "gypsum" : 500,
+         "monazite" : 500,
+         "sulfur" : 500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 300,
+         "cheese" : 200,
+         "cider" : 200,
+         "corn" : 200,
+         "milk" : 300,
+         "pie" : 200,
+         "potato" : 300,
+         "wheat" : 300
+      }
+   },
+   "name" : "Farmers Market",
+   "network_19_completion" : "Local Food Market Bestows Its Bounty on %s's Empire.",
+   "network_19_headline" : "Committee Acknowledges Registration of New Farmers Market."
+}

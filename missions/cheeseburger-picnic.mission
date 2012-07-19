@@ -1,2 +1,24 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Burger shortage on Anton 6 threatens to derail cheeseburger picnic, defeat president Johnston.","network_19_completion":"%s delivers cheeseburger picnic paradise. Johnson swept to easy victory on Anton 6.","description":"Two-term president Banes Johnston, leader of the colony of Anton 6, traditionally holds a giant cheeseburger picnic once a year. However, in this election year, the folks who supply him with the requisite supplies have decided to go on strike for better pay and working hours. If the picnic fails, Johnston will not be able to pull off the margin needed for re-election, so he's willing to offer up significant amounts of his people's wealth in exchange for the right combination of cheeseburger constituents.","max_university_level":"19","mission_objective":{"resources":{"cheese":33788,"bread":33788,"burger":33788,"chip":33788}},"name":"Cheeseburger Picnic","mission_reward":{"resources":{"soup":50000,"water":50000,"energy":50000,"uraninite":50000}}}
+{
+   "description" : "Two-term president Banes Johnston, leader of the colony of Anton 6, traditionally holds a giant cheeseburger picnic once a year. However, in this election year, the folks who supply him with the requisite supplies have decided to go on strike for better pay and working hours. If the picnic fails, Johnston will not be able to pull off the margin needed for re-election, so he's willing to offer up significant amounts of his people's wealth in exchange for the right combination of cheeseburger constituents.",
+   "max_university_level" : "19",
+   "mission_objective" : {
+      "resources" : {
+         "bread" : 33788,
+         "burger" : 33788,
+         "cheese" : 33788,
+         "chip" : 33788
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "energy" : 50000,
+         "soup" : 50000,
+         "uraninite" : 50000,
+         "water" : 50000
+      }
+   },
+   "name" : "Cheeseburger Picnic",
+   "network_19_completion" : "%s delivers cheeseburger picnic paradise. Johnson swept to easy victory on Anton 6.",
+   "network_19_headline" : "Burger shortage on Anton 6 threatens to derail cheeseburger picnic, defeat president Johnston."
+}

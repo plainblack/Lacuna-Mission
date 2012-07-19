@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"max_university_level":"25","mission_reward":{"resources":{"uraninite":10000,"bean":10000,"halite":10000,"meal":10000,"water":50000,"gold":10000,"root":10000,"beetle":10000,"pancake":10000,"cider":10000,"chip":10000}},"network_19_headline":"Planet in neighboring system has all essentia stolen!","description":"We have been robbed! Spies have just stolen our essentia supply! We must catch them! We need a little more essentia to lure them into a honey trap. We will pay you well for this. Please give us enough to set a trap. We will then capture, interrogate, and tdo whatever is necessary to get our essentia back! No one steals from us!","network_19_completion":"%s has helped neighbors trap essentia thieves.","name":"Urgent Essentia!","mission_objective":{"essentia":1}}
+{
+   "description" : "We have been robbed! Spies have just stolen our essentia supply! We must catch them! We need a little more essentia to lure them into a honey trap. We will pay you well for this. Please give us enough to set a trap. We will then capture, interrogate, and tdo whatever is necessary to get our essentia back! No one steals from us!",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "essentia" : "1"
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bean" : 10000,
+         "beetle" : 10000,
+         "chip" : 10000,
+         "cider" : 10000,
+         "gold" : 10000,
+         "halite" : 10000,
+         "meal" : 10000,
+         "pancake" : 10000,
+         "root" : 10000,
+         "uraninite" : 10000,
+         "water" : 50000
+      }
+   },
+   "name" : "Urgent Essentia!",
+   "network_19_completion" : "%s has helped neighbors trap essentia thieves.",
+   "network_19_headline" : "Planet in neighboring system has all essentia stolen!"
+}

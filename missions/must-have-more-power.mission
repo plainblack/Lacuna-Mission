@@ -1,2 +1,31 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Rolling brown outs on Tercan 12 lead to widespread riots.","description":"Tercan 12 has been relying for far too long on what seemed like an inexhaustible supply of abundant coal to power their colony. However, all the easily accessible veins have been mined, and the provisional government has yet to implement the transition to the new, renewable energy facilities they're constructing. They need power badly, and are willing to trade away a fine selection of good foods in exchange for it.","network_19_completion":"Tercan 12 power grid fluctuations cured; Governor praises %s for their quick response.","max_university_level":"15","mission_objective":{"resources":{"energy":76000}},"name":"Must Have More Power","mission_reward":{"resources":{"pie":50000,"corn":500,"cider":20000,"shake":500,"chip":500,"apple":500,"bread":500,"bean":500,"milk":500,"burger":500,"syrup":500,"soup":500,"meal":500,"cheese":500}}}
+{
+   "description" : "Tercan 12 has been relying for far too long on what seemed like an inexhaustible supply of abundant coal to power their colony. However, all the easily accessible veins have been mined, and the provisional government has yet to implement the transition to the new, renewable energy facilities they're constructing. They need power badly, and are willing to trade away a fine selection of good foods in exchange for it.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 76000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 500,
+         "bean" : 500,
+         "bread" : 500,
+         "burger" : 500,
+         "cheese" : 500,
+         "chip" : 500,
+         "cider" : 20000,
+         "corn" : 500,
+         "meal" : 500,
+         "milk" : 500,
+         "pie" : 50000,
+         "shake" : 500,
+         "soup" : 500,
+         "syrup" : 500
+      }
+   },
+   "name" : "Must Have More Power",
+   "network_19_completion" : "Tercan 12 power grid fluctuations cured; Governor praises %s for their quick response.",
+   "network_19_headline" : "Rolling brown outs on Tercan 12 lead to widespread riots."
+}

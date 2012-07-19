@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"12","mission_reward":{"resources":{"chalcopyrite":15000}},"network_19_headline":"Danothvor delegate of Jamyrd trades copper ore for lead ore.","description":"We need your help. I Danothvor delegate of Jamyrd bring an offer to exchange copper ore for lead ore. Our empire yields a excess of copper. Still our people tremendously covet a source of lead ore to fabricate fusible alloys. Our planet will trade chalcopyrite for galena. We would greatly appreciate your consideration.","network_19_completion":"%s takes lead ore for copper ore.","name":"chalcopyrite for galena","mission_objective":{"resources":{"galena":10000}}}
+{
+   "description" : "We need your help. I Danothvor delegate of Jamyrd bring an offer to exchange copper ore for lead ore. Our empire yields a excess of copper. Still our people tremendously covet a source of lead ore to fabricate fusible alloys. Our planet will trade chalcopyrite for galena. We would greatly appreciate your consideration.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chalcopyrite" : 15000
+      }
+   },
+   "name" : "chalcopyrite for galena",
+   "network_19_completion" : "%s takes lead ore for copper ore.",
+   "network_19_headline" : "Danothvor delegate of Jamyrd trades copper ore for lead ore."
+}

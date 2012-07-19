@@ -8,7 +8,7 @@
       }
    },
    "mission_reward" : {
-      "essentia" : 10
+      "essentia" : "10"
    },
    "name" : "Dying of Thirst",
    "network_19_completion" : "%s saved Klaywatanayo from extinction through life-giving gift of water.",

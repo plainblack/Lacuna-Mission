@@ -36,11 +36,11 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Agent of Fortune",
-            "speed" : 6000,
-            "stealth" : 17500,
-            "type" : "spy_shuttle"
+            "hold_size" : 25000,
+            "name" : "Vera Gemini",
+            "speed" : 5000,
+            "stealth" : 12000,
+            "type" : "smuggler_ship"
          },
          {
             "combat" : 0,
@@ -52,11 +52,11 @@
          },
          {
             "combat" : 0,
-            "hold_size" : 25000,
-            "name" : "Vera Gemini",
-            "speed" : 5000,
-            "stealth" : 12000,
-            "type" : "smuggler_ship"
+            "hold_size" : 0,
+            "name" : "Agent of Fortune",
+            "speed" : 6000,
+            "stealth" : 17500,
+            "type" : "spy_shuttle"
          }
       ]
    },

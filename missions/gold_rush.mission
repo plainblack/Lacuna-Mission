@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"max_university_level":"20","mission_reward":{"resources":{"gold":400000}},"network_19_headline":"Miners in Gold Rush Forget To Pack Their Lunch.","description":"We are miners from a nearby solar system... We ran outta rations like food and water. We will need a variety of foods along with a large amount of water. In return we'll share a portion of the gold we have mined.","network_19_completion":"Miners thank %s with golden hospitality.","name":"Gold Rush","mission_objective":{"resources":{"wheat":25000,"bean":25000,"algae":25000,"fungus":25000,"water":200000}}}
+{
+   "description" : "We are miners from a nearby solar system... We ran outta rations like food and water. We will need a variety of foods along with a large amount of water. In return we'll share a portion of the gold we have mined.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 25000,
+         "bean" : 25000,
+         "fungus" : 25000,
+         "water" : 200000,
+         "wheat" : 25000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 400000
+      }
+   },
+   "name" : "Gold Rush",
+   "network_19_completion" : "Miners thank %s with golden hospitality.",
+   "network_19_headline" : "Miners in Gold Rush Forget To Pack Their Lunch."
+}

@@ -3,7 +3,7 @@
    "description" : "Dear in debt colonies, \n   We are looking to outsource our current waste dumping company contract to a third world colony!\nThat means if you are interested, just send us some of your water for testing to see if it's safe for waste to be placed in it, even if it's not, we will probably still go ahead and dump anyway, we will also throw in a waste storage unit schematic for your colony's waste storage needs.\n\nHave fun in smelly trash hell,\n            Cheap company marketing consultant #416",
    "max_university_level" : "15",
    "mission_objective" : {
-      "happiness" : 20000,
+      "happiness" : "20000",
       "resources" : {
          "water" : 25000
       }

@@ -1,2 +1,41 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":38000000,"halite":19000000,"energy":38000000,"magnetite":19000000,"beetle":38000000},"fleet_movement":[{"target":{"in_zone":1,"type":"habitable","size":[1,121],"inhabited":0,"isolationist":0},"ship_type":"thud"}]},"mission_reward":{"plans":[{"level":23,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"That scan we got of the last Orion planet has helped our engineers to come up with a ingenious idea. We've detected Orion technology locked into a substrate layer deep beneath the surface. With some advice from that shady dealer, the engineer believes he can modify a Thud to crack the problem wide open so to speak. \n\nWe really need to start digging into that dealer's background because his advice is starting to get expensive. Anyway, the Thud when used in this manner will turn should shake loose the Orion tech from the substrate. We believe it is seeded with their atto-technology. With luck we can reverse-engineer it and improve our own Planetary Control Center technology in the process.","network_19_headline":"More information about the ancient Orion's has turned up. Where will the information lead this time?","network_19_completion":"%s uses Thud to shake loose Orion technology!","name":"Legacy of Orion 3","max_university_level":"30"}
+{
+   "description" : "That scan we got of the last Orion planet has helped our engineers to come up with a ingenious idea. We've detected Orion technology locked into a substrate layer deep beneath the surface. With some advice from that shady dealer, the engineer believes he can modify a Thud to crack the problem wide open so to speak. \n\nWe really need to start digging into that dealer's background because his advice is starting to get expensive. Anyway, the Thud when used in this manner will turn should shake loose the Orion tech from the substrate. We believe it is seeded with their atto-technology. With luck we can reverse-engineer it and improve our own Planetary Control Center technology in the process.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "thud",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "beetle" : 38000000,
+         "energy" : 38000000,
+         "halite" : 19000000,
+         "magnetite" : 19000000,
+         "water" : 38000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 23
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 3",
+   "network_19_completion" : "%s uses Thud to shake loose Orion technology!",
+   "network_19_headline" : "More information about the ancient Orion's has turned up. Where will the information lead this time?"
+}

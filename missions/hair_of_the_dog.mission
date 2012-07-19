@@ -19,7 +19,7 @@
       "glyphs" : [
          "rutile"
       ],
-      "happiness" : 500000
+      "happiness" : "500000"
    },
    "name" : "Hair of the Dog",
    "network_19_completion" : "%s has provided the hair of the dog!",

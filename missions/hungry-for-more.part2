@@ -21,6 +21,7 @@
          {
             "combat" : 1000,
             "hold_size" : 0,
+            "name" : "",
             "speed" : 7500,
             "stealth" : 0,
             "type" : "scanner"

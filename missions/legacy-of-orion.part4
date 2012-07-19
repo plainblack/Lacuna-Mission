@@ -1,2 +1,36 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":67000000,"halite":33500000,"energy":67000000,"magnetite":33500000,"beetle":67000000},"fleet_movement":[{"target":{"in_zone":1,"color":"any","type":"star"},"ship_type":"detonator"}]},"mission_reward":{"plans":[{"level":24,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"That shady dealer has somehow acquired the information that we turned up with our last Orion expedition. He has a proposition for us sir. In exchange for an inordinate amount of  resources he will point us toward another of the Orion's old systems where one of their probes is still active! \n\nThe only problem is that its cloaked beyond our sensors capability to detect so we are going to have to blow it out of the system with a detonator and collect the debris. That shady dealer assures us that the technology will be worth our while. He seems to believe that Orion probes are themselves components of the Orion hive command and control center.","network_19_headline":"The race for Orion's technology continues, as more and more get in on the action.","network_19_completion":"%s use detonator to explode ahead their competitors in the race for Orion technology.","name":"Legacy of Orion 4","max_university_level":"30"}
+{
+   "description" : "That shady dealer has somehow acquired the information that we turned up with our last Orion expedition. He has a proposition for us sir. In exchange for an inordinate amount of  resources he will point us toward another of the Orion's old systems where one of their probes is still active! \n\nThe only problem is that its cloaked beyond our sensors capability to detect so we are going to have to blow it out of the system with a detonator and collect the debris. That shady dealer assures us that the technology will be worth our while. He seems to believe that Orion probes are themselves components of the Orion hive command and control center.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "detonator",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         }
+      ],
+      "resources" : {
+         "beetle" : 67000000,
+         "energy" : 67000000,
+         "halite" : 33500000,
+         "magnetite" : 33500000,
+         "water" : 67000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 24
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 4",
+   "network_19_completion" : "%s use detonator to explode ahead their competitors in the race for Orion technology.",
+   "network_19_headline" : "The race for Orion's technology continues, as more and more get in on the action."
+}

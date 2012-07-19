@@ -8,7 +8,7 @@
       }
    },
    "mission_reward" : {
-      "happiness" : 10000
+      "happiness" : "10000"
    },
    "name" : "Happiness to go!",
    "network_19_completion" : "%s is now a happy empire!",

@@ -15,7 +15,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 150000,
+      "happiness" : "150000",
       "resources" : {
          "beetle" : 25000,
          "milk" : 25000,

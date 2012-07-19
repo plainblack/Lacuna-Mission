@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s provides potato's for chip factory.","max_university_level":"30","description":"We have been experimenting with different food stuffs for a variety of new secondary foods.  One area that we have had success is with putting thin slices of potatoes through our Denton Root Chip factories.  We will call them Starchy Snacks.\n\nWe destroyed all of our root patches and put in potato farms but neglected to import the right insecticides.   The crop is ruined and the newly dubbed starchy snack factories are silent.  We need your potatoes or our economy will be ruined being solely based on snack food production!  \n\nIn exchange we will give you this rare glyph that was recently uncovered while tilling the fields.","mission_objective":{"resources":{"potato":100000}},"name":"One Potato Two Potato","mission_reward":{"glyphs":["trona"]},"network_19_headline":"Potato crop ruined on Sal Guche 4."}
+{
+   "description" : "We have been experimenting with different food stuffs for a variety of new secondary foods.  One area that we have had success is with putting thin slices of potatoes through our Denton Root Chip factories.  We will call them Starchy Snacks.\n\nWe destroyed all of our root patches and put in potato farms but neglected to import the right insecticides.   The crop is ruined and the newly dubbed starchy snack factories are silent.  We need your potatoes or our economy will be ruined being solely based on snack food production!  \n\nIn exchange we will give you this rare glyph that was recently uncovered while tilling the fields.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "potato" : 100000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "trona"
+      ]
+   },
+   "name" : "One Potato Two Potato",
+   "network_19_completion" : "%s provides potato's for chip factory.",
+   "network_19_headline" : "Potato crop ruined on Sal Guche 4."
+}

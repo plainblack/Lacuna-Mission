@@ -1,2 +1,24 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","network_19_headline":"Archeologists keep digging at the Kalavian Ruins, Find additional sublevels!","mission_objective":{"glyphs":["galena","gold","trona"]},"mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::KalavianRuins","extra_build_level":1,"level":1}]},"description":"At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nA team of intrepid archeologists has discovered a second, as yet undiscovered, level to the Kalavian Ruins on Grelbic VI.  As it is known that these buildings are identical, they are willing to share their research with anyone who can come up with funding for their next project.","name":"Upgrade Your Glyph Buildings.","network_19_completion":"%s upgraded Its/Her/His Kalavian Ruins today!"}
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nA team of intrepid archeologists has discovered a second, as yet undiscovered, level to the Kalavian Ruins on Grelbic VI.  As it is known that these buildings are identical, they are willing to share their research with anyone who can come up with funding for their next project.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         "galena",
+         "gold",
+         "trona"
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::KalavianRuins",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings.",
+   "network_19_completion" : "%s upgraded Its/Her/His Kalavian Ruins today!",
+   "network_19_headline" : "Archeologists keep digging at the Kalavian Ruins, Find additional sublevels!"
+}

@@ -10,13 +10,13 @@
    "mission_reward" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Burger",
-            "extra_build_level" : 0,
+            "classname" : "Lacuna::DB::Result::Building::Food::Bread",
+            "extra_build_level" : 1,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Cider",
-            "extra_build_level" : 1,
+            "classname" : "Lacuna::DB::Result::Building::Food::Burger",
+            "extra_build_level" : 0,
             "level" : 1
          },
          {
@@ -30,12 +30,12 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
+            "classname" : "Lacuna::DB::Result::Building::Food::Cider",
             "extra_build_level" : 1,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Bread",
+            "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
             "extra_build_level" : 1,
             "level" : 1
          }

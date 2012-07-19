@@ -1,2 +1,35 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Mirrian Mining's Water Supply problems solved by %s!","max_university_level":"15","network_19_headline":"Terrorists repeat strike against Mirrian Mining's Water Supply!","description":"Once again the terrorists have struck, this time destroying our remaining Water Storage and pumping facilities. We are in desperate need of water.\n\nPlease provide us with plans to rebuild our Water Purification Plant and sufficient water to maintain what's left of our production. In return we will provide rare ores and a plan for a mine.","mission_objective":{"resources":{"water":40000},"plans":[{"classname":"Lacuna::DB::Result::Building::Water::Purification","extra_build_level":0,"level":1}]},"mission_reward":{"resources":{"goethite":10000,"sulfur":10000,"uraninite":10000,"gold":10000},"plans":[{"classname":"Lacuna::DB::Result::Building::Ore::Mine","extra_build_level":5,"level":1}]},"name":"Mirrian Mining Needs Water 2"}
+{
+   "description" : "Once again the terrorists have struck, this time destroying our remaining Water Storage and pumping facilities. We are in desperate need of water.\n\nPlease provide us with plans to rebuild our Water Purification Plant and sufficient water to maintain what's left of our production. In return we will provide rare ores and a plan for a mine.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::Purification",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "water" : 40000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Ore::Mine",
+            "extra_build_level" : 5,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "goethite" : 10000,
+         "gold" : 10000,
+         "sulfur" : 10000,
+         "uraninite" : 10000
+      }
+   },
+   "name" : "Mirrian Mining Needs Water 2",
+   "network_19_completion" : "Mirrian Mining's Water Supply problems solved by %s!",
+   "network_19_headline" : "Terrorists repeat strike against Mirrian Mining's Water Supply!"
+}

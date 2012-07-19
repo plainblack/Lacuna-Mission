@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Intergalactic House of Pancakes (IHOP) faces epic shortage!","network_19_completion":"The Intergalactic House of Pancakes (IHOP) was able to re-open its doors today thanks to the kitchens of %s.","name":"IHOP","mission_objective":{"resources":{"pancake":17500}},"mission_reward":{"plans":[{"level":1,"extra_build_level":5,"classname":"Lacuna::DB::Result::Building::EntertainmentDistrict"}]},"description":"The Intergalactic House of Pancakes (IHOP) needs your help!\n\nA potato blight has hit every one of our potato producing colonies, leaving us in very short supply of pancakes.  If you can make up the following order to help us meet our quota until our newly genetically enhanced pancakes are able to be harvested, we'll be happy to open up a new strip mall on the colony of your choice -- of course with an IHOP franchise as the centerpiece.","max_university_level":"10"}
+{
+   "description" : "The Intergalactic House of Pancakes (IHOP) needs your help!\n\nA potato blight has hit every one of our potato producing colonies, leaving us in very short supply of pancakes.  If you can make up the following order to help us meet our quota until our newly genetically enhanced pancakes are able to be harvested, we'll be happy to open up a new strip mall on the colony of your choice -- of course with an IHOP franchise as the centerpiece.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "pancake" : 17500
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
+            "extra_build_level" : 5,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "IHOP",
+   "network_19_completion" : "The Intergalactic House of Pancakes (IHOP) was able to re-open its doors today thanks to the kitchens of %s.",
+   "network_19_headline" : "Intergalactic House of Pancakes (IHOP) faces epic shortage!"
+}

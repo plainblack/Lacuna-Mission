@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s has furthered their knowledge in the art of recycling.","name":"Waste Management Part 3","mission_objective":{"resources":{"energy":500,"burger":500,"waste":10000,"gold":7500}},"description":"There's a lot more you can do with that waste you generate. Sure you can make pretty art out of it, however, if you squeeze it hard enough it can produce water. I know a consultant who can set you up with one of these fancy machines. However, he also has a steep rate and likes burgers.\n\nCollect 7500 Gold, some burgers, and some basic construction materials in exchange for the consultant giving you plans to a new Water Treatment Center.","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Water::Reclamation","level":1,"extra_build_level":4}]},"max_university_level":"10","network_19_headline":"Waste, waste, waste, it's bad for the planet....the more you make, the more you can recycle!"}
+{
+   "description" : "There's a lot more you can do with that waste you generate. Sure you can make pretty art out of it, however, if you squeeze it hard enough it can produce water. I know a consultant who can set you up with one of these fancy machines. However, he also has a steep rate and likes burgers.\n\nCollect 7500 Gold, some burgers, and some basic construction materials in exchange for the consultant giving you plans to a new Water Treatment Center.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "burger" : 500,
+         "energy" : 500,
+         "gold" : 7500,
+         "waste" : 10000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
+            "extra_build_level" : 4,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Waste Management Part 3",
+   "network_19_completion" : "%s has furthered their knowledge in the art of recycling.",
+   "network_19_headline" : "Waste, waste, waste, it's bad for the planet....the more you make, the more you can recycle!"
+}

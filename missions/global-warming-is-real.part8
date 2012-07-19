@@ -13,6 +13,14 @@
    "mission_reward" : {
       "ships" : [
          {
+            "combat" : 2500,
+            "hold_size" : 0,
+            "name" : "Calderaan Colony",
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "colony_ship"
+         },
+         {
             "combat" : 0,
             "hold_size" : 0,
             "name" : "Calderaan Probe",
@@ -43,14 +51,6 @@
             "speed" : 10000,
             "stealth" : 0,
             "type" : "stake"
-         },
-         {
-            "combat" : 2500,
-            "hold_size" : 0,
-            "name" : "Calderaan Colony",
-            "speed" : 1500,
-            "stealth" : 0,
-            "type" : "colony_ship"
          }
       ]
    },

@@ -1,2 +1,28 @@
 # config-file-type: JSON 1
-{"network_19_completion":"CEZC successfully negotiates peace with Argish empire. Committee Chair lauds %s for last-minute help.","max_university_level":"19","mission_objective":{"resources":{"soup":5000,"cheese":5000,"shake":5000,"bread":5000,"cider":5000,"pancake":5000,"apple":5000,"syrup":5000,"burger":5000,"pie":5000,"root":5000}},"description":"Vice chairman Ellis from the Civic Enterprise Zone Committee (CEZC) is struggling to persuade an alien race known as the Argish to see that membership in the Zone would be the ideal for their long-term development objectives, but the meeting isn't going as planned. The CZEC delegation needs a selection of good foods to win over the representatives of Argish. They're willing to provide a golden glyph in exchange for the right selection of fine foodstuffs.","mission_reward":{"glyphs":["gold"]},"name":"Encouraging Civic Expansion","network_19_headline":"Contract talks break down between the Argish an the Civic Enterprise Zone Committee."}
+{
+   "description" : "Vice chairman Ellis from the Civic Enterprise Zone Committee (CEZC) is struggling to persuade an alien race known as the Argish to see that membership in the Zone would be the ideal for their long-term development objectives, but the meeting isn't going as planned. The CZEC delegation needs a selection of good foods to win over the representatives of Argish. They're willing to provide a golden glyph in exchange for the right selection of fine foodstuffs.",
+   "max_university_level" : "19",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 5000,
+         "bread" : 5000,
+         "burger" : 5000,
+         "cheese" : 5000,
+         "cider" : 5000,
+         "pancake" : 5000,
+         "pie" : 5000,
+         "root" : 5000,
+         "shake" : 5000,
+         "soup" : 5000,
+         "syrup" : 5000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "gold"
+      ]
+   },
+   "name" : "Encouraging Civic Expansion",
+   "network_19_completion" : "CEZC successfully negotiates peace with Argish empire. Committee Chair lauds %s for last-minute help.",
+   "network_19_headline" : "Contract talks break down between the Argish an the Civic Enterprise Zone Committee."
+}

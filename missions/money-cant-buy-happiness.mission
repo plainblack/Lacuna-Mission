@@ -11,7 +11,7 @@
       }
    },
    "mission_reward" : {
-      "happiness" : 10000
+      "happiness" : "10000"
    },
    "name" : "Money cant buy happiness",
    "network_19_completion" : "%s just gave a bribe to residents!",

@@ -21,6 +21,30 @@
             }
          },
          {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "any",
+               "in_zone" : 1,
+               "type" : "star"
+            }
+         },
+         {
             "ship_type" : "scanner",
             "target" : {
                "in_zone" : 1,
@@ -44,30 +68,6 @@
                   121
                ],
                "type" : "habitable"
-            }
-         },
-         {
-            "ship_type" : "probe",
-            "target" : {
-               "color" : "any",
-               "in_zone" : 1,
-               "type" : "star"
-            }
-         },
-         {
-            "ship_type" : "probe",
-            "target" : {
-               "color" : "any",
-               "in_zone" : 1,
-               "type" : "star"
-            }
-         },
-         {
-            "ship_type" : "probe",
-            "target" : {
-               "color" : "any",
-               "in_zone" : 1,
-               "type" : "star"
             }
          },
          {
@@ -99,7 +99,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 100000,
+      "happiness" : "100000",
       "ships" : [
          {
             "combat" : 2000,

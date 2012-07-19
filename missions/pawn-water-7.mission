@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"max_university_level":"7","mission_reward":{"resources":{"water":20000}},"network_19_headline":"Pawn Lacuna wants to unload some water.","description":"Hello there. A new employee took in this water as a pawn. I was not here to approve the sale, but here it is. 20,000 units of water. Our shop is not set up to store this stuff. So I am making it available for some minerals that are more in demand to our discerning customer base. What do you say?","network_19_completion":"Another happy Pawn Lacuna customer has enough water to meet its needs.","name":"Water at Pawn Lacuna","mission_objective":{"resources":{"chromite":5000,"gold":5000,"fungus":3000}}}
+{
+   "description" : "Hello there. A new employee took in this water as a pawn. I was not here to approve the sale, but here it is. 20,000 units of water. Our shop is not set up to store this stuff. So I am making it available for some minerals that are more in demand to our discerning customer base. What do you say?",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 5000,
+         "fungus" : 3000,
+         "gold" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "water" : 20000
+      }
+   },
+   "name" : "Water at Pawn Lacuna",
+   "network_19_completion" : "Another happy Pawn Lacuna customer has enough water to meet its needs.",
+   "network_19_headline" : "Pawn Lacuna wants to unload some water."
+}

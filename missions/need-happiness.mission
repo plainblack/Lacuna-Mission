@@ -3,7 +3,7 @@
    "description" : "We ran outta depression pills. And we're broke.How could this get worse? We have ships to trade for them but the drug factory said they don't take ships.We hate ships. Especially mining ships.Blah,we hate everything. It's all so dull. So would you care to take this ship? And you have any depression pills? We can make some if you throw in some root. Bad day to you just like all the rest of us.",
    "max_university_level" : "15",
    "mission_objective" : {
-      "happiness" : 20000,
+      "happiness" : "20000",
       "resources" : {
          "root" : 150000
       }

@@ -10,22 +10,6 @@
             "name" : "",
             "speed" : 0,
             "stealth" : 0,
-            "type" : "snark"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "snark"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
             "type" : "drone"
          },
          {
@@ -83,6 +67,22 @@
             "speed" : 0,
             "stealth" : 0,
             "type" : "scanner"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "snark"
          }
       ]
    },

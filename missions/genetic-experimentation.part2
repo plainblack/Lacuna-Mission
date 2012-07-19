@@ -1,2 +1,19 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Scientists inside lacuna laboratories presumed dead, mutant lapis considered the culprit.","network_19_completion":"Mutated lapis contained by %s.","description":"Well, it looks like the scientists newly created device known as the..\"microwave\" has caused their experiment to backfire, the apples were indeed mutated into lapis, but it would seem that the radiation caused extra unforeseen consequences, causing them to grow multiple legs, and sprout two massive orifices, one of which sprays a digestive liquid with the same properties as sulfuric acid, and the other seems to be used to consume the prey once it is done predigesting it,  I'm not gonna lie to you, this is going to leave you with some nightmares, but it has to be done for the good for the expanse, they're extremely susceptible to radiation, and one more thing..\n\nThey seem attracted to cheese...","mission_objective":{"resources":{"cheese":10000,"uraninite":5000}},"name":"Genetic Experimentation Part 2","mission_reward":{"resources":{"lapis":20000}},"max_university_level":"9"}
+{
+   "description" : "Well, it looks like the scientists newly created device known as the..\"microwave\" has caused their experiment to backfire, the apples were indeed mutated into lapis, but it would seem that the radiation caused extra unforeseen consequences, causing them to grow multiple legs, and sprout two massive orifices, one of which sprays a digestive liquid with the same properties as sulfuric acid, and the other seems to be used to consume the prey once it is done predigesting it,  I'm not gonna lie to you, this is going to leave you with some nightmares, but it has to be done for the good for the expanse, they're extremely susceptible to radiation, and one more thing..\n\nThey seem attracted to cheese...",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "cheese" : 10000,
+         "uraninite" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "lapis" : 20000
+      }
+   },
+   "name" : "Genetic Experimentation Part 2",
+   "network_19_completion" : "Mutated lapis contained by %s.",
+   "network_19_headline" : "Scientists inside lacuna laboratories presumed dead, mutant lapis considered the culprit."
+}

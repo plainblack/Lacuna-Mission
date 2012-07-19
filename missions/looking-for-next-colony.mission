@@ -1,2 +1,92 @@
 # config-file-type: JSON 1
-{"mission_objective":{"fleet_movement":[{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"scanner"},{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"scanner"},{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"scanner"},{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"scanner"},{"target":{"inhabited":0,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"scanner"}]},"name":"Looking For Next Colony","mission_reward":{"resources":{"shake":4000,"cider":4000,"pie":4000,"chip":4000,"burger":4000,"bread":4000,"syrup":4000,"pancake":4000,"meal":4000,"soup":4000,"cheese":4000}},"network_19_headline":"Fledgling society seeks additional colony.","network_19_completion":"%s helped fledgling society find new planet to colonize.","max_university_level":"7","description":"We are a peaceful farming culture. We have preferred the simple life over the hustle and bustle of high technology. However, after many generations we have outgrown our world. We need to find an additional world to settle, so that we can continue our ways with room to grow. Unfortunately we do not possess the technology to survey possible new planets, which is where you come in. We need you to scout possible new locations for us. We have five potential target planets. Send a scanner to each. In return we will reward you with the rich bounty of our society."}
+{
+   "description" : "We are a peaceful farming culture. We have preferred the simple life over the hustle and bustle of high technology. However, after many generations we have outgrown our world. We need to find an additional world to settle, so that we can continue our ways with room to grow. Unfortunately we do not possess the technology to survey possible new planets, which is where you come in. We need you to scout possible new locations for us. We have five potential target planets. Send a scanner to each. In return we will reward you with the rich bounty of our society.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         },
+         {
+            "ship_type" : "scanner",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bread" : 4000,
+         "burger" : 4000,
+         "cheese" : 4000,
+         "chip" : 4000,
+         "cider" : 4000,
+         "meal" : 4000,
+         "pancake" : 4000,
+         "pie" : 4000,
+         "shake" : 4000,
+         "soup" : 4000,
+         "syrup" : 4000
+      }
+   },
+   "name" : "Looking For Next Colony",
+   "network_19_completion" : "%s helped fledgling society find new planet to colonize.",
+   "network_19_headline" : "Fledgling society seeks additional colony."
+}

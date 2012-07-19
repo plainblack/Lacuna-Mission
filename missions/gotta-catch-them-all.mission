@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s helped keep local children happy.","max_university_level":"30","description":"Beetles Beetles everywhere, in every size shape and color.  Do you have yours yet?  With over 2000 known variations of Beetles this craze won't be ending any time soon!  \n\nDo you know the only problem with all the kids wanting our Beetles?  They are our main food source.  Send us your Beetles and other foods and we will reward you with this shiny Chromite Glyph!","mission_objective":{"resources":{"corn":20000,"lapis":20000,"fungus":20000,"beetle":25000,"algae":20000}},"name":"Gotta Catch Them All","mission_reward":{"glyphs":["chromite"]},"network_19_headline":"Beetle trading grips local youth."}
+{
+   "description" : "Beetles Beetles everywhere, in every size shape and color.  Do you have yours yet?  With over 2000 known variations of Beetles this craze won't be ending any time soon!  \n\nDo you know the only problem with all the kids wanting our Beetles?  They are our main food source.  Send us your Beetles and other foods and we will reward you with this shiny Chromite Glyph!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 20000,
+         "beetle" : 25000,
+         "corn" : 20000,
+         "fungus" : 20000,
+         "lapis" : 20000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "chromite"
+      ]
+   },
+   "name" : "Gotta Catch Them All",
+   "network_19_completion" : "%s helped keep local children happy.",
+   "network_19_headline" : "Beetle trading grips local youth."
+}

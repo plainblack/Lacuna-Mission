@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":1950000000,"halite":997500000,"energy":1950000000,"magnetite":997500000,"beetle":1950000000}},"mission_reward":{"plans":[{"level":30,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"Sir. We believe we've cracked the signal in the wave pattern being emitted from the Orion system we discovered. We have reason to believe that the Orion themselves are communicating with us. The Xenolinguistics team require vast funds in order to construct a post quantum decryption device capable of manipulating the wave signal in real-time. What we have already decoded indicates that the Orion may be trying to transmit plans for their hive command and control center. Either that, or some means of creating matter from energy or vice versa. Without the post-quantum decryption device we are likely experience the heat death of the universe before we finish decoding the signal.\n\nSome of our researchers have reservations. They believe by processing the signal, we will be replicating and multiplying that specific wavelength throughout the Expanse. Reports suggest  that this wave pattern may have something to do with how they reproduce in their sublimed pure-energy form. Please weigh the risks and consider the possibilities should the Orion's intent be less than charitable.","network_19_headline":"Communications from the Sublimed? Will the Orion return? Blessing or Curse?","network_19_completion":"The sublimed Orions have shared secrets with %s!","name":"Legacy of Orion 10","max_university_level":"30"}
+{
+   "description" : "Sir. We believe we've cracked the signal in the wave pattern being emitted from the Orion system we discovered. We have reason to believe that the Orion themselves are communicating with us. The Xenolinguistics team require vast funds in order to construct a post quantum decryption device capable of manipulating the wave signal in real-time. What we have already decoded indicates that the Orion may be trying to transmit plans for their hive command and control center. Either that, or some means of creating matter from energy or vice versa. Without the post-quantum decryption device we are likely experience the heat death of the universe before we finish decoding the signal.\n\nSome of our researchers have reservations. They believe by processing the signal, we will be replicating and multiplying that specific wavelength throughout the Expanse. Reports suggest  that this wave pattern may have something to do with how they reproduce in their sublimed pure-energy form. Please weigh the risks and consider the possibilities should the Orion's intent be less than charitable.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "beetle" : 1950000000,
+         "energy" : 1950000000,
+         "halite" : 997500000,
+         "magnetite" : 997500000,
+         "water" : 1950000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 30
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 10",
+   "network_19_completion" : "The sublimed Orions have shared secrets with %s!",
+   "network_19_headline" : "Communications from the Sublimed? Will the Orion return? Blessing or Curse?"
+}

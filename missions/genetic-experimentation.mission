@@ -1,2 +1,19 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Scientists at the Lacuna Expanse Laboratories need testing samples for their newest experiment.","network_19_completion":"Scientists successfully turn Apples into Lapis using controlled radiation mutation.","description":"Scientists at the Lacuna Expanse Laboratories have begun an ambitious project to convert apples into lapis, to do so they are attempting to genetically mutate them using radiation in a special device never before seen in the expanse known as a kitchen microwave, to do so, they need a massive amount of the radioactive element known as Uraninite, they will subsequently mix them both into a fine paste and put them in this...\"microwave\" with a metal fork balanced in the direct middle of it to channel the radiation, if it works, the result will be one of the most stunning breakthroughs in the history of modern science.","mission_objective":{"resources":{"apple":2000,"uraninite":1000}},"name":"Genetic Experimentation Part 1","mission_reward":{"resources":{"lapis":5000}},"max_university_level":"5"}
+{
+   "description" : "Scientists at the Lacuna Expanse Laboratories have begun an ambitious project to convert apples into lapis, to do so they are attempting to genetically mutate them using radiation in a special device never before seen in the expanse known as a kitchen microwave, to do so, they need a massive amount of the radioactive element known as Uraninite, they will subsequently mix them both into a fine paste and put them in this...\"microwave\" with a metal fork balanced in the direct middle of it to channel the radiation, if it works, the result will be one of the most stunning breakthroughs in the history of modern science.",
+   "max_university_level" : "5",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 2000,
+         "uraninite" : 1000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "lapis" : 5000
+      }
+   },
+   "name" : "Genetic Experimentation Part 1",
+   "network_19_completion" : "Scientists successfully turn Apples into Lapis using controlled radiation mutation.",
+   "network_19_headline" : "Scientists at the Lacuna Expanse Laboratories need testing samples for their newest experiment."
+}

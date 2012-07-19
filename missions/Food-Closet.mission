@@ -1,2 +1,22 @@
 # config-file-type: JSON 1
-{"mission_reward":{"resources":{"halite":10000,"gold":2500}},"network_19_headline":"Bring in your cans of food, guaranteed tax write-off!","description":"The Fall Harvest Festival is always in season on some planet int he Expanse.  Thousands of families are without food.  Won't you please give!  Even just a small amount? We only ask what everyone can give.  In return, we will give you a tax write-off and a special holiday blend of gourmet salts.","network_19_completion":"Fall Harvest Food Drive a success.  %s has contributed so won't you consider doing so, also?","name":"Food Closet","max_university_level":"12","mission_objective":{"resources":{"algae":2500,"fungus":2500,"burger":2500,"syrup":2500}}}
+{
+   "description" : "The Fall Harvest Festival is always in season on some planet int he Expanse.  Thousands of families are without food.  Won't you please give!  Even just a small amount? We only ask what everyone can give.  In return, we will give you a tax write-off and a special holiday blend of gourmet salts.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 2500,
+         "burger" : 2500,
+         "fungus" : 2500,
+         "syrup" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 2500,
+         "halite" : 10000
+      }
+   },
+   "name" : "Food Closet",
+   "network_19_completion" : "Fall Harvest Food Drive a success.  %s has contributed so won't you consider doing so, also?",
+   "network_19_headline" : "Bring in your cans of food, guaranteed tax write-off!"
+}

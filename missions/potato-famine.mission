@@ -1,2 +1,29 @@
 # config-file-type: JSON 1
-{"max_university_level":"15","network_19_headline":"Potato famine hits New Ireland after the escape of a genetically altered virus. Appeal for help.","description":"Scientists experimenting on the old Earth potato virus accidentally allowed the genetically altered virus to escape. Reports just coming in say that the annual potato harvest of New Ireland has been totally destroyed by the genetically altered virus.\n\nThe scientists involved have since been locked in a maximum security prison and fed on a diet of rotten potatoes.\n\nMeanwhile government advisers say that the only solution to this disaster is an aid drop of alternative food stocks (not potato).\n\nPlease help us to support our soup kitchens. If you can supply us with 1000 apples, 1000 bread and 1000 soup then we will send you plans for a beach front and a grove of trees.\n\nWe know it is not much reward, but we hope you can sit under the trees, on your beach front property and be content that you have helped the population of New Ireland in this dire emergency.","network_19_completion":"Potato famine averted thanks to the aid of %s. Millions thankful.","name":"Potato famine","mission_objective":{"resources":{"apple":1000,"soup":1000,"bread":1000}},"mission_reward":{"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::Beach1","extra_build_level":0},{"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::Grove","extra_build_level":0}]}}
+{
+   "description" : "Scientists experimenting on the old Earth potato virus accidentally allowed the genetically altered virus to escape. Reports just coming in say that the annual potato harvest of New Ireland has been totally destroyed by the genetically altered virus.\n\nThe scientists involved have since been locked in a maximum security prison and fed on a diet of rotten potatoes.\n\nMeanwhile government advisers say that the only solution to this disaster is an aid drop of alternative food stocks (not potato).\n\nPlease help us to support our soup kitchens. If you can supply us with 1000 apples, 1000 bread and 1000 soup then we will send you plans for a beach front and a grove of trees.\n\nWe know it is not much reward, but we hope you can sit under the trees, on your beach front property and be content that you have helped the population of New Ireland in this dire emergency.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 1000,
+         "bread" : 1000,
+         "soup" : 1000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Potato famine",
+   "network_19_completion" : "Potato famine averted thanks to the aid of %s. Millions thankful.",
+   "network_19_headline" : "Potato famine hits New Ireland after the escape of a genetically altered virus. Appeal for help."
+}

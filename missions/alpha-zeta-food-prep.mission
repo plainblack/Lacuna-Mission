@@ -62,12 +62,12 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Pie",
+            "classname" : "Lacuna::DB::Result::Building::Food::Pancake",
             "extra_build_level" : 0,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Food::Pancake",
+            "classname" : "Lacuna::DB::Result::Building::Food::Pie",
             "extra_build_level" : 0,
             "level" : 1
          },

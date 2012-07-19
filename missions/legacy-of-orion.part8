@@ -1,2 +1,41 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"water":625000000,"halite":312500000,"energy":625000000,"magnetite":312500000,"beetle":625000000},"fleet_movement":[{"target":{"in_zone":1,"type":"habitable","size":[1,121],"inhabited":0,"isolationist":0},"ship_type":"sweeper"}]},"mission_reward":{"plans":[{"level":28,"classname":"Lacuna::DB::Result::Building::PlanetaryCommand","extra_build_level":0}]},"description":"Sir, the last information that Peter gave us has led to a windfall for our scientists. Within the data, they have discovered a representation of a transdimensional factory and storage system in orbit around a planet in a system we believe we have identified. This system can only be reached via transit through a series of artificial wormholes left behind by the Orion. We will need to invest heavily in a crash research project to adapt a sweeper specifically to function with the Orion transit system. Shall I send a team there to investigate the system?","network_19_headline":"How will the Expanse unlock ancient Orion secrets without Peter Sagefjord?","network_19_completion":"Seems %s has found a way to find out more about the ancient Orions.","name":"Legacy of Orion 8","max_university_level":"30"}
+{
+   "description" : "Sir, the last information that Peter gave us has led to a windfall for our scientists. Within the data, they have discovered a representation of a transdimensional factory and storage system in orbit around a planet in a system we believe we have identified. This system can only be reached via transit through a series of artificial wormholes left behind by the Orion. We will need to invest heavily in a crash research project to adapt a sweeper specifically to function with the Orion transit system. Shall I send a team there to investigate the system?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "sweeper",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "resources" : {
+         "beetle" : 625000000,
+         "energy" : 625000000,
+         "halite" : 312500000,
+         "magnetite" : 312500000,
+         "water" : 625000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
+            "extra_build_level" : 0,
+            "level" : 28
+         }
+      ]
+   },
+   "name" : "Legacy of Orion 8",
+   "network_19_completion" : "Seems %s has found a way to find out more about the ancient Orions.",
+   "network_19_headline" : "How will the Expanse unlock ancient Orion secrets without Peter Sagefjord?"
+}

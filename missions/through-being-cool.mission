@@ -1,2 +1,31 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Someone is breaking from the stress.","network_19_completion":"%s lashed out at neighbors!","name":"Through being Cool","mission_objective":{"happiness":50000,"fleet_movement":[{"ship_type":"snark","target":{"in_zone":1,"isolationist":0,"inhabited":1,"type":"habitable","size":[1,121]}}]},"mission_reward":{"glyphs":["kerogen"]},"max_university_level":"30","description":"You know they're watching you and recording all your plans.  They might have spies on your planet now!  While they're distracted, we'll have a spy grab a glyph off their planet."}
+{
+   "description" : "You know they're watching you and recording all your plans.  They might have spies on your planet now!  While they're distracted, we'll have a spy grab a glyph off their planet.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "snark",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "happiness" : "50000"
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "kerogen"
+      ]
+   },
+   "name" : "Through being Cool",
+   "network_19_completion" : "%s lashed out at neighbors!",
+   "network_19_headline" : "Someone is breaking from the stress."
+}

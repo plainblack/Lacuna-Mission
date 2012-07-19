@@ -35,11 +35,6 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Water::Production",
-            "extra_build_level" : 5,
-            "level" : 1
-         },
-         {
             "classname" : "Lacuna::DB::Result::Building::Ore::Mine",
             "extra_build_level" : 5,
             "level" : 1
@@ -51,6 +46,11 @@
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Ore::Refinery",
+            "extra_build_level" : 5,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Water::Production",
             "extra_build_level" : 5,
             "level" : 1
          }

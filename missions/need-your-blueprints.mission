@@ -10,12 +10,12 @@
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
+            "classname" : "Lacuna::DB::Result::Building::Embassy",
             "extra_build_level" : 0,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Embassy",
+            "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
             "extra_build_level" : 0,
             "level" : 1
          }

@@ -1,2 +1,16 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"gold":75000}},"mission_reward":{"happiness":25000},"description":"The Pleasure Planet, Grillieshka, is seeking new average citizen clients.  Discretion and pleasure guaranteed.","network_19_headline":"Pleasure Planet Grillieshka Seeking Average Clients.","network_19_completion":"What happens on Grillieshka stays on Grillieshka (TM) [in their computers, naturally].","name":"Happiness Costs - Bargain","max_university_level":"30"}
+{
+   "description" : "The Pleasure Planet, Grillieshka, is seeking new average citizen clients.  Discretion and pleasure guaranteed.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 75000
+      }
+   },
+   "mission_reward" : {
+      "happiness" : "25000"
+   },
+   "name" : "Happiness Costs - Bargain",
+   "network_19_completion" : "What happens on Grillieshka stays on Grillieshka (TM) [in their computers, naturally].",
+   "network_19_headline" : "Pleasure Planet Grillieshka Seeking Average Clients."
+}

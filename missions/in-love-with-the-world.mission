@@ -16,6 +16,7 @@
          {
             "combat" : 0,
             "hold_size" : 15000,
+            "name" : "",
             "speed" : 5000,
             "stealth" : 0,
             "type" : "dory"

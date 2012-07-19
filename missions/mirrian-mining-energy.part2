@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s helps Mirrian Mining avoid energy Crisis!","max_university_level":"15","network_19_headline":"Mirrian Mining Energy Crisis reaches Critical Proportions!","description":"The recent weather that destroyed a power plant at one of our mines has worsened. We have been unable to rebuild the power plant and energy reserves are at a critical level. The situation is deteriorating rapidly and a swift response is required to prevent a tragic loss of life and property.\n\nPlease provide us with sufficient power to support our facility while we wait out the worst of the weather and we will pay you in ore.","mission_objective":{"resources":{"energy":30000}},"mission_reward":{"resources":{"halite":15000,"galena":15000,"uraninite":7500}},"name":"Mirrian Mining Energy 2"}
+{
+   "description" : "The recent weather that destroyed a power plant at one of our mines has worsened. We have been unable to rebuild the power plant and energy reserves are at a critical level. The situation is deteriorating rapidly and a swift response is required to prevent a tragic loss of life and property.\n\nPlease provide us with sufficient power to support our facility while we wait out the worst of the weather and we will pay you in ore.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 30000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "galena" : 15000,
+         "halite" : 15000,
+         "uraninite" : 7500
+      }
+   },
+   "name" : "Mirrian Mining Energy 2",
+   "network_19_completion" : "%s helps Mirrian Mining avoid energy Crisis!",
+   "network_19_headline" : "Mirrian Mining Energy Crisis reaches Critical Proportions!"
+}

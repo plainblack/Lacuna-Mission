@@ -1,2 +1,26 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","network_19_headline":"Look here!  An even DEEPER Ravine to store that waste you just never seem to get around to recycling!","mission_objective":{"glyphs":["fluorite","galena","goethite","methane","zircon"]},"mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::Ravine","extra_build_level":1,"level":1}]},"description":"At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nThe Expanse is knee deep in Waste - here is your chance to get out from under.  Find your Ravine filling up?  These plans will help!","name":"Upgrade Your Glyph Building.","network_19_completion":"%s upgraded Its/Her/His Ravine today!"}
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nThe Expanse is knee deep in Waste - here is your chance to get out from under.  Find your Ravine filling up?  These plans will help!",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         "fluorite",
+         "galena",
+         "goethite",
+         "methane",
+         "zircon"
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Ravine",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Building.",
+   "network_19_completion" : "%s upgraded Its/Her/His Ravine today!",
+   "network_19_headline" : "Look here!  An even DEEPER Ravine to store that waste you just never seem to get around to recycling!"
+}

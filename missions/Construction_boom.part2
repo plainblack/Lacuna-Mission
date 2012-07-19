@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"10","mission_objective":{"resources":{"gypsum":2000}},"description":"I finally got this factory retrofitted to produce drywall, but in my excitement I forgot to order raw materials. I need your help. If you can fulfill this order I will make it worth your while.","mission_reward":{"resources":{"gold":2500}},"network_19_headline":"New drywall factory offline due to raw material shortage.","network_19_completion":"Drywall factory finally meeting demand.","name":"Construction Boom-Production"}
+{
+   "description" : "I finally got this factory retrofitted to produce drywall, but in my excitement I forgot to order raw materials. I need your help. If you can fulfill this order I will make it worth your while.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "gypsum" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 2500
+      }
+   },
+   "name" : "Construction Boom-Production",
+   "network_19_completion" : "Drywall factory finally meeting demand.",
+   "network_19_headline" : "New drywall factory offline due to raw material shortage."
+}

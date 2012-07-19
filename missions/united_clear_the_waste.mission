@@ -3,7 +3,7 @@
    "description" : "You may experience what happens when your scows go on long trips and you got stuck of trash, right? Get your people to sort the trash to get rid of it. In addition, we'll get you another hole to dump it into. Never skip this great bargain to deal with waste which you will soon find troublesome, and remember us! ;)",
    "max_university_level" : "9",
    "mission_objective" : {
-      "happiness" : 10000
+      "happiness" : "10000"
    },
    "mission_reward" : {
       "plans" : [

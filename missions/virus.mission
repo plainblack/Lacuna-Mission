@@ -20,7 +20,7 @@
       ]
    },
    "mission_reward" : {
-      "happiness" : 4000
+      "happiness" : "4000"
    },
    "name" : "Virus",
    "network_19_completion" : "The Quarantined Workers Have Been Rescued And Returned To Their Colony!",

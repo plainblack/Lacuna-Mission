@@ -1,2 +1,19 @@
 # config-file-type: JSON 1
-{"max_university_level":"13","mission_objective":{"resources":{"fluorite":5000,"uraninite":5000}},"description":"<tap tap> \nAre you ready?\n//yes sir.//\n\nHelp! Mayday! Save our souls.\n \n<Cough cough>\nI know your listening, we need your help again. \nAs I said before, the previous administration ignored the warning signs for too long and now global warming has altered our climate so much that the air is polluted and my people are having trouble breathing.  Please send us supplies for our over-burdened air purifiers and we will reward you nicely.\n\nThis is Generalissimo, umm, Presidentio Frankenfurter. Over.\n\n<crackle snap snick>\nHow much longer can this siege last?  If it doesn’t stop soon we're going to have to start offering some of our alien tech for supplies and...\n// SIR! The microphone is still on! //\n<zzzzzzzbbkt!>\u0013","mission_reward":{"resources":{"gold":12500}},"network_19_headline":"Local isolationist pleas for additional help as global warming pollutes their air.","network_19_completion":"Philanthropist %s has delivered air purification supplies to Presidentio Frankenfurter's regime.","name":"Global warming is really bad."}
+{
+   "description" : "<tap tap> \nAre you ready?\n//yes sir.//\n\nHelp! Mayday! Save our souls.\n \n<Cough cough>\nI know your listening, we need your help again. \nAs I said before, the previous administration ignored the warning signs for too long and now global warming has altered our climate so much that the air is polluted and my people are having trouble breathing.  Please send us supplies for our over-burdened air purifiers and we will reward you nicely.\n\nThis is Generalissimo, umm, Presidentio Frankenfurter. Over.\n\n<crackle snap snick>\nHow much longer can this siege last?  If it doesn’t stop soon we're going to have to start offering some of our alien tech for supplies and...\n// SIR! The microphone is still on! //\n<zzzzzzzbbkt!>\u0013",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "fluorite" : 5000,
+         "uraninite" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 12500
+      }
+   },
+   "name" : "Global warming is really bad.",
+   "network_19_completion" : "Philanthropist %s has delivered air purification supplies to Presidentio Frankenfurter's regime.",
+   "network_19_headline" : "Local isolationist pleas for additional help as global warming pollutes their air."
+}

@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s has successfully aided in exterminating Gnomes.","max_university_level":"10","mission_objective":{"resources":{"milk":2500}},"description":"As the battle for left footed socks continues...\n\nThe Gnomes didn't fall for it.  All they did was fill their stolen socks with apples and run!  \n\nWe have also heard that the Gnomes like cookies and milk.  We don't have enough milk for all the cookies we have in storage. We are once again in need of your assistance.\n\nIn exchange for your 2.5K units of milk we offer 5K units of water.","mission_reward":{"resources":{"water":5000}},"name":"Sock Gnome Hunt Part 2","network_19_headline":"The Great Gnome Hunt Continues."}
+{
+   "description" : "As the battle for left footed socks continues...\n\nThe Gnomes didn't fall for it.  All they did was fill their stolen socks with apples and run!  \n\nWe have also heard that the Gnomes like cookies and milk.  We don't have enough milk for all the cookies we have in storage. We are once again in need of your assistance.\n\nIn exchange for your 2.5K units of milk we offer 5K units of water.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "milk" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "water" : 5000
+      }
+   },
+   "name" : "Sock Gnome Hunt Part 2",
+   "network_19_completion" : "%s has successfully aided in exterminating Gnomes.",
+   "network_19_headline" : "The Great Gnome Hunt Continues."
+}

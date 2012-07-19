@@ -1,2 +1,36 @@
 # config-file-type: JSON 1
-{"mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Observatory","level":6,"extra_build_level":0},{"classname":"Lacuna::DB::Result::Building::Observatory","level":7,"extra_build_level":0}]},"network_19_headline":"Color specific probe needed by fashion designer.","description":"Hi honey.  I need a color sample from a magenta star and your planet is ideally suited for the angle of approach.  So I need you to send a probe out and I'll get one of the boys in the science department to get you plans to make a better observatory.","network_19_completion":"Magenta is the new Pink!","name":"Magenta Probe","max_university_level":"10","mission_objective":{"fleet_movement":[{"ship_type":"probe","target":{"isolationist":0,"in_zone":1,"type":"star","color":"magenta","inhabited":0}}]}}
+{
+   "description" : "Hi honey.  I need a color sample from a magenta star and your planet is ideally suited for the angle of approach.  So I need you to send a probe out and I'll get one of the boys in the science department to get you plans to make a better observatory.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "probe",
+            "target" : {
+               "color" : "magenta",
+               "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
+               "type" : "star"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Observatory",
+            "extra_build_level" : 0,
+            "level" : 6
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Observatory",
+            "extra_build_level" : 0,
+            "level" : 7
+         }
+      ]
+   },
+   "name" : "Magenta Probe",
+   "network_19_completion" : "Magenta is the new Pink!",
+   "network_19_headline" : "Color specific probe needed by fashion designer."
+}

@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Farmers on distant Grek'lacch 4 need fertilizer.","network_19_completion":"Farms on Grek'lacch 4 producing again thanks to %s.","description":"Grek'lacch!  Stirs memories.  Days out under the twin suns.  Sunsets over Lake Bool.  Ah, youth.\n\nSeriously, the farmers in my home town are having trouble scraping together enough Trona to get the plants to size before harvest.  They are willing to pay top dollar for modest amounts of this common but locally unavailable mineral.  This is a good deal for a budding trader in the Expanse!  Free shipping, both ways!","mission_objective":{"resources":{"trona":10000}},"name":"Farmington","mission_reward":{"resources":{"halite":15000}},"max_university_level":"7"}
+{
+   "description" : "Grek'lacch!  Stirs memories.  Days out under the twin suns.  Sunsets over Lake Bool.  Ah, youth.\n\nSeriously, the farmers in my home town are having trouble scraping together enough Trona to get the plants to size before harvest.  They are willing to pay top dollar for modest amounts of this common but locally unavailable mineral.  This is a good deal for a budding trader in the Expanse!  Free shipping, both ways!",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "trona" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "halite" : 15000
+      }
+   },
+   "name" : "Farmington",
+   "network_19_completion" : "Farms on Grek'lacch 4 producing again thanks to %s.",
+   "network_19_headline" : "Farmers on distant Grek'lacch 4 need fertilizer."
+}

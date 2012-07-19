@@ -9,7 +9,7 @@
       }
    },
    "mission_reward" : {
-      "happiness" : 50000
+      "happiness" : "50000"
    },
    "name" : "Donations to the poor and holy",
    "network_19_completion" : "A generous donation has been given to a band of begging blind space monks which will boost the emperors popularity.",

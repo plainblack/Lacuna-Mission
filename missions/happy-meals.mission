@@ -11,32 +11,32 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 18000,
-            "name" : "",
-            "speed" : 1500,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 18000,
-            "name" : "",
-            "speed" : 1500,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
             "hold_size" : 75000,
             "name" : "",
             "speed" : 1200,
             "stealth" : 0,
             "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 18000,
+            "name" : "",
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 18000,
+            "name" : "",
+            "speed" : 1500,
+            "stealth" : 0,
+            "type" : "dory"
          }
       ]
    },
    "mission_reward" : {
-      "happiness" : 20000,
+      "happiness" : "20000",
       "ships" : []
    },
    "name" : "Happy Meals",

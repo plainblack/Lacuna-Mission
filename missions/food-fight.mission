@@ -1,2 +1,24 @@
 # config-file-type: JSON 1
-{"max_university_level":"8","mission_reward":{"resources":{"meal":2000},"happiness":2000},"network_19_headline":"The cafeteria at Tau Ceti University has descended into chaos in a massive food fight!  Who will stop the madness?","description":"A massive food fight has broken out in the Tau Ceti University campus.  The tentacled students from Grobulon seem to have the upper hand, so to speak.  We need you to help fight back on the side of your species!  Grab some food and enter the fray.  You'll probably be able to loot some of the cafeteria's supplies before it's over.","network_19_completion":"We have reports from T.C.U. that %s waded into the food  fight and emerged victorious with well-aimed throws.","name":"Food fight!","mission_objective":{"resources":{"fungus":200,"apple":200,"potato":200,"algae":200,"wheat":200,"bean":200}}}
+{
+   "description" : "A massive food fight has broken out in the Tau Ceti University campus.  The tentacled students from Grobulon seem to have the upper hand, so to speak.  We need you to help fight back on the side of your species!  Grab some food and enter the fray.  You'll probably be able to loot some of the cafeteria's supplies before it's over.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 200,
+         "apple" : 200,
+         "bean" : 200,
+         "fungus" : 200,
+         "potato" : 200,
+         "wheat" : 200
+      }
+   },
+   "mission_reward" : {
+      "happiness" : "2000",
+      "resources" : {
+         "meal" : 2000
+      }
+   },
+   "name" : "Food fight!",
+   "network_19_completion" : "We have reports from T.C.U. that %s waded into the food  fight and emerged victorious with well-aimed throws.",
+   "network_19_headline" : "The cafeteria at Tau Ceti University has descended into chaos in a massive food fight!  Who will stop the madness?"
+}

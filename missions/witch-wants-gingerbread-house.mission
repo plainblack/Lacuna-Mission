@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"10","network_19_headline":"Witch Looking for Gingerbread to Build a House.","description":"I am building a gingerbread house to lure in some kids to eat. Can you help me? Do you have gingerbread? If you do, I'll give you some fried chocolate denton root chips.","network_19_completion":"%s Helps Witch Build House.","name":"Witch Wants Gingerbread House","mission_objective":{"resources":{"bread":5000}},"mission_reward":{"resources":{"chip":7500}}}
+{
+   "description" : "I am building a gingerbread house to lure in some kids to eat. Can you help me? Do you have gingerbread? If you do, I'll give you some fried chocolate denton root chips.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "bread" : 5000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "chip" : 7500
+      }
+   },
+   "name" : "Witch Wants Gingerbread House",
+   "network_19_completion" : "%s Helps Witch Build House.",
+   "network_19_headline" : "Witch Looking for Gingerbread to Build a House."
+}

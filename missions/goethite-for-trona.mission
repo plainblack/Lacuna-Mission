@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Frank advocate of Xilin offers iron ore for sodium salt.","network_19_completion":"%s exchanges sodium salt for iron ore.","description":"This just in. Frank advocate of Xilin promises to convert iron ore for sodium salt. Our empire generates a superabundance of iron ore. Nevertheless our planet tremendously needs a supply of sodium salt to generate chemicals. Our people will convert goethite for trona. May your children's tentacles be ever strong and slippery!","max_university_level":"12","mission_objective":{"resources":{"trona":10000}},"name":"goethite for trona","mission_reward":{"resources":{"goethite":15000}}}
+{
+   "description" : "This just in. Frank advocate of Xilin promises to convert iron ore for sodium salt. Our empire generates a superabundance of iron ore. Nevertheless our planet tremendously needs a supply of sodium salt to generate chemicals. Our people will convert goethite for trona. May your children's tentacles be ever strong and slippery!",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "trona" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "goethite" : 15000
+      }
+   },
+   "name" : "goethite for trona",
+   "network_19_completion" : "%s exchanges sodium salt for iron ore.",
+   "network_19_headline" : "Frank advocate of Xilin offers iron ore for sodium salt."
+}

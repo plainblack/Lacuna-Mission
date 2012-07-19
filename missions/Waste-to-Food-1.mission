@@ -1,2 +1,21 @@
 # config-file-type: JSON 1
-{"max_university_level":"8","mission_objective":{"resources":{"waste":35000}},"description":"I know you have always wished you could recycle waste into food.  There is NO way to do that in this game EXCEPT via a mission, and this is one of those missions!  Enjoy!","mission_reward":{"resources":{"algae":15000,"fungus":15000,"burger":7500,"syrup":7500}},"name":"Waste to Food Conversion","network_19_headline":"This is the mission you've been waiting for: Food from Garbage!","network_19_completion":"Unlike its neighbors, %s believed it could get food from garbage, and it DID!"}
+{
+   "description" : "I know you have always wished you could recycle waste into food.  There is NO way to do that in this game EXCEPT via a mission, and this is one of those missions!  Enjoy!",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 35000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "algae" : 15000,
+         "burger" : 7500,
+         "fungus" : 15000,
+         "syrup" : 7500
+      }
+   },
+   "name" : "Waste to Food Conversion",
+   "network_19_completion" : "Unlike its neighbors, %s believed it could get food from garbage, and it DID!",
+   "network_19_headline" : "This is the mission you've been waiting for: Food from Garbage!"
+}

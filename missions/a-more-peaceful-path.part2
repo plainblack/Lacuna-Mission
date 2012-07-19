@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"network_19_completion":"Starchewer Peace Sphere, financed by %s was fully operational for only a few hours before unknown forces blew it up.","max_university_level":"20","description":"Now that our celebration is over, the Garblaxian Starchewers would like a hand in building our new Peace Moon, an orbital base which will hold thousands of our Fighter craft and experimental Planetkiller bombs, allowing us to tour our sector and show people how lucky they are we are now so peaceful. If you can provide some of the materials we need, and some power for the very peaceful ship (it seems the local power company is still mad at us), we could use our new Peace Moon's main Friendly Laser to carve a ravine in one of your worlds as a show of thanks.","mission_objective":{"resources":{"uraninite":100000,"monazite":100000,"energy":200000,"gold":100000}},"mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::Ravine","level":1,"extra_build_level":0}]},"name":"A More Peaceful Path, Part 2","network_19_headline":"Garblax Starchewers looking for a partner to help produce new Peace Moon plans."}
+{
+   "description" : "Now that our celebration is over, the Garblaxian Starchewers would like a hand in building our new Peace Moon, an orbital base which will hold thousands of our Fighter craft and experimental Planetkiller bombs, allowing us to tour our sector and show people how lucky they are we are now so peaceful. If you can provide some of the materials we need, and some power for the very peaceful ship (it seems the local power company is still mad at us), we could use our new Peace Moon's main Friendly Laser to carve a ravine in one of your worlds as a show of thanks.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 200000,
+         "gold" : 100000,
+         "monazite" : 100000,
+         "uraninite" : 100000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Ravine",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "A More Peaceful Path, Part 2",
+   "network_19_completion" : "Starchewer Peace Sphere, financed by %s was fully operational for only a few hours before unknown forces blew it up.",
+   "network_19_headline" : "Garblax Starchewers looking for a partner to help produce new Peace Moon plans."
+}

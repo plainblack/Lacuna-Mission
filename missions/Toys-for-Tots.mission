@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"mission_reward":{"resources":{"gold":10000}},"network_19_headline":"Bring in wrapped gifts for a tax write-off.","description":"The Mid-Winter Festivities are upon us (somewhere in the Expanse).  Thousands of families are without the ability to buy gifts for their children  Won't you please give!  Even just a small amount?  Don't forget batteries!","network_19_completion":"Our tax consultant swears this is legal, honestly!  These toys will go to needy children!","name":"Toys for Tots","max_university_level":"8","mission_objective":{"resources":{"energy":2500,"chromite":2500,"zircon":2500}}}
+{
+   "description" : "The Mid-Winter Festivities are upon us (somewhere in the Expanse).  Thousands of families are without the ability to buy gifts for their children  Won't you please give!  Even just a small amount?  Don't forget batteries!",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 2500,
+         "energy" : 2500,
+         "zircon" : 2500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 10000
+      }
+   },
+   "name" : "Toys for Tots",
+   "network_19_completion" : "Our tax consultant swears this is legal, honestly!  These toys will go to needy children!",
+   "network_19_headline" : "Bring in wrapped gifts for a tax write-off."
+}

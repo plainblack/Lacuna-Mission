@@ -26,7 +26,16 @@ my @files = readdir $folder;
 closedir $folder;
 
 my $config;
-foreach my $filename (@files) {
+my @valid_obj_rewards = qw(
+essentia
+fleet_movement
+glyphs
+happiness
+plans
+resources
+ships
+);
+foreach my $filename (sort @files) {
     next if $filename =~ m/^\./;
     ok($filename =~ m/^[a-z0-9\-\_]+\.((mission)|(part\d+))$/i, $filename.' is valid filename');
     eval{ $config = Config::JSON->new('../missions/'.$filename)};
@@ -47,7 +56,35 @@ foreach my $filename (@files) {
         ok(exists $buildings->{$class}, $filename.' plan class '.$class.' exists');
     }
 
-    #Resource names
+    #Make sure no bad objective tags
+    my $objectives = $config->get('mission_objective');
+    my $obj_valid = 1 if ( defined $objectives and ref $objectives eq 'HASH');
+    if ($obj_valid) {
+      for my $ob_type (keys %{$objectives}) {
+        unless ( grep { /^$ob_type$/ } @valid_obj_rewards) {
+          diag("Invalid Objective type '$ob_type':'$filename'.");
+        }
+      }
+    }
+    else {
+      diag("No Objective defined '$filename'.");
+    }
+
+    #Make sure no bad reward tags
+    my $rewards = $config->get('mission_reward');
+    my $re_valid = 1 if ( defined $rewards and ref $rewards eq 'HASH');
+    if ($re_valid) {
+      for my $re_type (keys %{$rewards}) {
+        unless ( grep { /^$re_type$/ } @valid_obj_rewards) {
+          diag("Invalid Reward type '$re_type':'$filename'.");
+        }
+      }
+    }
+    else {
+      diag("No Reward defined '$filename'.");
+    }
+
+    #Resource names objective sanity
     my $obre = $config->get('mission_objective')->{resources};
     my $obre_valid;
     $obre_valid = 1 if( ! defined $obre or ref $obre eq 'HASH' );
@@ -58,6 +95,18 @@ foreach my $filename (@files) {
     #ok( ! defined $obre , $filename.' defined resources hash');
     if ( ref $obre eq 'HASH' ){
         for my $key ( keys %$obre ) {
+            ok( exists $r_name->{$key}, $filename.' has resouces names')
+                or diag( "Bad resource name '$key'." );
+        }
+    }
+
+    #Resource names rewards sanity
+    my $rere = $config->get('mission_reward')->{resources};
+    my $rere_valid;
+    $rere_valid = 1 if( ! defined $rere or ref $rere eq 'HASH' );
+    ok( defined $rere_valid, $filename.' uses resources hash');
+    if ( ref $rere eq 'HASH' ){
+        for my $key ( keys %$rere ) {
             ok( exists $r_name->{$key}, $filename.' has resouces names')
                 or diag( "Bad resource name '$key'." );
         }

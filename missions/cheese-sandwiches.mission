@@ -1,2 +1,33 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Strike by builders, bakery workers, cheesemakers threatens to derail Pan-galactic Games on Rindoo 8.","network_19_completion":"Pan-galactic games are underway on Rindoo 8. Games committee thanks %s for large donation.","description":"The Pan-galactic games are a great interstellar sporting event. Every four years, a planet is chosen to host the games, and thereby becomes responsibility for feeding and housing the athletes who compete. This year, Rindoo 8 was chosen to host, but last minute strikes by food workers and construction unions have left them with no food or accommodations, and it's less than a week before the opening ceremonies. Desperate for help, the Rindoo 8 government if offering up significant resources in exchange for help with its food and lodging problems.","max_university_level":"24","mission_objective":{"plans":[{"extra_build_level":0,"level":1,"classname":"Lacuna::DB::Result::Building::LuxuryHousing"}],"resources":{"soup":45000,"bread":45000,"cheese":45000}},"name":"Cheese Sandwiches","mission_reward":{"resources":{"monazite":62000,"water":5000,"milk":6500,"zircon":50000,"gold":11200,"uraninite":55000,"wheat":6500}}}
+{
+   "description" : "The Pan-galactic games are a great interstellar sporting event. Every four years, a planet is chosen to host the games, and thereby becomes responsibility for feeding and housing the athletes who compete. This year, Rindoo 8 was chosen to host, but last minute strikes by food workers and construction unions have left them with no food or accommodations, and it's less than a week before the opening ceremonies. Desperate for help, the Rindoo 8 government if offering up significant resources in exchange for help with its food and lodging problems.",
+   "max_university_level" : "24",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "bread" : 45000,
+         "cheese" : 45000,
+         "soup" : 45000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 11200,
+         "milk" : 6500,
+         "monazite" : 62000,
+         "uraninite" : 55000,
+         "water" : 5000,
+         "wheat" : 6500,
+         "zircon" : 50000
+      }
+   },
+   "name" : "Cheese Sandwiches",
+   "network_19_completion" : "Pan-galactic games are underway on Rindoo 8. Games committee thanks %s for large donation.",
+   "network_19_headline" : "Strike by builders, bakery workers, cheesemakers threatens to derail Pan-galactic Games on Rindoo 8."
+}

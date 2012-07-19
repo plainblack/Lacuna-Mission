@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"3","mission_objective":{"resources":{"apple":2000}},"description":"Members of FAT (Food Advocating Team) can save you from food boredom, from cooking and cleanup chores. Just send us your harvest of apple, and in return we surprise you with our great tasting cider. Freedom from boring kitchen chores, and no more: why do we always have to eat the same thing?","mission_reward":{"resources":{"cider":2000}},"network_19_headline":"Well-rounded chefs to create heavenly dishes.","network_19_completion":"Thanks to FAT, belts and buttons were relaxed on %s. Could this be the answer?","name":"Chefs to the rescue: cider"}
+{
+   "description" : "Members of FAT (Food Advocating Team) can save you from food boredom, from cooking and cleanup chores. Just send us your harvest of apple, and in return we surprise you with our great tasting cider. Freedom from boring kitchen chores, and no more: why do we always have to eat the same thing?",
+   "max_university_level" : "3",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "cider" : 2000
+      }
+   },
+   "name" : "Chefs to the rescue: cider",
+   "network_19_completion" : "Thanks to FAT, belts and buttons were relaxed on %s. Could this be the answer?",
+   "network_19_headline" : "Well-rounded chefs to create heavenly dishes."
+}

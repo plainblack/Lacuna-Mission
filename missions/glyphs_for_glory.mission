@@ -1,2 +1,19 @@
 # config-file-type: JSON 1
-{"max_university_level":"28","mission_reward":{"glyphs":["sulfur","chalcopyrite","methane","gold"]},"network_19_headline":"Planet has lost all hope.","description":"<KABOOOM> -We are currently under attack from an unknown species. <ZAP> Our scientists suspect the Saben. We MUST maintain our populations morale to hold off their attacks until we can launch a counter strike. <BLEEEEP> Our luxury houses, entertainment districts, and parks are now nothing but craters. HELP! Send a your best entertainers. We'll make it worth your while. <CREEEEEEEK> We must evacuate. Over and Out.","network_19_completion":"%s gives hope to millions.","name":"Glyphs For Glory","mission_objective":{"happiness":75000}}
+{
+   "description" : "<KABOOOM> -We are currently under attack from an unknown species. <ZAP> Our scientists suspect the Saben. We MUST maintain our populations morale to hold off their attacks until we can launch a counter strike. <BLEEEEP> Our luxury houses, entertainment districts, and parks are now nothing but craters. HELP! Send a your best entertainers. We'll make it worth your while. <CREEEEEEEK> We must evacuate. Over and Out.",
+   "max_university_level" : "28",
+   "mission_objective" : {
+      "happiness" : "75000"
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "sulfur",
+         "chalcopyrite",
+         "methane",
+         "gold"
+      ]
+   },
+   "name" : "Glyphs For Glory",
+   "network_19_completion" : "%s gives hope to millions.",
+   "network_19_headline" : "Planet has lost all hope."
+}

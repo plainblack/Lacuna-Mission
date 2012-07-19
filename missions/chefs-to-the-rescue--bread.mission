@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"max_university_level":"3","mission_objective":{"resources":{"wheat":2000}},"description":"Members of FAT (Food Advocating Team) can save you from food boredom, from cooking and cleanup chores. Just send us your newly gathered wheat, and in exchange we prepare you our great tasting bread. You don't have to waste time in the kitchen, and no more: why do we always have to eat the same thing?","mission_reward":{"resources":{"bread":2000}},"network_19_headline":"Well-rounded chefs decide to leave gravity behind, work and live in space.","network_19_completion":"Thanks to FAT, the colonist of %s were much happier today. Will it last?","name":"Chefs to the rescue: bread"}
+{
+   "description" : "Members of FAT (Food Advocating Team) can save you from food boredom, from cooking and cleanup chores. Just send us your newly gathered wheat, and in exchange we prepare you our great tasting bread. You don't have to waste time in the kitchen, and no more: why do we always have to eat the same thing?",
+   "max_university_level" : "3",
+   "mission_objective" : {
+      "resources" : {
+         "wheat" : 2000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bread" : 2000
+      }
+   },
+   "name" : "Chefs to the rescue: bread",
+   "network_19_completion" : "Thanks to FAT, the colonist of %s were much happier today. Will it last?",
+   "network_19_headline" : "Well-rounded chefs decide to leave gravity behind, work and live in space."
+}

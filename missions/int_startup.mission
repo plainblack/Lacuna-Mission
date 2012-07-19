@@ -12,12 +12,12 @@
    "mission_reward" : {
       "plans" : [
          {
-            "classname" : "Lacuna::DB::Result::Building::Intelligence",
+            "classname" : "Lacuna::DB::Result::Building::Espionage",
             "extra_build_level" : 6,
             "level" : 1
          },
          {
-            "classname" : "Lacuna::DB::Result::Building::Espionage",
+            "classname" : "Lacuna::DB::Result::Building::Intelligence",
             "extra_build_level" : 6,
             "level" : 1
          },

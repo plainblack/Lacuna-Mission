@@ -1,2 +1,39 @@
 # config-file-type: JSON 1
-{"network_19_headline":"A local celebrity is making a surprise visit.","network_19_completion":"%s is holding the ultimate party.","description":"A local celebrity has stopped by your planet. In order to please him you must hold the ultimate party. To hold the ultimate party you must start a party in a park, but have at least 500 of each type of food. For this mission you must pay our galactic caterers 17,500 gold to feed our party.\n\nCollect 17,500 Gold, as a reward you will receive 1000 of each type of food for the party.","mission_objective":{"resources":{"gold":17500}},"name":"The Ultimate Party","mission_reward":{"resources":{"cheese":1000,"root":1000,"cider":1000,"algae":1000,"milk":1000,"potato":1000,"shake":1000,"wheat":1000,"chip":1000,"corn":1000,"pie":1000,"meal":1000,"lapis":1000,"bean":1000,"pancake":1000,"bread":1000,"fungus":1000,"beetle":1000,"syrup":1000,"apple":1000,"soup":1000,"burger":1000}},"max_university_level":"25"}
+{
+   "description" : "A local celebrity has stopped by your planet. In order to please him you must hold the ultimate party. To hold the ultimate party you must start a party in a park, but have at least 500 of each type of food. For this mission you must pay our galactic caterers 17,500 gold to feed our party.\n\nCollect 17,500 Gold, as a reward you will receive 1000 of each type of food for the party.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 17500
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "algae" : 1000,
+         "apple" : 1000,
+         "bean" : 1000,
+         "beetle" : 1000,
+         "bread" : 1000,
+         "burger" : 1000,
+         "cheese" : 1000,
+         "chip" : 1000,
+         "cider" : 1000,
+         "corn" : 1000,
+         "fungus" : 1000,
+         "lapis" : 1000,
+         "meal" : 1000,
+         "milk" : 1000,
+         "pancake" : 1000,
+         "pie" : 1000,
+         "potato" : 1000,
+         "root" : 1000,
+         "shake" : 1000,
+         "soup" : 1000,
+         "syrup" : 1000,
+         "wheat" : 1000
+      }
+   },
+   "name" : "The Ultimate Party",
+   "network_19_completion" : "%s is holding the ultimate party.",
+   "network_19_headline" : "A local celebrity is making a surprise visit."
+}

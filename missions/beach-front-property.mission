@@ -11,19 +11,19 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Pete's Retirement",
-            "speed" : 700,
-            "stealth" : 0,
-            "type" : "mining_platform_ship"
-         },
-         {
-            "combat" : 0,
             "hold_size" : 75000,
             "name" : "The Missing Mistress",
             "speed" : 2000,
             "stealth" : 3000,
             "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Pete's Retirement",
+            "speed" : 700,
+            "stealth" : 0,
+            "type" : "mining_platform_ship"
          }
       ]
    },

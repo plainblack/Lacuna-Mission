@@ -17,42 +17,42 @@
          {
             "combat" : 9000,
             "hold_size" : 0,
-            "name" : "Spangled Fighter",
-            "speed" : 6000,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 9000,
-            "hold_size" : 0,
-            "name" : "Spangled Fighter",
-            "speed" : 6000,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 9000,
-            "hold_size" : 0,
-            "name" : "Spangled Fighter",
-            "speed" : 6000,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 9000,
-            "hold_size" : 0,
-            "name" : "Spangled Fighter",
-            "speed" : 6000,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 9000,
-            "hold_size" : 0,
             "name" : "Spangled Detonator",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "detonator"
+         },
+         {
+            "combat" : 9000,
+            "hold_size" : 0,
+            "name" : "Spangled Fighter",
+            "speed" : 6000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 9000,
+            "hold_size" : 0,
+            "name" : "Spangled Fighter",
+            "speed" : 6000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 9000,
+            "hold_size" : 0,
+            "name" : "Spangled Fighter",
+            "speed" : 6000,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 9000,
+            "hold_size" : 0,
+            "name" : "Spangled Fighter",
+            "speed" : 6000,
+            "stealth" : 0,
+            "type" : "fighter"
          }
       ]
    },

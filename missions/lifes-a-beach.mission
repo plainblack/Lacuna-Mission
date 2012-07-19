@@ -10,8 +10,13 @@
       }
    },
    "mission_reward" : {
-      "happiness" : 25000,
+      "happiness" : "25000",
       "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
             "extra_build_level" : 0,
@@ -29,11 +34,6 @@
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
             "extra_build_level" : 0,
             "level" : 1
          }

@@ -1,2 +1,20 @@
 # config-file-type: JSON 1
-{"network_19_headline":"The joke is on us; local comedian running for Mayor.","network_19_completion":"Happiness reigns in Esnlelasog while new Mayor says budget shortfall is no joke.","description":"An Esnlelasogian comedian Mr. Epzol recently announced that he will be running for Mayor of his city. The only problem is the people are so upset at the current state of affairs that they are in no laughing mood when it comes to politics. Epzol believes that if the city's happiness was raised by 1,000,000 the people would be so happy he would win in a landslide. In exchange for victory Mr. Epzol promises to open a comedy club on the planet of whomever makes this happen.","max_university_level":"15","mission_objective":{"happiness":50000},"name":"Not a Laughing Matter ","mission_reward":{"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::EntertainmentDistrict","extra_build_level":10}]}}
+{
+   "description" : "An Esnlelasogian comedian Mr. Epzol recently announced that he will be running for Mayor of his city. The only problem is the people are so upset at the current state of affairs that they are in no laughing mood when it comes to politics. Epzol believes that if the city's happiness was raised by 1,000,000 the people would be so happy he would win in a landslide. In exchange for victory Mr. Epzol promises to open a comedy club on the planet of whomever makes this happen.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "happiness" : "50000"
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
+            "extra_build_level" : 10,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Not a Laughing Matter ",
+   "network_19_completion" : "Happiness reigns in Esnlelasog while new Mayor says budget shortfall is no joke.",
+   "network_19_headline" : "The joke is on us; local comedian running for Mayor."
+}

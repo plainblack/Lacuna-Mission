@@ -45,7 +45,7 @@
          "sulfur",
          "chalcopyrite"
       ],
-      "happiness" : 1000000,
+      "happiness" : "1000000",
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",

@@ -1,2 +1,39 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"energy":49995},"plans":[{"extra_build_level":0,"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::MalcudField"},{"extra_build_level":0,"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::MalcudField"}]},"mission_reward":{"plans":[{"extra_build_level":1,"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::MalcudField"},{"extra_build_level":0,"level":1,"classname":"Lacuna::DB::Result::Building::Permanent::Lagoon"}]},"description":"A small interloper has just burst on the scenes.  Finding a hole in the offerings of the Alpha-Zeta MegaCorp. glyph building plan upgrade system, tiny Beta-Zeta (which, to be sure, has the advantage of a catchy name) has introduced a new, never-before-seen glyph building plan upgrade: for Malcud Fields.   Hardly a sexy find, this upstart is hoping the profits from this advance in glyph buildings (Patented) will jumpstart a new Commercial Empire.  Stock market is excited!  Discounts and bonuses are expected with this new offering. For a limited time, we're offering a free Lagoon with this offer.","network_19_headline":"Rumors of a Competitor to the Secretive Alpha-Zeta Corporation Abound!","network_19_completion":"Starting Small, the Fledgling Beta-Zeta Outfit Hopes to Challenge A-Z with Introduction of Malcud Fields.","name":"Beta-Zeta Malcud","max_university_level":"30"}
+{
+   "description" : "A small interloper has just burst on the scenes.  Finding a hole in the offerings of the Alpha-Zeta MegaCorp. glyph building plan upgrade system, tiny Beta-Zeta (which, to be sure, has the advantage of a catchy name) has introduced a new, never-before-seen glyph building plan upgrade: for Malcud Fields.   Hardly a sexy find, this upstart is hoping the profits from this advance in glyph buildings (Patented) will jumpstart a new Commercial Empire.  Stock market is excited!  Discounts and bonuses are expected with this new offering. For a limited time, we're offering a free Lagoon with this offer.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "energy" : 49995
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Lagoon",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Beta-Zeta Malcud",
+   "network_19_completion" : "Starting Small, the Fledgling Beta-Zeta Outfit Hopes to Challenge A-Z with Introduction of Malcud Fields.",
+   "network_19_headline" : "Rumors of a Competitor to the Secretive Alpha-Zeta Corporation Abound!"
+}

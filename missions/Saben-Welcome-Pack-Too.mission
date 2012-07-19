@@ -3,7 +3,7 @@
    "description" : "This time we intend to do more than take pictures!  Fast, easy, and only 1 Essentia each, in bulk!  Handy 7-pack for those hard-to-eradicate infestations.\n\nMAKE SURE YOU HAVE ROOM IN YOUR SPACEPORT FOR THIS INFLUX OF SPEEDY PROJECTILES!",
    "max_university_level" : "25",
    "mission_objective" : {
-      "essentia" : 7
+      "essentia" : "7"
    },
    "mission_reward" : {
       "ships" : [

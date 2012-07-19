@@ -1,2 +1,19 @@
 # config-file-type: JSON 1
-{"network_19_completion":"%s helps Mirrian Mining avoid energy Crisis!","max_university_level":"10","network_19_headline":"Mirrian Mining needs Energy!","description":"Recent weather has destroyed a power plant at one of our mines. While the situation isn't critical yet, we need to ensure that it doesn't become so by securing emergency power while we rebuild our power plant.\n\nPlease provide us with sufficient power to support our facility while we rebuild the power plant and we will pay you in ore.","mission_objective":{"resources":{"energy":10000}},"mission_reward":{"resources":{"uraninite":6250,"anthracite":6250}},"name":"Mirrian Mining Energy"}
+{
+   "description" : "Recent weather has destroyed a power plant at one of our mines. While the situation isn't critical yet, we need to ensure that it doesn't become so by securing emergency power while we rebuild our power plant.\n\nPlease provide us with sufficient power to support our facility while we rebuild the power plant and we will pay you in ore.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "anthracite" : 6250,
+         "uraninite" : 6250
+      }
+   },
+   "name" : "Mirrian Mining Energy",
+   "network_19_completion" : "%s helps Mirrian Mining avoid energy Crisis!",
+   "network_19_headline" : "Mirrian Mining needs Energy!"
+}

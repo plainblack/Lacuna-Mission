@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"network_19_headline":"Biosciences Ltd needs algae.","network_19_completion":"Experiment failed, new experiment in the works.","description":"Biosciences Ltd needs 100k algae to practice creating specialized Terraforming Algae. They are trying to modifiy the algae to produce more oxygen which will speed up the terraforming process. If they succeed, this will decrease the time needed to terraform planets. For this algae, they will provide a by-product of their previous experiments: a methane glyph.","max_university_level":"20","mission_objective":{"resources":{"algae":150000}},"name":"Terraforming Algae","mission_reward":{"glyphs":["methane"]}}
+{
+   "description" : "Biosciences Ltd needs 100k algae to practice creating specialized Terraforming Algae. They are trying to modifiy the algae to produce more oxygen which will speed up the terraforming process. If they succeed, this will decrease the time needed to terraform planets. For this algae, they will provide a by-product of their previous experiments: a methane glyph.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 150000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "methane"
+      ]
+   },
+   "name" : "Terraforming Algae",
+   "network_19_completion" : "Experiment failed, new experiment in the works.",
+   "network_19_headline" : "Biosciences Ltd needs algae."
+}

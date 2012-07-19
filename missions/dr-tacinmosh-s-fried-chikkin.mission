@@ -1,2 +1,18 @@
 # config-file-type: JSON 1
-{"mission_objective":{"resources":{"waste":10000}},"mission_reward":{"resources":{"burger":7500}},"description":"Dr. Tacinmosh here with another fantastic scientific breakthrough!  We at the Molecular Redefinition Labs have stumbled across a bio-chemical splicing technique which turns ordinary waste into delicious, tender fried Chikken Patties!  The boys over at the Consumer Health Consortium are throwing a fit over this project, slandering us with allegations of manufacturing and distributing food with no discernible nutritional value.  Don't listen to those beaker-spinners.  They know nothing of practical science!","network_19_headline":"Demented Doctor Announces Fast Food Franchise, Food Content Questioned.","name":"Dr Tacinmosh's Fried \"Chikkin\"","network_19_completion":"\"Tastes Like Chikken!\" Announces %s.","max_university_level":"8"}
+{
+   "description" : "Dr. Tacinmosh here with another fantastic scientific breakthrough!  We at the Molecular Redefinition Labs have stumbled across a bio-chemical splicing technique which turns ordinary waste into delicious, tender fried Chikken Patties!  The boys over at the Consumer Health Consortium are throwing a fit over this project, slandering us with allegations of manufacturing and distributing food with no discernible nutritional value.  Don't listen to those beaker-spinners.  They know nothing of practical science!",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 10000
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "burger" : 7500
+      }
+   },
+   "name" : "Dr Tacinmosh's Fried \"Chikkin\"",
+   "network_19_completion" : "\"Tastes Like Chikken!\" Announces %s.",
+   "network_19_headline" : "Demented Doctor Announces Fast Food Franchise, Food Content Questioned."
+}

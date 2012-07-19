@@ -1,2 +1,25 @@
 # config-file-type: JSON 1
-{"network_19_completion":"[Name Withheld] exchanged four glyphs for a Level 2 Volcano today.","name":"Volcano Level 2","mission_objective":{"glyphs":["chromite","kerogen","trona","fluorite"]},"description":"We have a special deal for you today: four unrelated glyphs for a Level 2 Volcano.  Limited time offer.","mission_reward":{"plans":[{"classname":"Lacuna::DB::Result::Building::Permanent::Volcano","level":1,"extra_build_level":1}]},"max_university_level":"25","network_19_headline":"Need extra ore?  Got some old glyphs stashed in the basement?  Let's make a deal!"}
+{
+   "description" : "We have a special deal for you today: four unrelated glyphs for a Level 2 Volcano.  Limited time offer.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         "chromite",
+         "kerogen",
+         "trona",
+         "fluorite"
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
+            "extra_build_level" : 1,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Volcano Level 2",
+   "network_19_completion" : "[Name Withheld] exchanged four glyphs for a Level 2 Volcano today.",
+   "network_19_headline" : "Need extra ore?  Got some old glyphs stashed in the basement?  Let's make a deal!"
+}

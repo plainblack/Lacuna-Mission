@@ -1,2 +1,40 @@
 # config-file-type: JSON 1
-{"max_university_level":"20","mission_reward":{"glyphs":["uraninite"]},"network_19_headline":"Notorious trade organization Pholt Corp. seeking building upgrades.","description":"This is Jarvis Seely of Pholt Corp.  I'd like to offer you a rare Uraninite glyph in exchange for a ride off this rock, a bit of gold, and the plans for a space port.  I know there are spies coming to get me, but I can't see them! I don't have time or resources to wait for the structure to upgrade.  Accept this trade, help me rest more easily!","network_19_completion":"Pholt Corp. completes a deal with %s for upgraded buildings.","name":"What You Can't See","mission_objective":{"fleet_movement":[{"target":{"inhabited":1,"type":"habitable","size":[1,121],"isolationist":0,"in_zone":1},"ship_type":"smuggler_ship"}],"plans":[{"level":1,"classname":"Lacuna::DB::Result::Building::SpacePort","extra_build_level":0}],"resources":{"gold":40000}}}
+{
+   "description" : "This is Jarvis Seely of Pholt Corp.  I'd like to offer you a rare Uraninite glyph in exchange for a ride off this rock, a bit of gold, and the plans for a space port.  I know there are spies coming to get me, but I can't see them! I don't have time or resources to wait for the structure to upgrade.  Accept this trade, help me rest more easily!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "smuggler_ship",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 0,
+               "size" : [
+                  1,
+                  121
+               ],
+               "type" : "habitable"
+            }
+         }
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::SpacePort",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ],
+      "resources" : {
+         "gold" : 40000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "uraninite"
+      ]
+   },
+   "name" : "What You Can't See",
+   "network_19_completion" : "Pholt Corp. completes a deal with %s for upgraded buildings.",
+   "network_19_headline" : "Notorious trade organization Pholt Corp. seeking building upgrades."
+}

@@ -16,51 +16,51 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
             "hold_size" : 32000,
             "name" : "Digger's Folly",
             "speed" : 4000,
             "stealth" : 1500,
             "type" : "dory"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Dig Dug",
+            "speed" : 3000,
+            "stealth" : 0,
+            "type" : "excavator"
          }
       ]
    },

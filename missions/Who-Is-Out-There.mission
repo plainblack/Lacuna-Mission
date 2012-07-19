@@ -34,36 +34,36 @@
             "type" : "probe"
          },
          {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Waste Probe",
+            "speed" : 5450,
+            "stealth" : 2,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Waste Probe",
+            "speed" : 5450,
+            "stealth" : 2,
+            "type" : "probe"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "Waste Probe",
+            "speed" : 5450,
+            "stealth" : 2,
+            "type" : "probe"
+         },
+         {
             "combat" : 200,
             "hold_size" : 0,
             "name" : "Waste Scanner",
             "speed" : 3270,
             "stealth" : 2,
             "type" : "scanner"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Waste Probe",
-            "speed" : 5450,
-            "stealth" : 2,
-            "type" : "probe"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Waste Probe",
-            "speed" : 5450,
-            "stealth" : 2,
-            "type" : "probe"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Waste Probe",
-            "speed" : 5450,
-            "stealth" : 2,
-            "type" : "probe"
          },
          {
             "combat" : 200,
