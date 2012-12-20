@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "I finally got this factory retrofitted to produce drywall, but in my excitement I forgot to order raw materials. I need your help. If you can fulfill this order I will make it worth your while.",
+   "description" : "I finally got this factory retrofitted to produce drywall, but in my excitement I forgot to order the raw materials.  I need your help, again, partner.  If you can fulfill this order I will make it worth your while!",
    "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
