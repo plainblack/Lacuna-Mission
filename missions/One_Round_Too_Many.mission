@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Alas! Gork was right: That 12th round of BeetleMilkAlgae cocktails was one too many. Our sun seems to shine with inordinate power this morning... The mere sight of beetles makes grown individuals cringe, resulting in further, regretful pain. Please help us: We need some very  fizzy water and would gladly repay you with vast amounts of the 6 legged evil food in return.",
+   "description" : "Alas! Gork was right. That 12th round of BeetleMilkAlgae cocktails was one too many. Our sun seems to shine with inordinate power this morning! The mere sight of beetles makes grown individuals cringe, resulting in further regretful pain. Please help us! We need some very fizzy water and would gladly repay you with vast amounts of the six-legged evil food in return.",
    "max_university_level" : "7",
    "mission_objective" : {
       "resources" : {
