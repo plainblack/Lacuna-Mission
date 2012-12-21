@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Here at Pawn Lacuna we strive to have the customer walk away from every deal happy. DO we have a deal for you!  You may be in the need of a cargo ship.  Just pawn a couple of dory's and a probe that is lying around in your spaceport, and the cargo ship is yours! What do you say?",
+   "description" : "Here at Pawn Lacuna we strive to have the customer walk away from every deal happy. DO we have a deal for you!  You may be in the need of a cargo ship.  Just pawn a couple of dory's and a probe that are lying around in your spaceport, and the cargo ship is yours! What do you say?",
    "max_university_level" : "8",
    "mission_objective" : {
       "ships" : [
