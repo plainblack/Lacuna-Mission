@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "The Fall Harvest Festival is always in season on some planet int he Expanse.  Thousands of families are without food.  Won't you please give!  Even just a small amount? We only ask what everyone can give.  In return, we will give you a tax write-off and a special holiday blend of gourmet salts.",
+   "description" : "The Fall Harvest Festival is always in season on some planet in the Expanse, and yet thousands of families are without food.  Won't you please give, even just a small amount? We only ask what you can give.  In return, we will give you a tax write-off and a special holiday blend of gourmet salts.",
    "max_university_level" : "12",
    "mission_objective" : {
       "resources" : {
@@ -17,6 +17,6 @@
       }
    },
    "name" : "Food Closet",
-   "network_19_completion" : "Fall Harvest Food Drive a success.  %s has contributed so won't you consider doing so, also?",
+   "network_19_completion" : "Fall Harvest Food Drive a success.  %s has contributed so won't you also consider doing so?",
    "network_19_headline" : "Bring in your cans of food, guaranteed tax write-off!"
 }
