@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Beeldeban Herders in Sector 9 are facing a harsh winter this year.  Although the items requested are considered by some to be luxury items, we feel that our Orbit 2 philanthropists would like to help out, and this is how they can!  As a reward for furnishing us your fresh produce and goods, we will give a token of our appreciation: anthracite and halite glyphs, which you can save to create a Lapis Forest when you build an Archaeology Ministry, put them on your mantle, or perhaps sell them.",
+   "description" : "Beeldeban Herders in Sector 9 are facing a harsh winter this year.  Although the items requested are considered by some to be luxury items, our Orbit 2 philanthropists would like to help out, and this is what they can do!  As a reward for furnishing us your fresh produce and goods, we will give a token of our appreciation: anthracite and halite glyphs, which you can save to create a Lapis Forest when you build an Archaeology Ministry, put them on your mantle, or perhaps sell them.",
    "max_university_level" : "12",
    "mission_objective" : {
       "resources" : {
@@ -24,8 +24,7 @@
       "glyphs" : [
          "anthracite",
          "halite"
-      ],
-      "ships" : []
+      ]
    },
    "name" : "Food Basket, Orbit 2 Plea",
    "network_19_completion" : "%s has contributed greatly to the Orbit 2 Food Pantry Program feeding starving Beeldeban Herders in Sector 9.",
