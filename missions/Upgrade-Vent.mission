@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\n\nImagine a level two Geo Thermal Vent for 3 glyphs!  You can have it here.",
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\n\nImagine a level two Geo Thermal Vent for 3 glyphs!  You can have it here!",
    "max_university_level" : "13",
    "mission_objective" : {
       "glyphs" : [
@@ -19,6 +19,6 @@
       ]
    },
    "name" : "Upgrade Your Glyph Buildings.",
-   "network_19_completion" : "%s upgraded Its/Her/His Geo Thermal Vent today!",
+   "network_19_completion" : "%s upgraded their Geo Thermal Vent today!",
    "network_19_headline" : "Upgrade your Geo Thermal Vent today."
 }
