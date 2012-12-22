@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "We have a special deal for you today: four unrelated glyphs for a Level 2 Volcano.  Limited time offer.",
+   "description" : "We have a special deal for you today: four unrelated glyphs for a Level 2 Volcano.  Limited time offer!  Buy now!",
    "max_university_level" : "25",
    "mission_objective" : {
       "glyphs" : [
