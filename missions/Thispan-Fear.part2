@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Greetings, I am Fluug, military advisor for the Dominion of Gahum. Our neighbors, and former friends, the Thispans, have betrayed us. They have spied on us, and stolen our technologies. This can not be tolerated. First we will blind them, destroying their probes, and then we will strike at their home system of Thispanawa. You will be rewarded. \nWe need from you one (1) Detonator to blind their probes, and one (1) Snark with which to extract our vengeance.  The more people we can convince of our righteousness, the more damage we do to Thispa!\nAs a reward, we will support your mining efforts with four (4) Mining Platforms in return for your help.\nThanks, and Grelb bless.",
+   "description" : "Greetings, I am Fluug, military advisor for the Dominion of Gahum. Our neighbors, and former friends, the Thispans, have betrayed us. They have spied on us, and stolen our technologies. This can not be tolerated. First we will blind them, destroying their probes, and then we will strike at their home system of Thispanawa. You will be rewarded.\nWe need from you one Detonator to blind their probes, and one Snark with which to extract our vengeance.  The more people we can convince of our righteousness, the more damage we do to Thispa!\nAs a reward, we will support your mining efforts with four Mining Platforms in return for your help.\nThanks, and Grelb bless.",
    "max_university_level" : "17",
    "mission_objective" : {
       "ships" : [
