@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "We need sand and a good photogenic location to host an interplanetary outdoor doubles volleyball tournament.  Network 19 will carry the event LIVE!  Give us your old waste and we'll grind it up to use as sand for our event!  We will also need a bit of gold for the awards.  We will also need the plans to a nice beach to hold our event.\n\nIn return, we will give you the concession rights for the event, including providing all the materials to sell!",
+   "description" : "We need sand and a good photogenic location to host an interplanetary outdoor doubles volleyball tournament.  Network 19 will carry the event LIVE!  Give us your old waste and we'll grind it up to use as sand for our event!  We will also need a bit of gold for the awards and a nice beach to hold our event.\n\nIn return, we will give you the concession rights for the event, including providing all the materials to sell!",
    "max_university_level" : "10",
    "mission_objective" : {
       "plans" : [
