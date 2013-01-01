@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "We of the Ixtishof Republic believe we are on the verge of a brand new weapon type. It's power will be immense! But we need your help! We need quantities of certain ores in order to complete the project. Will you deliver them? In return, we offer you a couple of our fighters!",
+   "description" : "We of the Ixtishof Republic believe we are on the verge of a brand new weapon type. It's power will be immense! We need quantities of certain ores in order to complete the project. Will you trade for them? In return, we offer you a couple of our fighters, and you can choose our first target!",
    "max_university_level" : "13",
    "mission_objective" : {
       "resources" : {
