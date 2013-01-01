@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Pawn Lacuna has become a successful enterprise fulfilling needs of its customers. We are looking to expand into a new area. Please probe this star system and get back to us. We will pay you for your troubles with these authentic Rolelux watches.",
-   "max_university_level" : "7",
+   "max_university_level" : "10",
    "mission_objective" : {
       "fleet_movement" : [
          {
@@ -16,7 +16,7 @@
    },
    "mission_reward" : {
       "resources" : {
-         "gold" : 8000
+         "gold" : 25000
       }
    },
    "name" : "Pawn Lacuna looking to expand",

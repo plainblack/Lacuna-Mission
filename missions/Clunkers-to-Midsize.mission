@@ -21,10 +21,10 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 10000,
+            "hold_size" : 40000,
             "name" : "Dan's Dory",
-            "speed" : 1500,
-            "stealth" : 1000,
+            "speed" : 2500,
+            "stealth" : 7000,
             "type" : "dory"
          }
       ]

@@ -11,12 +11,28 @@
             "speed" : 0,
             "stealth" : 0,
             "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "cargo_ship"
          }
       ]
    },
    "mission_reward" : {
       "resources" : {
-         "gold" : 15000
+         "gold" : 80000
       },
       "ships" : []
    },

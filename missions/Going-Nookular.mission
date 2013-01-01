@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "We of Planet X are desiring to be part of Good Old Nooklar Boyz Club, and are wishing to offer loads of nice, new petroleum-based energy in returning.  Rumors that our neighbors are be having \"issues\" with our supposed \"Expansionist\" ways are complete fabrications.  Honest.  Ingrates, after all we having been doing for them...",
-   "max_university_level" : "7",
+   "max_university_level" : "10",
    "mission_objective" : {
       "resources" : {
          "monazite" : 10000,

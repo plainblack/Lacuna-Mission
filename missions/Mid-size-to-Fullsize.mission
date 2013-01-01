@@ -1,10 +1,10 @@
 # config-file-type: JSON 1
 {
-   "description" : "Used Ships, cash for clunkers, trade-ins, discrete handling!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  GOT A MID-SIZED DORY YOU'D LIKE TO UPGRADE?  This is the place to come!  Today's special: MID-SIZE UPGRADE FOR GOLD.  A LITTLE MORE POWER UNDER THE HOOD, A LITTLE MORE TRUNK SPACE!  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
-   "max_university_level" : "10",
+   "description" : "Used Ships, cash for clunkers, trade-ins, discrete handling!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  GOT A MID-SIZED DORY YOU'D LIKE TO UPGRADE?  This is the place to come!  Today's special: MID-SIZE UPGRADE FOR GOLD.  A LITTLE MORE POWER UNDER THE HOOD, A LITTLE MORE TRUNK SPACE!  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "15",
    "mission_objective" : {
       "resources" : {
-         "gold" : 10000
+         "gold" : 20000
       },
       "ships" : [
          {
@@ -21,10 +21,10 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 20000,
+            "hold_size" : 80000,
             "name" : "Dan's Dory",
-            "speed" : 1420,
-            "stealth" : 4500,
+            "speed" : 3420,
+            "stealth" : 9500,
             "type" : "dory"
          }
       ]
