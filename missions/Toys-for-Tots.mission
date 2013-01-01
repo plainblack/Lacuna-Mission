@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "The Mid-Winter Festivities are upon us (somewhere in the Expanse).  Thousands of families are without the ability to buy gifts for their children  Won't you please give!  Even just a small amount?  Don't forget batteries!",
+   "description" : "The Mid-Winter Festivities are upon us (somewhere in the Expanse).  Thousands of families are without the ability to buy gifts for their children  Won't you please give?  Even just a small amount?  Don't forget batteries!",
    "max_university_level" : "8",
    "mission_objective" : {
       "resources" : {
@@ -16,5 +16,5 @@
    },
    "name" : "Toys for Tots",
    "network_19_completion" : "Our tax consultant swears this is legal, honestly!  These toys will go to needy children!",
-   "network_19_headline" : "Bring in wrapped gifts for a tax write-off."
+   "network_19_headline" : "Bring in unwrapped gifts for a tax write-off."
 }
