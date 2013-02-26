@@ -15,7 +15,7 @@
             "combat" : 1500,
             "hold_size" : 0,
             "name" : "Swillovian SRCS",
-            "speed" : 1050,
+            "speed" : 1100,
             "stealth" : 0,
             "type" : "short_range_colony_ship"
          }

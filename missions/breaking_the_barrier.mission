@@ -15,7 +15,7 @@
             "combat" : 2000,
             "hold_size" : 0,
             "name" : "Starter SRCS",
-            "speed" : 2450,
+            "speed" : 2500,
             "stealth" : 0,
             "type" : "short_range_colony_ship"
          },

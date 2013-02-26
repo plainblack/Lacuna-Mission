@@ -13,7 +13,7 @@
             "combat" : 2000,
             "hold_size" : 0,
             "name" : "Glib's SRCS",
-            "speed" : 5250,
+            "speed" : 4000,
             "stealth" : 0,
             "type" : "short_range_colony_ship"
          }
