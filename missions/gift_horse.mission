@@ -17,7 +17,7 @@
             "combat" : 5000,
             "hold_size" : 0,
             "name" : "Horse's Gift",
-            "speed" : 25,
+            "speed" : 1750,
             "stealth" : 0,
             "type" : "short_range_colony_ship"
          }
