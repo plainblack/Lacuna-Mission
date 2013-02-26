@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Now that our celebration is over, the Garblaxian Starchewers would like a hand in building our new Peace Moon, an orbital base which will hold thousands of our Fighter craft and experimental Planetkiller bombs, allowing us to tour our sector and show people how lucky they are we are now so peaceful. If you can provide some of the materials we need, and some power for the very peaceful ship (it seems the local power company is still mad at us), we could use our new Peace Moon's main Friendly Laser to carve a ravine in one of your worlds as a show of thanks.",
+   "description" : "Now that our celebration is over, the Garblaxian Starchewers would like a hand in building our new Peace Moon, an orbital base which will hold thousands of our Fighter craft and experimental Planetkiller bombs, allowing us to tour our sector and show people how lucky they are we are now so peaceful. If you can provide some of the materials we need, and some power for the very peaceful ship (it seems the local power company is still mad at us), we could use our new Peace Moon's main Friendly Laser to carve a ravine in one of your worlds as a token of thanks.",
    "max_university_level" : "20",
    "mission_objective" : {
       "resources" : {
