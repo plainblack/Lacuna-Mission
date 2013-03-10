@@ -12,18 +12,18 @@
       },
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 1000,
             "hold_size" : 0,
-            "name" : "",
-            "speed" : 125,
+            "name" : "Andecaui Probe",
+            "speed" : 0,
             "stealth" : 0,
             "type" : "probe"
          },
          {
-            "combat" : 0,
+            "combat" : 1000,
             "hold_size" : 0,
-            "name" : "",
-            "speed" : 125,
+            "name" : "Andecaui Probe",
+            "speed" : 0,
             "stealth" : 0,
             "type" : "probe"
          }
@@ -33,9 +33,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 3000000,
+            "hold_size" : 5000000,
             "name" : "Andecaui Hulk",
-            "speed" : 2500,
+            "speed" : 3000,
             "stealth" : 0,
             "type" : "hulk"
          }

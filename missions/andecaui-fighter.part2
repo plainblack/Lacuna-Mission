@@ -8,10 +8,10 @@
       },
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 1000,
             "hold_size" : 0,
             "name" : "",
-            "speed" : 125,
+            "speed" : 0,
             "stealth" : 0,
             "type" : "probe"
          }

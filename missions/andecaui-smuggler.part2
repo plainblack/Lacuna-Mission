@@ -8,18 +8,18 @@
       },
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 1000,
             "hold_size" : 0,
-            "name" : "",
-            "speed" : 125,
+            "name" : "Andecaui Probe",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "probe"
          },
          {
-            "combat" : 0,
+            "combat" : 1000,
             "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
+            "name" : "Andecaui Probe",
+            "speed" : 5000,
             "stealth" : 0,
             "type" : "smuggler_ship"
          }
@@ -28,11 +28,11 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
-            "name" : "Andecaui Smuggler",
-            "speed" : 4500,
-            "stealth" : 10000,
+            "combat" : 100,
+            "hold_size" : 20000,
+            "name" : "Andecaui Smuggler I",
+            "speed" : 3000,
+            "stealth" : 5000,
             "type" : "smuggler_ship"
          }
       ]
