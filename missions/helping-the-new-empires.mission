@@ -1,0 +1,37 @@
+# config-file-type: JSON 1
+{
+   "description" : "Socialist Collective of Planets is looking to assist fledgling empires. In payment you will receive an Experimental Long-range Ultra-Probe.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "fleet_movement" : [
+         {
+            "ship_type" : "supply_pod",
+            "target" : {
+               "in_zone" : 1,
+               "inhabited" : 1,
+               "isolationist" : 1,
+               "size" : [
+                  45,
+                  50
+               ],
+               "type" : "habitable"
+            }
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 22550,
+            "stealth" : 0,
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Helping the new empires",
+   "network_19_completion" : "%s has come to the aid of fledgling empires.",
+   "network_19_headline" : "Socialist Collective of Planets plans on assisting fledgling empires."
+}

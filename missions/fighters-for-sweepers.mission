@@ -1,0 +1,56 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Oligarchy of Spheres is in need of piloted vessels to replace it's Special Wartime Experimental Explorer Prototype Eliminator Raider (sweeper) fleet.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "fighter"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "fighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "combat" : 10000,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 5000,
+            "stealth" : 5000,
+            "type" : "sweeper"
+         },
+         {
+            "combat" : 10000,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 5000,
+            "stealth" : 5000,
+            "type" : "sweeper"
+         }
+      ]
+   },
+   "name" : "Fighters for sweepers",
+   "network_19_completion" : "Pilots supplied to Oligarchy of Spheres by %s empire.",
+   "network_19_headline" : "Oligarchy of Spheres in need of pilots."
+}

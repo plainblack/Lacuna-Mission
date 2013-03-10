@@ -1,0 +1,45 @@
+# config-file-type: JSON 1
+{
+   "description" : "CLI (Central Lacuna Intelligence) is in need of spy pods to aid in the insertion of agents into Sābēn Demesne",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         },
+         {
+            "combat" : 0,
+            "hold_size" : 0,
+            "name" : "",
+            "speed" : 0,
+            "stealth" : 0,
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GratchsGauntlet",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Pods for protection",
+   "network_19_completion" : "%s has supplied ships for incursion into Sābēn Demesne.",
+   "network_19_headline" : "CLI requesting spy pods."
+}

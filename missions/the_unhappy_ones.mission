@@ -1,0 +1,55 @@
+# config-file-type: JSON 1
+{
+   "description" : "We are a race that prides ourselves in knowing everything there is to know about the universe, but lately we are hearing about a thing called happiness, which really interests us. We don't really know how it works, but what we do know is that some empires do produce it in large quantities. Now here is our problem: We want some but we have a very large population and will need a lot, so if you can provide us with the set amount of happiness below, we will reward you handsomely.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "happiness" : "100000000"
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         "anthracite",
+         "anthracite",
+         "bauxite",
+         "bauxite",
+         "beryl",
+         "beryl",
+         "chalcopyrite",
+         "chalcopyrite",
+         "chromite",
+         "chromite",
+         "fluorite",
+         "fluorite",
+         "galena",
+         "galena",
+         "goethite",
+         "goethite",
+         "gold",
+         "gold",
+         "gypsum",
+         "gypsum",
+         "halite",
+         "halite",
+         "kerogen",
+         "kerogen",
+         "magnetite",
+         "magnetite",
+         "methane",
+         "methane",
+         "monazite",
+         "monazite",
+         "rutile",
+         "rutile",
+         "sulfur",
+         "sulfur",
+         "trona",
+         "trona",
+         "uraninite",
+         "uraninite",
+         "zircon",
+         "zircon"
+      ]
+   },
+   "name" : "The Unhappy Ones",
+   "network_19_completion" : "We are so happy today, thanks to %s for being so funny.",
+   "network_19_headline" : "Happiness isn't all it's crack up to be................. is it?."
+}

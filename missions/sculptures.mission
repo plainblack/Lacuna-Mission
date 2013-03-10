@@ -1,0 +1,22 @@
+# config-file-type: JSON 1
+{
+   "description" : "We are the suppliers for all waste sculptures in our galaxy, but we have a problem: Our usual supplier ran out of business and we still need huge amounts of waste. So if you can supply us with the needed waste to keep our company going, we will be more than happy to build you one of our top of the line sculptures where ever you want it, provided we can keep the rest of the waste.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 100000000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::PyramidJunkSculpture",
+            "extra_build_level" : 0,
+            "level" : 1
+         }
+      ]
+   },
+   "name" : "Sculptures",
+   "network_19_completion" : "We would like to thank %s for helping us out with our waste problem.",
+   "network_19_headline" : "Company needs waste for sculptures."
+}
