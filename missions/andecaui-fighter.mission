@@ -12,7 +12,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 1000,
+            "combat" : 100,
             "hold_size" : 0,
             "name" : "Andecaui Probe",
             "speed" : 5000,

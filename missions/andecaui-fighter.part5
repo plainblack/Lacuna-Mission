@@ -40,7 +40,7 @@
             "hold_size" : 0,
             "name" : "Andecaui Fighter",
             "speed" : 8000,
-            "stealth" : 30,
+            "stealth" : 300,
             "type" : "fighter"
          },
          {
@@ -48,7 +48,7 @@
             "hold_size" : 0,
             "name" : "Andecaui Fighter",
             "speed" : 8000,
-            "stealth" : 30,
+            "stealth" : 300,
             "type" : "fighter"
          }
       ]
@@ -56,10 +56,10 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 25000,
+            "combat" : 50000,
             "hold_size" : 0,
             "name" : "",
-            "speed" : 10000,
+            "speed" : 15000,
             "stealth" : 8000,
             "type" : "sweeper"
          }

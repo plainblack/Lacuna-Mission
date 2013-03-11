@@ -37,7 +37,7 @@
       },
       "ships" : [
          {
-            "combat" : 0,
+            "combat" : 200,
             "hold_size" : 75000,
             "name" : "",
             "speed" : 5000,

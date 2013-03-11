@@ -24,7 +24,7 @@
             "hold_size" : 0,
             "name" : "Andecaui Fighter",
             "speed" : 1800,
-            "stealth" : 10,
+            "stealth" : 100,
             "type" : "fighter"
          },
          {
@@ -32,7 +32,7 @@
             "hold_size" : 0,
             "name" : "Andecaui Fighter",
             "speed" : 1800,
-            "stealth" : 10,
+            "stealth" : 100,
             "type" : "fighter"
          }
       ]
