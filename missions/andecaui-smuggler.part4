@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Hello, Archeologist Aliyuden here. \n\nIt was disappointing that they would not allow me to race in the Vleeslu 5000. I forgot that all Andecaui ships have basic weapons. I suppose it was for the best, as it allowed me more time to focus on my research. \n\nI am excited to announce that I have discovered a more effective way to use the Andecaui nano-bots within their smuggler class cargo ships. I have in my possession an ancient Andecaui data cube which outlines a nano-tech programming technique which will infuse the carbon in the chalcopyrite to take advantage of its properties to improve the ship's speed, stealth, and capacity.\n\nPlease provide me with an Andecaui Mark II smuggler ship and a store of chalcopyrite. Also I need another site to study, so please send scanners to the following locations to help further my research. I will adjust the manufacturing protocols based on what I found at this archeological dig site.",
-   "max_university_level" : "25",
+   "max_university_level" : "30",
    "mission_objective" : {
       "fleet_movement" : [
          {

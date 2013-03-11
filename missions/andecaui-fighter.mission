@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Hello, I am Aliyuden. With your help, I will soon be a famous archeologist. \n\nHave you heard of the Andecaui? At one time, they were the most effective ship builders in this area of the Expanse. I have studied the Andecaui my entire life. I recently deciphered the symbols on Andecaui artifacts at our museum which I believe indicate to the location of another settlement. After securing a sponsor to finance an exploratory dig, I was able to uncover a number Andecaui probes. \n\nMy sponsor had expected much more.  -I trired to explain that the Andecaui ship building technology is modular in nature. And that with additional financing I will be able to rediscover how the probes can be converted into powerful spacecraft. However, my sponsors have lost interest and withdrawn their support.\n\nIf you are willing to fund my next dig, I can give you the Andecaui probes which I received from the prior dig under the terms of my contract. Be sure to keep it, because I guarantee as I gain a greater understanding of Andecaui technology, that we will be able to upgrade it to something which parallels or surpasses the pinnacle of modern ship building technology.",
-   "max_university_level" : "25",
+   "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
          "energy" : 50000,

@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Hello, Archeologist Aliyuden here. \n\nI am excited to announce that I have discovered a more effective way to use the Andecaui propulsion system within their cargo ships. I will spare you the details, but it does require energy to power the nano-bot conversion and uraninite to upgrade the engines. \n\nPlease provide me with an Andecaui Mark I smuggler ship, and another general smuggler ship. I want to convert that ship for my own personal use, as I want to enter the next Vleeslu 5000 race. I am sure I will have the fastest ship for the race!",
-   "max_university_level" : "25",
+   "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
          "energy" : 120000,

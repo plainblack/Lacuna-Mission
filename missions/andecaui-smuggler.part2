@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Hello, Archeologist Aliyuden here. As you may have heard, I have recently become famous for my success rediscovering ancient Andecaui technology. I have just returned from an Andecaui settlement dig with a new finding.\n\nAs you no doubt already know, the Andecaui used an advanced form of nano-manufacturing. They would build a 'core' then use nano-bots to convert that core into more useful and specific purposes. My most recent discovery is that the Andecaui 'probe' is actually the base core. I'm fairly certain that I've figured out how to convert the probe \"core\" into an Andecaui cargo ship. \n\nHowever their cargo ships more closely match the specifications of modern smuggler ships. You see, the Andecaui traded hold capacity for speed. Upgrading a Andecaui probe into a cargo ship may only be the first stage. I believe I may be able to upgrade it further as I unlock more of the Andecaui ancient secrets. \n\nSo, I need one Andecaui 'probe', and a smuggler ship which will be assimilated during the construction process. With the addition of a little energy, I am certain that I can use the probe to convert the smuggler ship into something amazing.\n\nLets try it out shall we? \n\n[Be sure to save the resulting Andecaui cargo ship.  As I gain a better understanding of Andecaui technology, I'll likely be able to upgrade it into something even better.]",
-   "max_university_level" : "25",
+   "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
          "energy" : 60000
