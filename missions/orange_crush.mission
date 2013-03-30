@@ -1,50 +1,102 @@
 # config-file-type: JSON 1
 {
-   "description" : "We need hep finding our lost starship, The Star of Zeela.  We can find it if we get appropriate core samples from three asteroids set far apart from each other.  The radiation signature is very unique.  You can keep whatever you find with your excavators plus a substantial bonus.",
+   "description" : "We need hep finding our lost starship, The Star of Zeela.  We can find it if we get appropriate images of three habitable planets set far apart from each other.  The radiation signature is very unique.",
    "max_university_level" : "30",
    "mission_objective" : {
       "fleet_movement" : [
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 0,
                "inhabited" : 0,
                "isolationist" : 0,
                "size" : [
                   1,
-                  10
+                  121
                ],
-               "type" : "asteroid"
+               "type" : "habitable"
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 0,
                "inhabited" : 0,
                "isolationist" : 0,
                "size" : [
                   1,
-                  10
+                  121
                ],
-               "type" : "asteroid"
+               "type" : "habitable"
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
-               "in_zone" : 1,
+               "in_zone" : 0,
+               "inhabited" : 0,
+               "isolationist" : 0,
                "size" : [
                   1,
-                  10
+                  121
                ],
-               "type" : "asteroid"
+               "type" : "habitable"
             }
          }
       ]
    },
    "mission_reward" : {
       "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
+            "extra_build_level" : 0,
+            "level" : 1
+         },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
             "extra_build_level" : 0,

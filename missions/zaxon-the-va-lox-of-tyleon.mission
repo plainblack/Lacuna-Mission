@@ -5,7 +5,7 @@
    "mission_objective" : {
       "fleet_movement" : [
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 1,
                "inhabited" : 0,
@@ -18,7 +18,7 @@
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 0,
                "inhabited" : 0,
@@ -31,7 +31,7 @@
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 0,
                "inhabited" : 0,
@@ -44,7 +44,7 @@
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 0,
                "inhabited" : 0,
@@ -57,7 +57,7 @@
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 1,
                "inhabited" : 0,

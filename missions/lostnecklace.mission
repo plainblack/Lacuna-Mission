@@ -1,40 +1,46 @@
 # config-file-type: JSON 1
 {
-   "description" : "Sire, sire!  Please help me... Queen Thipxl has gone mad with grief about her lost necklace.  This necklace is made from ultra-rare beeldeban queen carapice, and is worth more than most colonies.  I'm worried if I don't find it soon, she will kill all of my family and anyone who shares any chromosomes with any of my relatives!\n\nThe best information we have is it may have fallen off while her limo was being chased by the paparazzi around \"an asteroid\".  I know it doesn't help much, but I'm desperate!",
+   "description" : "Sire, sire!  Please help me... Queen Thipxl has gone mad with grief about her lost necklace.  This necklace is made from ultra-rare beeldeban queen carapice, and is worth more than most colonies.  I'm worried if I don't find it soon, she will kill all of my family and anyone who shares any chromosomes with any of my relatives!\n\nThe best information we have is it may have fallen off while her limo was being chased by the paparazzi around \"an uninhabited planet\".  I know it doesn't help much, but I'm desperate!",
    "max_university_level" : "20",
    "mission_objective" : {
       "fleet_movement" : [
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
                "size" : [
                   1,
                   121
                ],
-               "type" : "asteroid"
+               "type" : "habitable"
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
                "size" : [
                   1,
                   121
                ],
-               "type" : "asteroid"
+               "type" : "habitable"
             }
          },
          {
-            "ship_type" : "excavator",
+            "ship_type" : "surveyor",
             "target" : {
                "in_zone" : 1,
+               "inhabited" : 0,
+               "isolationist" : 0,
                "size" : [
                   1,
                   121
                ],
-               "type" : "asteroid"
+               "type" : "habitable"
             }
          }
       ]
