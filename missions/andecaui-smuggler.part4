@@ -50,7 +50,7 @@
       "ships" : [
          {
             "combat" : 300,
-            "hold_size" : 200000,
+            "hold_size" : 250000,
             "name" : "Andecaui Smuggler III",
             "speed" : 10000,
             "stealth" : 25000,

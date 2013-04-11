@@ -16,10 +16,10 @@
             "type" : "probe"
          },
          {
-            "combat" : 100,
+            "combat" : 0,
             "hold_size" : 0,
-            "name" : "Andecaui Probe",
-            "speed" : 5000,
+            "name" : "",
+            "speed" : 5555,
             "stealth" : 0,
             "type" : "smuggler_ship"
          }
