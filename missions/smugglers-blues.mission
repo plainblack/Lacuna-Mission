@@ -4,10 +4,10 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
+         "cider" : 250000,
          "energy" : 1000000,
          "gold" : 250000,
          "milk" : 250000
-         "cider" : 250000
       }
    },
    "mission_reward" : {
