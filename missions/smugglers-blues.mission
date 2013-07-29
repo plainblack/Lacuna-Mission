@@ -4,9 +4,10 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "resources" : {
-         "energy" : 100000,
-         "gold" : 25000,
-         "milk" : 25000
+         "energy" : 1000000,
+         "gold" : 250000,
+         "milk" : 250000
+         "cider" : 250000
       }
    },
    "mission_reward" : {
@@ -17,9 +18,9 @@
          {
             "combat" : 0,
             "hold_size" : 100000,
-            "name" : "Glen's Ride",
-            "speed" : 4500,
-            "stealth" : 12000,
+            "name" : "Glens Ride",
+            "speed" : 8500,
+            "stealth" : 18000,
             "type" : "smuggler_ship"
          }
       ]

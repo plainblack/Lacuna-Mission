@@ -20,7 +20,7 @@
          {
             "combat" : 0,
             "hold_size" : 0,
-            "name" : "Pete's Retirement",
+            "name" : "Petes Retirement",
             "speed" : 700,
             "stealth" : 0,
             "type" : "mining_platform_ship"

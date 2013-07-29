@@ -26,7 +26,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
-            "name" : "Dorset's Luck",
+            "name" : "Dorsets Luck",
             "speed" : 3000,
             "stealth" : 5000,
             "type" : "dory"
@@ -34,7 +34,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
-            "name" : "Windsor's Luck",
+            "name" : "Windsors Luck",
             "speed" : 3000,
             "stealth" : 5000,
             "type" : "dory"
@@ -42,7 +42,7 @@
          {
             "combat" : 0,
             "hold_size" : 10000,
-            "name" : "Norfolk's Luck",
+            "name" : "Norfolks Luck",
             "speed" : 3000,
             "stealth" : 5000,
             "type" : "dory"

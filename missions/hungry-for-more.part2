@@ -21,7 +21,7 @@
          {
             "combat" : 1000,
             "hold_size" : 0,
-            "name" : "",
+            "name" : "Alquor Scanner",
             "speed" : 7500,
             "stealth" : 0,
             "type" : "scanner"

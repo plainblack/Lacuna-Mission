@@ -19,7 +19,7 @@
          {
             "combat" : 0,
             "hold_size" : 50000,
-            "name" : "Elroy's Cargo",
+            "name" : "Elroys Cargo",
             "speed" : 1200,
             "stealth" : 3000,
             "type" : "cargo_ship"

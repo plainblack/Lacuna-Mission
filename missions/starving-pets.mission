@@ -12,7 +12,7 @@
          {
             "combat" : 3000,
             "hold_size" : 0,
-            "name" : "Fido's Hope",
+            "name" : "Fidos Hope",
             "speed" : 2000,
             "stealth" : 0,
             "type" : "short_range_colony_ship"

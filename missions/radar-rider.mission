@@ -17,7 +17,7 @@
          {
             "combat" : 0,
             "hold_size" : 32000,
-            "name" : "Digger's Folly",
+            "name" : "Diggers Folly",
             "speed" : 4000,
             "stealth" : 1500,
             "type" : "dory"

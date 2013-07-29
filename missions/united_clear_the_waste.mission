@@ -17,7 +17,7 @@
          {
             "combat" : 0,
             "hold_size" : 50000,
-            "name" : "The People's Scow",
+            "name" : "The Peoples Scow",
             "speed" : 1000,
             "stealth" : 0,
             "type" : "scow"
