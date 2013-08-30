@@ -30,9 +30,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 25000,
-            "name" : "Tarna's Flight",
-            "speed" : 4500,
+            "hold_size" : 50000,
+            "name" : "Tarnas Flight",
+            "speed" : 8000,
             "stealth" : 15000,
             "type" : "smuggler_ship"
          }

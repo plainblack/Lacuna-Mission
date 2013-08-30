@@ -29,7 +29,7 @@
          {
             "combat" : 0,
             "hold_size" : 50000,
-            "name" : "Dan's Cargo",
+            "name" : "Dans Cargo",
             "speed" : 2250,
             "stealth" : 7500,
             "type" : "cargo_ship"

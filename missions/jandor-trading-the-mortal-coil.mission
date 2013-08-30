@@ -12,8 +12,8 @@
                "inhabited" : 1,
                "isolationist" : 1,
                "size" : [
-                  1,
-                  45
+                  30,
+                  75
                ],
                "type" : "habitable"
             }
@@ -25,8 +25,8 @@
                "inhabited" : 1,
                "isolationist" : 1,
                "size" : [
-                  1,
-                  45
+                  30,
+                  75
                ],
                "type" : "habitable"
             }

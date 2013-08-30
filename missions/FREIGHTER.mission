@@ -26,7 +26,7 @@
          {
             "combat" : 0,
             "hold_size" : 600000,
-            "name" : "Dan's Freighter",
+            "name" : "Dans Freighter",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "freighter"

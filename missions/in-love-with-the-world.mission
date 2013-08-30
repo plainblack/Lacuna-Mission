@@ -15,9 +15,9 @@
       "ships" : [
          {
             "combat" : 0,
-            "hold_size" : 15000,
-            "name" : "",
-            "speed" : 5000,
+            "hold_size" : 30000,
+            "name" : "Ministry",
+            "speed" : 6000,
             "stealth" : 0,
             "type" : "dory"
          }

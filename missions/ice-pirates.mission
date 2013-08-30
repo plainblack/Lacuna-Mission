@@ -18,7 +18,7 @@
          {
             "combat" : 0,
             "hold_size" : 65000,
-            "name" : "Zagora's Quest",
+            "name" : "Zagoras Quest",
             "speed" : 5500,
             "stealth" : 12000,
             "type" : "smuggler_ship"

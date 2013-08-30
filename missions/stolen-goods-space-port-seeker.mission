@@ -17,7 +17,7 @@
          {
             "combat" : 10000,
             "hold_size" : 0,
-            "name" : "%$#! erg",
+            "name" : "erg",
             "speed" : 2500,
             "stealth" : 2500,
             "type" : "spaceport_seeker"

@@ -22,7 +22,7 @@
          {
             "combat" : 0,
             "hold_size" : 60000,
-            "name" : "Dan's Dory",
+            "name" : "Dans Dory",
             "speed" : 9750,
             "stealth" : 11000,
             "type" : "dory"

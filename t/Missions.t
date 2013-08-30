@@ -33,6 +33,14 @@ foreach my $filename (@files) {
         my $class = $plan->{classname};
         ok(exists $buildings->{$class}, $filename.' plan class '.$class.' exists');
     }
+    my @ships;
+    $temp = $config->get('mission_reward')->{ships};
+    push @ships, @{$temp} if (ref $temp eq 'ARRAY');
+    foreach my $ship (@ships) {
+      my $name = $ship->{name};
+      $name =~ s/[^\w\d\s]//g;
+      ok( ($name eq $ship->{name} and $name ne ''), $filename.' ship name in reward has puncuation or is zero length.');
+    }
 }
 
 done_testing();

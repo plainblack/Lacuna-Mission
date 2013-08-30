@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Thanks God for granting our Queen a speedy recovery on respiratory system infection. To share the whole-empire great news with all you others, we are giving off a breaking deal to the lucky one!",
+   "description" : "Thanks God for granting our Queen a speedy recovery from her respiratory system infection. To share the whole-empire great news with all you others, we are giving off a breaking deal to the lucky one!",
    "max_university_level" : "14",
    "mission_objective" : {
       "resources" : {
@@ -15,7 +15,7 @@
          {
             "combat" : 0,
             "hold_size" : 300000,
-            "name" : "The Queen's Gift",
+            "name" : "The Queens Gift",
             "speed" : 3000,
             "stealth" : 0,
             "type" : "galleon"

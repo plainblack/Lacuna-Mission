@@ -35,7 +35,7 @@
          {
             "combat" : 10000,
             "hold_size" : 0,
-            "name" : "",
+            "name" : "Oligarchy Sweeper",
             "speed" : 5000,
             "stealth" : 5000,
             "type" : "sweeper"
@@ -43,7 +43,7 @@
          {
             "combat" : 10000,
             "hold_size" : 0,
-            "name" : "",
+            "name" : "Oligarchy Sweeper",
             "speed" : 5000,
             "stealth" : 5000,
             "type" : "sweeper"
