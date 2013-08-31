@@ -10,8 +10,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "chalcopyrite",
-         "sulfur"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ]
    },
    "name" : "Cheap Power",

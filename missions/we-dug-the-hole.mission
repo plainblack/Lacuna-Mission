@@ -11,23 +11,21 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Park",
-            "extra_build_level" : 0,
-            "level" : 2
+            "extra_build_level" : "0",
+            "level" : "2",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Lake",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::RockyOutcrop",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::RockyOutcrop",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 2
          }
       ]
    },

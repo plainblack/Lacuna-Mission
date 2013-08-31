@@ -9,19 +9,13 @@
       },
       "ships" : [
          {
-            "combat" : 4500,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "4500",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 1800,
-            "stealth" : 100,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 4500,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 1800,
-            "stealth" : 100,
+            "quantity" : 2,
+            "speed" : "1800",
+            "stealth" : "100",
             "type" : "fighter"
          }
       ]
@@ -29,19 +23,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 10000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "10000",
+            "hold_size" : "0",
             "name" : "Andecaui Fighter",
-            "speed" : 5500,
-            "stealth" : 200,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 10000,
-            "hold_size" : 0,
-            "name" : "Andecaui Fighter",
-            "speed" : 5500,
-            "stealth" : 200,
+            "quantity" : 2,
+            "speed" : "5500",
+            "stealth" : "200",
             "type" : "fighter"
          }
       ]

@@ -1,0 +1,26 @@
+# config-file-type: JSON 1
+{
+   "description" : "Scientists on a research mission in sector -3|3 have discovered a new rift in the space-time continuum.  Unlike the familiar rifts we all store our supplies in, this rift is proving to be less stable, and increasing in size.  On a serendipitous whim, one of the scientists caused a waste sequestration plan to enter the void, and noticed a distinct drop of the energy emitted and a slowed growth rate...\n\nThey are now scouring the Expanse to find more such plans.  Can you help?  They cannot offer much, but are willing to scrape together as much as possible, perhaps some nice organic produce from their research farm?  The scientists know there are people out there whose spies have been quite adept at pilfering such plans, at least you will get some good out of those old plans!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Waste::Sequestration",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 4
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "apple" : 10000,
+         "corn" : 10000,
+         "lapis" : 10000,
+         "wheat" : 10000
+      }
+   },
+   "name" : "Plan Sink",
+   "network_19_completion" : "The rift has been plugged for now - scientists not sure how or why, or when the next one will appear!",
+   "network_19_headline" : "A rift in a new dimension has opened in sector -3|3, scientists perplexed."
+}

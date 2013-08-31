@@ -1,0 +1,37 @@
+# config-file-type: JSON 1
+{
+   "description" : "I love exploring for glyphs, I'm trying to complete my collection but am missing a few.  Fortunately I have some duplicates and was wondering if you may be interested in a trade?\n\nIn exchange for this rare Halite Glyph, I would like one Gold Glyph and one Excavator.  Do we have a deal?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
+      ],
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "excavator"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "One for One?",
+   "network_19_completion" : "%s makes a shrewd deal for Halite Glyph.",
+   "network_19_headline" : "Halite Glyph available for trade."
+}

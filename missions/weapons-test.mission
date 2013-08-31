@@ -1,0 +1,29 @@
+# config-file-type: JSON 1
+{
+   "description" : "We of the Ixtishof Republic believe we are on the verge of a brand new weapon type. It's power will be immense! We need quantities of certain ores in order to complete the project. Will you trade for them? In return, we offer you a couple of our fighters, and you can choose our first target!",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : 15000,
+         "chromite" : 15000,
+         "kerogen" : 15000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "17500",
+            "hold_size" : "0",
+            "name" : "Ixtishof Fighter",
+            "quantity" : 2,
+            "speed" : "5000",
+            "stealth" : "0",
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Weapons Test",
+   "network_19_completion" : "Disaster strikes Ixtishof Rebublic! Ores delivered by %s contained impurities causing the new weapon to explode!",
+   "network_19_headline" : "The Ixtishof Republic has announced they are on the verge of breakthrough on an entirely new weapon type!"
+}

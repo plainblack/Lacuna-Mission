@@ -10,19 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 350,
-            "hold_size" : 250000,
+            "berth_level" : "1",
+            "combat" : "350",
+            "hold_size" : "250000",
             "name" : "Scowlwag Scow",
-            "speed" : 1250,
-            "stealth" : 150,
-            "type" : "scow"
-         },
-         {
-            "combat" : 350,
-            "hold_size" : 250000,
-            "name" : "Scowlwag Scow",
-            "speed" : 1250,
-            "stealth" : 150,
+            "quantity" : 2,
+            "speed" : "1250",
+            "stealth" : "150",
             "type" : "scow"
          }
       ]

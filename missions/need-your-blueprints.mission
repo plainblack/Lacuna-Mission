@@ -6,45 +6,54 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Development",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Embassy",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 10000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "10000",
             "name" : "Dorsets Luck",
-            "speed" : 3000,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "5000",
             "type" : "dory"
          },
          {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "Windsors Luck",
-            "speed" : 3000,
-            "stealth" : 5000,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "10000",
             "name" : "Norfolks Luck",
-            "speed" : 3000,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "5000",
+            "type" : "dory"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "10000",
+            "name" : "Windsors Luck",
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "5000",
             "type" : "dory"
          }
       ]

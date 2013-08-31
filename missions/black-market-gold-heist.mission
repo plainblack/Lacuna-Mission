@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). I usually don't part with my merchandise for so little, but due to circumstances beyond my control, I must escape...I mean, depart from this planet at once. If you can provide me with a Dory sufficiently large to carry me and the rest of my contraband...I mean, personal belongings, you would be richly compensated.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "3000",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 15000
+      },
+      "ships" : []
+   },
+   "name" : "Black Market: Gold Heist",
+   "network_19_completion" : "Lead suspect in Lacuna Expanse Federal Reserve robbery has eluded capture.",
+   "network_19_headline" : "The Lacuna Expanse Federal Reserve was robbed."
+}

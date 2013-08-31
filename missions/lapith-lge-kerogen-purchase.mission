@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at the Lapith Glyph Exchange, we discovered that there is not much demand for Kerogen Glyphs right now. Are you interested in the one we have on clearance sale?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 75000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         }
+      ]
+   },
+   "name" : "Kerogen Glyph for sale.",
+   "network_19_completion" : "%s has purchased a Kerogen Glyph at a bargain price.",
+   "network_19_headline" : "Lapith Glyph Exchange is getting rid of slow moving merchandise."
+}

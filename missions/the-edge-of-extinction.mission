@@ -15,51 +15,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Junk Pod",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Junk Pod",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Junk Pod",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Junk Pod",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Junk Pod",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Junk Pod",
-            "speed" : 5000,
-            "stealth" : 5000,
+            "quantity" : 6,
+            "speed" : "5000",
+            "stealth" : "5000",
             "type" : "spy_pod"
          }
       ]

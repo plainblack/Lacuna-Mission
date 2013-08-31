@@ -1,0 +1,33 @@
+# config-file-type: JSON 1
+{
+   "description" : "Scientists at the Ubb City University are trying to perfect holographic transmission. To do so, they need significant amounts of several different ores, as well as something cheap and demeaning to feed their indentured grad students. In exchange for the right contribution from a corporate investor, the university is willing to provide some of their development plans and a glyph from their archives.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 10000,
+         "fungus" : 12000,
+         "kerogen" : 50000,
+         "magnetite" : 50000,
+         "uraninite" : 50000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
+      ],
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Fission",
+            "extra_build_level" : "4",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Holography Institute",
+   "network_19_completion" : "%s Memorial Holography Institute opens at Ubb City University. Chancellor says new technology will soon follow.",
+   "network_19_headline" : "Ubb City University seeking donor to fund holography lab."
+}

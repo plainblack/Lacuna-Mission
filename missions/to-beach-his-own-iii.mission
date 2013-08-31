@@ -1,0 +1,90 @@
+# config-file-type: JSON 1
+{
+   "description" : "The eccentric dictator Kennius Gee of Geeworld (population 3 plus a cat) has decided that he needs to form a powerful space fleet.  The problem?  Geeworld is actually a Y-class moon whose surface consists only of coarse regolith, so his options are limited. Kennius proposes to trade the sand from his world to anybody who provides him a ship.  His first efforts got him a small fleet of utilitarian ships, and his second deal got him some cargo ships - now he wants something with real firepower.  Who's going to pilot this fleet is anybody's guess...",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "drone"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "fighter"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach1",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach2",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach3",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach4",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach5",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach6",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach7",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach8",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "To Beach His Own - Part III",
+   "network_19_completion" : "Ships-for-sand program reaches new heights!  %s owns enough sand to form more new beaches!  Will it never end?",
+   "network_19_headline" : "Eccentric dictator now wants some real firepower in exchange for beaches."
+}

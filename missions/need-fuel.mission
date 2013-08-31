@@ -12,11 +12,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 25000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "25000",
             "name" : "Casteen",
-            "speed" : 3500,
-            "stealth" : 1250,
+            "quantity" : 1,
+            "speed" : "3500",
+            "stealth" : "1250",
             "type" : "cargo_ship"
          }
       ]

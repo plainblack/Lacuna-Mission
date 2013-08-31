@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Lapith Glyph exchange (part of the Pawn Lacuna family of corporations) is now open for business. However we underestimated the glyphs collectors want. One collector is looking for a Methane Glyph so they can complete construction of a Ravine. If you can help us here, we will offer you all the profit in the deal and a surplus glyph no one seems to want. We just need to get a good name out there among Glyph Collectors that we can provide for their needs.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
+      ],
+      "resources" : {
+         "gold" : 50000
+      }
+   },
+   "name" : "Lapith Glyph Seed Capital",
+   "network_19_completion" : "The glyph exchange business is off to a great start.",
+   "network_19_headline" : "Lapith Glyphs Inc. is looking for  start-up stock for their flagship store."
+}

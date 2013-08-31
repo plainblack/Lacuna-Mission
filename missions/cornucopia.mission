@@ -28,7 +28,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "halite"
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         }
       ]
    },
    "name" : "Cornucopia Beginning",

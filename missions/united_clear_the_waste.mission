@@ -9,17 +9,20 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Waste::Sequestration",
-            "extra_build_level" : 9,
-            "level" : 1
+            "extra_build_level" : "9",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "The Peoples Scow",
-            "speed" : 1000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1000",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]

@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at the Lapith Glyph Exchange, we have available a surplus of Monazite Glyphs. We will sell one cheap to the first person to respond.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 75000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         }
+      ]
+   },
+   "name" : "Monazite Glyph for sale.",
+   "network_19_completion" : "%s has bought a Monazite Glyph via Lapith Glyph Exchange!",
+   "network_19_headline" : "Lapith Glyph Exchange is looking for client to purchase a Monazite Glyph."
+}

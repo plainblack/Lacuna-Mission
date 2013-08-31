@@ -5,67 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 10000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "10000",
             "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 10000,
-            "name" : "",
-            "speed" : 2000,
-            "stealth" : 0,
+            "quantity" : 8,
+            "speed" : "2000",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]
@@ -73,11 +19,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 250000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "250000",
             "name" : "Alpha Zeta Freighter",
-            "speed" : 1750,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1750",
+            "stealth" : "0",
             "type" : "freighter"
          }
       ]

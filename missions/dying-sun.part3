@@ -1,0 +1,39 @@
+# config-file-type: JSON 1
+{
+   "description" : "With the tragedy of our home world only a few short months behind us, we now have the duty to find a new leader for our people. It seems the Caldestan Prime Minister was out for a walk when he was run over by a tractor! But we must move on, a new leader must be chosen. We need 5 drones for the leadership ceremony, and a variety of foods for the party afterward. In exchange, we'll give you the plans for some luxury housing, much like those our top politicians would enjoy.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 2500,
+         "burger" : 2500,
+         "cheese" : 500,
+         "cider" : 500
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 5,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "drone"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
+            "extra_build_level" : "2",
+            "level" : "1",
+            "quantity" : 2
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Who will lead us?",
+   "network_19_completion" : "The Caldestans have elected a new Prime Minister! Representatives of %s were seen reveling in the party.",
+   "network_19_headline" : "One disaster after another! The Caldestan Prime Minister has been killed!"
+}

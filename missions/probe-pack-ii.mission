@@ -1,0 +1,38 @@
+# config-file-type: JSON 1
+{
+   "description" : "A handy 6-pack of probes to investigate the next layer of your neighborhood.  You can even clear your star system of outsiders snooping on your star with our handy-dandy first generation detonator - perfect for the Fourth of July celebration to impress the neighbors.\n\n You will be required to upgrade your Observatory in order to use these beauties.\n\nDIRECTIONS FOR USE: send detonator to your star, eliminate all probes (friendly and foreign), then set your probe in place for a look-see devoid of all foreign operators!  Then send out the remaining 5 to see your neighbors. Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 125000,
+         "water" : 125000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "6000",
+            "hold_size" : "0",
+            "name" : "Probe Bomb",
+            "quantity" : 1,
+            "speed" : "1600",
+            "stealth" : "0",
+            "type" : "detonator"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "Safety Probe",
+            "quantity" : 6,
+            "speed" : "9500",
+            "stealth" : "0",
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Know what's out there Deluxe!",
+   "network_19_completion" : "Probative Questioning Forthcoming in the %s Case.",
+   "network_19_headline" : "Investigate your neighborhood and find some new friends with our new starter pack of probes!"
+}

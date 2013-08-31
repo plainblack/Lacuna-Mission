@@ -14,11 +14,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 5000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "5000",
+            "hold_size" : "0",
             "name" : "Horses Gift",
-            "speed" : 1800,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1800",
+            "stealth" : "0",
             "type" : "short_range_colony_ship"
          }
       ]

@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "A handy 6-pack of probes to investigate the next layer of your neighborhood. \n\nMAKE SURE YOU HAVE ROOM IN YOUR SPACEPORT AND OBSERVATORY FOR THIS INFLUX OF 6 PROBES.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "magnetite" : 20000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "Safety Probe",
+            "quantity" : 6,
+            "speed" : "7500",
+            "stealth" : "0",
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Know what's out there!",
+   "network_19_completion" : "%s will be looking around his/her/its neighborhood soon.",
+   "network_19_headline" : "Investigate your neighborhood and find some new friends with our new starter pack of probes!"
+}

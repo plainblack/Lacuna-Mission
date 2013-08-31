@@ -12,8 +12,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Network19",
-            "extra_build_level" : 9,
-            "level" : 1
+            "extra_build_level" : "9",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

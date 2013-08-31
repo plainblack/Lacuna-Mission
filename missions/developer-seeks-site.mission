@@ -15,23 +15,27 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
-            "extra_build_level" : 4,
-            "level" : 1
+            "extra_build_level" : "4",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
-            "extra_build_level" : 4,
-            "level" : 1
+            "extra_build_level" : "4",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
-            "extra_build_level" : 5,
-            "level" : 1
+            "extra_build_level" : "5",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Park",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

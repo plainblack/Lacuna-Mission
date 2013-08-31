@@ -9,19 +9,23 @@
       },
       "ships" : [
          {
-            "combat" : 100,
-            "hold_size" : 0,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "smuggler_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "10",
+            "combat" : "100",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "smuggler_ship"
          }
       ]
@@ -29,11 +33,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 200,
-            "hold_size" : 75000,
+            "berth_level" : "10",
+            "combat" : "200",
+            "hold_size" : "75000",
             "name" : "Andecaui Smuggler II",
-            "speed" : 5000,
-            "stealth" : 12500,
+            "quantity" : 1,
+            "speed" : "5000",
+            "stealth" : "12500",
             "type" : "smuggler_ship"
          }
       ]

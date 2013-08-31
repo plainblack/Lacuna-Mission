@@ -12,11 +12,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 150000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "150000",
             "name" : "Buffet on the Go",
-            "speed" : 1500,
-            "stealth" : 500,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "500",
             "type" : "cargo_ship"
          }
       ]

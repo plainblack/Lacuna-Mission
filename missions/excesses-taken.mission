@@ -9,11 +9,26 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "bauxite",
-         "galena",
-         "halite",
-         "kerogen",
-         "rutile"
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         },
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         }
       ]
    },
    "name" : "Excesses Taken",

@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). I anticipate a little trouble passing through customs. I think if I loaded my ship down with waste, customs would assume I was hauling trash. Plus the smell should drive any nosy inspectors away. If you can spare some of your waste, I'll let you have four drones from my personal stash.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "waste" : 20000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "7000",
+            "hold_size" : "0",
+            "name" : "Slick Drone",
+            "quantity" : 2,
+            "speed" : "1000",
+            "stealth" : "0",
+            "type" : "drone"
+         }
+      ]
+   },
+   "name" : "Black Market: Evading Customs",
+   "network_19_completion" : "Customs officials intensified efforts have yet to yield results.",
+   "network_19_headline" : "Customs officials on high alert after receiving a tip that valuable goods may be smuggled off the planet soon."
+}

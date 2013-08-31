@@ -4,12 +4,18 @@
    "max_university_level" : "25",
    "mission_objective" : {
       "glyphs" : [
-         "gypsum"
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "halite"
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         }
       ]
    },
    "name" : "Resort Opening in Jeopardy",

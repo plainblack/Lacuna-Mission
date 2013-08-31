@@ -14,8 +14,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
-            "extra_build_level" : 10,
-            "level" : 1
+            "extra_build_level" : "10",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

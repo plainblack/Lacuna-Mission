@@ -72,19 +72,27 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "methane",
-         "uraninite"
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ],
       "resources" : {
          "gold" : 250000
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "Daltrey",
-            "speed" : 6000,
-            "stealth" : 13000,
+            "quantity" : 1,
+            "speed" : "6000",
+            "stealth" : "13000",
             "type" : "smuggler_ship"
          }
       ]

@@ -11,8 +11,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Energy::Reserve",
-            "extra_build_level" : 0,
-            "level" : 10
+            "extra_build_level" : "0",
+            "level" : "10",
+            "quantity" : 1
          }
       ]
    },

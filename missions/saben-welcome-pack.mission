@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Flood your neighboring Saben infestation with happiness and light (so to speak).  Fast, easy, and only 5000 Gold each, in bulk!  Convenient 11-pack.\n\nMAKE SURE YOU HAVE ROOM IN YOUR SPACEPORT FOR THIS INFLUX OF 11 SPEEDY SATURATION TARGETS!",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 55000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "1000",
+            "hold_size" : "0",
+            "name" : "Happiness Scanner",
+            "quantity" : 11,
+            "speed" : "3000",
+            "stealth" : "0",
+            "type" : "scanner"
+         }
+      ]
+   },
+   "name" : "Saben Welcome Pack",
+   "network_19_completion" : "Saben come eleben, baby needs a new pair of shoes!  See what the Saben are up to!",
+   "network_19_headline" : "You too can have fun with your neighboring Saben infestation!  Invite your friends to come join the fun!"
+}

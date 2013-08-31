@@ -10,19 +10,27 @@
       },
       "ships" : [
          {
-            "combat" : 5000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "5000",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "2500",
+            "stealth" : "0",
             "type" : "fighter"
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "halite",
-         "fluorite"
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         }
       ],
       "ships" : []
    },

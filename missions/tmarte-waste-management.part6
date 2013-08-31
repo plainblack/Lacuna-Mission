@@ -12,11 +12,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 350,
-            "hold_size" : 100000,
+            "berth_level" : "1",
+            "combat" : "350",
+            "hold_size" : "100000",
             "name" : "Chunkin",
-            "speed" : 750,
-            "stealth" : 250,
+            "quantity" : 1,
+            "speed" : "750",
+            "stealth" : "250",
             "type" : "scow"
          }
       ]

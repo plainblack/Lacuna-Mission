@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "Ok, who did it?  Was it you?  Gahh I'm itchy!\n\nOk, somebody thought it would be funny to put peanuts in all of our food storage buildings.  Our race is allergic to peanuts!  I think it is because they are jealous of our newly acquired stealth technology.  Thank the gods that no one has died, however every last colonist on our planet is now covered in hives.  \n\nThe only way to ease our discomfort is to bathe in Milk.  Please send us your surplus stores of Milk, in exchange we offer you our Cloaking technology.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "milk" : 10000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::CloakingLab",
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "It Itches!",
+   "network_19_completion" : "%s Provides relief to population covered in hives.",
+   "network_19_headline" : "Practical joke goes awry."
+}

@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "We have done an extensive survey, and the inhabitants of this sector are all changing over to Fission Power.  It is the latest craze.  Modest amounts of materials, large quantities of energy.  Modest amounts of waste.\n\nIf you've considered this form of energy, consider out proposal: Plans for a Fission Plant for a modest investment of materials: Halite and Galena.  we know you'll be happy with your decision.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "galena" : 8000,
+         "halite" : 8000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Fission",
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Fission Fashion",
+   "network_19_completion" : "Fission plant started up.  Statues to %s commemorated. News at 11.",
+   "network_19_headline" : "The latest fad in this quadrant is Fission energy.  The deal of the century, yours today!"
+}

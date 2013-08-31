@@ -14,11 +14,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 30000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "30000",
             "name" : "Ministry",
-            "speed" : 6000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "6000",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]

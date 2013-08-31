@@ -7,46 +7,86 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "anthracite",
-         "anthracite",
-         "bauxite",
-         "bauxite",
-         "beryl",
-         "beryl",
-         "chalcopyrite",
-         "chalcopyrite",
-         "chromite",
-         "chromite",
-         "fluorite",
-         "fluorite",
-         "galena",
-         "galena",
-         "goethite",
-         "goethite",
-         "gold",
-         "gold",
-         "gypsum",
-         "gypsum",
-         "halite",
-         "halite",
-         "kerogen",
-         "kerogen",
-         "magnetite",
-         "magnetite",
-         "methane",
-         "methane",
-         "monazite",
-         "monazite",
-         "rutile",
-         "rutile",
-         "sulfur",
-         "sulfur",
-         "trona",
-         "trona",
-         "uraninite",
-         "uraninite",
-         "zircon",
-         "zircon"
+         {
+            "quantity" : 2,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 2,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 2,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 2,
+            "type" : "gypsum"
+         },
+         {
+            "quantity" : 2,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "kerogen"
+         },
+         {
+            "quantity" : 2,
+            "type" : "magnetite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 2,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "rutile"
+         },
+         {
+            "quantity" : 2,
+            "type" : "sulfur"
+         },
+         {
+            "quantity" : 2,
+            "type" : "trona"
+         },
+         {
+            "quantity" : 2,
+            "type" : "uraninite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "zircon"
+         }
       ]
    },
    "name" : "The Unhappy Ones",

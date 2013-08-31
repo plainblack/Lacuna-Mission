@@ -11,17 +11,20 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
-            "extra_build_level" : 3,
-            "level" : 1
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 55000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "55000",
             "name" : "Forest",
-            "speed" : 4500,
-            "stealth" : 9900,
+            "quantity" : 1,
+            "speed" : "4500",
+            "stealth" : "9900",
             "type" : "smuggler_ship"
          }
       ]

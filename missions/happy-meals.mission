@@ -10,27 +10,23 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "",
-            "speed" : 1200,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1200",
+            "stealth" : "0",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 18000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "18000",
             "name" : "",
-            "speed" : 1500,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 18000,
-            "name" : "",
-            "speed" : 1500,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "1500",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]

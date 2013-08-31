@@ -6,8 +6,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::SpacePort",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "resources" : {
@@ -16,7 +17,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "kerogen"
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         }
       ]
    },
    "name" : "What You Can't See",

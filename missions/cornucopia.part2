@@ -11,7 +11,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "anthracite"
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         }
       ]
    },
    "name" : "Cornucopia Progressing",

@@ -5,11 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "short_range_colony_ship"
          }
       ]
@@ -17,11 +19,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Elroys Cargo",
-            "speed" : 1200,
-            "stealth" : 3000,
+            "quantity" : 1,
+            "speed" : "1200",
+            "stealth" : "3000",
             "type" : "cargo_ship"
          }
       ]

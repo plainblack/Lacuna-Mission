@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 10000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "10000",
+            "hold_size" : "0",
             "name" : "Apple Core",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "drone"
          }
       ]

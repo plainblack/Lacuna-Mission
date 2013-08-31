@@ -15,10 +15,22 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "goethite",
-         "bauxite",
-         "uraninite",
-         "galena"
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ]
    },
    "name" : "Resource Shortage",

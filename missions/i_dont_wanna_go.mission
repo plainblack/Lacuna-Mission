@@ -34,23 +34,27 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::CloakingLab",
-            "extra_build_level" : 0,
-            "level" : 20
+            "extra_build_level" : "0",
+            "level" : "20",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Shake",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Soup",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::MunitionsLab",
-            "extra_build_level" : 0,
-            "level" : 15
+            "extra_build_level" : "0",
+            "level" : "15",
+            "quantity" : 1
          }
       ]
    },

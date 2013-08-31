@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nYou know your Lapis Forest has been a good provider, just imagine what it can produce with this exclusive upgrade kit.  Sell Lapis and Pies over the TradeMin and lead the life you have always wanted.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         },
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::LapisForest",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings.",
+   "network_19_completion" : "%s upgraded their Lapis Forest today!",
+   "network_19_headline" : "Upgrade your Lapis Forest today."
+}

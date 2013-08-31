@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello, you must be the one who called about this strange document we found.  Our curator says that we do not need any more copies of this particular Glyph, so we are selling it to help with the new childrens' section.\n\nBesides resources for building, we need a healthy snack for the kids on opening day.\n\nFor your donation we will gladly give you this Fluorite Glyph.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 20000,
+         "chalcopyrite" : 50000,
+         "gold" : 50000,
+         "uraninite" : 50000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         }
+      ]
+   },
+   "name" : "Library Lottery",
+   "network_19_completion" : "%s makes generous donation to local library.",
+   "network_19_headline" : "Rumor has it that deceased scientist's Glyphs ended up in the Library."
+}

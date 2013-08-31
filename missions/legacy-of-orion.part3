@@ -30,8 +30,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
-            "extra_build_level" : 0,
-            "level" : 23
+            "extra_build_level" : "0",
+            "level" : "23",
+            "quantity" : 1
          }
       ]
    },

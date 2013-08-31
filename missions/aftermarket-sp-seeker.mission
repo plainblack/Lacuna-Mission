@@ -8,11 +8,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "snark"
          }
       ]
@@ -20,11 +22,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 2500,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "2500",
+            "hold_size" : "0",
             "name" : "Griv Special",
-            "speed" : 3000,
-            "stealth" : 6300,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "6300",
             "type" : "spaceport_seeker"
          }
       ]

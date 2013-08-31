@@ -7,68 +7,81 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::AlgaePond",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::BeeldebanNest",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Lagoon",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Lake",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::LapisForest",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Ravine",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::RockyOutcrop",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Sand",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
@@ -76,8 +89,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::LCOTc",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

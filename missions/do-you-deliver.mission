@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "JP's Pies would like to cater to the lazy population of Lyou Grioddo 8 with a pie delivery service but lacks the transportation to make it happen. JP has taken ad ad out in the local shopper saying he would trade 50000 of his Lapis Berry Pies to anyone who can deliver him a fleet of small ships by the grand opening this Friday.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "pie" : 50000
+      },
+      "ships" : []
+   },
+   "name" : "Do you Deliver?",
+   "network_19_completion" : "Content people of Lyou Grioddo 8 sleep off Lapis Berry Pie, miss work again.",
+   "network_19_headline" : "JP needs a way to get the pie to the people."
+}

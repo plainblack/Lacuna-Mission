@@ -4,27 +4,27 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "glyphs" : [
-         "chalcopyrite",
-         "uraninite"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ],
       "resources" : {
          "energy" : 400000
       },
       "ships" : [
          {
-            "combat" : 100,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "100",
+            "hold_size" : "0",
             "name" : "Andecaui Probe",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "probe"
-         },
-         {
-            "combat" : 100,
-            "hold_size" : 0,
-            "name" : "Andecaui Probe",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "probe"
          }
       ]
@@ -32,11 +32,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 5000000,
+            "berth_level" : "20",
+            "combat" : "0",
+            "hold_size" : "5000000",
             "name" : "Andecaui Hulk",
-            "speed" : 3000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "0",
             "type" : "hulk"
          }
       ]

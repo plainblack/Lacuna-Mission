@@ -15,47 +15,45 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "galleon"
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "sulfur",
-         "chalcopyrite"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ],
       "happiness" : "1000000",
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 2
          }
       ],
       "ships" : []

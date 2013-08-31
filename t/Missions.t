@@ -32,14 +32,38 @@ foreach my $filename (@files) {
     foreach my $plan (@plans) {
         my $class = $plan->{classname};
         ok(exists $buildings->{$class}, $filename.' plan class '.$class.' exists');
+        unless (defined $plan->{quantity}) {
+            diag($filename.' plan class '.$class.' does not have quantity.');
+        }
+    }
+    my @glyphs;
+    $temp = $config->get('mission_objective')->{glyphs};
+    push @glyphs, @{$temp} if (ref $temp eq 'ARRAY');
+    $temp = $config->get('mission_reward')->{glyphs};
+    push @glyphs, @{$temp} if (ref $temp eq 'ARRAY');
+    foreach my $glyph (@glyphs) {
+        unless (defined $glyph->{quantity}) {
+            diag($filename.' glyph type '.$glyph->{type}.' does not have quantity.');
+        }
     }
     my @ships;
     $temp = $config->get('mission_reward')->{ships};
     push @ships, @{$temp} if (ref $temp eq 'ARRAY');
     foreach my $ship (@ships) {
-      my $name = $ship->{name};
-      $name =~ s/[^\w\d\s]//g;
-      ok( ($name eq $ship->{name} and $name ne ''), $filename.' ship name in reward has puncuation or is zero length.');
+        my $name = $ship->{name};
+        $name =~ s/[^\w\d\s]//g;
+        ok( ($name eq $ship->{name} and $name ne ''), $filename.' ship name in reward has puncuation or is zero length.');
+        unless (defined $ship->{quantity}) {
+            diag($filename.' ship type '.$ship->{type}.' does not have quantity.');
+        }
+    }
+    undef @ships;
+    $temp = $config->get('mission_objective')->{ships};
+    push @ships, @{$temp} if (ref $temp eq 'ARRAY');
+    foreach my $ship (@ships) {
+        unless (defined $ship->{quantity}) {
+            diag($filename.' ship type '.$ship->{type}.' does not have quantity.');
+        }
     }
 }
 

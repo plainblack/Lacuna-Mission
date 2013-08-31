@@ -6,15 +6,22 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "halite",
-         "magnetite"
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "magnetite"
+         }
       ]
    },
    "name" : "Oasis Needed",

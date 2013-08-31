@@ -11,7 +11,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "chalcopyrite"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         }
       ],
       "resources" : {
          "gold" : 30000

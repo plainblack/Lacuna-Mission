@@ -1,0 +1,29 @@
+# config-file-type: JSON 1
+{
+   "description" : "A new arborist has set up shop in the Expanse, and is ready to put fruit orchards on your planet.  All you need to do is get us the materials we need to build a grove of trees (Methane).  In return, we will give you the plans for upgrading two orchards on the planet(s) of your choice.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "methane" : 10000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Apple",
+            "extra_build_level" : "0",
+            "level" : "7",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Lapis",
+            "extra_build_level" : "0",
+            "level" : "7",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Arborist",
+   "network_19_completion" : "Another civilization has planted fruit trees.",
+   "network_19_headline" : "A new arborist has set up shop in town, wants to offer discounts."
+}

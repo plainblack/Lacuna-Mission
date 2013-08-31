@@ -1,0 +1,46 @@
+# config-file-type: JSON 1
+{
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got a mid-size Dory you like to upgrade?  Want to trade with the big boys, but can't build that cargo ship just yet? This is the place to come!  Today's special: Mid-size upgrade to cargo ship for resources (waste-free).  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "algae" : 1000,
+         "chromite" : 1000,
+         "energy" : 15000,
+         "fungus" : 1000,
+         "magnetite" : 5000,
+         "methane" : 5000,
+         "trona" : 5000,
+         "uraninite" : 5000
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
+            "name" : "Dans Cargo",
+            "quantity" : 1,
+            "speed" : "2250",
+            "stealth" : "7500",
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Honest Dan Used Ship Deals E",
+   "network_19_completion" : "%s made a great deal at Honest Dan's Used Ship Dealership!",
+   "network_19_headline" : "Honest Dan's Used Ship Dealership is now open for business!"
+}

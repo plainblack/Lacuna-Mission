@@ -6,8 +6,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::PlanetaryCommand",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "resources" : {
@@ -23,11 +24,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 5000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "5000",
+            "hold_size" : "0",
             "name" : "Alpha Zeta Colony",
-            "speed" : 2000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "0",
             "type" : "colony_ship"
          }
       ]

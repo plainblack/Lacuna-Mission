@@ -6,15 +6,22 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::KalavianRuins",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "galena",
-         "gold"
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
       ]
    },
    "name" : "Tourist Trap",

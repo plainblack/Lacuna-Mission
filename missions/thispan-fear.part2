@@ -1,0 +1,46 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings, I am Fluug, military advisor for the Dominion of Gahum. Our neighbors, and former friends, the Thispans, have betrayed us. They have spied on us, and stolen our technologies. This can not be tolerated. First we will blind them, destroying their probes, and then we will strike at their home system of Thispanawa. You will be rewarded.\nWe need from you one Detonator to blind their probes, and one Snark with which to extract our vengeance.  The more people we can convince of our righteousness, the more damage we do to Thispa!\nAs a reward, we will support your mining efforts with four Mining Platforms in return for your help.\nThanks, and Grelb bless.",
+   "max_university_level" : "17",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "detonator"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "snark"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "2000",
+            "hold_size" : "0",
+            "name" : "Gahum Miner",
+            "quantity" : 4,
+            "speed" : "1000",
+            "stealth" : "0",
+            "type" : "mining_platform_ship"
+         }
+      ]
+   },
+   "name" : "Gahum Must Retaliate!",
+   "network_19_completion" : "Gahum strikes a major blow to Thispanawa thanks to their new trading partner %s!",
+   "network_19_headline" : "Gahum seeks help in mounting a counterstrike on Thispa."
+}

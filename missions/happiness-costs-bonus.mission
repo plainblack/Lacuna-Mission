@@ -4,7 +4,10 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "glyphs" : [
-         "gold"
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
       ],
       "resources" : {
          "gold" : 150000

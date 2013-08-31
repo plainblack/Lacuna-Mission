@@ -4,15 +4,19 @@
    "max_university_level" : "18",
    "mission_objective" : {
       "glyphs" : [
-         "bauxite"
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         }
       ]
    },
    "mission_reward" : {
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::EntertainmentDistrict",
-            "extra_build_level" : 0,
-            "level" : 9
+            "extra_build_level" : "0",
+            "level" : "9",
+            "quantity" : 1
          }
       ]
    },

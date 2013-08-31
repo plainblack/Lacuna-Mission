@@ -15,17 +15,20 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Crater",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "ships" : [
          {
-            "combat" : 350,
-            "hold_size" : 60000,
+            "berth_level" : "1",
+            "combat" : "350",
+            "hold_size" : "60000",
             "name" : "Lacuna Waste Collection",
-            "speed" : 350,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "350",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]

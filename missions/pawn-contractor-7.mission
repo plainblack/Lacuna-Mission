@@ -1,0 +1,29 @@
+# config-file-type: JSON 1
+{
+   "description" : "We have located a perfect spot to expand. We are in the business of pawning and not construction. Please oversee this construction project, and we will give you some probes we do not need anymore.  You will incur the costs of feeding your crews and providing building materials for the project. Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 2000,
+         "burger" : 1000,
+         "gypsum" : 2000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "PL Probe",
+            "quantity" : 2,
+            "speed" : "8000",
+            "stealth" : "0",
+            "type" : "probe"
+         }
+      ]
+   },
+   "name" : "Pawn Lacuna needs contractor",
+   "network_19_completion" : "Pawn Lacuna opened up a new branch.",
+   "network_19_headline" : "Pawn Lacuna needs to construct expansion."
+}

@@ -16,11 +16,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 65000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "65000",
             "name" : "Zagoras Quest",
-            "speed" : 5500,
-            "stealth" : 12000,
+            "quantity" : 1,
+            "speed" : "5500",
+            "stealth" : "12000",
             "type" : "smuggler_ship"
          }
       ]

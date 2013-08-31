@@ -4,34 +4,95 @@
    "max_university_level" : "20",
    "mission_objective" : {
       "glyphs" : [
-         "anthracite",
-         "bauxite",
-         "beryl",
-         "chalcopyrite",
-         "chromite",
-         "fluorite",
-         "galena",
-         "goethite",
-         "gold",
-         "gypsum",
-         "halite",
-         "kerogen",
-         "magnetite",
-         "methane",
-         "monazite",
-         "rutile",
-         "sulfur",
-         "trona",
-         "uraninite",
-         "zircon"
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         },
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         },
+         {
+            "quantity" : 1,
+            "type" : "magnetite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
       ]
    },
    "mission_reward" : {
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::LCOTd",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

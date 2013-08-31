@@ -4,51 +4,70 @@
    "max_university_level" : "15",
    "mission_objective" : {
       "glyphs" : [
-         "goethite",
-         "gypsum",
-         "trona"
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
       ]
    },
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "Glyph Reward",
-            "speed" : 1750,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1750",
+            "stealth" : "0",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "95000",
             "name" : "Glyph Reward",
-            "speed" : 2250,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "5000",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 95000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Glyph Reward",
-            "speed" : 2000,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "2250",
+            "stealth" : "5000",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 15000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "15000",
             "name" : "Glyph Reward",
-            "speed" : 3500,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "3500",
+            "stealth" : "5000",
             "type" : "dory"
          },
          {
-            "combat" : 0,
-            "hold_size" : 150000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "150000",
             "name" : "Glyph Reward",
-            "speed" : 1500,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "0",
             "type" : "freighter"
          }
       ]

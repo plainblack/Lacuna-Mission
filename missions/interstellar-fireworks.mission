@@ -17,11 +17,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 250000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "250000",
             "name" : "Lacuna Sanitation Patrol",
-            "speed" : 1250,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1250",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]

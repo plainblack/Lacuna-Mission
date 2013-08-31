@@ -1,0 +1,32 @@
+# config-file-type: JSON 1
+{
+   "description" : "We badly need a gas giant settlement ship.<You hear talking in the background>. No not that kind of gas assistant. We have enough of those ships. Er this is still on. So we have been planning this for along time. We are a very happy planet here so we will give you some of our happiness with resources in exchange for the ship.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "gas_giant_settlement_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : "150000",
+      "resources" : {
+         "beetle" : 25000,
+         "milk" : 25000,
+         "shake" : 25000,
+         "uraninite" : 5000
+      },
+      "ships" : []
+   },
+   "name" : "We Need A Gas Ship! ",
+   "network_19_completion" : "You Have Supplied Them With a Gas Giant Settlement Ship.",
+   "network_19_headline" : "Friendly Empire Needs Gas Giant Settlement Ship."
+}

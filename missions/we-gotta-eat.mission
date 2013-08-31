@@ -11,11 +11,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 55000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "55000",
             "name" : "Gojurti Trade",
-            "speed" : 1500,
-            "stealth" : 4000,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "4000",
             "type" : "cargo_ship"
          }
       ]

@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "The people of Opis 5 have been under attack by an aggressive neighbor. Unable to keep up with drone production the Military would like to build a Citadel of Knope. The archeology ministry has been working around the clock but has yet to uncover the required glyphs, meanwhile the attacks keep coming. If Opis 5 had the glyphs to build the Citadel immediately the people would be overjoyed.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "happiness" : "100000"
+   },
+   "name" : "SOS. Save our Skins",
+   "network_19_completion" : "The people of Opis 5 have pushed back their aggressive neighbors.",
+   "network_19_headline" : "Another round of bombings pelted the people of Opis 5 today."
+}

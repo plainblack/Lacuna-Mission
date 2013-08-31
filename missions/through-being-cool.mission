@@ -22,7 +22,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "kerogen"
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         }
       ]
    },
    "name" : "Through being Cool",

@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). My line of work can be very sensitive, so I need an inconspicuous ship that can easily slip in and out of places. Unfortunately, my previous vehicle was confiscated. I'll give you a methane glyph for a smuggler ship. The less said about how I procured said glyph the better.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "10000",
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Black Market: Smuggler",
+   "network_19_completion" : "Although they captured his ship, smuggler Slick eluded capture by law enforcement once again.",
+   "network_19_headline" : "Ship of infamous smuggler Slick confiscated by law enforcement."
+}

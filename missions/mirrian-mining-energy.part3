@@ -6,8 +6,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Malcud",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "resources" : {
@@ -21,13 +22,15 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Ore::Mine",
-            "extra_build_level" : 3,
-            "level" : 1
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Ore::Refinery",
-            "extra_build_level" : 3,
-            "level" : 1
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "resources" : {

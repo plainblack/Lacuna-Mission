@@ -6,36 +6,22 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach11",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 5
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "chromite",
-         "chromite",
-         "gypsum"
+         {
+            "quantity" : 2,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
       ]
    },
    "name" : "Sand Castle Century",

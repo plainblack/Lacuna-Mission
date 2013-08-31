@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 55000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "55000",
             "name" : "Jefferson Starship",
-            "speed" : 5500,
-            "stealth" : 18000,
+            "quantity" : 1,
+            "speed" : "5500",
+            "stealth" : "18000",
             "type" : "smuggler_ship"
          }
       ]

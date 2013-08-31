@@ -15,7 +15,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "chromite"
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
       ],
       "resources" : {
          "gold" : 25000

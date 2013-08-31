@@ -10,19 +10,23 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "The Missing Mistress",
-            "speed" : 2000,
-            "stealth" : 3000,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "3000",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Petes Retirement",
-            "speed" : 700,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "700",
+            "stealth" : "0",
             "type" : "mining_platform_ship"
          }
       ]

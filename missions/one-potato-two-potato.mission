@@ -9,7 +9,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "trona"
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
       ]
    },
    "name" : "One Potato Two Potato",

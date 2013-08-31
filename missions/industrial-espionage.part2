@@ -5,11 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "scanner"
          }
       ]
@@ -18,13 +20,15 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Oversight",
-            "extra_build_level" : 0,
-            "level" : 5
+            "extra_build_level" : "0",
+            "level" : "5",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Trade",
-            "extra_build_level" : 0,
-            "level" : 6
+            "extra_build_level" : "0",
+            "level" : "6",
+            "quantity" : 1
          }
       ],
       "ships" : []

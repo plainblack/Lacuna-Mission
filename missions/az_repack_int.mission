@@ -6,19 +6,22 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Intelligence",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 2500,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "2500",
+            "hold_size" : "0",
             "name" : "Alpha Zeta Surveyor",
-            "speed" : 10000,
-            "stealth" : 15000,
+            "quantity" : 1,
+            "speed" : "10000",
+            "stealth" : "15000",
             "type" : "surveyor"
          }
       ]

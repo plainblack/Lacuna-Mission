@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Don't believe what you see in the ads without FIRST coming to Bob's Glyph Exchange and giving us a chance to convince you we have the BEST deals!  Bring in your old, dusty Gypsum glyph and we will give you a nice, shiny Rutile glyph in exchange.\n\nSimple, direct, to the point.  That's Bob's Gift Exchange!",
+   "max_university_level" : "11",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         }
+      ]
+   },
+   "name" : "Bob's Glyph Exchange",
+   "network_19_completion" : "{REDACTED} exchanged a Gypsum glyph for a Rutile glyph at Bob's Glyph Exchange.",
+   "network_19_headline" : "Exchange your glyphs here!  Great selection, willing to barter!  NEW!"
+}

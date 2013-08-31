@@ -5,19 +5,23 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 1200,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1200",
+            "stealth" : "0",
             "type" : "cargo_ship"
          }
       ]
@@ -25,11 +29,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 200000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "200000",
             "name" : "Burger Hauler",
-            "speed" : 2000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "0",
             "type" : "freighter"
          }
       ]

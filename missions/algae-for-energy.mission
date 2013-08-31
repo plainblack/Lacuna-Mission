@@ -13,8 +13,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Algae",
-            "extra_build_level" : 1,
-            "level" : 1
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

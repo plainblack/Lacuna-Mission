@@ -13,11 +13,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 5000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "5000",
             "name" : "Tour Bus",
-            "speed" : 3500,
-            "stealth" : 2150,
+            "quantity" : 1,
+            "speed" : "3500",
+            "stealth" : "2150",
             "type" : "dory"
          }
       ]

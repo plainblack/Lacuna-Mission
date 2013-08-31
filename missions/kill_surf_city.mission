@@ -22,19 +22,23 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 500000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "500000",
             "name" : "Surf Galleon",
-            "speed" : 4000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "4000",
+            "stealth" : "0",
             "type" : "galleon"
          },
          {
-            "combat" : 0,
-            "hold_size" : 2000000,
+            "berth_level" : "20",
+            "combat" : "0",
+            "hold_size" : "2000000",
             "name" : "Surf Hulk",
-            "speed" : 1500,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "0",
             "type" : "hulk"
          }
       ]

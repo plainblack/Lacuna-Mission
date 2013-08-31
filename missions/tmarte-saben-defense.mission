@@ -11,43 +11,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 13000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "13000",
+            "hold_size" : "0",
             "name" : "Saben Rebuff",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "drone"
-         },
-         {
-            "combat" : 13000,
-            "hold_size" : 0,
-            "name" : "Saben Rebuff",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "drone"
-         },
-         {
-            "combat" : 13000,
-            "hold_size" : 0,
-            "name" : "Saben Rebuff",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "drone"
-         },
-         {
-            "combat" : 13000,
-            "hold_size" : 0,
-            "name" : "Saben Rebuff",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "drone"
-         },
-         {
-            "combat" : 13000,
-            "hold_size" : 0,
-            "name" : "Saben Rebuff",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 5,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "drone"
          }
       ]

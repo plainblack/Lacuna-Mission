@@ -11,33 +11,39 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Bread",
-            "extra_build_level" : 1,
-            "level" : 1
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Burger",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Cheese",
-            "extra_build_level" : 1,
-            "level" : 1
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Chip",
-            "extra_build_level" : 1,
-            "level" : 1
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::Cider",
-            "extra_build_level" : 1,
-            "level" : 1
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Food::CornMeal",
-            "extra_build_level" : 1,
-            "level" : 1
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

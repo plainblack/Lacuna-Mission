@@ -5,34 +5,23 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 5500,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "5500",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 5500,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 5500,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
+            "quantity" : 3,
+            "speed" : "2500",
+            "stealth" : "0",
             "type" : "fighter"
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "sulfur"
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ],
       "resources" : {
          "gold" : 10000,

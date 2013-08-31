@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 15000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "15000",
             "name" : "Cheesy Snack",
-            "speed" : 1500,
-            "stealth" : 1000,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "1000",
             "type" : "dory"
          }
       ]

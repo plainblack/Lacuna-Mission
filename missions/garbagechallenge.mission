@@ -9,35 +9,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 4,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]
@@ -45,11 +23,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "Garbage Heap Cargo",
-            "speed" : 1500,
-            "stealth" : 10,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "10",
             "type" : "cargo_ship"
          }
       ]

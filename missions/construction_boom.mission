@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "This is a great time to be a construction supply company! I just noticed that construction stopped on a nearby luxury housing development, there is no drywall available!  Can you believe that?  How about we be partners?  I purchased an old factory and I need to retrofit it to produce drywall. If you help me provide the materials for the retro fit, I will give you the deed to a fusion reactor I operated during an energy crisis.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "goethite" : 500,
+         "magnetite" : 500,
+         "sulfur" : 500
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Fusion",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Construction Boom-New factory",
+   "network_19_completion" : "New manufacture of drywall promises to meet drywall demand.",
+   "network_19_headline" : "Drywall shortage due to demand for luxury housing."
+}

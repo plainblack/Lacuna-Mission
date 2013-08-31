@@ -9,7 +9,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "zircon"
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
       ]
    },
    "name" : "Who Moved My Cheese?",

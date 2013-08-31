@@ -22,11 +22,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 200000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "200000",
             "name" : "Relief Galleon",
-            "speed" : 3000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "0",
             "type" : "galleon"
          }
       ]

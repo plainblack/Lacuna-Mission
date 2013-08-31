@@ -19,7 +19,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "gold"
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
       ]
    },
    "name" : "Encouraging Civic Expansion",

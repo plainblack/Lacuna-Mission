@@ -5,11 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "2500",
+            "stealth" : "0",
             "type" : "spy_shuttle"
          }
       ]
@@ -17,43 +19,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Kiltian Folly",
-            "speed" : 9000,
-            "stealth" : 9999,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Kiltian Folly",
-            "speed" : 9000,
-            "stealth" : 9999,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Kiltian Folly",
-            "speed" : 9000,
-            "stealth" : 9999,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Kiltian Folly",
-            "speed" : 9000,
-            "stealth" : 9999,
-            "type" : "spy_pod"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Kiltian Folly",
-            "speed" : 9000,
-            "stealth" : 9999,
+            "quantity" : 5,
+            "speed" : "9000",
+            "stealth" : "9999",
             "type" : "spy_pod"
          }
       ]

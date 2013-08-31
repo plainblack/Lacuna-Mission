@@ -6,16 +6,26 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::InterDimensionalRift",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "fluorite",
-         "methane",
-         "zircon"
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
       ]
    },
    "name" : "Reunited Cousins",

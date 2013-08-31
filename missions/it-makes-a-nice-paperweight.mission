@@ -9,7 +9,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "uraninite"
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ]
    },
    "name" : "It Makes a Nice Paperweight",

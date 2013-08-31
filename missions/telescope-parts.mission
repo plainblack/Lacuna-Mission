@@ -13,57 +13,30 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Observatory",
-            "extra_build_level" : 7,
-            "level" : 1
+            "extra_build_level" : "7",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Axion Probe",
-            "speed" : 10000,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "10000",
+            "stealth" : "0",
             "type" : "probe"
          },
          {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Axion Probe",
-            "speed" : 10000,
-            "stealth" : 0,
-            "type" : "probe"
-         },
-         {
-            "combat" : 200,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "200",
+            "hold_size" : "0",
             "name" : "Axion Scanner",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "scanner"
-         },
-         {
-            "combat" : 200,
-            "hold_size" : 0,
-            "name" : "Axion Scanner",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "scanner"
-         },
-         {
-            "combat" : 200,
-            "hold_size" : 0,
-            "name" : "Axion Scanner",
-            "speed" : 5000,
-            "stealth" : 5000,
-            "type" : "scanner"
-         },
-         {
-            "combat" : 200,
-            "hold_size" : 0,
-            "name" : "Axion Scanner",
-            "speed" : 5000,
-            "stealth" : 5000,
+            "quantity" : 4,
+            "speed" : "5000",
+            "stealth" : "5000",
             "type" : "scanner"
          }
       ]

@@ -6,17 +6,30 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::CitadelOfKnope",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "beryl",
-         "galena",
-         "monazite",
-         "sulfur"
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ]
    },
    "name" : "Capture The Flag",

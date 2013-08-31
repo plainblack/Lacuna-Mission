@@ -1,0 +1,29 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). I'll be holding a weapons auction on your planet. (Where on your planet, you ask? I'm afraid I can't reveal that.) If you'll provide refreshments for the assorted military leaders, politicians, and weapons specialists sure to attend, I'll make sure you get a fighter for the low price of 20,000 gold.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "apple" : 20000,
+         "cheese" : 10000,
+         "gold" : 20000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "15000",
+            "hold_size" : "0",
+            "name" : "Slick Fighter",
+            "quantity" : 1,
+            "speed" : "7000",
+            "stealth" : "0",
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Black Market: Weapons Auction",
+   "network_19_completion" : "The caterer showed up at the weapons auction. Who let the secret location slip?",
+   "network_19_headline" : "Black Market Weapons Auction. Location will be transmitted via a secure channel."
+}

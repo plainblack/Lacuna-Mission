@@ -24,7 +24,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "goethite"
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         }
       ]
    },
    "name" : "Setup a trade mission",

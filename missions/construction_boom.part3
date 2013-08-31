@@ -1,0 +1,37 @@
+# config-file-type: JSON 1
+{
+   "description" : "Can you believe it! I lost the drywall contract because it took too long to fill the order. No fear! I signed a new contract off world, but I have no way of transporting the finished product. I am ready to get out of the drywall business. Take care of this contract and you can have the factory for cheap. With some minor modifications you can turn it into an Oversight Ministry.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : 100,
+         "gold" : 500
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Oversight",
+            "extra_build_level" : "2",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Construction Boom-Shipment",
+   "network_19_completion" : "Drywall prices drop to lowest level in years due to over supply.",
+   "network_19_headline" : "Drywall shortages expected to stop once the new shipment is made."
+}

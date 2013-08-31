@@ -1,0 +1,38 @@
+# config-file-type: JSON 1
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\n\nThis quest will lead to the winner receiving plans for a second level Interdimensional Rift.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::InterDimensionalRift",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings.",
+   "network_19_completion" : "%s upgraded their Interdimensional Rift today!",
+   "network_19_headline" : "Gift-glyph exchange party on Danonia!"
+}

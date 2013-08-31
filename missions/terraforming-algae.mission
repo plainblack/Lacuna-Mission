@@ -9,7 +9,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "methane"
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         }
       ]
    },
    "name" : "Terraforming Algae",

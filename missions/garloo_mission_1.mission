@@ -82,8 +82,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::LCOTg",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

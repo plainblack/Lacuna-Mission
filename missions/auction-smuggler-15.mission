@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 30000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "30000",
             "name" : "Auction Smuggler",
-            "speed" : 3000,
-            "stealth" : 8000,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "8000",
             "type" : "smuggler_ship"
          }
       ]

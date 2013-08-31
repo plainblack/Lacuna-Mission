@@ -15,13 +15,15 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Capitol",
-            "extra_build_level" : 9,
-            "level" : 1
+            "extra_build_level" : "9",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::CloakingLab",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "resources" : {

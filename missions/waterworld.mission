@@ -6,113 +6,34 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach9",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 20
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "anthracite",
-         "bauxite",
-         "beryl",
-         "chalcopyrite",
-         "chromite"
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
       ]
    },
    "name" : "Water World",

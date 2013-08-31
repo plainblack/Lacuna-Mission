@@ -17,7 +17,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "rutile"
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         }
       ],
       "happiness" : "500000"
    },

@@ -6,15 +6,22 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "chalcopyrite",
-         "sulfur"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ]
    },
    "name" : "Looking For An Updraft",

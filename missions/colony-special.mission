@@ -1,0 +1,33 @@
+# config-file-type: JSON 1
+{
+   "description" : "Psst. Hey buddy. Check this out. I bet those short range colony ships are a real drag getting to another star. Here's a fully fledged colony ship, my last one. For HALF the price! got that? HALF!... Why are you looking at me like that? ok ok.. I'll even save you the Ore cost, ok? And look, if you sign right now, I'll even throw in this chunk of silver. That's right, silver! Note, check your Spaceport to see that you have a dock available before completing this mission.",
+   "max_university_level" : "8",
+   "mission_objective" : {
+      "resources" : {
+         "corn" : 10912,
+         "energy" : 21825,
+         "potato" : 10912,
+         "water" : 21825
+      }
+   },
+   "mission_reward" : {
+      "resources" : {
+         "galena" : 1000
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "3000",
+            "hold_size" : "0",
+            "name" : "Cutrate Colony",
+            "quantity" : 1,
+            "speed" : "900",
+            "stealth" : "0",
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "name" : "Colony Special!",
+   "network_19_completion" : "Drom's Discount Colonizing has gone underground amidst questions of fraud. Will %s enjoy the flight?",
+   "network_19_headline" : "Tired of spending days to get to that next star? Look no further than Drom's Discount Colonizing!"
+}

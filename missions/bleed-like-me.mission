@@ -13,11 +13,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 4000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "4000",
+            "hold_size" : "0",
             "name" : "Garbage Bleeder",
-            "speed" : 2500,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "2500",
+            "stealth" : "5000",
             "type" : "bleeder"
          }
       ]

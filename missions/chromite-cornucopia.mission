@@ -4,7 +4,10 @@
    "max_university_level" : "20",
    "mission_objective" : {
       "glyphs" : [
-         "chromite"
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
       ],
       "resources" : {
          "energy" : 30000

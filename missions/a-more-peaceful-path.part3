@@ -29,8 +29,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "beryl",
-         "galena"
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         }
       ]
    },
    "name" : "A More Peaceful Path, Part 3",

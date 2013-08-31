@@ -12,8 +12,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
-            "extra_build_level" : 0,
-            "level" : 2
+            "extra_build_level" : "0",
+            "level" : "2",
+            "quantity" : 1
          }
       ]
    },

@@ -6,17 +6,30 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::CrashedShipSite",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "bauxite",
-         "gold",
-         "monazite",
-         "trona"
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
       ]
    },
    "name" : "Science Project",

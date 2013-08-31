@@ -9,35 +9,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 1000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "1000",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 1000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 1000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "dory"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 1000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 4,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]
@@ -49,11 +27,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Alluvian Cargo",
-            "speed" : 1500,
-            "stealth" : 1500,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "1500",
             "type" : "cargo_ship"
          }
       ]

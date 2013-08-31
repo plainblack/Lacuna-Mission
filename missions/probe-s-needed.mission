@@ -5,19 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "probe"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "probe"
          }
       ]
@@ -25,19 +19,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 200,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "200",
+            "hold_size" : "0",
             "name" : "Slow Scanner",
-            "speed" : 2000,
-            "stealth" : 0,
-            "type" : "scanner"
-         },
-         {
-            "combat" : 200,
-            "hold_size" : 0,
-            "name" : "Slow Scanner",
-            "speed" : 2000,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "2000",
+            "stealth" : "0",
             "type" : "scanner"
          }
       ]

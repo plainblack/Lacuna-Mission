@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "The new Glyph Exchange has just opened in a mall near you.  Perhaps you will find the glyph your really want.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         }
+      ]
+   },
+   "name" : "Mid-Winter Glyph Exchange",
+   "network_19_completion" : "Glyphs were exchanged, and that is all that happened!",
+   "network_19_headline" : "Exchange your glyphs here!  May you find what you are looking for!"
+}

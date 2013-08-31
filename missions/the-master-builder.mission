@@ -5,27 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "snark"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "snark"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "snark"
          }
       ]
@@ -34,8 +20,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Capitol",
-            "extra_build_level" : 0,
-            "level" : 12
+            "extra_build_level" : "0",
+            "level" : "12",
+            "quantity" : 1
          }
       ],
       "ships" : []

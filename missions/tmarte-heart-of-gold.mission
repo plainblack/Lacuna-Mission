@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Heart of Gold",
-            "speed" : 5000,
-            "stealth" : 15000,
+            "quantity" : 1,
+            "speed" : "5000",
+            "stealth" : "15000",
             "type" : "smuggler_ship"
          }
       ]

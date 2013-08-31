@@ -4,7 +4,10 @@
    "max_university_level" : "20",
    "mission_objective" : {
       "glyphs" : [
-         "chalcopyrite"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         }
       ],
       "resources" : {
          "goethite" : 50000,
@@ -13,8 +16,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "methane",
-         "goethite"
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         }
       ]
    },
    "name" : "2 For 1 Glyph Sale",

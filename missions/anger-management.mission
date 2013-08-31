@@ -8,19 +8,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 5000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "5000",
+            "hold_size" : "0",
             "name" : "Anger Snark",
-            "speed" : 5200,
-            "stealth" : 0,
-            "type" : "snark"
-         },
-         {
-            "combat" : 5000,
-            "hold_size" : 0,
-            "name" : "Anger Snark",
-            "speed" : 5200,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "5200",
+            "stealth" : "0",
             "type" : "snark"
          }
       ]

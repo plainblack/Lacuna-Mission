@@ -11,8 +11,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "anthracite",
-         "bauxite"
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         }
       ]
    },
    "name" : "Apple Festival",

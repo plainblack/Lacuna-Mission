@@ -16,8 +16,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
-            "extra_build_level" : 4,
-            "level" : 1
+            "extra_build_level" : "4",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

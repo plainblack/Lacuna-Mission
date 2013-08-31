@@ -9,8 +9,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "fluorite",
-         "rutile"
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         }
       ]
    },
    "name" : "Purity Of Essence",

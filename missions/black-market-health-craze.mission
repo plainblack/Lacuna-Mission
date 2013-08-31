@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). I secured plans to build a level 1 Beeldeban Protein Shake Factory and then upgrade it up to level 5. Felicitous Lox, vice president of Gamma Ray Health Food & Vitamins, really should keep his private documents in a safe. Or at least a better safe. Now I'm not the type to build factories. I'm more of a middle man. I facilitate trades. So I'd be more than willing to trade these plans for an assortment of ores I can sell elsewhere.",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : 7000,
+         "kerogen" : 7000,
+         "magnetite" : 7000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Shake",
+            "extra_build_level" : "4",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Black Market: Health Craze",
+   "network_19_completion" : "Stolen Gamma Ray Health Food & Vitamins plans mysteriously resurface.",
+   "network_19_headline" : "Gamma Ray Health Food & Vitamins was the victim of industrial espionage."
+}

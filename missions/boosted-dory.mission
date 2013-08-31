@@ -1,0 +1,27 @@
+# config-file-type: JSON 1
+{
+   "description" : "Dirty Doug has parked his freighter and opened his doors for business. Used ships, recently acquired from our \"honest\" competition and upgraded with the latest tech in after market stealth and speed boosts. \nLeave your clunkers at home. Just bring your cold hard rutile.  Supplies are limited. Today's special: A boosted dory in mint condition. Note, check to see that you have sufficient dock space before completing this mission.",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "resources" : {
+         "rutile" : 25000
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "25000",
+            "name" : "Boosted Dory",
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "10000",
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Doug's Hot Ships: Boosted Dory",
+   "network_19_completion" : "Another satisfied customer got a great deal from the back of Doug's Freighter!",
+   "network_19_headline" : "Doug's Hot Ships available for a short time only!"
+}

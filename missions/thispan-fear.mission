@@ -1,0 +1,32 @@
+# config-file-type: JSON 1
+{
+   "description" : "Who are you?! Oh, you're here to help are you..? So you say... What was that noise?! Oh, laughing... What are they laughing about? Don't they know there are enemies lurking at every corner? Please, you must help us... If you're here to help as you *claim*, you will provide us with some spy pods so we may keep a closer eye on our neighbors, our supposed \"friends\", so they claim...",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "spy_pod"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "bread" : 10000,
+         "cheese" : 10000,
+         "fluorite" : 10000,
+         "milk" : 10000,
+         "sulfur" : 10000
+      },
+      "ships" : []
+   },
+   "name" : "Thispan Fear",
+   "network_19_completion" : "%s has helped feed the Thispan paranoia. Thispans may be at war with neighbors soon!",
+   "network_19_headline" : "Paranoia strikes the leader of the Thispa!"
+}

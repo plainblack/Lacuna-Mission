@@ -8,19 +8,13 @@
       },
       "ships" : [
          {
-            "combat" : 5000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "5000",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 5000,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 2500,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "2500",
+            "stealth" : "0",
             "type" : "fighter"
          }
       ]
@@ -35,11 +29,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 100000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "100000",
             "name" : "Trabblxian Cargo",
-            "speed" : 1800,
-            "stealth" : 1000,
+            "quantity" : 1,
+            "speed" : "1800",
+            "stealth" : "1000",
             "type" : "cargo_ship"
          }
       ]

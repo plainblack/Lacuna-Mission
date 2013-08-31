@@ -7,10 +7,22 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "sulfur",
-         "chalcopyrite",
-         "methane",
-         "gold"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ]
    },
    "name" : "Glyphs For Glory",

@@ -1,0 +1,42 @@
+# config-file-type: JSON 1
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nInstead of waiting around for the inevitable Saben assault, build another level onto your Citadel of Knope with these never before released plans.  Just get us the original glyphs, plus one more, and it can be yours!",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::CitadelOfKnope",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings.",
+   "network_19_completion" : "%s Upgraded their Citadel of Knope today!",
+   "network_19_headline" : "Level two Citadel of Knope available here, today.  Don't put it off!"
+}

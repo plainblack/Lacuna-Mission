@@ -1,0 +1,40 @@
+# config-file-type: JSON 1
+{
+   "description" : "Used Ships, cash for clunkers, trade-ins, discrete handling!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  GOT A MID-SIZED DORY YOU'D LIKE TO UPGRADE?  This is the place to come!  Today's special: MID-SIZE DOUBLE UPGRADE FOR GOLD.  A LOT MORE POWER UNDER THE HOOD, A LOT MORE TRUNK SPACE!  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals! Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 10000,
+         "kerogen" : 10000
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "10000",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "1300",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "55000",
+            "name" : "Dans Dory",
+            "quantity" : 1,
+            "speed" : "3200",
+            "stealth" : "8500",
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Dan's Used Ships: Dory Upgrade",
+   "network_19_completion" : "Another satisfied customer made a great deal at Honest Dan's Used Ship Dealership!",
+   "network_19_headline" : "Honest Dan's Used Ship Dealership is now open for business!"
+}

@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "Glyphs are nice and all, in the abstract, but if you need that special glyph for that planetary construction project, we may be able to make you a better deal.  This week's special: Goethite and Gypsum Glyphs exchanged for a Fluorite Glyph and a nice assortment of scarce resources.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         }
+      ],
+      "resources" : {
+         "galena" : 50000,
+         "halite" : 50000,
+         "kerogen" : 50000,
+         "methane" : 50000
+      }
+   },
+   "name" : "We buy and trade glyphs",
+   "network_19_completion" : "%s exchanged two glyphs for her glyph of choice and a nice payout.",
+   "network_19_headline" : "Glyphs-R-Us buys and sells glyphs.  We give the best prices in town!"
+}

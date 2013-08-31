@@ -1,0 +1,30 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello, there.  I can't believe my luck.  The woman I'm desperately in love with won't live anywhere away from a beach, and all of my assets are on this landlocked curse of a planet.  My only option for winning her over is to literally change the face of my planet.  I need to move quickly, though.  Please send me five Beach 4 plans as quickly as you can.  I can pull some strings and get you two uraninite glyphs and a gypsum glyph in return.  Please help me win her heart!",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Beach4",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 5
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         },
+         {
+            "quantity" : 2,
+            "type" : "uraninite"
+         }
+      ]
+   },
+   "name" : "Buy MORE Love",
+   "network_19_completion" : "Lady successfully wooed by rich man after coastal gift is completed. Man thanks %s for their plans.",
+   "network_19_headline" : "A rich man is desperate to impress his lady love.  Will a brand new coastline be enough?"
+}

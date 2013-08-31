@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 200000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "200000",
             "name" : "Pizza Freighter",
-            "speed" : 2000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "0",
             "type" : "freighter"
          }
       ]

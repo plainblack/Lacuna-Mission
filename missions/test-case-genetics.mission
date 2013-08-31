@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "A species of new animal has been discovered in the far reaches of the Expanse.  There is much hope that the research done on these creatures will be beneficial to the Lacuna civilizations.  However, some rare Certain exotic and expensive chemicals need to be made to carry out our very complex experiments. The feedstock for this synthesis consists of Anthracite, Kerogen, Methane, catalyzed by a Beryl/Gold alloy with a Halite concentration step.\n\nLong story short: get those materials (we don't care how), ship them to our research facility, and the research community is willing to set up your next university upgrade for you.",
+   "max_university_level" : "7",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : 5000,
+         "beryl" : 2500,
+         "gold" : 2500,
+         "halite" : 5000,
+         "kerogen" : 5000,
+         "methane" : 5000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::University",
+            "extra_build_level" : "0",
+            "level" : "8",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Test Case - Genetics",
+   "network_19_completion" : "%s has contributed greatly to the genetics research on the recently-discovered new species!",
+   "network_19_headline" : "Genetics Lab Discovers New Species in the Expanse, Research Begins."
+}

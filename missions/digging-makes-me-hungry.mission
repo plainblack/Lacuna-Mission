@@ -11,7 +11,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "goethite"
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         }
       ]
    },
    "name" : "Digging Makes Me Hungry",

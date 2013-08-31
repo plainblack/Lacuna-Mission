@@ -15,19 +15,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 3000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "3000",
+            "hold_size" : "0",
             "name" : "Saris Snark",
-            "speed" : 1500,
-            "stealth" : 3500,
-            "type" : "snark"
-         },
-         {
-            "combat" : 3000,
-            "hold_size" : 0,
-            "name" : "Saris Snark",
-            "speed" : 1500,
-            "stealth" : 3500,
+            "quantity" : 2,
+            "speed" : "1500",
+            "stealth" : "3500",
             "type" : "snark"
          }
       ]

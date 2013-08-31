@@ -1,0 +1,39 @@
+# config-file-type: JSON 1
+{
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old Dory you'd like to upgrade? This is the place to come!  Today's special: For an old clunker and some gold, we'll upgrade your old Dory to a mid-size model!  This deal intended for the younger empires - NO DEALERS NEED APPLY!  Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "resources" : {
+         "gold" : 5000
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "40000",
+            "name" : "Dans Dory",
+            "quantity" : 1,
+            "speed" : "2500",
+            "stealth" : "7000",
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Honest Dan Used Ship Deals B",
+   "network_19_completion" : "%s made a great deal at Honest Dan's Used Ship Dealership!",
+   "network_19_headline" : "Honest Dan's Used Ship Dealership is now open for business!"
+}

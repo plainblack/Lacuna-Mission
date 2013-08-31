@@ -5,11 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "fighter"
          }
       ]
@@ -18,8 +20,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::CloakingLab",
-            "extra_build_level" : 2,
-            "level" : 1
+            "extra_build_level" : "2",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "ships" : []

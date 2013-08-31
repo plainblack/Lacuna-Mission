@@ -4,16 +4,19 @@
    "max_university_level" : "20",
    "mission_objective" : {
       "glyphs" : [
-         "methane",
-         "methane"
+         {
+            "quantity" : 2,
+            "type" : "methane"
+         }
       ]
    },
    "mission_reward" : {
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Trade",
-            "extra_build_level" : 0,
-            "level" : 14
+            "extra_build_level" : "0",
+            "level" : "14",
+            "quantity" : 1
          }
       ]
    },

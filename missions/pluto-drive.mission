@@ -11,11 +11,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 3500,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "3500",
             "name" : "Agent of Fortune",
-            "speed" : 1000,
-            "stealth" : 20000,
+            "quantity" : 1,
+            "speed" : "1000",
+            "stealth" : "20000",
             "type" : "smuggler_ship"
          }
       ]

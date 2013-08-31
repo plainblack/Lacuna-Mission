@@ -15,11 +15,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Alpha Zeta Spy Pod",
-            "speed" : 11000,
-            "stealth" : 25000,
+            "quantity" : 1,
+            "speed" : "11000",
+            "stealth" : "25000",
             "type" : "spy_pod"
          }
       ]

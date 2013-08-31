@@ -4,12 +4,18 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "glyphs" : [
-         "gypsum",
-         "gypsum",
-         "gypsum",
-         "gypsum",
-         "methane",
-         "uraninite"
+         {
+            "quantity" : 4,
+            "type" : "gypsum"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ],
       "resources" : {
          "water" : 440000
@@ -19,13 +25,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
-            "extra_build_level" : 8,
-            "level" : 1
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::LuxuryHousing",
-            "extra_build_level" : 8,
-            "level" : 1
+            "extra_build_level" : "8",
+            "level" : "1",
+            "quantity" : 2
          }
       ]
    },

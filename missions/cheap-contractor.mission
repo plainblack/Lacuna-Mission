@@ -13,8 +13,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::University",
-            "extra_build_level" : 0,
-            "level" : 9
+            "extra_build_level" : "0",
+            "level" : "9",
+            "quantity" : 1
          }
       ]
    },

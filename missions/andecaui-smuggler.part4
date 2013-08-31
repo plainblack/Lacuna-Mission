@@ -37,11 +37,13 @@
       },
       "ships" : [
          {
-            "combat" : 200,
-            "hold_size" : 75000,
+            "berth_level" : "10",
+            "combat" : "200",
+            "hold_size" : "75000",
             "name" : "",
-            "speed" : 5000,
-            "stealth" : 12500,
+            "quantity" : 1,
+            "speed" : "5000",
+            "stealth" : "12500",
             "type" : "smuggler_ship"
          }
       ]
@@ -49,11 +51,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 300,
-            "hold_size" : 250000,
+            "berth_level" : "10",
+            "combat" : "300",
+            "hold_size" : "250000",
             "name" : "Andecaui Smuggler III",
-            "speed" : 10000,
-            "stealth" : 25000,
+            "quantity" : 1,
+            "speed" : "10000",
+            "stealth" : "25000",
             "type" : "smuggler_ship"
          }
       ]

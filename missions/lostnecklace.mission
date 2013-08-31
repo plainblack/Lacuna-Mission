@@ -47,7 +47,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "bauxite"
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         }
       ]
    },
    "name" : "Lost Necklace",

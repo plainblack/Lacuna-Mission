@@ -1,0 +1,21 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hello. Here at the Lapith Glyph Exchange, we have a client that wants to build several beaches. Gypsum Glyphs are needed. If you can provide us with such a glyph we will make it worth your while. I suggest that you may want to save our payment to be used to purchase glyphs from us in the future.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 250000
+      }
+   },
+   "name" : "Looking for Gypsum Glyph",
+   "network_19_completion" : "%s has supplied Lapith Glyph Exchange with a Gypsum Glyph.",
+   "network_19_headline" : "Opportunity to sell a Gypsum Glyph to Lapith Glyph Exchange arises."
+}

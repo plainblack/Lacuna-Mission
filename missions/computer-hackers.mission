@@ -6,13 +6,15 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Intelligence",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Security",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
@@ -23,11 +25,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 75000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "75000",
             "name" : "Ixnib Cargo",
-            "speed" : 2000,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "5000",
             "type" : "cargo_ship"
          }
       ]

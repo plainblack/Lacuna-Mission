@@ -16,11 +16,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 100000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "100000",
             "name" : "Glens Ride",
-            "speed" : 8500,
-            "stealth" : 18000,
+            "quantity" : 1,
+            "speed" : "8500",
+            "stealth" : "18000",
             "type" : "smuggler_ship"
          }
       ]

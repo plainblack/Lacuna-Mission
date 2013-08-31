@@ -13,11 +13,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 350000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "350000",
             "name" : "Eos Freighter",
-            "speed" : 1000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1000",
+            "stealth" : "0",
             "type" : "freighter"
          }
       ]

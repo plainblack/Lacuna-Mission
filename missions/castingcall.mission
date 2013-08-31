@@ -35,11 +35,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Despot Catcher",
-            "speed" : 6000,
-            "stealth" : 11100,
+            "quantity" : 1,
+            "speed" : "6000",
+            "stealth" : "11100",
             "type" : "spy_shuttle"
          }
       ]

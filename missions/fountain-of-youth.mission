@@ -1,0 +1,32 @@
+# config-file-type: JSON 1
+{
+   "description" : "Hi.  welcome to Late Night on Network19, where we bring to you the best of the best.  Tonight we feature the HydroGenOxide Corporation  *roll infomercial*\n\nHowdy, Merle Haggard (and boy am I ever) here.  I'd like to talk to you about MagicJack  *CUT!*\n\nHowdy, Merle Haggard (and boy am I ever) here.  I'd like to talk to you about the Fontificate, our newest invention.  Water will flow forever from the wonderful little package - set it down on your planet and your water worries are over forever!  Tonight we have a special deal.  I hear you asking: \"Why would they be asking for water if their invention actually works?\"  Well, this deal won't last for long.  We plan on taking a loss on these first few units so you will take this handy little item back to your alliance and show everyone what it does.  Then they will come back in a week when the prices go up, and then we will be making real money. Get in on the ground floor.  Extra water for the life of your planet.  Put it on ANY colony - it's portable (until you set it in place).  So join the expectant crowds!  Be the first in your Expanse!",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         }
+      ],
+      "resources" : {
+         "algae" : 20000,
+         "gold" : 20000,
+         "halite" : 20000,
+         "water" : 35000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::NaturalSpring",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "A Veritable Fountain",
+   "network_19_completion" : "%s received the plans for a bright shiny water fountain, may it flow forever!",
+   "network_19_headline" : "Fountain of Youth manufacturer wishes to place demos among the planets."
+}

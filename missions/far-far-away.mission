@@ -1,0 +1,30 @@
+# config-file-type: JSON 1
+{
+   "description" : "Greetings good sir. You look like you might be interested in investing in one of my fine new colony ships, These ships are packed with all the best propulsion technology. How do you not get squished all over the back of the hull when it accelerates you ask? Well, with my patented stasis chamber technology, you, and all your followers can travel across the stars in relative safety! Want to get away from all those pesky neighbors? This is the way to fly! If you give me what I need to build it, it's yours. My manufacturing abilities are limited though, so act now, before someone else does!",
+   "max_university_level" : "16",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "2000",
+            "hold_size" : "0",
+            "name" : "Weynard Colony Ship",
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "0",
+            "type" : "colony_ship"
+         }
+      ]
+   },
+   "name" : "Far Far Away",
+   "network_19_completion" : "The expanse waits anxiously as %s becomes one of the first to test Weynard Geiss new stasis colony ships.",
+   "network_19_headline" : "Weynard Geiss announces new ways to cross the stars through the use of his patented stasis chambers!"
+}

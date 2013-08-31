@@ -11,19 +11,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 100000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "100000",
             "name" : "Zyler Cargo",
-            "speed" : 2500,
-            "stealth" : 1000,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 100000,
-            "name" : "Zyler Cargo",
-            "speed" : 2500,
-            "stealth" : 1000,
+            "quantity" : 2,
+            "speed" : "2500",
+            "stealth" : "1000",
             "type" : "cargo_ship"
          }
       ]

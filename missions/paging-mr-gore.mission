@@ -1,0 +1,41 @@
+# config-file-type: JSON 1
+{
+   "description" : "The Hican people have been riding a wave of industrial growth over the last two decades but now find they have an environmental crisis on their hands. The people are so angry about the smog and polluted water that riots have broken out in the streets. The Governments admits that they spent too much time building factories and forgot all about the waste that was piling up. If you will help them get waste off their hands buy building the government four scows and give them a jump start with recycling they will share a secret that helped them to pack their planet with industry.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Waste::Treatment",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ],
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "645",
+            "hold_size" : "88200",
+            "name" : "",
+            "quantity" : 4,
+            "speed" : "468",
+            "stealth" : "0",
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::PantheonOfHagness",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Paging Mr. Gore",
+   "network_19_completion" : "The sun came out in Hica and the people went back inside.",
+   "network_19_headline" : "The streets of Hica are overrun with trash. The garbage is getting to be a problem too."
+}

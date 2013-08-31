@@ -8,43 +8,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 50000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 50000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 50000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 50000,
-            "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 5,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]

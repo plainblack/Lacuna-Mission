@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "It is Mid-Winter Celebration time again: time to exchange glyphs with friends, neighbors, and coworkers.  Maybe this year you won't get stuck with the Waste Glyph or the Corn Meal Glyph!  Maybe!  Maybe not...",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
+      ]
+   },
+   "name" : "Mid-Winter Glyph Exchange",
+   "network_19_completion" : "Nothing happened at the party, really...  What happens in Lacuna, stays in Lacuna!",
+   "network_19_headline" : "Exchange your glyphs at the Winter Glyph Exchange Party, at a system near you!"
+}

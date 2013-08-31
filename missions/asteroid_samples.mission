@@ -20,11 +20,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 250000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "250000",
             "name" : "Mining Galleon",
-            "speed" : 4500,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "4500",
+            "stealth" : "0",
             "type" : "galleon"
          }
       ]

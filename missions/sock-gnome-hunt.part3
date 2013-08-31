@@ -11,11 +11,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 25000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "25000",
             "name" : "Sock Hauler",
-            "speed" : 2500,
-            "stealth" : 1000,
+            "quantity" : 1,
+            "speed" : "2500",
+            "stealth" : "1000",
             "type" : "dory"
          }
       ]

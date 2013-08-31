@@ -12,11 +12,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 1500,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "1500",
+            "hold_size" : "0",
             "name" : "Swillovian SRCS",
-            "speed" : 1100,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "1100",
+            "stealth" : "0",
             "type" : "short_range_colony_ship"
          }
       ]

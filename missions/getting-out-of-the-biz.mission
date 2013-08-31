@@ -4,8 +4,14 @@
    "max_university_level" : "25",
    "mission_objective" : {
       "glyphs" : [
-         "gold",
-         "gypsum"
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
       ],
       "resources" : {
          "algae" : 25000,
@@ -15,11 +21,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]
@@ -27,11 +35,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Second Hand Smuggler",
-            "speed" : 4500,
-            "stealth" : 10000,
+            "quantity" : 1,
+            "speed" : "4500",
+            "stealth" : "10000",
             "type" : "smuggler_ship"
          }
       ]

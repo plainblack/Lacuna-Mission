@@ -1,0 +1,38 @@
+# config-file-type: JSON 1
+{
+   "description" : "We have a special deal for you today: four unrelated glyphs for a Level 2 Volcano.  Limited time offer!  Buy now!",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Volcano Level 2",
+   "network_19_completion" : "[Name Withheld] exchanged four glyphs for a Level 2 Volcano today.",
+   "network_19_headline" : "Need extra ore?  Got some old glyphs stashed in the basement?  Let's make a deal!"
+}

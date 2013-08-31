@@ -4,15 +4,19 @@
    "max_university_level" : "15",
    "mission_objective" : {
       "glyphs" : [
-         "methane"
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         }
       ]
    },
    "mission_reward" : {
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Oversight",
-            "extra_build_level" : 8,
-            "level" : 1
+            "extra_build_level" : "8",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

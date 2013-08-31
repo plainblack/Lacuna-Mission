@@ -34,7 +34,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "trona"
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
       ]
    },
    "name" : "[INCOMING PRIVATE MESSAGE]",

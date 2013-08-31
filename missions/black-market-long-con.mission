@@ -1,0 +1,36 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). I've convinced a shipping magnate to trade me three of his old cargo ships in exchange for a shiny new freighter. I had a deal lined up to secure a freighter, but it fell through at the last minute. Now I have three cargo ships headed my way and no freighter to offer in exchange. I wouldn't normally do something like this, but I'm desperate. If you'll donate a scow to me, I'll disguise it as a freighter. By the time the shipping magnate discovers the difference, I'll be long gone. In exchange for your discretion, I'll let you have two of the cargo ships.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "50000",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "scow"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
+            "name" : "Black Market Cargo",
+            "quantity" : 2,
+            "speed" : "1500",
+            "stealth" : "3000",
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Black Market: Long Con",
+   "network_19_completion" : "Con artist Slick suspect in ship shuffle.",
+   "network_19_headline" : "Police seeking con artist who goes by the alias Slick."
+}

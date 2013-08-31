@@ -11,7 +11,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "magnetite"
+         {
+            "quantity" : 1,
+            "type" : "magnetite"
+         }
       ]
    },
    "name" : "Cornucopia Nearly Complete",

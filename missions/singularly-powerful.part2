@@ -54,8 +54,14 @@
          }
       ],
       "glyphs" : [
-         "chalcopyrite",
-         "sulfur"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ],
       "resources" : {
          "energy" : 250000
@@ -65,18 +71,21 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Energy::Singularity",
-            "extra_build_level" : 7,
-            "level" : 1
+            "extra_build_level" : "7",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
-            "extra_build_level" : 9,
-            "level" : 1
+            "extra_build_level" : "9",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Water::Reclamation",
-            "extra_build_level" : 9,
-            "level" : 1
+            "extra_build_level" : "9",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

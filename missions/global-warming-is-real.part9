@@ -8,11 +8,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 20000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "20000",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]
@@ -20,27 +22,23 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 7500,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "7500",
+            "hold_size" : "0",
             "name" : "Calderaan Fighter",
-            "speed" : 5000,
-            "stealth" : 0,
+            "quantity" : 2,
+            "speed" : "5000",
+            "stealth" : "0",
             "type" : "fighter"
          },
          {
-            "combat" : 7500,
-            "hold_size" : 0,
-            "name" : "Calderaan Fighter",
-            "speed" : 5000,
-            "stealth" : 0,
-            "type" : "fighter"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Calderaan Spy Pod",
-            "speed" : 7000,
-            "stealth" : 9000,
+            "quantity" : 1,
+            "speed" : "7000",
+            "stealth" : "9000",
             "type" : "spy_pod"
          }
       ]

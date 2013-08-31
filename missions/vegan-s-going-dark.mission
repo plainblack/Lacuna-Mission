@@ -9,7 +9,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "gold"
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
       ]
    },
    "name" : "Vegan's Going Dark",

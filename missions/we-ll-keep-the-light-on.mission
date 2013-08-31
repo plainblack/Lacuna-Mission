@@ -1,0 +1,23 @@
+# config-file-type: JSON 1
+{
+   "description" : "The holiday tree on Ploe Bleaggea Klee 3 has drained the local energy reserve. In hind sight 40,000 light bulbs may have been overkill. The Mayor refuses to reduce the number of lights and is looking for someone to donate energy to keep the season going. In exchange he won't be needing his energy reserve now that it is empty.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "energy" : 40000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Reserve",
+            "extra_build_level" : "0",
+            "level" : "10",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "We'll Keep the Light on.",
+   "network_19_completion" : "Holiday tree on Ploe Bleaggea Klee 3 is blinding pilots of passing cargo ships.",
+   "network_19_headline" : "Holiday on Ploe Bleaggea Klee 3 may be a little dim this year."
+}

@@ -6,14 +6,18 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Permanent::Grove",
-            "extra_build_level" : 0,
-            "level" : 1
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },
    "mission_reward" : {
       "glyphs" : [
-         "methane"
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         }
       ]
    },
    "name" : "Nowhere To Put This Hammock",

@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "Not getting the glyphs you really want?  For two unrelated glyphs, and a nominal amount of resources, we will sell you a map of a nice Geo Thermal Vent.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
+      ],
+      "resources" : {
+         "chalcopyrite" : 25000,
+         "sulfur" : 25000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::GeoThermalVent",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Glyphs for Plans",
+   "network_19_completion" : "%s exchanged worthless glyphs for a map to a nice Geo Thermal Vent.",
+   "network_19_headline" : "Exchange the \"wrong\" glyphs for the building plan you REALLY want!"
+}

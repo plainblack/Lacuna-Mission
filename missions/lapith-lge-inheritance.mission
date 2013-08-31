@@ -1,0 +1,53 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at the Lapith Glyph Exchange, we have been asked to broker a very lucrative deal for a Glyph Collector. A large Glyph collection has been made available due to an inheritance. The new owners have no need or desire to own the Glyphs, so they asked us to find a buyer. The new owners are interested in taking a few friends out and organizing a private race around several stars. They are asking for ships and materials to organize this event and party. For a deal this large we have to ask for a larger than normal commission.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "bean" : 1000,
+         "cheese" : 2000,
+         "chip" : 3000,
+         "energy" : 50000,
+         "gold" : 15000,
+         "pie" : 2000,
+         "uraninite" : 20000,
+         "water" : 50000
+      },
+      "ships" : [
+         {
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "smuggler_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "Glyph Inheritance",
+   "network_19_completion" : "%s receives a large glyph collection.",
+   "network_19_headline" : "Lapith Glyph Exchange is looking to broker a Glyph inheritance collection."
+}

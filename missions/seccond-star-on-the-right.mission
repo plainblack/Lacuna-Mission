@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "When I was younger, my nanny told me stories about a fantastical place where you stop aging, you could fly, and anything you could imagine would become reality.  While I was searching for the magic dust required to make the trip, I struck a vein rich in Halite and Uraninite.\n\nI'm willing to share it with you if only you help me get to the land of my dreams.",
+   "max_university_level" : "18",
+   "mission_objective" : {
+      "resources" : {
+         "burger" : 1500,
+         "shake" : 1000,
+         "water" : 2000
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "halite" : 10000,
+         "uraninite" : 10000
+      },
+      "ships" : []
+   },
+   "name" : "Second Star On The Right",
+   "network_19_completion" : "Sector wonders if they will ever see crazy man again.",
+   "network_19_headline" : "Man who doesn't want to grow up searches for Neverland."
+}

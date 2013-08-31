@@ -7,7 +7,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "zircon"
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
       ],
       "resources" : {
          "gold" : 50000

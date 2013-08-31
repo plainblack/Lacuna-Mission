@@ -24,8 +24,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "chalcopyrite",
-         "chromite"
+         {
+            "quantity" : 1,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
       ]
    },
    "name" : "Melt with You",

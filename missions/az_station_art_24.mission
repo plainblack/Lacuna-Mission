@@ -19,22 +19,20 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Module::ArtMuseum",
-            "extra_build_level" : 0,
-            "level" : 23
-         },
-         {
-            "classname" : "Lacuna::DB::Result::Building::Module::ArtMuseum",
-            "extra_build_level" : 0,
-            "level" : 23
+            "extra_build_level" : "0",
+            "level" : "23",
+            "quantity" : 2
          }
       ],
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "20",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 0,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
             "type" : "hulk"
          }
       ]
@@ -43,8 +41,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Module::ArtMuseum",
-            "extra_build_level" : 0,
-            "level" : 24
+            "extra_build_level" : "0",
+            "level" : "24",
+            "quantity" : 1
          }
       ]
    },

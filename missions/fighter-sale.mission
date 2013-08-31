@@ -1,0 +1,44 @@
+# config-file-type: JSON 1
+{
+   "description" : "Mynar 4 is a heavily industrialized colony that's dedicated to building fighters. While the ships it produces are quite decent, their command economy has forced them into a tight situation, with too many fighters and not enough food to feed their citizens. They require a wide variety of different food types to appease several different trade union groups, as well as decent Oversight Ministry  to prevent such outrages from occurring again in the future. In exchange, they're willing to let go some of the fighters they've recently over-produced.",
+   "max_university_level" : "20",
+   "mission_objective" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Oversight",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ],
+      "resources" : {
+         "bean" : 2500,
+         "chip" : 2500,
+         "cider" : 2500,
+         "corn" : 2500,
+         "lapis" : 2500,
+         "meal" : 2500,
+         "pie" : 2500,
+         "potato" : 2500,
+         "root" : 2500,
+         "wheat" : 2500
+      }
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "15000",
+            "hold_size" : "0",
+            "name" : "Mynar Fighter",
+            "quantity" : 2,
+            "speed" : "7500",
+            "stealth" : "0",
+            "type" : "fighter"
+         }
+      ]
+   },
+   "name" : "Fighter Sale",
+   "network_19_completion" : "Mynar 4 production problems halted. Development minister thanks %s for industrial oversight.",
+   "network_19_headline" : "Production over-runs at Mynar 4 fighter factory cause upset, food riots."
+}

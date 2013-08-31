@@ -13,11 +13,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Lhousa Gas",
-            "speed" : 600,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "600",
+            "stealth" : "0",
             "type" : "gas_giant_settlement_ship"
          }
       ]

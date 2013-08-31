@@ -5,51 +5,23 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 60000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "60000",
             "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
+            "quantity" : 5,
+            "speed" : "500",
+            "stealth" : "0",
             "type" : "cargo_ship"
          },
          {
-            "combat" : 0,
-            "hold_size" : 60000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "30000",
             "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 60000,
-            "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 60000,
-            "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 60000,
-            "name" : "",
-            "speed" : 500,
-            "stealth" : 0,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 30000,
-            "name" : "",
-            "speed" : 100,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "100",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]
@@ -57,11 +29,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 9000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "9000",
+            "hold_size" : "0",
             "name" : "Ubbari Seeker",
-            "speed" : 1500,
-            "stealth" : 7500,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "7500",
             "type" : "security_ministry_seeker"
          }
       ]

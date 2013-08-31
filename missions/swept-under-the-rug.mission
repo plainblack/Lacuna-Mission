@@ -5,11 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 6000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "6000",
             "name" : "",
-            "speed" : 460,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "460",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]

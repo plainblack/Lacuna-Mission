@@ -10,8 +10,14 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "halite",
-         "zircon"
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
       ]
    },
    "name" : "Gaming Industry Trouble",

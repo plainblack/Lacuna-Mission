@@ -1,0 +1,47 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at the Lapith Glyph Exchange, we have a client that has a very specific taste in planet decorating. This client has a Halls of Vrbansk plan with an archway entrance. However our client is wanting a Hall of Vrbansk with a squared column entrance. Please provide 3 glyphs needed to build the desired Hall and in exchange you can have the Hall glyphs our client does not need. Of course we must charge our usual commission.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "goethite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
+      ],
+      "resources" : {
+         "gold" : 10000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
+      ]
+   },
+   "name" : "Archways not wanted.",
+   "network_19_completion" : "A local planet has been properly decorated with the correct Halls of Vrbansk.",
+   "network_19_headline" : "Lapith Glyph Exchange representing celebrity planet decorator."
+}

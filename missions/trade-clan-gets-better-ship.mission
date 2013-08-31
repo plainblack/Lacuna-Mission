@@ -17,11 +17,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 100000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "100000",
             "name" : "Yamacraw Cargo",
-            "speed" : 2000,
-            "stealth" : 5000,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "5000",
             "type" : "cargo_ship"
          }
       ]

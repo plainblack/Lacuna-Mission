@@ -22,43 +22,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 500000,
+            "berth_level" : "10",
+            "combat" : "0",
+            "hold_size" : "500000",
             "name" : "Alpha Zeta Galleon",
-            "speed" : 5000,
-            "stealth" : 0,
-            "type" : "galleon"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 500000,
-            "name" : "Alpha Zeta Galleon",
-            "speed" : 5000,
-            "stealth" : 0,
-            "type" : "galleon"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 500000,
-            "name" : "Alpha Zeta Galleon",
-            "speed" : 5000,
-            "stealth" : 0,
-            "type" : "galleon"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 500000,
-            "name" : "Alpha Zeta Galleon",
-            "speed" : 5000,
-            "stealth" : 0,
-            "type" : "galleon"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 500000,
-            "name" : "Alpha Zeta Galleon",
-            "speed" : 5000,
-            "stealth" : 0,
+            "quantity" : 5,
+            "speed" : "5000",
+            "stealth" : "0",
             "type" : "galleon"
          }
       ]

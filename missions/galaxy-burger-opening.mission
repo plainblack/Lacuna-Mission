@@ -10,7 +10,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "beryl"
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         }
       ],
       "resources" : {
          "burger" : 10000,

@@ -1,0 +1,25 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe; just don't ask where it came from. I anticipate a little trouble passing through customs. Fortunately, the customs officers are overworked and underpaid. I think I can bribe a couple with enough junk food. If you would help me out, I think I could get my hands on plans for a Propulsion System Factory.",
+   "max_university_level" : "12",
+   "mission_objective" : {
+      "resources" : {
+         "milk" : 1000,
+         "pie" : 2000,
+         "shake" : 2000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Propulsion",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Black Market: Bribing Customs",
+   "network_19_completion" : "Customs officials being investigated for corruption.",
+   "network_19_headline" : "Customs officials on high alert after receiving a tip that valuable goods may be smuggled off the planet soon."
+}

@@ -9,15 +9,20 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "uraninite"
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ],
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Sacred Trust",
-            "speed" : 2000,
-            "stealth" : 0,
+            "quantity" : 1,
+            "speed" : "2000",
+            "stealth" : "0",
             "type" : "dory"
          }
       ]

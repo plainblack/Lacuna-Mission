@@ -1,0 +1,32 @@
+# config-file-type: JSON 1
+{
+   "description" : "My name is Slick. I can procure anything--legal or illegal (but mostly illegal)--in the known universe (just don't ask where it came from). I secured plans to build a level 1 Algae Syrup Bottler and Potato Pancake Factory and then upgrade them up to level 4. Bubba Maple, vice president of Intergalactic House of Pancakes, really should keep his private documents in a safe. Or at least a better safe. Now I'm not the type to build factories. I'm more of a middle man. I facilitate trades. So I'd be more than willing to trade these plans for an assortment of ores I can sell elsewhere.",
+   "max_university_level" : "9",
+   "mission_objective" : {
+      "resources" : {
+         "goethite" : 8000,
+         "gypsum" : 8000,
+         "magnetite" : 8000,
+         "methane" : 8000
+      }
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Pancake",
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
+            "classname" : "Lacuna::DB::Result::Building::Food::Syrup",
+            "extra_build_level" : "3",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Black Market: Short Stack",
+   "network_19_completion" : "Stolen Intergalactic House of Pancakes plans mysteriously resurface.",
+   "network_19_headline" : "Intergalactic House of Pancakes was the victim of industrial espionage."
+}

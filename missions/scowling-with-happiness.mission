@@ -11,35 +11,13 @@
       },
       "ships" : [
          {
-            "combat" : 350,
-            "hold_size" : 500000,
+            "berth_level" : "1",
+            "combat" : "350",
+            "hold_size" : "500000",
             "name" : "Lokian Scow",
-            "speed" : 900,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 350,
-            "hold_size" : 500000,
-            "name" : "Lokian Scow",
-            "speed" : 900,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 350,
-            "hold_size" : 500000,
-            "name" : "Lokian Scow",
-            "speed" : 900,
-            "stealth" : 0,
-            "type" : "scow"
-         },
-         {
-            "combat" : 350,
-            "hold_size" : 500000,
-            "name" : "Lokian Scow",
-            "speed" : 900,
-            "stealth" : 0,
+            "quantity" : 4,
+            "speed" : "900",
+            "stealth" : "0",
             "type" : "scow"
          }
       ]

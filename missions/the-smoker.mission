@@ -10,11 +10,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Lapis Luxery",
-            "speed" : 3000,
-            "stealth" : 20,
+            "quantity" : 1,
+            "speed" : "3000",
+            "stealth" : "20",
             "type" : "cargo_ship"
          }
       ]

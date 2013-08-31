@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nGet a Level 2 Malcud Field upgrade plan for the price of the original plus an added glyph.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "fluorite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "kerogen"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::MalcudField",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings.",
+   "network_19_completion" : "%s upgraded Its/Her/His Malcud Field today!",
+   "network_19_headline" : "Upgrade that old Malcud Field in the lower 40 today."
+}

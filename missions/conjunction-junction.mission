@@ -11,13 +11,15 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Waste::Recycling",
-            "extra_build_level" : 2,
-            "level" : 1
+            "extra_build_level" : "2",
+            "level" : "1",
+            "quantity" : 1
          },
          {
             "classname" : "Lacuna::DB::Result::Building::Waste::Sequestration",
-            "extra_build_level" : 2,
-            "level" : 1
+            "extra_build_level" : "2",
+            "level" : "1",
+            "quantity" : 1
          }
       ]
    },

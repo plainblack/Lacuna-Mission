@@ -1,0 +1,24 @@
+# config-file-type: JSON 1
+{
+   "description" : "Our competition claims they have the best deals, but we have the glyphs that everyone wants!  Check out the deal below before you shop around.  Watch for new specials every week.",
+   "max_university_level" : "25",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "rutile"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         }
+      ]
+   },
+   "name" : "Glyph Exchange at the Mall",
+   "network_19_completion" : "Another satisfied customer of Glyph-for-Glyph, coming to a mall near you soon!",
+   "network_19_headline" : "Exchange your glyphs here!  We have the best selection!"
+}

@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "We were hit by a earthquake as if you didn't know. Its all over the news! Our buildings are either weakened or already destroyed. We must rebuild. We must endure it. I hope there aren't any aftershocks! We need various ores to repair them.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "chromite" : 25000,
+         "fluorite" : 25000,
+         "goethite" : 25000,
+         "trona" : 25000,
+         "zircon" : 25000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "gypsum"
+         }
+      ],
+      "resources" : {
+         "meal" : 10000,
+         "pie" : 10000,
+         "shake" : 10000,
+         "soup" : 10000
+      }
+   },
+   "name" : "Earthquake Alert!",
+   "network_19_completion" : "We Sent Resources To Help Them Rebuild!",
+   "network_19_headline" : "An 9.5 Earthquake Devastated Another Empire's Colony!"
+}

@@ -14,11 +14,13 @@
    "mission_reward" : {
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 50000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "50000",
             "name" : "Alquor Cargo",
-            "speed" : 1500,
-            "stealth" : 2000,
+            "quantity" : 1,
+            "speed" : "1500",
+            "stealth" : "2000",
             "type" : "cargo_ship"
          }
       ]

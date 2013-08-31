@@ -1,0 +1,42 @@
+# config-file-type: JSON 1
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nGet a level 2 Crashed Ship Site upgrade plan for the price of the original plus an added glyph.  This will produce 10% better ships.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         },
+         {
+            "quantity" : 1,
+            "type" : "monazite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::CrashedShipSite",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings",
+   "network_19_completion" : "%s upgraded their Crashed Ship Site today!",
+   "network_19_headline" : "Glyph buildings upgraded here!"
+}

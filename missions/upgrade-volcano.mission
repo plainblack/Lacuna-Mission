@@ -1,0 +1,34 @@
+# config-file-type: JSON 1
+{
+   "description" : "At long last: the ability to upgrade those plot-saving glyph buildings.  Hurry, offer won't last!\nScientists on Kaa'kii III have developed a new process that actually stimulates the activity levels of volcanoes.  This process, which they will sell to you today, is guaranteed to double the output of your old volcano.",
+   "max_university_level" : "13",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "magnetite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Permanent::Volcano",
+            "extra_build_level" : "1",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ]
+   },
+   "name" : "Upgrade Your Glyph Buildings.",
+   "network_19_completion" : "%s upgraded their Volcano today!",
+   "network_19_headline" : "New technique actually STIMULATES volcanoes!"
+}

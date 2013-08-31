@@ -25,43 +25,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 2500000,
+            "berth_level" : "20",
+            "combat" : "0",
+            "hold_size" : "2500000",
             "name" : "Alpha Zeta Hulk",
-            "speed" : 2800,
-            "stealth" : 0,
-            "type" : "hulk"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 2500000,
-            "name" : "Alpha Zeta Hulk",
-            "speed" : 2800,
-            "stealth" : 0,
-            "type" : "hulk"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 2500000,
-            "name" : "Alpha Zeta Hulk",
-            "speed" : 2800,
-            "stealth" : 0,
-            "type" : "hulk"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 2500000,
-            "name" : "Alpha Zeta Hulk",
-            "speed" : 2800,
-            "stealth" : 0,
-            "type" : "hulk"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 2500000,
-            "name" : "Alpha Zeta Hulk",
-            "speed" : 2800,
-            "stealth" : 0,
+            "quantity" : 5,
+            "speed" : "2800",
+            "stealth" : "0",
             "type" : "hulk"
          }
       ]

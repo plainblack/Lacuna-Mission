@@ -1,0 +1,33 @@
+# config-file-type: JSON 1
+{
+   "description" : "Can you imagine that? We give up our last 2 probes in order to get these new Tronuls coming off the assembly line, and when we get our most holy Tronul back, it tells us we must explore! It tells us to seek revelation in our nearby stars! It tells us we will meet old friends and perhaps make new ones! We are understandably excited. Will you provide us some probes such that we may start this exciting new journey into the Expanse? Note, check to see that you have sufficient dock space in your SpacePort before completing this mission.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "plans" : [
+         {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Fusion",
+            "extra_build_level" : "2",
+            "level" : "1",
+            "quantity" : 1
+         }
+      ],
+      "ships" : []
+   },
+   "name" : "The Tronul says, \"probe\"",
+   "network_19_completion" : "The Wigut have found their old friends, the Oxsup! High Proctor gives many thanks to %s and the Tronul!",
+   "network_19_headline" : "After years of isolation, the Wigut High Proctor declares an age of exploration after consulting with new Tronul."
+}

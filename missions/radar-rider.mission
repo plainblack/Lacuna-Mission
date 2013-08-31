@@ -4,8 +4,14 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "glyphs" : [
-         "halite",
-         "uraninite"
+         {
+            "quantity" : 1,
+            "type" : "halite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "uraninite"
+         }
       ]
    },
    "mission_reward" : {
@@ -15,51 +21,23 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 32000,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "32000",
             "name" : "Diggers Folly",
-            "speed" : 4000,
-            "stealth" : 1500,
+            "quantity" : 1,
+            "speed" : "4000",
+            "stealth" : "1500",
             "type" : "dory"
          },
          {
-            "combat" : 0,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
             "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
-            "type" : "excavator"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 0,
-            "name" : "Dig Dug",
-            "speed" : 3000,
-            "stealth" : 0,
+            "quantity" : 5,
+            "speed" : "3000",
+            "stealth" : "0",
             "type" : "excavator"
          }
       ]

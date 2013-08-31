@@ -18,8 +18,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Trade",
-            "extra_build_level" : 0,
-            "level" : 11
+            "extra_build_level" : "0",
+            "level" : "11",
+            "quantity" : 1
          }
       ]
    },

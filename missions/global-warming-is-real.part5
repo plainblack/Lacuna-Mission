@@ -5,27 +5,13 @@
    "mission_objective" : {
       "ships" : [
          {
-            "combat" : 1000,
-            "hold_size" : 0,
+            "berth_level" : "1",
+            "combat" : "1000",
+            "hold_size" : "0",
             "name" : "",
-            "speed" : 1000,
-            "stealth" : 0,
-            "type" : "drone"
-         },
-         {
-            "combat" : 1000,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 1000,
-            "stealth" : 0,
-            "type" : "drone"
-         },
-         {
-            "combat" : 1000,
-            "hold_size" : 0,
-            "name" : "",
-            "speed" : 1000,
-            "stealth" : 0,
+            "quantity" : 3,
+            "speed" : "1000",
+            "stealth" : "0",
             "type" : "drone"
          }
       ]
@@ -34,8 +20,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::PilotTraining",
-            "extra_build_level" : 5,
-            "level" : 1
+            "extra_build_level" : "5",
+            "level" : "1",
+            "quantity" : 1
          }
       ],
       "resources" : {

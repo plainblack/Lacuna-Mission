@@ -1,0 +1,46 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at Pawn Lacuna we strive to have the customer walk away from every deal happy. DO we have a deal for you!  You may be in the need of a cargo ship.  Just pawn a couple of dory's and a probe that is lying around in your spaceport, and the cargo ship is yours! What do you say? Note check your Spaceport to ensure that you have enough docks available before completing this mission.",
+   "max_university_level" : "10",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 2,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 1,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "probe"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "190000",
+            "name" : "PL Cargo",
+            "quantity" : 1,
+            "speed" : "2500",
+            "stealth" : "3000",
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "name" : "Pawn your dory",
+   "network_19_completion" : "Another happy customer meets their cargo demands.",
+   "network_19_headline" : "Pawn Lacuna has a good quality cargo ship available."
+}

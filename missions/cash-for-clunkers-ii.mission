@@ -1,0 +1,28 @@
+# config-file-type: JSON 1
+{
+   "description" : "Used Ships, cash for clunkers, trade-ins!  We've got it all!  See our other offers in today's Net19 Journal.  Best deals in town.  Got an old cargo_ship that needs to go, and can't find any takers on the trade wires?   This is the place to come!  Today's special: Cash for clunkers II.  We won't give you MUCH, but it won't cost you essentia, and we'll buy it NOW! Other deals available: upgrades/trade-ins, more cash or other resources for better vehicles.  Keep watching for more deals!",
+   "max_university_level" : "15",
+   "mission_objective" : {
+      "ships" : [
+         {
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : 3,
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "cargo_ship"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "resources" : {
+         "gold" : 80000
+      },
+      "ships" : []
+   },
+   "name" : "Honest Dan Used Ship Deals F",
+   "network_19_completion" : "%s made a great deal at Honest Dan's Used Ship Dealership!",
+   "network_19_headline" : "Honest Dan's Used Ship Dealership is now open for business!"
+}

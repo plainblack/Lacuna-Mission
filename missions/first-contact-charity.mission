@@ -16,19 +16,13 @@
       },
       "ships" : [
          {
-            "combat" : 0,
-            "hold_size" : 100000,
+            "berth_level" : "5",
+            "combat" : "0",
+            "hold_size" : "100000",
             "name" : "Aulbonian Merchant",
-            "speed" : 1900,
-            "stealth" : 3000,
-            "type" : "cargo_ship"
-         },
-         {
-            "combat" : 0,
-            "hold_size" : 100000,
-            "name" : "Aulbonian Merchant",
-            "speed" : 1900,
-            "stealth" : 3000,
+            "quantity" : 2,
+            "speed" : "1900",
+            "stealth" : "3000",
             "type" : "cargo_ship"
          }
       ]

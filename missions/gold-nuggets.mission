@@ -13,7 +13,10 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "gold"
+         {
+            "quantity" : 1,
+            "type" : "gold"
+         }
       ],
       "resources" : {
          "gold" : 55000

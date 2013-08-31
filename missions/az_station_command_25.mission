@@ -4,18 +4,25 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "glyphs" : [
-         "chalcopyrite",
-         "chalcopyrite",
-         "bauxite",
-         "bauxite",
-         "gold",
-         "gold"
+         {
+            "quantity" : 2,
+            "type" : "bauxite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "chalcopyrite"
+         },
+         {
+            "quantity" : 2,
+            "type" : "gold"
+         }
       ],
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Module::StationCommand",
-            "extra_build_level" : 0,
-            "level" : 24
+            "extra_build_level" : "0",
+            "level" : "24",
+            "quantity" : 1
          }
       ],
       "resources" : {
@@ -29,8 +36,9 @@
       "plans" : [
          {
             "classname" : "Lacuna::DB::Result::Building::Module::StationCommand",
-            "extra_build_level" : 0,
-            "level" : 25
+            "extra_build_level" : "0",
+            "level" : "25",
+            "quantity" : 1
          }
       ]
    },

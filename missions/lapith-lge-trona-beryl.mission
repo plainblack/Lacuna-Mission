@@ -1,0 +1,31 @@
+# config-file-type: JSON 1
+{
+   "description" : "Here at the Lapith Glyph Exchange, we have available two glyphs used to create a Pantheon of Hagness. We are looking for a Chromite Glyph, and of course we are charging our usual low agent fee to facilitate the transaction. Did you expect us to work for free?",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "chromite"
+         }
+      ],
+      "resources" : {
+         "gold" : 80000
+      }
+   },
+   "mission_reward" : {
+      "glyphs" : [
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "trona"
+         }
+      ]
+   },
+   "name" : "Trona, Beryl glyphs for trade",
+   "network_19_completion" : "%s purchases a trona and beryl glyph from Lapith Glyph Exchange.",
+   "network_19_headline" : "Lapith Glyph Exchange is looking to barter for Panteon of Hagness Glyphs."
+}

@@ -4,10 +4,22 @@
    "max_university_level" : "30",
    "mission_objective" : {
       "glyphs" : [
-         "beryl",
-         "magnetite",
-         "zircon",
-         "methane"
+         {
+            "quantity" : 1,
+            "type" : "beryl"
+         },
+         {
+            "quantity" : 1,
+            "type" : "magnetite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "zircon"
+         }
       ],
       "resources" : {
          "gold" : 10000
@@ -15,10 +27,22 @@
    },
    "mission_reward" : {
       "glyphs" : [
-         "sulfur",
-         "galena",
-         "anthracite",
-         "methane"
+         {
+            "quantity" : 1,
+            "type" : "anthracite"
+         },
+         {
+            "quantity" : 1,
+            "type" : "galena"
+         },
+         {
+            "quantity" : 1,
+            "type" : "methane"
+         },
+         {
+            "quantity" : 1,
+            "type" : "sulfur"
+         }
       ]
    },
    "name" : "Terra Glyphs for Gas Glyphs",
