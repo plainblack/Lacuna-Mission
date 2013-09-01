@@ -10,7 +10,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "1",
+            "berth_level" : "10",
             "combat" : "0",
             "hold_size" : "100000",
             "name" : "Collateral",

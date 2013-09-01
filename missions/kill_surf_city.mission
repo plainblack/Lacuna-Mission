@@ -22,7 +22,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "1",
+            "berth_level" : "10",
             "combat" : "0",
             "hold_size" : "500000",
             "name" : "Surf Galleon",
@@ -32,7 +32,7 @@
             "type" : "galleon"
          },
          {
-            "berth_level" : "1",
+            "berth_level" : "20",
             "combat" : "0",
             "hold_size" : "2000000",
             "name" : "Surf Hulk",

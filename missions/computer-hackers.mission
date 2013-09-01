@@ -25,7 +25,7 @@
       },
       "ships" : [
          {
-            "berth_level" : "1",
+            "berth_level" : "5",
             "combat" : "0",
             "hold_size" : "75000",
             "name" : "Ixnib Cargo",

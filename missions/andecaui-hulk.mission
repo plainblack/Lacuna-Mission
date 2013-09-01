@@ -32,7 +32,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "1",
+            "berth_level" : "20",
             "combat" : "0",
             "hold_size" : "5000000",
             "name" : "Andecaui Hulk",

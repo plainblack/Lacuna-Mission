@@ -21,7 +21,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "1",
+            "berth_level" : "5",
             "combat" : "0",
             "hold_size" : "75000",
             "name" : "Glyph Reward",
@@ -31,7 +31,7 @@
             "type" : "cargo_ship"
          },
          {
-            "berth_level" : "1",
+            "berth_level" : "5",
             "combat" : "0",
             "hold_size" : "95000",
             "name" : "Glyph Reward",
@@ -41,7 +41,7 @@
             "type" : "cargo_ship"
          },
          {
-            "berth_level" : "1",
+            "berth_level" : "5",
             "combat" : "0",
             "hold_size" : "50000",
             "name" : "Glyph Reward",
