@@ -74,7 +74,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "10",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "300000",
             "name" : "Misdirected Mouse",

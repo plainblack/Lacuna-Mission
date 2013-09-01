@@ -15,7 +15,7 @@
       },
       "ships" : [
          {
-            "berth_level" : "10",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "0",
             "name" : "",

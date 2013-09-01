@@ -29,7 +29,7 @@
       },
       "ships" : [
          {
-            "berth_level" : "5",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "100000",
             "name" : "Trabblxian Cargo",

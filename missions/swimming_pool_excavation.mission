@@ -25,7 +25,7 @@
       },
       "ships" : [
          {
-            "berth_level" : "20",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "2500000",
             "name" : "Alpha Zeta Hulk",

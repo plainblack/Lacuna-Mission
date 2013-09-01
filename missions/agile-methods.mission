@@ -5,7 +5,7 @@
    "mission_objective" : {
       "ships" : [
          {
-            "berth_level" : "5",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "75000",
             "name" : "",
@@ -15,7 +15,7 @@
             "type" : "cargo_ship"
          },
          {
-            "berth_level" : "5",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "0",
             "name" : "",

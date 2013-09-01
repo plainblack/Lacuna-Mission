@@ -13,7 +13,7 @@
       },
       "ships" : [
          {
-            "berth_level" : "5",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "50000",
             "name" : "",
@@ -27,7 +27,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "5",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "200000",
             "name" : "Dans Cargo",

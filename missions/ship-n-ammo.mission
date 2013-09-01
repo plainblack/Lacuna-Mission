@@ -11,7 +11,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "5",
+            "berth_level" : "1",
             "combat" : "0",
             "hold_size" : "55000",
             "name" : "Ammo Hauler",
