@@ -1,7 +1,7 @@
 # config-file-type: JSON 1
 {
    "description" : "Now that I have the desserts I need for our guests, the last thing I need to figure out is how I'm going to get enough gold to manufacture a life size statue of my daughter and her new husband to commemorate their marriage. If you can locate 10,000 gold for me, I will give you two of our excavators.",
-   "max_university_level" : "9",
+   "max_university_level" : "20",
    "mission_objective" : {
       "resources" : {
          "gold" : 10000

@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Wassup!  DJ Tronakid here, fresh outta rehab and ready to spin this mutha out once again!\nDuring my little vacation, some primate decided to drain all the pools in my private estate.  Something about 'needing to drink' or some gabber.\n\nAnyway, to celebrate my newly-found freedom, I'm throwing an all-night pool rave in my new crib.  Thing is, I need some fresh water to fill my pools with.  Help me out with this, and I can hook you up with some flash buildings to turn your own colony into a mad spun-up party palace!\nPeach,\n-DJ Tronakid",
+   "description" : "Wassup!  DJ Tronakid here, fresh outta rehab and ready to spin this mutha out once again!\nDuring my little vacation, some primate decided to drain all the pools in my private estate.  Something about 'needing to drink' or some gabber.\n\nAnyway, to celebrate my newly-found freedom, I'm throwing an all-night pool rave in my new crib.  Thing is, I need some fresh water to fill my pools with.  Help me out with this, and I can hook you up with some flash buildings to turn your own colony into a mad spun-up party palace!\nPeace,\n-DJ Tronakid",
    "max_university_level" : "6",
    "mission_objective" : {
       "resources" : {
@@ -29,7 +29,7 @@
          }
       ]
    },
-   "name" : "We Dug The Hole..",
+   "name" : "We Dug The Hole...",
    "network_19_completion" : "DJ Tronakid Throws Enormous Pool Party; 3 Dead, 14 Wounded, Several Hundred Comatose.",
    "network_19_headline" : "DJ Tronakid Mourns Dried-Up Pools, Wants Waves."
 }
