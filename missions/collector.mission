@@ -177,6 +177,12 @@
    "mission_reward" : {
       "plans" : [
          {
+            "classname" : "Lacuna::DB::Result::Building::Energy::Waste",
+            "extra_build_level" : "0",
+            "level" : "1",
+            "quantity" : 1
+         },
+         {
             "classname" : "Lacuna::DB::Result::Building::Waste::Digester",
             "extra_build_level" : "0",
             "level" : "1",
