@@ -1,0 +1,74 @@
+# config-file-type: JSON 1
+{
+   "description" : "After months of fiddling with lots of different methods of building ships, we at Alpha Zeta Shipyards have found a way to make very efficient ships.  We just need some materials and an assortment of ships to take apart and put together in a brand new configuration.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "anthracite" : "3000000",
+         "bauxite" : "3000000",
+         "beryl" : "3000000",
+         "fluorite" : "3000000",
+         "energy" : "20000000",
+         "kerogen" : "3000000"
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "5",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "scow"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "5",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "scow_large"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "5",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "scow_fast"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "10",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "scow_mega"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "25",
+            "combat" : "0",
+            "hold_size" : "200000000",
+            "name" : "AZ Scow Mega II",
+            "quantity" : "1",
+            "speed" : "540",
+            "stealth" : "0",
+            "type" : "scow_mega"
+         }
+      ]
+   },
+   "name" : "AZ Shipyard Scow Mega II",
+   "network_19_completion" : "%s purchased a nice scow mega for hauling stuff in.",
+   "network_19_headline" : "Maximum+ Scow Mega available via Alpha-Zeta!"
+}

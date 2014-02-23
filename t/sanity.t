@@ -125,6 +125,8 @@ foreach my $filename (sort @files) {
             $filename.' requires a very fast ship' );
         ok( ! ($ship->{type} eq 'probe' and $ship->{combat} > 0 ),
             $filename.' requires a probe with combat' );
+        ok( ! ($ship->{type} eq 'drone' and $ship->{speed} > 0 ),
+            $filename.' requires a drone with speed '.$ship->{speed}.'.' );
     }
     # Reward ships sanity
     my $reships = $config->get('mission_reward')->{ships};
@@ -139,6 +141,8 @@ foreach my $filename (sort @files) {
             $filename.' gives a very fast ship' );
         ok( ! ($ship->{type} eq 'probe' and $ship->{combat} > 0 ),
             $filename.' gives a probe with combat' );
+        ok( ! ($ship->{type} eq 'drone' and $ship->{speed} > 0 ),
+            $filename.' gives a drone with speed '.$ship->{speed}.'.' );
     }
 
 }

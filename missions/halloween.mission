@@ -22,7 +22,7 @@
             "classname" : "Lacuna::DB::Result::Building::Permanent::HallsOfVrbansk",
             "extra_build_level" : "0",
             "level" : "1",
-            "quantity" : 1
+            "quantity" : "10"
          }
       ]
    },

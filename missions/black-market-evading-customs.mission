@@ -11,11 +11,11 @@
       "ships" : [
          {
             "berth_level" : "1",
-            "combat" : "7000",
+            "combat" : "25000",
             "hold_size" : "0",
             "name" : "Slick Drone",
-            "quantity" : 2,
-            "speed" : "1000",
+            "quantity" : 4,
+            "speed" : "0",
             "stealth" : "0",
             "type" : "drone"
          }

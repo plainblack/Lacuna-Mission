@@ -1,0 +1,62 @@
+# config-file-type: JSON 1
+{
+   "description" : "After months of fiddling with lots of different methods of building ships, we at Alpha Zeta Shipyards have found a way to make very efficient ships.  We just need some materials and an assortment of ships to take apart and put together in a brand new configuration.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "bauxite" : "300000",
+         "kerogen" : "300000",
+         "energy" : "500000",
+         "gold" : "450000"
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "2",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "galleon"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "2",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "freighter"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "3",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "hulk"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "20",
+            "combat" : "0",
+            "hold_size" : "5000000",
+            "name" : "AZ Hulk II",
+            "quantity" : "1",
+            "speed" : "4000",
+            "stealth" : "0",
+            "type" : "hulk"
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Shipyard Hulk II",
+   "network_19_completion" : "%s purchased a nice hulk for hauling stuff in.",
+   "network_19_headline" : "Maximum+ Hulk available via Alpha-Zeta!"
+}

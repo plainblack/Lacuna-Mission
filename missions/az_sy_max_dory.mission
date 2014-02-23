@@ -1,0 +1,61 @@
+# config-file-type: JSON 1
+{
+   "description" : "After months of fiddling with lots of different methods of building ships, we at Alpha Zeta Shipyards have found a way to make very efficient ships.  We just need some materials and an assortment of ships to take apart and put together in a brand new configuration.",
+   "max_university_level" : "30",
+   "mission_objective" : {
+      "resources" : {
+         "magnetite" : "15000",
+         "energy" : "25000",
+         "chromite" : "15000"
+      },
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "1",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "cargo_ship"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "2",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "dory"
+         },
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "0",
+            "name" : "",
+            "quantity" : "1",
+            "speed" : "0",
+            "stealth" : "0",
+            "type" : "barge"
+         }
+      ]
+   },
+   "mission_reward" : {
+      "ships" : [
+         {
+            "berth_level" : "1",
+            "combat" : "0",
+            "hold_size" : "250000",
+            "name" : "AZ Dory II",
+            "quantity" : "1",
+            "speed" : "7500",
+            "stealth" : "1000",
+            "type" : "dory"
+         }
+      ]
+   },
+   "name" : "Alpha-Zeta Shipyard Dory II",
+   "network_19_completion" : "%s purchased a nice dory for hauling stuff in.",
+   "network_19_headline" : "Maximum+ Dory available via Alpha-Zeta!"
+}
