@@ -20,7 +20,7 @@
    "mission_reward" : {
       "ships" : [
          {
-            "berth_level" : "1",
+            "berth_level" : "15",
             "combat" : "0",
             "hold_size" : "2000000",
             "name" : "Fast Freighter",
