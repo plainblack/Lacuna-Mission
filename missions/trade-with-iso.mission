@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "Cautious planet, who wish to remain anonymous, seeks new energy trading partner for discrete mission. They are offering a goethite glyph to the first new trade partner to make delivery.\nTo complete, have 50k energy on hand, contact planet, and send a diplomatic courier (a spy) to target planet via cargo ship. After arrival of spy, complete will be possible.",
+   "description" : "Cautious planet, who wish to remain anonymous, seeks new energy trading partner for discrete mission. Offering a goethite glyph to the first new trade partner to make delivery. Have 50k energy on hand, contact planet, and send a diplomatic courier (a spy) to target planet via cargo ship. After arrival of spy, transaction can be completed.",
    "max_university_level" : "30",
    "mission_objective" : {
       "fleet_movement" : [
