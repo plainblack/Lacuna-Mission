@@ -21,6 +21,6 @@
       ]
    },
    "name" : "Gaming Industry Trouble",
-   "network_19_completion" : "%s has donated a ton of galena to a gaming company, who will forever be in %s's debt.",
+   "network_19_completion" : "%s has donated a ton of galena to a gaming company, who will forever be in %1$s's debt.",
    "network_19_headline" : "Time for Games Inc. needs a large amount of conductor for wires!"
 }
