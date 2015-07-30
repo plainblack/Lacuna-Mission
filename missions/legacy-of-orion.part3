@@ -8,7 +8,7 @@
             "ship_type" : "thud",
             "target" : {
                "in_zone" : 1,
-               "inhabited" : 0,
+               "inhabited" : 1,
                "isolationist" : 0,
                "size" : [
                   1,
