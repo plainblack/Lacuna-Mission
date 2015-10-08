@@ -1,6 +1,6 @@
 # config-file-type: JSON 1
 {
-   "description" : "We have been robbed! Spies have just stolen our essentia supply! We must catch them! We need a little more essentia to lure them into a honey trap. We will pay you well for this. Please give us enough to set a trap. We will then capture, interrogate, and tdo whatever is necessary to get our essentia back! No one steals from us!",
+   "description" : "We have been robbed! Spies have just stolen our essentia supply! We must catch them! We need a little more essentia to lure them into a honey trap. We will pay you well for this. Please give us enough to set a trap. We will then capture, interrogate, and do whatever is necessary to get our essentia back! No one steals from us!",
    "max_university_level" : "25",
    "mission_objective" : {
       "essentia" : "1"
